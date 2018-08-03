@@ -1,0 +1,11 @@
+{
+	"check_interval": 86400,
+	"tests": [
+        { "id": "test1", "version": 1,
+          "groups": [
+              { "group": "a", "p": 0.5 },
+              { "group": "b", "p": 0.5 }
+          ]
+        }
+    ]
+}

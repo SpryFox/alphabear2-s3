@@ -1,0 +1,3 @@
+# need lf here because it's going up on s3,
+# so we want to match what's up there
+* text eol=lf

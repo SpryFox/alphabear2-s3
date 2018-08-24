@@ -1,0 +1,18 @@
+#The manual for this file format is on news_version2.txt
+
+code: ae1082f628d48a25c54be4836f644fb0
+
+news:
+    - dateTime: 2018-08-17 22:00
+      id: 1
+      elements:
+            - centeredText: |
+                    News system activated
+                    <size=80%>17th August, 2018</size>
+
+            - text: |
+                    The Alphabear news system is live!
+
+                    We'll use this space to communicate with you in the future about changes to the game, special events, and more.
+            - button: "SPRYFOX.COM"
+              url: "http://www.spryfox.com"

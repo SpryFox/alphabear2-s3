@@ -1,0 +1,4 @@
+#FFFFFF
+#FFDA89
+#FFC289
+

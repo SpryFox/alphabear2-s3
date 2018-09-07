@@ -1,4 +1,17 @@
+#C5FDFF
 #FFFFFF
-#FFDA89
-#FFC289
 
+#296a93 
+#31315a 
+
+#feffb9 
+#fee677 
+
+#eed0ff 
+#7a459e 
+
+#c2fcc5 
+#32665e 
+
+#f7ddd7 
+#ffccad

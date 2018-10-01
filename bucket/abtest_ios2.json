@@ -1,9 +1,4 @@
 {
 	"check_interval": 86400,
-	"tests": [
-        { "id": "allbundles", "version": 1,
-		  "min_current_version": "1.2.1",
-		  "groups": [ { "group": "show", "p": 1 } ]
-		}
-    ]
+	"tests": []
 }

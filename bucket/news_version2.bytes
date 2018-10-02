@@ -1,8 +1,40 @@
 #The manual for this file format is on news_version2.txt
 
-code: ae1082f628d48a25c54be4836f644fb0
+code: 32ba4966a152ed4548b933ce305a044f
+
+# maxVersion must include +999999-9999 suffix
 
 news:
+    - dateTime: 2018-10-02 10:00
+      id: 5
+      elements:
+        - centeredText: |
+            Welcome To Special Events!
+            <size=80%>2nd October, 2018</size>
+        - text: |
+            In this new update, we're very pleased to unveil the "Special Events" mode! Here's what you can find in Special Events, and how they work:
+
+            • Special events <b>don't cost honey</b> to play; they're totally free! There's simply a limit (typically one play per day) associated with each event.
+
+            • <b>Some</b> events can only be <b>beaten once</b> - typically events that give a very special reward (like a unique legendary bear). Other events, like the "Honey Pot" event, can be replayed every time the event reoccurs, even if you've beaten the event in the past.
+
+            • Every <b>Thursday and Friday</b>, there are a set of events that can be played to win a unique epic and legendary bear! These events have several stages that you'll work your way through; each stage has requirements that you must fulfill in order to play them.
+
+            • Most special event requirements involve having a <b>certain set of bears</b> (like "drink-themed bears") at a given level. You can level up the bears that you need via school, daily events, as well as some other new special events that we've created for this purpose! Lots of choices. ☺
+
+            • Beating the final stage of these events will take a lot of effort, but you'll get there eventually if you keep leveling up your bears. <b>Don't worry</b> if you can't complete an event before it expires; it will return in the future! Right now, there are five pairs of epic & legendary events, each rotating weekly, so each one will return every five weeks.
+
+            • When we add <b>holiday events</b> to the game (can you say Halloween?) they'll be showing up here as well. And like all other special events, they won't cost honey and they'll have nice rewards. ☺
+
+      # cuz there's no header, this will appear as a suffix to the main special events news!
+    - dateTime: 2018-10-02 10:00
+      id: 4
+      maxVersion: 1.1.9+999999-9999
+      elements:
+        - text: "\nUpdate Alphabear 2 to unlock special events!"
+        - button: ForceUpdateDialog_ButtonText
+          url: http://ab2.life
+          
     - dateTime: 2018-08-17 22:00
       id: 1
       elements:

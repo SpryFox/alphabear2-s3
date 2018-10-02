@@ -1,4 +1,9 @@
 {
 	"check_interval": 86400,
-	"tests": []
+	"tests": [
+        {
+            "id": "InterstitialCooldownTime", "version": 2,
+		    "groups": [{"group": "3min",  "p": 1}]
+		}
+    ]
 }

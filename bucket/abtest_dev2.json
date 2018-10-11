@@ -11,6 +11,11 @@
 				{"group": "enabled",  "p": 0.5},
 				{"group": "disabled",  "p": 0.5}
 			]
-		}
+		},
+        {
+            "id": "show all coin IAPs", "version": 1,
+		    "min_current_verison": "1.3.0",
+		    "groups": [ { "group": "show", "p": 1 } ]
+        }
 	]
 }

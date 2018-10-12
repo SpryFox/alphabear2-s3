@@ -4,6 +4,13 @@
         {
             "id": "InterstitialCooldownTime", "version": 2,
 		    "groups": [{"group": "3min",  "p": 1}]
+		},
+		{
+			"id": "UltimateBundleBreakdown", "version": 1,
+			"groups": [
+				{"group": "enabled",  "p": 0.5},
+				{"group": "disabled",  "p": 0.5}
+			]
 		}
     ]
 }

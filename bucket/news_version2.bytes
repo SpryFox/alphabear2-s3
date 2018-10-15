@@ -1,10 +1,44 @@
 #The manual for this file format is on news_version2.txt
 
-code: 795fddfde9378d49361b41bcab856826
+code: b9597464a5591aa14d17b839fa0e67d4
 
 # maxVersion must include +999999-9999 suffix
 
 news:
+    - dateTime: 2018-10-15 10:00
+      id: 6
+      elements:
+            - centeredText: |
+                v1.03 of Alphabear 2 is now available!
+                <size=80%>15th October, 2018</size>
+            - text: |
+                This update includes a bunch of quality-of-life improvements based on your feedback, including the following:
+
+                • If you lose a game, you'll now get a consolation prize of honey and/or berries!
+
+                • The "no ads" (renamed "ultimate") bundle now includes an increase in your maximum honey amount from 100 to 150, and speeds up honey regeneration time by +10%, in addition to its other benefits! If you've already purchased the bundle, you get this retroactively.
+
+                • Depressed letter tiles are now darker and deeper to make them easier to distinguish from unchosen letter tiles.
+
+                • More reliable warnings when you're not prepared for an event and need to level up your bears more.
+
+                • Coins have been changed to a silver color, to reduce the likelihood that people confuse them with honey.
+
+                • The requirements for all tiers of a special event are now displayed, even when the tiers are locked, so you can see everything you'll need to finish the event.
+
+                • Tea Bear is now correctly tagged as a "drink" type of bear
+
+                • Fixed some balance issues that were causing daily events to have unreasonably high score targets for a small number of players
+
+                • The final level requirements for epic special events have been slightly reduced
+
+                • When checking the "bear requirements" for a special event, bears of yours that already meet the level requirement are marked with a green checkmark
+
+                • Other bugfixes
+
+                Thank you as always for your helpful feedback and kind words. We are so grateful! :-) 
+                - The Spry Foxes
+
     - dateTime: 2018-10-02 10:00
       id: 5
       elements:

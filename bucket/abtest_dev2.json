@@ -3,18 +3,15 @@
 	"tests": [
 		{
 			"id": "InterstitialCooldownTime", "version": 1,
-			"groups": [{"group": "3min",  "p": 1}]
+			"groups": [
+				{"group": "3min",  "p": 1}
+			]
 		},
-        {
-            "id": "show all coin IAPs", "version": 1,
-		    "min_current_verison": "1.3.0",
-		    "groups": [ { "group": "show", "p": 1 } ]
-        },
 		{
 			"id": "UltimateBundleBreakdown", "version": 2,
 			"groups": [
-				{"group": "enabled",  "p": 1},
-				{"group": "disabled",  "p": 0}
+				{"group": "enabled",  "p": 0.5},
+				{"group": "disabled", "p": 0.5}
 			]
 		}
 	]

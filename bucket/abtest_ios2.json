@@ -8,10 +8,9 @@
 			]
 		},
 		{
-			"id": "UltimateBundleBreakdown", "version": 3,
+			"id": "UltimateBundleBreakdown", "version": 4,
 			"groups": [
-				{"group": "enabled",  "p": 0.5},
-				{"group": "disabled", "p": 0.5}
+				{"group": "enabled",  "p": 1}
 			]
 		}
 	]

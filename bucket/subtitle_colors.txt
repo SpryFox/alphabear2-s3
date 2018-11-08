@@ -1,11 +1,11 @@
 #C5FDFF
 #FFFFFF
 
-#296a93
 #31315a
+#296a93
 
-#c2fcc5
 #32665e
+#c2fcc5
 
-#feffb9
 #fee677
+#feffb9

@@ -1,10 +1,27 @@
 #The manual for this file format is on news_version2.txt
 
-code: b9597464a5591aa14d17b839fa0e67d4
+code: 056b34a1f5ec02102edc9a86a6c0cdac
 
 # maxVersion must include +999999-9999 suffix
 
 news:
+    - dateTime: 2018-11-20 12:00
+      id: 7
+      elements:
+            - centeredText: |
+                Tournaments 
+                <size=80%>20th November, 2018</size>
+            - text: |
+                Hi everyone! We hope you've been enjoying the first week of TOURNAMENTS! We wanted to apologize to you as we know we've been pushing a lot of updates lately to fix all the bugs and edge cases that you've been reporting. We know that sort of thing can be frustrating, so this news post comes with a gift of 100 coins, 100 berries, 100 yellow cloth, and a coffee as a "thank you" for putting up with our dust while we try to make things perfect for you. 
+
+                We look forward to seeing who the big winners of our first tournament are on Thursday! We're planning to, at very least, tweet (@spryfox) a picture of the usernames and avatars of the Top 3 players sometime after this tournament ends, so everyone can see who made history first. ;)
+            - text: "\n" # just to pad it out before the buttons
+            - reward: { item: coin, count: 100 }
+            - reward: { item: berry, count: 100 }
+            - reward: { item: yellow_cloth, count: 100 }
+            - reward: { item: bear_wakeup, count: 1 }
+            - text: "\n" # just to pad it out before the next item
+              
     - dateTime: 2018-10-15 10:00
       id: 6
       elements:

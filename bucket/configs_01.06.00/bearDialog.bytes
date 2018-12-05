@@ -1,0 +1,2377 @@
+1-1:
+  - Cassette Bear: DialogLine1-1-1
+    Side: Right
+    Pose: Surprised
+  - Avatar: DialogLine1-1-2
+    Side: Left
+    Pose: Neutral
+1-2:
+  - Avatar: DialogLine1-2-1
+    Side: Left
+    Pose: Scared
+  - Doc Bear: DialogLine1-2-2
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine1-2-3
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine1-2-4
+    Side: Left
+    Pose: Impressed
+  - Doc Bear: DialogLine1-2-5
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine1-2-6
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine1-2-7
+    Side: Right
+    Pose: Neutral
+1-3:
+  - Floppy Bear: DialogLine1-3-1
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine1-3-2
+    Side: Right
+    Pose: Happy
+1-5:
+  - Rubiks Bear: DialogLine1-5-1
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine1-5-2
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine1-5-3
+    Side: Right
+    Pose: Neutral
+1-6:
+  - Floppy Bear: DialogLine1-6-1
+    Side: Left
+    Pose: Impressed
+  - Rubiks Bear: DialogLine1-6-2
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine1-6-3
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine1-6-4
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine1-6-5
+    Side: Left
+    Pose: Angry
+  - Avatar: DialogLine1-6-6
+    Side: Left
+    Pose: Neutral
+1-7:
+  - Game Bear: DialogLine1-7-1
+    Side: Left
+    Pose: Scared
+  - Avatar: DialogLine1-7-2
+    Side: Right
+    Pose: Happy
+  - Game Bear: DialogLine1-7-3
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine1-7-4
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine1-7-5
+    Side: Left
+    Pose: Neutral
+1-8:
+  - Avatar: DialogLine1-8-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine1-8-2
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine1-8-3
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine1-8-4
+    Side: Right
+    Pose: Surprised
+  - Doc Bear: DialogLine1-8-5
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine1-8-6
+    Side: Left
+    Pose: Impressed
+  - Doc Bear: DialogLine1-8-7
+    Side: Right
+    Pose: Neutral
+1-9:
+  - Avatar: DialogLine1-9-1
+    Side: Left
+    Pose: Impressed
+  - Superstar Bear: DialogLine1-9-2
+    Side: Right
+    Pose: Neutral
+1-10:
+  - Avatar: DialogLine1-10-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine1-10-2
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine1-10-3
+    Side: Left
+    Pose: Impressed
+  - Doc Bear: DialogLine1-10-4
+    Side: Right
+    Pose: Neutral
+1-12:
+  - Avatar: DialogLine1-12-1
+    Side: Left
+    Pose: Scared
+  - Stego Bear: DialogLine1-12-2
+    Side: Right
+    Pose: Neutral
+2-2:
+  - Doc Bear: DialogLine2-2-1
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine2-2-2
+    Side: Right
+    Pose: Scared
+  - Doc Bear: DialogLine2-2-3
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine2-2-4
+    Side: Right
+    Pose: Neutral
+2-3:
+  - Avatar: DialogLine2-3-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine2-3-2
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine2-3-3
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine2-3-4
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine2-3-5
+    Side: Left
+    Pose: Impressed
+  - Doc Bear: DialogLine2-3-6
+    Side: Right
+    Pose: Neutral
+2-5:
+  - Avatar: DialogLine2-5-1
+    Side: Left
+    Pose: Surprised
+  - Doc Bear: DialogLine2-5-2
+    Side: Left
+    Pose: Neutral
+  - Ptero Bear: DialogLine2-5-3
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine2-5-4
+    Side: Left
+    Pose: Neutral
+2-6:
+  - Avatar: DialogLine2-6-1
+    Side: Left
+    Pose: Happy
+  - Ptero Bear: DialogLine2-6-2
+    Side: Right
+    Pose: Happy
+  - Ptero Bear: DialogLine2-6-3
+    Side: Right
+    Pose: Happy
+  - Ptero Bear: DialogLine2-6-4
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine2-6-5
+    Side: Left
+    Pose: Scared
+  - Ptero Bear: DialogLine2-6-6
+    Side: Right
+    Pose: Neutral
+2-7:
+  - Stego Bear: DialogLine2-7-1
+    Side: Left
+    Pose: Impressed
+  - Doc Bear: DialogLine2-7-2
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine2-7-3
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine2-7-4
+    Side: Right
+    Pose: Happy
+  - Stego Bear: DialogLine2-7-5
+    Side: Left
+    Pose: Neutral
+2-8:
+  - Doc Bear: DialogLine2-8-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine2-8-2
+    Side: Left
+    Pose: Sad
+  - Game Bear: DialogLine2-8-3
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine2-8-4
+    Side: Left
+    Pose: Neutral
+2-10:
+  - Tricera Bear: DialogLine2-10-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine2-10-2
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine2-10-3
+    Side: Left
+    Pose: Neutral
+2-12:
+  - Avatar: DialogLine2-12-1
+    Side: Left
+    Pose: Neutral
+  - Tricera Bear: DialogLine2-12-2
+    Side: Right
+    Pose: Neutral
+2-13:
+  - Avatar: DialogLine2-13-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine2-13-2
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine2-13-3
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine2-13-4
+    Side: Right
+    Pose: Happy
+  - Ptero Bear: DialogLine2-13-5
+    Side: Right
+    Pose: Neutral
+  - Ptero Bear: DialogLine2-13-6
+    Side: Right
+    Pose: Angry
+  - Ptero Bear: DialogLine2-13-7
+    Side: Right
+    Pose: Angry
+  - Ptero Bear: DialogLine2-13-8
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine2-13-9
+    Side: Left
+    Pose: Scared
+  - Avatar: DialogLine2-13-10
+    Side: Left
+    Pose: Scared
+2-15:
+  - Avatar: DialogLine2-15-1
+    Side: Left
+    Pose: Neutral
+  - Egg Bear: DialogLine2-15-2
+    Side: Right
+    Pose: Neutral
+2-17:
+  - Doc Bear: DialogLine2-17-1
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine2-17-2
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine2-17-3
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine2-17-4
+    Side: Right
+    Pose: Happy
+  - Egg Bear: DialogLine2-17-5
+    Side: Left
+    Pose: Angry
+2-19:
+  - Avatar: DialogLine2-19-1
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine2-19-2
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine2-19-3
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine2-19-4
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine2-19-5
+    Side: Left
+    Pose: Surprised
+  - Doc Bear: DialogLine2-19-6
+    Side: Right
+    Pose: Happy
+2-20:
+  - Pharaoh Bear: DialogLine2-20-1
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine2-20-2
+    Side: Right
+    Pose: Happy
+3-2:
+  - Avatar: DialogLine3-2-1
+    Side: Left
+    Pose: Scared
+  - Doc Bear: DialogLine3-2-2
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine3-2-3
+    Side: Left
+    Pose: Impressed
+  - Doc Bear: DialogLine3-2-4
+    Side: Right
+    Pose: Scared
+3-5:
+  - Anubis Bear: DialogLine3-5-1
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine3-5-2
+    Side: Right
+    Pose: Neutral
+3-7:
+  - Avatar: DialogLine3-7-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine3-7-2
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine3-7-3
+    Side: Left
+    Pose: Scared
+  - Doc Bear: DialogLine3-7-4
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine3-7-5
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine3-7-6
+    Side: Left
+    Pose: Neutral
+3-8:
+  - Anubis Bear: DialogLine3-8-1
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine3-8-2
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine3-8-3
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine3-8-4
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine3-8-5
+    Side: Right
+    Pose: Neutral
+3-10:
+  - Mummy Bear: DialogLine3-10-1
+    Side: Left
+    Pose: Surprised
+  - Avatar: DialogLine3-10-2
+    Side: Right
+    Pose: Happy
+3-12:
+  - Doc Bear: DialogLine3-12-1
+    Side: Left
+    Pose: Happy
+  - Mummy Bear: DialogLine3-12-2
+    Side: Right
+    Pose: Neutral
+  - Anubis Bear: DialogLine3-12-3
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine3-12-4
+    Side: Left
+    Pose: Happy
+  - Mummy Bear: DialogLine3-12-5
+    Side: Right
+    Pose: Scared
+3-15:
+  - Sphinx Bear: DialogLine3-15-1
+    Side: Left
+    Pose: Angry
+  - Avatar: DialogLine3-15-2
+    Side: Right
+    Pose: Neutral
+3-17:
+  - Superstar Bear: DialogLine3-17-1
+    Side: Left
+    Pose: Happy
+  - Superstar Bear: DialogLine3-17-2
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine3-17-3
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine3-17-4
+    Side: Right
+    Pose: Neutral
+3-20:
+  - Speakeasy Bear: DialogLine3-20-1
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine3-20-2
+    Side: Right
+    Pose: Neutral
+  - Floppy Bear: DialogLine3-20-3
+    Side: Left
+    Pose: Happy
+4-2:
+  - Avatar: DialogLine4-2-1
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine4-2-2
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine4-2-3
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine4-2-4
+    Side: Right
+    Pose: Neutral
+4-5:
+  - Flapper Bear: DialogLine4-5-1
+    Side: Right
+    Pose: Neutral
+  - Flapper Bear: DialogLine4-5-2
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine4-5-3
+    Side: Left
+    Pose: Neutral
+4-6:
+  - Flapper Bear: DialogLine4-6-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine4-6-2
+    Side: Right
+    Pose: Happy
+  - Flapper Bear: DialogLine4-6-3
+    Side: Left
+    Pose: Angry
+  - Doc Bear: DialogLine4-6-4
+    Side: Right
+    Pose: Neutral
+  - Flapper Bear: DialogLine4-6-5
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine4-6-6
+    Side: Right
+    Pose: Neutral
+4-8:
+  - Avatar: DialogLine4-8-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine4-8-2
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine4-8-3
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine4-8-4
+    Side: Right
+    Pose: Neutral
+4-10:
+  - Avatar: DialogLine4-10-1
+    Side: Left
+    Pose: Happy
+  - Victrola Bear: DialogLine4-10-2
+    Side: Right
+    Pose: Happy
+4-12:
+  - Victrola Bear: DialogLine4-12-1
+    Side: Left
+    Pose: Surprised
+  - Sphinx Bear: DialogLine4-12-2
+    Side: Right
+    Pose: Happy
+  - Game Bear: DialogLine4-12-3
+    Side: Left
+    Pose: Happy
+  - Egg Bear: DialogLine4-12-4
+    Side: Right
+    Pose: Happy
+  - Doc Bear: DialogLine4-12-5
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine4-12-6
+    Side: Left
+    Pose: Neutral
+4-15:
+  - Avatar: DialogLine4-15-1
+    Side: Left
+    Pose: Surprised
+  - Picasso Bear: DialogLine4-15-2
+    Side: Right
+    Pose: Neutral
+4-17:
+  - Avatar: DialogLine4-17-1
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine4-17-2
+    Side: Left
+    Pose: Neutral
+  - Flapper Bear: DialogLine4-17-3
+    Side: Right
+    Pose: Scared
+  - Flapper Bear: DialogLine4-17-4
+    Side: Right
+    Pose: Angry
+  - Avatar: DialogLine4-17-5
+    Side: Left
+    Pose: Neutral
+4-20:
+  - Knight Bear: DialogLine4-20-1
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine4-20-2
+    Side: Right
+    Pose: Neutral
+5-2:
+  - Avatar: DialogLine5-2-1
+    Side: Left
+    Pose: Scared
+  - Avatar: DialogLine5-2-2
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine5-2-3
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine5-2-4
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine5-2-5
+    Side: Left
+    Pose: Neutral
+  - Pharaoh Bear: DialogLine5-2-6
+    Side: Right
+    Pose: Impressed
+5-4:
+  - Avatar: DialogLine5-4-1
+    Side: Left
+    Pose: Angry
+  - Doc Bear: DialogLine5-4-2
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine5-4-3
+    Side: Left
+    Pose: Neutral
+  - Pharaoh Bear: DialogLine5-4-4
+    Side: Right
+    Pose: Angry
+5-6:
+  - Avatar: DialogLine5-6-1
+    Side: Left
+    Pose: Neutral
+  - Bearrel: DialogLine5-6-2
+    Side: Right
+    Pose: Neutral
+5-8:
+  - Bearrel: DialogLine5-8-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine5-8-2
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine5-8-3
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine5-8-4
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine5-8-5
+    Side: Left
+    Pose: Angry
+5-10:
+  - Avatar: DialogLine5-10-1
+    Side: Left
+    Pose: Scared
+  - Doc Bear: DialogLine5-10-2
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine5-10-3
+    Side: Left
+    Pose: Sad
+  - Avatar: DialogLine5-10-4
+    Side: Left
+    Pose: Scared
+  - Doc Bear: DialogLine5-10-5
+    Side: Right
+    Pose: Neutral
+5-12:
+  - Castle Bear: DialogLine5-12-1
+    Side: Left
+    Pose: Angry
+  - Avatar: DialogLine5-12-2
+    Side: Right
+    Pose: Neutral
+5-14:
+  - Castle Bear: DialogLine5-14-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine5-14-2
+    Side: Right
+    Pose: Happy
+  - Castle Bear: DialogLine5-14-3
+    Side: Left
+    Pose: Neutral
+  - Castle Bear: DialogLine5-14-4
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine5-14-5
+    Side: Right
+    Pose: Surprised
+  - Doc Bear: DialogLine5-14-6
+    Side: Right
+    Pose: Neutral
+  - Castle Bear: DialogLine5-14-7
+    Side: Left
+    Pose: Happy
+5-16:
+  - Avatar: DialogLine5-16-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine5-16-2
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine5-16-3
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine5-16-4
+    Side: Left
+    Pose: Neutral
+  - Mummy Bear: DialogLine5-16-5
+    Side: Right
+    Pose: Neutral
+5-18:
+  - Avatar: DialogLine5-18-1
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine5-18-2
+    Side: Left
+    Pose: Happy
+  - Dragon Bear: DialogLine5-18-3
+    Side: Right
+    Pose: Neutral
+5-21:
+  - Avatar: DialogLine5-21-1
+    Side: Left
+    Pose: Scared
+  - Avatar: DialogLine5-21-2
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine5-21-3
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine5-21-4
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine5-21-5
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine5-21-6
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine5-21-7
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine5-21-8
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine5-21-9
+    Side: Left
+    Pose: Scared
+  - Avatar: DialogLine5-21-10
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine5-21-11
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine5-21-12
+    Side: Right
+    Pose: Neutral
+5-24:
+  - Jukebox Bear: DialogLine5-24-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine5-24-2
+    Side: Right
+    Pose: Happy
+6-2:
+  - Doc Bear: DialogLine6-2-1
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine6-2-2
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine6-2-3
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine6-2-4
+    Side: Right
+    Pose: Surprised
+  - Avatar: DialogLine6-2-5
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine6-2-6
+    Side: Left
+    Pose: Neutral
+6-4:
+  - Dragon Bear: DialogLine6-4-1
+    Side: Left
+    Pose: Neutral
+  - Sphinx Bear: DialogLine6-4-2
+    Side: Right
+    Pose: Surprised
+  - Castle Bear: DialogLine6-4-3
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine6-4-4
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine6-4-5
+    Side: Left
+    Pose: Neutral
+  - Floppy Bear: DialogLine6-4-6
+    Side: Right
+    Pose: Surprised
+  - Floppy Bear: DialogLine6-4-7
+    Side: Right
+    Pose: Surprised
+  - Floppy Bear: DialogLine6-4-8
+    Side: Right
+    Pose: Impressed
+6-6:
+  - Greaser Bear: DialogLine6-6-1
+    Side: Left
+    Pose: Angry
+  - Avatar: DialogLine6-6-2
+    Side: Right
+    Pose: Impressed
+  - Flapper Bear: DialogLine6-6-3
+    Side: Left
+    Pose: Happy
+6-8:
+  - Greaser Bear: DialogLine6-8-1
+    Side: Left
+    Pose: Surprised
+  - Doc Bear: DialogLine6-8-2
+    Side: Right
+    Pose: Happy
+  - Greaser Bear: DialogLine6-8-3
+    Side: Left
+    Pose: Surprised
+  - Avatar: DialogLine6-8-4
+    Side: Right
+    Pose: Neutral
+  - Greaser Bear: DialogLine6-8-5
+    Side: Left
+    Pose: Surprised
+  - Doc Bear: DialogLine6-8-6
+    Side: Right
+    Pose: Neutral
+  - Greaser Bear: DialogLine6-8-7
+    Side: Left
+    Pose: Neutral
+6-10:
+  - Avatar: DialogLine6-10-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine6-10-2
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine6-10-3
+    Side: Left
+    Pose: Surprised
+  - Mummy Bear: DialogLine6-10-4
+    Side: Right
+    Pose: Neutral
+  - Ptero Bear: DialogLine6-10-5
+    Side: Left
+    Pose: Angry
+6-12:
+  - Avatar: DialogLine6-12-1
+    Side: Left
+    Pose: Neutral
+  - Milkshake Bear: DialogLine6-12-2
+    Side: Right
+    Pose: Happy
+6-14:
+  - Avatar: DialogLine6-14-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine6-14-2
+    Side: Left
+    Pose: Scared
+  - Doc Bear: DialogLine6-14-3
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine6-14-4
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine6-14-5
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine6-14-6
+    Side: Left
+    Pose: Neutral
+6-16:
+  - Milkshake Bear: DialogLine6-16-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine6-16-2
+    Side: Right
+    Pose: Happy
+  - Milkshake Bear: DialogLine6-16-3
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine6-16-4
+    Side: Right
+    Pose: Neutral
+  - Milkshake Bear: DialogLine6-16-5
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine6-16-6
+    Side: Right
+    Pose: Angry
+  - Avatar: DialogLine6-16-7
+    Side: Left
+    Pose: Sad
+6-18:
+  - Avatar: DialogLine6-18-1
+    Side: Left
+    Pose: Neutral
+  - Auto Bear: DialogLine6-18-2
+    Side: Right
+    Pose: Angry
+6-22:
+  - Avatar: DialogLine6-22-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine6-22-2
+    Side: Right
+    Pose: Surprised
+  - Doc Bear: DialogLine6-22-3
+    Side: Right
+    Pose: Happy
+  - Victrola Bear: DialogLine6-22-4
+    Side: Left
+    Pose: Happy
+  - Dragon Bear: DialogLine6-22-5
+    Side: Left
+    Pose: Scared
+  - Doc Bear: DialogLine6-22-6
+    Side: Right
+    Pose: Happy
+6-24:
+  - Kraken Bear: DialogLine6-24-1
+    Side: Left
+    Pose: Neutral
+  - Kraken Bear: DialogLine6-24-2
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine6-24-3
+    Side: Right
+    Pose: Neutral
+7-2:
+  - Kraken Bear: DialogLine7-2-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine7-2-2
+    Side: Right
+    Pose: Surprised
+  - Avatar: DialogLine7-2-3
+    Side: Right
+    Pose: Neutral
+  - Kraken Bear: DialogLine7-2-4
+    Side: Left
+    Pose: Neutral
+  - Sphinx Bear: DialogLine7-2-5
+    Side: Right
+    Pose: Angry
+7-4:
+  - Avatar: DialogLine7-4-1
+    Side: Left
+    Pose: Neutral
+  - Speakeasy Bear: DialogLine7-4-2
+    Side: Right
+    Pose: Neutral
+  - Auto Bear: DialogLine7-4-3
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine7-4-4
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine7-4-5
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine7-4-6
+    Side: Left
+    Pose: Angry
+7-5:
+  - Rubiks Bear: DialogLine7-5-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine7-5-2
+    Side: Right
+    Pose: Happy
+  - Doc Bear: DialogLine7-5-3
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine7-5-4
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine7-5-5
+    Side: Right
+    Pose: Happy
+  - Doc Bear: DialogLine7-5-6
+    Side: Right
+    Pose: Happy
+  - Doc Bear: DialogLine7-5-7
+    Side: Right
+    Pose: Neutral
+  - Milkshake Bear: DialogLine7-5-8
+    Side: Left
+    Pose: Angry
+7-7:
+  - Avatar: DialogLine7-7-1
+    Side: Left
+    Pose: Surprised
+  - Doubloon Bear: DialogLine7-7-2
+    Side: Right
+    Pose: Neutral
+7-9:
+  - Avatar: DialogLine7-9-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine7-9-2
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine7-9-3
+    Side: Left
+    Pose: Sad
+  - Doc Bear: DialogLine7-9-4
+    Side: Right
+    Pose: Happy
+  - Doc Bear: DialogLine7-9-5
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine7-9-6
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine7-9-7
+    Side: Left
+    Pose: Surprised
+  - Avatar: DialogLine7-9-8
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine7-9-9
+    Side: Right
+    Pose: Neutral
+7-12:
+  - Avatar: DialogLine7-12-1
+    Side: Left
+    Pose: Neutral
+  - Kraken Bear: DialogLine7-12-2
+    Side: Right
+    Pose: Neutral
+  - Doubloon Bear: DialogLine7-12-3
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine7-12-4
+    Side: Left
+    Pose: Impressed
+  - Doubloon Bear: DialogLine7-12-5
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine7-12-6
+    Side: Left
+    Pose: Happy
+  - Doubloon Bear: DialogLine7-12-7
+    Side: Right
+    Pose: Angry
+7-14:
+  - Treasure Map Bear: DialogLine7-14-1
+    Side: Left
+    Pose: Neutral
+  - Treasure Map Bear: DialogLine7-14-2
+    Side: Left
+    Pose: Neutral
+  - Treasure Map Bear: DialogLine7-14-3
+    Side: Left
+    Pose: Neutral
+  - Treasure Map Bear: DialogLine7-14-4
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine7-14-5
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine7-14-6
+    Side: Right
+    Pose: Surprised
+7-15:
+  - Avatar: DialogLine7-15-1
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine7-15-2
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine7-15-3
+    Side: Left
+    Pose: Scared
+  - Mummy Bear: DialogLine7-15-4
+    Side: Right
+    Pose: Impressed
+  - Mummy Bear: DialogLine7-15-5
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine7-15-6
+    Side: Left
+    Pose: Neutral
+7-17:
+  - Treasure Map Bear: DialogLine7-17-1
+    Side: Left
+    Pose: Neutral
+  - Treasure Map Bear: DialogLine7-17-2
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine7-17-3
+    Side: Right
+    Pose: Neutral
+  - Treasure Map Bear: DialogLine7-17-4
+    Side: Left
+    Pose: Angry
+  - Doc Bear: DialogLine7-17-5
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine7-17-6
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine7-17-7
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine7-17-8
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine7-17-9
+    Side: Left
+    Pose: Angry
+7-21:
+  - Yarr Bear: DialogLine7-21-1
+    Side: Left
+    Pose: Angry
+  - Avatar: DialogLine7-21-2
+    Side: Right
+    Pose: Neutral
+7-23:
+  - Avatar: DialogLine7-23-1
+    Side: Left
+    Pose: Neutral
+  - Yarr Bear: DialogLine7-23-2
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine7-23-3
+    Side: Left
+    Pose: Neutral
+  - Yarr Bear: DialogLine7-23-4
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine7-23-5
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine7-23-6
+    Side: Left
+    Pose: Neutral
+  - Yarr Bear: DialogLine7-23-7
+    Side: Right
+    Pose: Neutral
+  - Superstar Bear: DialogLine7-23-8
+    Side: Left
+    Pose: Sad
+7-25:
+  - Avatar: DialogLine7-25-1
+    Side: Left
+    Pose: Surprised
+  - Dragon Bear: DialogLine7-25-2
+    Side: Right
+    Pose: Neutral
+  - Tricera Bear: DialogLine7-25-3
+    Side: Left
+    Pose: Neutral
+  - Milkshake Bear: DialogLine7-25-4
+    Side: Right
+    Pose: Angry
+  - Milkshake Bear: DialogLine7-25-5
+    Side: Right
+    Pose: Happy
+  - Milkshake Bear: DialogLine7-25-6
+    Side: Right
+    Pose: Sad
+  - Avatar: DialogLine7-25-7
+    Side: Left
+    Pose: Neutral
+7-28:
+  - Statue of Bearvid: DialogLine7-28-1
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine7-28-2
+    Side: Right
+    Pose: Neutral
+8-2:
+  - Avatar: DialogLine8-2-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-2-2
+    Side: Left
+    Pose: Scared
+  - Avatar: DialogLine8-2-3
+    Side: Left
+    Pose: Sad
+  - Game Bear: DialogLine8-2-4
+    Side: Right
+    Pose: Happy
+  - Stego Bear: DialogLine8-2-5
+    Side: Left
+    Pose: Happy
+  - Stego Bear: DialogLine8-2-6
+    Side: Left
+    Pose: Happy
+  - Anubis Bear: DialogLine8-2-7
+    Side: Right
+    Pose: Neutral
+  - Anubis Bear: DialogLine8-2-8
+    Side: Right
+    Pose: Neutral
+  - Greaser Bear: DialogLine8-2-9
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine8-2-10
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine8-2-11
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine8-2-12
+    Side: Left
+    Pose: Happy
+  - Game Bear: DialogLine8-2-13
+    Side: Right
+    Pose: Neutral
+  - Anubis Bear: DialogLine8-2-14
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-2-15
+    Side: Left
+    Pose: Neutral
+  - Greaser Bear: DialogLine8-2-16
+    Side: Right
+    Pose: Surprised
+  - Avatar: DialogLine8-2-17
+    Side: Left
+    Pose: Happy
+8-4:
+  - Statue of Bearvid: DialogLine8-4-1
+    Side: Left
+    Pose: Happy
+  - Picasso Bear: DialogLine8-4-2
+    Side: Right
+    Pose: Happy
+  - Picasso Bear: DialogLine8-4-3
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine8-4-4
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine8-4-5
+    Side: Left
+    Pose: Neutral
+8-6:
+  - Avatar: DialogLine8-6-1
+    Side: Left
+    Pose: Scared
+  - Avatar: DialogLine8-6-2
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-6-3
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-6-4
+    Side: Left
+    Pose: Neutral
+  - Auto Bear: DialogLine8-6-5
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-6-6
+    Side: Left
+    Pose: Neutral
+  - Victrola Bear: DialogLine8-6-7
+    Side: Right
+    Pose: Neutral
+  - Victrola Bear: DialogLine8-6-8
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-6-9
+    Side: Left
+    Pose: Scared
+8-7:
+  - Cherub Bear: DialogLine8-7-1
+    Side: Left
+    Pose: Sad
+  - Avatar: DialogLine8-7-2
+    Side: Right
+    Pose: Neutral
+8-8:
+  - Cherub Bear: DialogLine8-8-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-8-2
+    Side: Right
+    Pose: Angry
+  - Avatar: DialogLine8-8-3
+    Side: Right
+    Pose: Neutral
+  - Doubloon Bear: DialogLine8-8-4
+    Side: Left
+    Pose: Scared
+  - Avatar: DialogLine8-8-5
+    Side: Right
+    Pose: Sad
+  - Yarr Bear: DialogLine8-8-6
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-8-7
+    Side: Right
+    Pose: Happy
+8-10:
+  - Statue of Bearvid: DialogLine8-10-1
+    Side: Left
+    Pose: Neutral
+  - Statue of Bearvid: DialogLine8-10-2
+    Side: Left
+    Pose: Happy
+  - Statue of Bearvid: DialogLine8-10-3
+    Side: Left
+    Pose: Neutral
+  - Statue of Bearvid: DialogLine8-10-4
+    Side: Left
+    Pose: Neutral
+  - Statue of Bearvid: DialogLine8-10-5
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-10-6
+    Side: Right
+    Pose: Surprised
+  - Avatar: DialogLine8-10-7
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-10-8
+    Side: Right
+    Pose: Neutral
+  - Statue of Bearvid: DialogLine8-10-9
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine8-10-10
+    Side: Right
+    Pose: Neutral
+  - Statue of Bearvid: DialogLine8-10-11
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-10-12
+    Side: Right
+    Pose: Happy
+  - Statue of Bearvid: DialogLine8-10-13
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-10-14
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-10-15
+    Side: Right
+    Pose: Neutral
+8-12:
+  - Avatar: DialogLine8-12-1
+    Side: Left
+    Pose: Surprised
+  - Avatar: DialogLine8-12-2
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-12-3
+    Side: Left
+    Pose: Neutral
+  - Ptero Bear: DialogLine8-12-4
+    Side: Right
+    Pose: Surprised
+  - Mummy Bear: DialogLine8-12-5
+    Side: Right
+    Pose: Surprised
+  - Floppy Bear: DialogLine8-12-6
+    Side: Left
+    Pose: Surprised
+  - Flapper Bear: DialogLine8-12-7
+    Side: Right
+    Pose: Surprised
+  - Avatar: DialogLine8-12-8
+    Side: Left
+    Pose: Neutral
+  - Flapper Bear: DialogLine8-12-9
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-12-10
+    Side: Left
+    Pose: Sad
+8-14:
+  - Renaissance Bear: DialogLine8-14-1
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine8-14-2
+    Side: Right
+    Pose: Neutral
+8-16:
+  - Renaissance Bear: DialogLine8-16-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-16-2
+    Side: Right
+    Pose: Happy
+  - Renaissance Bear: DialogLine8-16-3
+    Side: Left
+    Pose: Neutral
+  - Renaissance Bear: DialogLine8-16-4
+    Side: Left
+    Pose: Surprised
+  - Renaissance Bear: DialogLine8-16-5
+    Side: Left
+    Pose: Neutral
+  - Renaissance Bear: DialogLine8-16-6
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-16-7
+    Side: Right
+    Pose: Happy
+  - Cassette Bear: DialogLine8-16-8
+    Side: Right
+    Pose: Impressed
+8-18:
+  - Avatar: DialogLine8-18-1
+    Side: Left
+    Pose: Happy
+  - Cherub Bear: DialogLine8-18-2
+    Side: Right
+    Pose: Neutral
+  - Cherub Bear: DialogLine8-18-3
+    Side: Right
+    Pose: Neutral
+  - Cherub Bear: DialogLine8-18-4
+    Side: Right
+    Pose: Neutral
+  - Cherub Bear: DialogLine8-18-5
+    Side: Right
+    Pose: Neutral
+  - Statue of Bearvid: DialogLine8-18-6
+    Side: Left
+    Pose: Neutral
+  - Castle Bear: DialogLine8-18-7
+    Side: Left
+    Pose: Angry
+  - Dragon Bear: DialogLine8-18-8
+    Side: Left
+    Pose: Sad
+  - Cherub Bear: DialogLine8-18-9
+    Side: Right
+    Pose: Neutral
+8-19:
+  - Mummy Bear: DialogLine8-19-1
+    Side: Left
+    Pose: Neutral
+  - Mummy Bear: DialogLine8-19-2
+    Side: Left
+    Pose: Neutral
+  - Greaser Bear: DialogLine8-19-3
+    Side: Right
+    Pose: Angry
+  - Superstar Bear: DialogLine8-19-4
+    Side: Left
+    Pose: Neutral
+  - Superstar Bear: DialogLine8-19-5
+    Side: Left
+    Pose: Neutral
+  - Doubloon Bear: DialogLine8-19-6
+    Side: Right
+    Pose: Happy
+  - Mummy Bear: DialogLine8-19-7
+    Side: Left
+    Pose: Sad
+  - Avatar: DialogLine8-19-8
+    Side: Right
+    Pose: Neutral
+  - Superstar Bear: DialogLine8-19-9
+    Side: Left
+    Pose: Happy
+  - Doubloon Bear: DialogLine8-19-10
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-19-11
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-19-12
+    Side: Right
+    Pose: Happy
+  - Mummy Bear: DialogLine8-19-13
+    Side: Left
+    Pose: Neutral
+  - Doubloon Bear: DialogLine8-19-14
+    Side: Right
+    Pose: Impressed
+  - Superstar Bear: DialogLine8-19-15
+    Side: Left
+    Pose: Happy
+  - Castle Bear: DialogLine8-19-16
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine8-19-17
+    Side: Right
+    Pose: Neutral
+  - Speakeasy Bear: DialogLine8-19-18
+    Side: Left
+    Pose: Angry
+8-21:
+  - Venus Bear: DialogLine8-21-1
+    Side: Right
+    Pose: Impressed
+  - Venus Bear: DialogLine8-21-2
+    Side: Right
+    Pose: Happy
+  - Venus Bear: DialogLine8-21-3
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-21-4
+    Side: Left
+    Pose: Happy
+8-22:
+  - Rubiks Bear: DialogLine8-22-1
+    Side: Left
+    Pose: Neutral
+  - Rubiks Bear: DialogLine8-22-2
+    Side: Left
+    Pose: Neutral
+  - Rubiks Bear: DialogLine8-22-3
+    Side: Left
+    Pose: Surprised
+  - Avatar: DialogLine8-22-4
+    Side: Right
+    Pose: Sad
+  - Avatar: DialogLine8-22-5
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-22-6
+    Side: Right
+    Pose: Neutral
+  - Rubiks Bear: DialogLine8-22-7
+    Side: Left
+    Pose: Happy
+  - Rubiks Bear: DialogLine8-22-8
+    Side: Left
+    Pose: Neutral
+  - Rubiks Bear: DialogLine8-22-9
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine8-22-10
+    Side: Right
+    Pose: Happy
+  - Rubiks Bear: DialogLine8-22-11
+    Side: Left
+    Pose: Happy
+  - Rubiks Bear: DialogLine8-22-12
+    Side: Left
+    Pose: Happy
+  - Yarr Bear: DialogLine8-22-13
+    Side: Right
+    Pose: Neutral
+  - Rubiks Bear: DialogLine8-22-14
+    Side: Left
+    Pose: Happy
+8-24:
+  - Castle Bear: DialogLine8-24-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-24-2
+    Side: Right
+    Pose: Neutral
+  - Castle Bear: DialogLine8-24-3
+    Side: Left
+    Pose: Neutral
+  - Castle Bear: DialogLine8-24-4
+    Side: Left
+    Pose: Impressed
+  - Bearrel: DialogLine8-24-5
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-24-6
+    Side: Right
+    Pose: Surprised
+  - Superstar Bear: DialogLine8-24-7
+    Side: Left
+    Pose: Neutral
+  - Superstar Bear: DialogLine8-24-8
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine8-24-9
+    Side: Right
+    Pose: Surprised
+  - Avatar: DialogLine8-24-10
+    Side: Right
+    Pose: Impressed
+  - Avatar: DialogLine8-24-11
+    Side: Right
+    Pose: Neutral
+8-26:
+  - Sphinx Bear: DialogLine8-26-1
+    Side: Left
+    Pose: Surprised
+  - Tricera Bear: DialogLine8-26-2
+    Side: Left
+    Pose: Surprised
+  - Avatar: DialogLine8-26-3
+    Side: Right
+    Pose: Neutral
+  - Sphinx Bear: DialogLine8-26-4
+    Side: Left
+    Pose: Neutral
+  - Tricera Bear: DialogLine8-26-5
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine8-26-6
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-26-7
+    Side: Right
+    Pose: Neutral
+  - Floppy Bear: DialogLine8-26-8
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine8-26-9
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine8-26-10
+    Side: Right
+    Pose: Neutral
+  - Floppy Bear: DialogLine8-26-11
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine8-26-12
+    Side: Right
+    Pose: Angry
+8-28:
+  - Mammoth Bear: DialogLine8-28-1
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine8-28-2
+    Side: Right
+    Pose: Neutral
+9-2:
+  - Mammoth Bear: DialogLine9-2-1
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine9-2-2
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine9-2-3
+    Side: Right
+    Pose: Neutral
+  - Anubis Bear: DialogLine9-2-4
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-2-5
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-2-6
+    Side: Right
+    Pose: Scared
+  - Victrola Bear: DialogLine9-2-7
+    Side: Left
+    Pose: Scared
+  - Avatar: DialogLine9-2-8
+    Side: Right
+    Pose: Sad
+  - Cherub Bear: DialogLine9-2-9
+    Side: Left
+    Pose: Happy
+  - Mammoth Bear: DialogLine9-2-10
+    Side: Left
+    Pose: Neutral
+  - Mammoth Bear: DialogLine9-2-11
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-2-12
+    Side: Right
+    Pose: Happy
+9-4:
+  - Mammoth Bear: DialogLine9-4-1
+    Side: Left
+    Pose: Happy
+  - Mammoth Bear: DialogLine9-4-2
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-4-3
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-4-4
+    Side: Right
+    Pose: Neutral
+  - Sphinx Bear: DialogLine9-4-5
+    Side: Left
+    Pose: Angry
+9-6:
+  - Avatar: DialogLine9-6-1
+    Side: Left
+    Pose: Neutral
+  - Bearrel: DialogLine9-6-2
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-6-3
+    Side: Left
+    Pose: Neutral
+  - Bearrel: DialogLine9-6-4
+    Side: Right
+    Pose: Neutral
+  - Bearrel: DialogLine9-6-5
+    Side: Right
+    Pose: Neutral
+  - Bearrel: DialogLine9-6-6
+    Side: Right
+    Pose: Neutral
+  - Bearrel: DialogLine9-6-7
+    Side: Right
+    Pose: Angry
+  - Avatar: DialogLine9-6-8
+    Side: Left
+    Pose: Neutral
+  - Bearrel: DialogLine9-6-9
+    Side: Right
+    Pose: Sad
+9-8:
+  - Cave Bear: DialogLine9-8-1
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine9-8-2
+    Side: Right
+    Pose: Neutral
+9-10:
+  - Avatar: DialogLine9-10-1
+    Side: Left
+    Pose: Angry
+  - Avatar: DialogLine9-10-2
+    Side: Left
+    Pose: Neutral
+  - Cave Bear: DialogLine9-10-3
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-10-4
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-10-5
+    Side: Left
+    Pose: Angry
+  - Cave Bear: DialogLine9-10-6
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-10-7
+    Side: Left
+    Pose: Neutral
+  - Cave Bear: DialogLine9-10-8
+    Side: Right
+    Pose: Neutral
+  - Cave Bear: DialogLine9-10-9
+    Side: Right
+    Pose: Neutral
+  - Cave Bear: DialogLine9-10-10
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-10-11
+    Side: Left
+    Pose: Impressed
+  - Avatar: DialogLine9-10-12
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-10-13
+    Side: Left
+    Pose: Neutral
+  - Cave Bear: DialogLine9-10-14
+    Side: Right
+    Pose: Neutral
+9-12:
+  - Avatar: DialogLine9-12-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-12-2
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-12-3
+    Side: Left
+    Pose: Neutral
+  - Egg Bear: DialogLine9-12-4
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-12-5
+    Side: Left
+    Pose: Neutral
+  - Egg Bear: DialogLine9-12-6
+    Side: Right
+    Pose: Neutral
+9-14:
+  - Avatar: DialogLine9-14-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-14-2
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-14-3
+    Side: Left
+    Pose: Sad
+  - Cave Bear: DialogLine9-14-4
+    Side: Right
+    Pose: Neutral
+  - Cave Bear: DialogLine9-14-5
+    Side: Right
+    Pose: Neutral
+  - Cave Bear: DialogLine9-14-6
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-14-7
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-14-8
+    Side: Left
+    Pose: Neutral
+  - Cave Bear: DialogLine9-14-9
+    Side: Right
+    Pose: Neutral
+  - Cave Bear: DialogLine9-14-10
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-14-11
+    Side: Left
+    Pose: Neutral
+9-16:
+  - Glacier Bear: DialogLine9-16-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-16-2
+    Side: Right
+    Pose: Angry
+9-18:
+  - Glacier Bear: DialogLine9-18-1
+    Side: Left
+    Pose: Neutral
+  - Glacier Bear: DialogLine9-18-2
+    Side: Left
+    Pose: Neutral
+  - Glacier Bear: DialogLine9-18-3
+    Side: Left
+    Pose: Neutral
+  - Glacier Bear: DialogLine9-18-4
+    Side: Left
+    Pose: Neutral
+  - Glacier Bear: DialogLine9-18-5
+    Side: Left
+    Pose: Neutral
+  - Glacier Bear: DialogLine9-18-6
+    Side: Left
+    Pose: Neutral
+  - Glacier Bear: DialogLine9-18-7
+    Side: Left
+    Pose: Neutral
+  - Egg Bear: DialogLine9-18-8
+    Side: Right
+    Pose: Angry
+9-20:
+  - Avatar: DialogLine9-20-1
+    Side: Left
+    Pose: Surprised
+  - Milkshake Bear: DialogLine9-20-2
+    Side: Right
+    Pose: Neutral
+  - Milkshake Bear: DialogLine9-20-3
+    Side: Right
+    Pose: Neutral
+  - Milkshake Bear: DialogLine9-20-4
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine9-20-5
+    Side: Left
+    Pose: Neutral
+  - Milkshake Bear: DialogLine9-20-6
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-20-7
+    Side: Left
+    Pose: Neutral
+  - Milkshake Bear: DialogLine9-20-8
+    Side: Right
+    Pose: Happy
+9-22:
+  - Game Bear: DialogLine9-22-1
+    Side: Left
+    Pose: Neutral
+  - Game Bear: DialogLine9-22-2
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-22-3
+    Side: Right
+    Pose: Neutral
+  - Game Bear: DialogLine9-22-4
+    Side: Left
+    Pose: Neutral
+  - Game Bear: DialogLine9-22-5
+    Side: Left
+    Pose: Neutral
+  - Game Bear: DialogLine9-22-6
+    Side: Left
+    Pose: Neutral
+  - Game Bear: DialogLine9-22-7
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-22-8
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-22-9
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-22-10
+    Side: Right
+    Pose: Neutral
+  - Game Bear: DialogLine9-22-11
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-22-12
+    Side: Right
+    Pose: Angry
+9-24:
+  - Sabre Tooth Bear: DialogLine9-24-1
+    Side: Left
+    Pose: Angry
+  - Avatar: DialogLine9-24-2
+    Side: Right
+    Pose: Neutral
+9-26:
+  - Avatar: DialogLine9-26-1
+    Side: Left
+    Pose: Neutral
+  - Yarr Bear: DialogLine9-26-2
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine9-26-3
+    Side: Left
+    Pose: Neutral
+  - Sabre Tooth Bear: DialogLine9-26-4
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine9-26-5
+    Side: Left
+    Pose: Happy
+9-28:
+  - Jukebox Bear: DialogLine9-28-1
+    Side: Left
+    Pose: Impressed
+  - Jukebox Bear: DialogLine9-28-2
+    Side: Left
+    Pose: Neutral
+  - Jukebox Bear: DialogLine9-28-3
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-28-4
+    Side: Left
+    Pose: Surprised
+  - Jukebox Bear: DialogLine9-28-5
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-28-6
+    Side: Left
+    Pose: Neutral
+  - Jukebox Bear: DialogLine9-28-7
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-28-8
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-28-9
+    Side: Left
+    Pose: Happy
+  - Jukebox Bear: DialogLine9-28-10
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-28-11
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine9-28-12
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-28-13
+    Side: Left
+    Pose: Neutral
+9-30:
+  - Cave Bear: DialogLine9-30-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-30-2
+    Side: Right
+    Pose: Impressed
+  - Cave Bear: DialogLine9-30-3
+    Side: Left
+    Pose: Neutral
+  - Venus Bear: DialogLine9-30-4
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine9-30-5
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine9-30-6
+    Side: Right
+    Pose: Neutral
+  - Venus Bear: DialogLine9-30-7
+    Side: Left
+    Pose: Happy
+9-32:
+  - Rocket Bear: DialogLine9-32-1
+    Side: Left
+    Pose: Surprised
+  - Avatar: DialogLine9-32-2
+    Side: Right
+    Pose: Angry
+  - Flapper Bear: DialogLine9-32-3
+    Side: Left
+    Pose: Neutral
+10-2:
+  - Rocket Bear: DialogLine10-2-1
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine10-2-2
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine10-2-3
+    Side: Right
+    Pose: Impressed
+  - Avatar: DialogLine10-2-4
+    Side: Right
+    Pose: Impressed
+  - Rocket Bear: DialogLine10-2-5
+    Side: Left
+    Pose: Neutral
+10-4:
+  - Rocket Bear: DialogLine10-4-1
+    Side: Left
+    Pose: Neutral
+  - Rocket Bear: DialogLine10-4-2
+    Side: Left
+    Pose: Neutral
+  - Rocket Bear: DialogLine10-4-3
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-4-4
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine10-4-5
+    Side: Right
+    Pose: Neutral
+10-6:
+  - Avatar: DialogLine10-6-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-6-2
+    Side: Left
+    Pose: Neutral
+  - Rocket Bear: DialogLine10-6-3
+    Side: Right
+    Pose: Angry
+10-8:
+  - Astro Bear: DialogLine10-8-1
+    Side: Left
+    Pose: Neutral
+  - Astro Bear: DialogLine10-8-2
+    Side: Left
+    Pose: Neutral
+  - Astro Bear: DialogLine10-8-3
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-8-4
+    Side: Right
+    Pose: Impressed
+  - Doc Bear: DialogLine10-8-5
+    Side: Left
+    Pose: Sad
+10-10:
+  - Doc Bear: DialogLine10-10-1
+    Side: Left
+    Pose: Happy
+  - Tricera Bear: DialogLine10-10-2
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine10-10-3
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-10-4
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-10-5
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine10-10-6
+    Side: Left
+    Pose: Neutral
+  - Tricera Bear: DialogLine10-10-7
+    Side: Right
+    Pose: Neutral
+  - Tricera Bear: DialogLine10-10-8
+    Side: Right
+    Pose: Sad
+  - Avatar: DialogLine10-10-9
+    Side: Left
+    Pose: Neutral
+10-12:
+  - Avatar: DialogLine10-12-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-12-2
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine10-12-3
+    Side: Right
+    Pose: Happy
+  - Doc Bear: DialogLine10-12-4
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine10-12-5
+    Side: Left
+    Pose: Happy
+  - Superstar Bear: DialogLine10-12-6
+    Side: Right
+    Pose: Happy
+  - Rubiks Bear: DialogLine10-12-7
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine10-12-8
+    Side: Left
+    Pose: Neutral
+  - Superstar Bear: DialogLine10-12-9
+    Side: Right
+    Pose: Neutral
+10-14:
+  - Doc Bear: DialogLine10-14-1
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine10-14-2
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine10-14-3
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-14-4
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine10-14-5
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-14-6
+    Side: Right
+    Pose: Surprised
+  - Doc Bear: DialogLine10-14-7
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine10-14-8
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-14-9
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine10-14-10
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine10-14-11
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine10-14-12
+    Side: Right
+    Pose: Happy
+10-16:
+  - Alien Bear: DialogLine10-16-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-16-2
+    Side: Right
+    Pose: Happy
+  - Doc Bear: DialogLine10-16-3
+    Side: Right
+    Pose: Happy
+  - Alien Bear: DialogLine10-16-4
+    Side: Left
+    Pose: Neutral
+10-18:
+  - Pharaoh Bear: DialogLine10-18-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-18-2
+    Side: Right
+    Pose: Neutral
+  - Cave Bear: DialogLine10-18-3
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-18-4
+    Side: Right
+    Pose: Neutral
+  - Kraken Bear: DialogLine10-18-5
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-18-6
+    Side: Right
+    Pose: Neutral
+  - Rocket Bear: DialogLine10-18-7
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-18-8
+    Side: Right
+    Pose: Neutral
+  - Rocket Bear: DialogLine10-18-9
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine10-18-10
+    Side: Right
+    Pose: Impressed
+10-20:
+  - Avatar: DialogLine10-20-1
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine10-20-2
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine10-20-3
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine10-20-4
+    Side: Right
+    Pose: Neutral
+  - Kraken Bear: DialogLine10-20-5
+    Side: Left
+    Pose: Sad
+  - Auto Bear: DialogLine10-20-6
+    Side: Right
+    Pose: Sad
+  - Victrola Bear: DialogLine10-20-7
+    Side: Left
+    Pose: Neutral
+  - Yarr Bear: DialogLine10-20-8
+    Side: Right
+    Pose: Angry
+  - Yarr Bear: DialogLine10-20-9
+    Side: Right
+    Pose: Neutral
+  - Yarr Bear: DialogLine10-20-10
+    Side: Right
+    Pose: Sad
+  - Avatar: DialogLine10-20-11
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine10-20-12
+    Side: Right
+    Pose: Neutral
+10-22:
+  - Avatar: DialogLine10-22-1
+    Side: Left
+    Pose: Neutral
+  - Game Bear: DialogLine10-22-2
+    Side: Right
+    Pose: Neutral
+  - Game Bear: DialogLine10-22-3
+    Side: Right
+    Pose: Neutral
+  - Game Bear: DialogLine10-22-4
+    Side: Right
+    Pose: Neutral
+  - Game Bear: DialogLine10-22-5
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine10-22-6
+    Side: Left
+    Pose: Happy
+  - Avatar: DialogLine10-22-7
+    Side: Left
+    Pose: Neutral
+  - Floppy Bear: DialogLine10-22-8
+    Side: Right
+    Pose: Neutral
+  - Floppy Bear: DialogLine10-22-9
+    Side: Right
+    Pose: Neutral
+10-24:
+  - Avatar: DialogLine10-24-1
+    Side: Left
+    Pose: Surprised
+  - Planet Bear: DialogLine10-24-2
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine10-24-3
+    Side: Left
+    Pose: Impressed
+  - Planet Bear: DialogLine10-24-4
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine10-24-5
+    Side: Left
+    Pose: Surprised
+  - Avatar: DialogLine10-24-6
+    Side: Left
+    Pose: Surprised
+  - Avatar: DialogLine10-24-7
+    Side: Left
+    Pose: Surprised
+  - Avatar: DialogLine10-24-8
+    Side: Left
+    Pose: Neutral
+  - Planet Bear: DialogLine10-24-9
+    Side: Right
+    Pose: Angry
+10-26:
+  - Avatar: DialogLine10-26-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-26-2
+    Side: Left
+    Pose: Neutral
+  - Planet Bear: DialogLine10-26-3
+    Side: Right
+    Pose: Neutral
+  - Planet Bear: DialogLine10-26-4
+    Side: Right
+    Pose: Neutral
+  - Doc Bear: DialogLine10-26-5
+    Side: Left
+    Pose: Neutral
+  - Planet Bear: DialogLine10-26-6
+    Side: Right
+    Pose: Neutral
+  - Planet Bear: DialogLine10-26-7
+    Side: Right
+    Pose: Neutral
+  - Planet Bear: DialogLine10-26-8
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine10-26-9
+    Side: Left
+    Pose: Neutral
+  - Doc Bear: DialogLine10-26-10
+    Side: Left
+    Pose: Neutral
+  - Planet Bear: DialogLine10-26-11
+    Side: Right
+    Pose: Neutral
+  - Planet Bear: DialogLine10-26-12
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine10-26-13
+    Side: Left
+    Pose: Surprised
+  - Doc Bear: DialogLine10-26-14
+    Side: Left
+    Pose: Neutral
+  - Glacier Bear: DialogLine10-26-15
+    Side: Right
+    Pose: Neutral
+  - Glacier Bear: DialogLine10-26-16
+    Side: Right
+    Pose: Neutral
+  - Glacier Bear: DialogLine10-26-17
+    Side: Right
+    Pose: Neutral
+  - Glacier Bear: DialogLine10-26-18
+    Side: Right
+    Pose: Neutral
+  - Glacier Bear: DialogLine10-26-19
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine10-26-20
+    Side: Left
+    Pose: Angry
+10-28:
+  - Avatar: DialogLine10-28-1
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-28-2
+    Side: Left
+    Pose: Sad
+  - Doc Bear: DialogLine10-28-3
+    Side: Right
+    Pose: Neutral
+  - Avatar: DialogLine10-28-4
+    Side: Left
+    Pose: Happy
+  - Doc Bear: DialogLine10-28-5
+    Side: Right
+    Pose: Happy
+10-30:
+  - Alien Bear: DialogLine10-30-1
+    Side: Left
+    Pose: Neutral
+  - Alien Bear: DialogLine10-30-2
+    Side: Left
+    Pose: Neutral
+  - Speakeasy Bear: DialogLine10-30-3
+    Side: Right
+    Pose: Angry
+  - Speakeasy Bear: DialogLine10-30-4
+    Side: Right
+    Pose: Angry
+  - Speakeasy Bear: DialogLine10-30-5
+    Side: Right
+    Pose: Happy
+  - Venus Bear: DialogLine10-30-6
+    Side: Left
+    Pose: Neutral
+  - Knight Bear: DialogLine10-30-7
+    Side: Right
+    Pose: Neutral
+  - Picasso Bear: DialogLine10-30-8
+    Side: Left
+    Pose: Neutral
+  - Pharaoh Bear: DialogLine10-30-9
+    Side: Left
+    Pose: Neutral
+  - Speakeasy Bear: DialogLine10-30-10
+    Side: Right
+    Pose: Angry
+  - Alien Bear: DialogLine10-30-11
+    Side: Left
+    Pose: Neutral
+  - Doubloon Bear: DialogLine10-30-12
+    Side: Right
+    Pose: Neutral
+  - Doubloon Bear: DialogLine10-30-13
+    Side: Right
+    Pose: Surprised
+  - Doubloon Bear: DialogLine10-30-14
+    Side: Right
+    Pose: Angry
+10-32:
+  - Alpha Bear: DialogLine10-32-1
+    Side: Left
+    Pose: Happy
+  - Alpha Bear: DialogLine10-32-2
+    Side: Left
+    Pose: Neutral
+  - Alpha Bear: DialogLine10-32-3
+    Side: Left
+    Pose: Happy
+  - Alpha Bear: DialogLine10-32-4
+    Side: Left
+    Pose: Neutral
+  - Avatar: DialogLine10-32-5
+    Side: Right
+    Pose: Neutral

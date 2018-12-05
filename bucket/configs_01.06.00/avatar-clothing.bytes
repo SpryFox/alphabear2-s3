@@ -1,0 +1,1116 @@
+TutorialGift:
+  RedClothCost: 20
+  YellowClothCost: 30
+
+AvatarClothing:
+ #######################################################
+ # BASE BEAR SKINS
+ #######################################################
+
+ - ID: brown_bear
+   RedClothCost: 10
+   YellowClothCost: 20
+   BlueClothCost: 0
+   StoreCategory: BaseBears
+   UnlockedByDefault: true
+   AvailableAtInitialSelection: true
+
+ - ID: panda_bear
+   RedClothCost: 10
+   YellowClothCost: 20
+   BlueClothCost: 0
+   StoreCategory: BaseBears
+   UnlockedByDefault: true
+   AvailableAtInitialSelection: true
+
+ - ID: black_bear
+   RedClothCost: 10
+   YellowClothCost: 20
+   BlueClothCost: 0
+   StoreCategory: BaseBears
+   UnlockedByDefault: true
+   AvailableAtInitialSelection: true
+
+ - ID: zombie_bear
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: BaseBears
+   UnlockedByDefault: true
+
+ - ID: stuffed_bear
+   RedClothCost: 300
+   YellowClothCost: 350
+   BlueClothCost: 20
+   StoreCategory: BaseBears
+   UnlockedByDefault: true
+
+ - ID: naked_bear
+   RedClothCost: 10
+   YellowClothCost: 20
+   BlueClothCost: 0
+   StoreCategory: BaseBears
+   UnlockedByDefault: true
+   AvailableAtInitialSelection: true
+
+ - ID: polar_bear
+   RedClothCost: 10
+   YellowClothCost: 20
+   BlueClothCost: 0
+   StoreCategory: BaseBears
+   UnlockedByDefault: true
+   AvailableAtInitialSelection: true
+
+ - ID: seethrough_bear
+   RedClothCost: 250
+   YellowClothCost: 700
+   BlueClothCost: 15
+   StoreCategory: BaseBears
+   UnlockedByDefault: true
+
+ - ID: skeleton_bear
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: BaseBears
+   UnlockedByDefault: true
+
+ #######################################################
+ # ACCESSORIES
+ #######################################################
+
+ - ID: Accessory_Camera_AccessoryBody
+   RedClothCost: 240
+   YellowClothCost: 750
+   BlueClothCost: 20
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+
+ - ID: Accessory_Clock_AccessoryBody
+   RedClothCost: 40
+   YellowClothCost: 90
+   BlueClothCost: 0
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+
+ - ID: Accessory_FannyPack_AccessoryBody
+   RedClothCost: 0
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+
+ - ID: Accessory_GoldChains_AccessoryBody
+   RedClothCost: 0
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+
+ - ID: Accessory_Lei_AccessoryBody
+   RedClothCost: 0
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+
+ - ID: Accessory_Scarf_AccessoryBody
+   RedClothCost: 0
+   YellowClothCost: 30
+   BlueClothCost: 0
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+
+ - ID: Accessory_WrestlingBelt_AccessoryBody
+   RedClothCost: 240
+   YellowClothCost: 0
+   BlueClothCost: 20
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+
+ - ID: Accessory_GingerBreadTie_AccessoryBody
+   RedClothCost: 80
+   YellowClothCost: 60
+   BlueClothCost: 40
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+   BundleVersion: 2
+
+
+ #######################################################
+ # BOTTOMS
+ #######################################################
+
+ - ID: Briefs
+   RedClothCost: 20
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Bottom_OctoSkirt_Bottom
+   RedClothCost: 20
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: BlueJeans
+   RedClothCost: 20
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Black Pants
+   RedClothCost: 40
+   YellowClothCost: 120
+   BlueClothCost: 0
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Camo Pants
+   RedClothCost: 30
+   YellowClothCost: 40
+   BlueClothCost: 0
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Bad Pants
+   RedClothCost: 960
+   YellowClothCost: 3000
+   BlueClothCost: 78
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Jorts
+   RedClothCost: 40
+   YellowClothCost: 120
+   BlueClothCost: 0
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Bottom_FrillyUndies_Bottom
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Bottom_LayeredSkirt_Bottom
+   RedClothCost: 0
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Bottom_Skirt_Bottom
+   RedClothCost: 80
+   YellowClothCost: 250
+   BlueClothCost: 0
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Boxers
+   RedClothCost: 0
+   YellowClothCost: 250
+   BlueClothCost: 0
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Parachute Pants
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Bottom_Kilt_Bottom
+   RedClothCost: 0
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Spandex
+   RedClothCost: 0
+   YellowClothCost: 120
+   BlueClothCost: 0
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Bottom_PinkSkirt_Bottom
+   RedClothCost: 80
+   YellowClothCost: 0
+   BlueClothCost: 7
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Bottom_BlueSkirt_Bottom
+   RedClothCost: 80
+   YellowClothCost: 0
+   BlueClothCost: 7
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Boxers Flowers
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Boxers Retro
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Bottom_LayeredSkirtBeige_Bottom
+   RedClothCost: 320
+   YellowClothCost: 0
+   BlueClothCost: 26
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Bottom_LayeredSkirtBlue_Bottom
+   RedClothCost: 320
+   YellowClothCost: 0
+   BlueClothCost: 26
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Spandex Blue
+   RedClothCost: 240
+   YellowClothCost: 750
+   BlueClothCost: 0
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Brown Pants
+   RedClothCost: 30
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ - ID: Bottom_Mermaid_Bottom
+   RedClothCost: 1440
+   YellowClothCost: 4500
+   BlueClothCost: 100
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+
+ #######################################################
+ # COSTUMES
+ #######################################################
+
+ - ID: ButterflyDress
+   RedClothCost: 0
+   YellowClothCost: 900
+   BlueClothCost: 25
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Juicebox
+   RedClothCost: 140
+   YellowClothCost: 400
+   BlueClothCost: 10
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Pinstripe Suit
+   RedClothCost: 240
+   YellowClothCost: 750
+   BlueClothCost: 20
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Bruce Lee
+   RedClothCost: 0
+   YellowClothCost: 1250
+   BlueClothCost: 33
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Piggy
+   RedClothCost: 400
+   YellowClothCost: 1250
+   BlueClothCost: 33
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Unicorn
+   RedClothCost: 400
+   YellowClothCost: 1250
+   BlueClothCost: 0
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Sloth
+   RedClothCost: 960
+   YellowClothCost: 3000
+   BlueClothCost: 78
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Ape
+   RedClothCost: 400
+   YellowClothCost: 0
+   BlueClothCost: 33
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Car
+   RedClothCost: 160
+   YellowClothCost: 0
+   BlueClothCost: 10
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Barrel
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Balloons
+   RedClothCost: 240
+   YellowClothCost: 750
+   BlueClothCost: 20
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Meat Dress
+   RedClothCost: 60
+   YellowClothCost: 90
+   BlueClothCost: 0
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Costume_SwanDress_Top
+   RedClothCost: 240
+   YellowClothCost: 0
+   BlueClothCost: 20
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Overalls
+   RedClothCost: 0
+   YellowClothCost: 750
+   BlueClothCost: 20
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Watermelon Dress
+   RedClothCost: 0
+   YellowClothCost: 750
+   BlueClothCost: 20
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Magic Robe
+   RedClothCost: 30
+   YellowClothCost: 90
+   BlueClothCost: 0
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Royal Robe
+   RedClothCost: 20
+   YellowClothCost: 30
+   BlueClothCost: 0
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Cat Person Robe
+   RedClothCost: 0
+   YellowClothCost: 90
+   BlueClothCost: 0
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Archer
+   RedClothCost: 10
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   FreeRightHand: false
+   FreeLeftHand: false
+
+ - ID: Hot Dog
+   RedClothCost: 0
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Bavarian
+   RedClothCost: 240
+   YellowClothCost: 750
+   BlueClothCost: 20
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: FBI
+   RedClothCost: 480
+   YellowClothCost: 1500
+   BlueClothCost: 39
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Ziggy
+   RedClothCost: 0
+   YellowClothCost: 2000
+   BlueClothCost: 52
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Geisha
+   RedClothCost: 320
+   YellowClothCost: 1000
+   BlueClothCost: 26
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Hula
+   RedClothCost: 320
+   YellowClothCost: 1000
+   BlueClothCost: 26
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+
+ - ID: Astronaut Suit
+   RedClothCost: 100
+   YellowClothCost: 80
+   BlueClothCost: 90
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 2
+
+ - ID: Bacon Dress
+   RedClothCost: 80
+   YellowClothCost: 60
+   BlueClothCost: 40
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 2
+
+ #######################################################
+ # HATS
+ #######################################################
+
+ - ID: Hat_Sushi_Hat
+   RedClothCost: 10
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_HairRainbow_Hat
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Crown_Hat
+   RedClothCost: 560
+   YellowClothCost: 1750
+   BlueClothCost: 46
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_HairCurlyDark_Hat
+   RedClothCost: 50
+   YellowClothCost: 75
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_HairMohawkRainbow_Hat
+   RedClothCost: 320
+   YellowClothCost: 1000
+   BlueClothCost: 26
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_White_Hat
+   RedClothCost: 400
+   YellowClothCost: 1250
+   BlueClothCost: 33
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Cap_Hat
+   RedClothCost: 10
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Bowlcut_Hat
+   RedClothCost: 0
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Fez_Hat
+   RedClothCost: 160
+   YellowClothCost: 0
+   BlueClothCost: 10
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Viking_Hat
+   RedClothCost: 80
+   YellowClothCost: 120
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Propeller_Hat
+   RedClothCost: 0
+   YellowClothCost: 120
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_TopHat_Hat
+   RedClothCost: 0
+   YellowClothCost: 1500
+   BlueClothCost: 39
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Planet_Hat
+   RedClothCost: 0
+   YellowClothCost: 1000
+   BlueClothCost: 26
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_BowlcutBlonde_Hat
+   RedClothCost: 0
+   YellowClothCost: 1000
+   BlueClothCost: 26
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_TopHatPeacock_Hat
+   RedClothCost: 0
+   YellowClothCost: 3000
+   BlueClothCost: 78
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Plant_Hat
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_SteampunkHat_Hat
+   RedClothCost: 560
+   YellowClothCost: 1750
+   BlueClothCost: 46
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_BowlcutPigtails_Hat
+   RedClothCost: 0
+   YellowClothCost: 1000
+   BlueClothCost: 26
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_BowlcutBraids_Hat
+   RedClothCost: 0
+   YellowClothCost: 1000
+   BlueClothCost: 26
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Headset_Hat
+   RedClothCost: 320
+   YellowClothCost: 1000
+   BlueClothCost: 26
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Mullet_Hat
+   RedClothCost: 320
+   YellowClothCost: 1000
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_HairMohawkCurly_Hat
+   RedClothCost: 560
+   YellowClothCost: 1750
+   BlueClothCost: 46
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Beanie_Hat
+   RedClothCost: 30
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Hijab_Hat
+   RedClothCost: 30
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Beret_Hat
+   RedClothCost: 30
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Western_Hat
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Dreads_Hat
+   RedClothCost: 0
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Biker_Hat
+   RedClothCost: 240
+   YellowClothCost: 0
+   BlueClothCost: 20
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_LeiasBuns_Hat
+   RedClothCost: 240
+   YellowClothCost: 0
+   BlueClothCost: 20
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_SortingHat_Hat
+   RedClothCost: 240
+   YellowClothCost: 0
+   BlueClothCost: 20
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_HairAfro_Hat
+   RedClothCost: 240
+   YellowClothCost: 0
+   BlueClothCost: 20
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_CarmenMiranda_Hat
+   RedClothCost: 240
+   YellowClothCost: 0
+   BlueClothCost: 20
+   StoreCategory: Hats
+   UnlockedByDefault: true
+
+ - ID: Hat_Bearilyn_Hat
+   RedClothCost: 80
+   YellowClothCost: 60
+   BlueClothCost: 40
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 2
+
+ - ID: Hat_Bearvis_Hat
+   RedClothCost: 100
+   YellowClothCost: 80
+   BlueClothCost: 90
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 2
+
+ - ID: Hat_ChefHat_Hat
+   RedClothCost: 100
+   YellowClothCost: 80
+   BlueClothCost: 90
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 2
+
+ - ID: Hat_Pan_Hat
+   RedClothCost: 0
+   YellowClothCost: 10
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 2
+
+ #######################################################
+ # MASKS
+ #######################################################
+
+ - ID: Mask_BeardOrange_Mask
+   RedClothCost: 50
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_Glasses3D_Mask
+   RedClothCost: 100
+   YellowClothCost: 300
+   BlueClothCost: 10
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_GlassesRound_Mask
+   RedClothCost: 100
+   YellowClothCost: 300
+   BlueClothCost: 10
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_GlassesStriped_Mask
+   RedClothCost: 400
+   YellowClothCost: 1250
+   BlueClothCost: 0
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_Bandit_Mask
+   RedClothCost: 320
+   YellowClothCost: 1000
+   BlueClothCost: 26
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_GlassesHeart_Mask
+   RedClothCost: 0
+   YellowClothCost: 2250
+   BlueClothCost: 59
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_Freckles_Mask
+   RedClothCost: 50
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_SpaceTrek_Mask
+   RedClothCost: 0
+   YellowClothCost: 1500
+   BlueClothCost: 39
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_Luchador_Mask
+   RedClothCost: 0
+   YellowClothCost: 1500
+   BlueClothCost: 39
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_Cyborg_Mask
+   RedClothCost: 480
+   YellowClothCost: 1500
+   BlueClothCost: 39
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_GuyFawkes_Mask
+   RedClothCost: 480
+   YellowClothCost: 1500
+   BlueClothCost: 39
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_Killer_Mask
+   RedClothCost: 80
+   YellowClothCost: 60
+   BlueClothCost: 40
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_DayOfTheDead_Mask
+   RedClothCost: 720
+   YellowClothCost: 2250
+   BlueClothCost: 59
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_Cthulu_Mask
+   RedClothCost: 720
+   YellowClothCost: 2250
+   BlueClothCost: 0
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_Masquerade_Mask
+   RedClothCost: 720
+   YellowClothCost: 2250
+   BlueClothCost: 59
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_RockerGlasses_Mask
+   RedClothCost: 60
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_VR_Mask
+   RedClothCost: 320
+   YellowClothCost: 1000
+   BlueClothCost: 26
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_BushyBeard_Mask
+   RedClothCost: 480
+   YellowClothCost: 1500
+   BlueClothCost: 0
+   StoreCategory: Masks
+   UnlockedByDefault: true
+
+ - ID: Mask_8BitGlasses_Mask
+   RedClothCost: 100
+   YellowClothCost: 80
+   BlueClothCost: 90
+   StoreCategory: Masks
+   UnlockedByDefault: true
+   BundleVersion: 2
+
+ - ID: Mask_GlassesDonut_Mask
+   RedClothCost: 80
+   YellowClothCost: 60
+   BlueClothCost: 40
+   StoreCategory: Masks
+   UnlockedByDefault: true
+   BundleVersion: 2
+
+ #######################################################
+ # TOPS
+ #######################################################
+
+ - ID: Punk Jacket
+   RedClothCost: 90
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Winter Sweater
+   RedClothCost: 90
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Black Sweater
+   RedClothCost: 30
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Sailor Shirt
+   RedClothCost: 240
+   YellowClothCost: 750
+   BlueClothCost: 20
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Super Bear
+   RedClothCost: 0
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Polo
+   RedClothCost: 90
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Top_CutOff_Top
+   RedClothCost: 240
+   YellowClothCost: 750
+   BlueClothCost: 0
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Top_LayeredTop_Top
+   RedClothCost: 60
+   YellowClothCost: 250
+   BlueClothCost: 0
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Hawaaian Shirt
+   RedClothCost: 480
+   YellowClothCost: 1500
+   BlueClothCost: 39
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Tunic
+   RedClothCost: 15
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Top_Cardboard_Top
+   RedClothCost: 60
+   YellowClothCost: 100
+   BlueClothCost: 0
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Top_Elizabethan_Top
+   RedClothCost: 960
+   YellowClothCost: 3000
+   BlueClothCost: 0
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Top_Sleeveless_Top
+   RedClothCost: 30
+   YellowClothCost: 100
+   BlueClothCost: 0
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: 80s
+   RedClothCost: 160
+   YellowClothCost: 0
+   BlueClothCost: 10
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Top_Seashells_Top
+   RedClothCost: 480
+   YellowClothCost: 0
+   BlueClothCost: 39
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Top_LayeredTopGreen_Top
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Top_LayeredTopOrange_Top
+   RedClothCost: 160
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Polo Striped
+   RedClothCost: 0
+   YellowClothCost: 1000
+   BlueClothCost: 26
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Red Sweater
+   RedClothCost: 240
+   YellowClothCost: 750
+   BlueClothCost: 20
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Office Shirt
+   RedClothCost: 90
+   YellowClothCost: 0
+   BlueClothCost: 10
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Shirt
+   RedClothCost: 60
+   YellowClothCost: 250
+   BlueClothCost: 0
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Blue Sweater
+   RedClothCost: 30
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Steampunk
+   RedClothCost: 480
+   YellowClothCost: 1500
+   BlueClothCost: 200
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Top_WonderBear_Top
+   RedClothCost: 0
+   YellowClothCost: 500
+   BlueClothCost: 10
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Top_Suspender_Top
+   RedClothCost: 0
+   YellowClothCost: 100
+   BlueClothCost: 0
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Monk
+   RedClothCost: 240
+   YellowClothCost: 750
+   BlueClothCost: 20
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Bad Jacket
+   RedClothCost: 1440
+   YellowClothCost: 4500
+   BlueClothCost: 100
+   StoreCategory: Tops
+   UnlockedByDefault: true
+
+ - ID: Vampire Cloak
+   RedClothCost: 100
+   YellowClothCost: 80
+   BlueClothCost: 90
+   StoreCategory: Tops
+   UnlockedByDefault: true
+   BundleVersion: 2
+
+# make sure post-release items have a version bump
+
+# v2 items:
+# - ID: New Outfit!
+#   RedClothCost: 1440
+#   StoreCategory: Tops
+#   UnlockedByDefault: true
+#   BundleVersion: 2

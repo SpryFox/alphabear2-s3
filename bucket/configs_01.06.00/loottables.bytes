@@ -1,0 +1,3032 @@
+##############################
+# general helper loot tables #
+##############################
+Nothing:
+  Item: berry
+  Count: 0
+
+#####################################
+# campaign event helper loot tables #
+#####################################
+StandardCampaignNoCoverCurrencyRewards:
+  All:
+  - Coins: 10
+  - Item: berry
+    Count: 20
+  - Honey: 10
+
+StandardCampaignCoverCurrencyRewards:
+  All:
+  - Coins: 20
+  - Item: berry
+    Count: 40
+  - Honey: 10
+
+StandardCampaignBigBearRewards:
+  Cond:
+  - Case: BigBear
+    Value:
+      Item: red_cloth
+      Count: 10
+
+StandardCampaignItemRewards:
+  Groups:
+  - Weight: 12
+    Item: common boost
+    Count: 1
+  - Weight: 5
+    Item: bear_wakeup
+    Count: 1
+  - Weight: 83        # Nothing
+    LootTable: Nothing
+
+StandardCampaignNoCoverRewards:
+  All:
+  - LootTable: StandardCampaignNoCoverCurrencyRewards
+  - LootTable: StandardCampaignBigBearRewards
+  - LootTable: StandardCampaignItemRewards
+
+StandardCampaignBossRewards:
+  All:
+  - Coins: 25
+  - Honey: 10
+  - Item: berry
+    Count: 100
+  - Item: blue_cloth
+    Count: 10
+  - LootTable: StandardCampaignBigBearRewards
+
+StandardCampaignReplayCurrencyRewards:
+  All:
+  - Item: berry
+    Count: 15
+  - Honey: 5
+
+StandardCampaignReplayBigBearRewards:
+  Cond:
+  - Case: BigBear
+    Value:
+      Item: yellow_cloth
+      Count: 20
+
+StandardCampaignReplayRewards:
+  All:
+  - LootTable: StandardCampaignReplayCurrencyRewards
+  - LootTable: StandardCampaignReplayBigBearRewards
+  - LootTable: StandardCampaignItemRewards
+
+HardDifficultyExtraRewards:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - Coins: 5
+      - Item: berry
+        Count: 20
+
+MasterDifficultyExtraRewards:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - Coins: 10
+      - Item: berry
+        Count: 40
+
+##############################
+# campaign event loot tables #
+##############################
+FirstChapterBeforeBoostsNoCoverBear:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignNoCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+  - Case: Else
+    Value:
+      All:
+      - LootTable: StandardCampaignReplayCurrencyRewards
+      - LootTable: StandardCampaignReplayBigBearRewards
+
+FirstChapterBeforeBoostsCoverBear:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 1
+  - Case: Else
+    Value:
+      All:
+      - LootTable: StandardCampaignReplayCurrencyRewards
+      - LootTable: StandardCampaignReplayBigBearRewards
+
+FirstEventWithBoostCoverBear:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 1
+      - Item: common boost
+        Count: 1
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+BeginningCampaignEasyNoCoffeeNoCoverBear:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignNoCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Groups:
+        - Weight: 12
+          Item: common boost
+          Count: 1
+        - Weight: 88        # Nothing
+          LootTable: Nothing
+  - Case: Else
+    Value:
+      All:
+      - LootTable: StandardCampaignReplayCurrencyRewards
+      - LootTable: StandardCampaignReplayBigBearRewards
+      - Groups:
+        - Weight: 12
+          Item: common boost
+          Count: 1
+        - Weight: 88        # Nothing
+          LootTable: Nothing
+
+BeginningCampaignEasyNoCoffeeCoverBear:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 1
+  - Case: Else
+    Value:
+      All:
+      - LootTable: StandardCampaignReplayCurrencyRewards
+      - LootTable: StandardCampaignReplayBigBearRewards
+      - Groups:
+        - Weight: 12
+          Item: common boost
+          Count: 1
+        - Weight: 88        # Nothing
+          LootTable: Nothing
+
+CampaignEasyNoCoverBear:
+  Cond:
+  - Case: First
+    Value:
+      LootTable: StandardCampaignNoCoverRewards
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyCoverBear:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 1
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyCoverBear2Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 2
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyCoverBear3Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 3
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyCoverBear5Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 5
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyCoverBear7Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 7
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyCoverBear9Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 9
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyCoverBear12Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 12
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyCoverBear15Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 15
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyCoverBear20Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignCoverCurrencyRewards
+      - LootTable: StandardCampaignBigBearRewards
+      - Bear: CoverStar
+        Level: 20
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyBoss:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignBossRewards
+      - Bear: CoverStar
+        Level: 1
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyBoss2Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignBossRewards
+      - Bear: CoverStar
+        Level: 2
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyBoss3Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignBossRewards
+      - Bear: CoverStar
+        Level: 3
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyBoss5Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignBossRewards
+      - Bear: CoverStar
+        Level: 5
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+CampaignEasyBoss7Lvl:
+  Cond:
+  - Case: First
+    Value:
+      All:
+      - LootTable: StandardCampaignBossRewards
+      - Bear: CoverStar
+        Level: 7
+  - Case: Else
+    Value:
+      LootTable: StandardCampaignReplayRewards
+
+# hard difficulty campaign
+
+CampaignHardNoCoverBear:
+  All:
+  - LootTable: CampaignEasyNoCoverBear
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardCoverBear:
+  All:
+  - LootTable: CampaignEasyCoverBear
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardCoverBear2Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear2Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardCoverBear3Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear3Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardCoverBear5Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear5Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardCoverBear7Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear7Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardCoverBear9Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear9Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardCoverBear12Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear12Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardCoverBear15Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear15Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardCoverBear20Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear20Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardBoss:
+  All:
+  - LootTable: CampaignEasyBoss
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardBoss2Lvl:
+  All:
+  - LootTable: CampaignEasyBoss2Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardBoss3Lvl:
+  All:
+  - LootTable: CampaignEasyBoss3Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardBoss5Lvl:
+  All:
+  - LootTable: CampaignEasyBoss5Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+CampaignHardBoss7Lvl:
+  All:
+  - LootTable: CampaignEasyBoss7Lvl
+  - LootTable: HardDifficultyExtraRewards
+
+# master difficulty campaign
+
+CampaignMasterNoCoverBear:
+  All:
+  - LootTable: CampaignEasyNoCoverBear
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterCoverBear:
+  All:
+  - LootTable: CampaignEasyCoverBear
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterCoverBear2Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear2Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterCoverBear3Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear3Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterCoverBear5Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear5Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterCoverBear7Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear7Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterCoverBear9Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear9Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterCoverBear12Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear12Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterCoverBear15Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear15Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterCoverBear20Lvl:
+  All:
+  - LootTable: CampaignEasyCoverBear20Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterBoss:
+  All:
+  - LootTable: CampaignEasyBoss
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterBoss2Lvl:
+  All:
+  - LootTable: CampaignEasyBoss2Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterBoss3Lvl:
+  All:
+  - LootTable: CampaignEasyBoss3Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterBoss5Lvl:
+  All:
+  - LootTable: CampaignEasyBoss5Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+CampaignMasterBoss7Lvl:
+  All:
+  - LootTable: CampaignEasyBoss7Lvl
+  - LootTable: MasterDifficultyExtraRewards
+
+########################
+# timewarp loot tables #
+########################
+
+TimeWarpFree:
+  All:
+  - Groups:
+    - Weight: 60
+      Cond:
+      - Case: OneAdWatched
+        Value:
+          ProgressionGroups:
+          - MinTier: 0         # ch 1 - 3
+            Value:
+              Groups:
+              - Weight: 78
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 20.9
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 1.1
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 3         # ch 4 - 5
+            Value:
+              Groups:
+              - Weight: 71.4
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 26.4
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 2.2
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 5         # ch 6 - 7
+            Value:
+              Groups:
+              - Weight: 64.8
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 28.6
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 6.6
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 7         # ch 8 and above
+            Value:
+              Groups:
+              - Weight: 56
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 33
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 11
+                Bear: Any Owned Epic
+                Level: 2
+      - Case: TwoAdsWatched
+        Value:
+          ProgressionGroups:
+          - MinTier: 0         # ch 1 - 3
+            Value:
+              Groups:
+              - Weight: 76
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 22.8
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 1.2
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 3         # ch 4 - 5
+            Value:
+              Groups:
+              - Weight: 68.8
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 28.8
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 2.4
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 5         # ch 6 - 7
+            Value:
+              Groups:
+              - Weight: 61.6
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 31.2
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 7.2
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 7         # ch 8 and above
+            Value:
+              Groups:
+              - Weight: 52
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 36
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 12
+                Bear: Any Owned Epic
+                Level: 2
+      - Case: ThreeAdsWatched
+        Value:
+          ProgressionGroups:
+          - MinTier: 0         # ch 1 - 3
+            Value:
+              Groups:
+              - Weight: 74
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 24.7
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 1.3
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 3         # ch 4 - 5
+            Value:
+              Groups:
+              - Weight: 66.2
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 31.2
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 2.6
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 5         # ch 6 - 7
+            Value:
+              Groups:
+              - Weight: 58.4
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 33.8
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 7.8
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 7         # ch 8 and above
+            Value:
+              Groups:
+              - Weight: 48
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 39
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 13
+                Bear: Any Owned Epic
+                Level: 2
+      - Case: Else   # no ads watched
+        Value:
+          ProgressionGroups:
+          - MinTier: 0         # ch 1 - 3
+            Value:
+              Groups:
+              - Weight: 80
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 19
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 1
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 3         # ch 4 - 5
+            Value:
+              Groups:
+              - Weight: 74
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 24
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 2
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 5         # ch 6 - 7
+            Value:
+              Groups:
+              - Weight: 68
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 26
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 6
+                Bear: Any Owned Epic
+                Level: 2
+          - MinTier: 7         # ch 8 and above
+            Value:
+              Groups:
+              - Weight: 60
+                Bear: Any Owned Common
+                Level: 1
+              - Weight: 30
+                Bear: Any Owned Rare
+                Level: 2
+              - Weight: 10
+                Bear: Any Owned Epic
+                Level: 2
+    - Weight: 40
+      All:
+      - Bear: Any Owned Common
+        Level: 1
+      - Item: berry
+        Count: 20
+  - Groups:
+    - Weight: 40
+      Item: berry
+      Count: 20
+    - Weight: 34
+      Item: bear_wakeup
+      Count: 1
+    - Weight: 12
+      Item: common boost
+      Count: 1
+    - Weight: 1
+      Item: rare boost
+      Count: 1
+    - Weight: 13
+      Item: berry
+      Count: 10
+  - Groups:
+    - Weight: 20
+      Item: yellow_cloth
+      Count: 25
+    - Weight: 80
+      Item: yellow_cloth
+      Count: 20
+
+# we want first pull to feel good, so force it to be an unowned bear
+TimeWarpWeak:
+  Cond:
+  - Case: FirstNPulls
+    NumPulls: 1
+    Value:
+      All:
+      - Bear: Any UnownedTimeWarp Common
+        MeanLevelMultiplier: 0.75
+        IfUnownedBear:
+          All:
+          - Item: common boost
+            Count: 1
+          - Item: red_cloth
+            Count: 15
+  - Case: Else
+    Value:
+      Cond:
+      - Case: OneAdWatched
+        Value:
+          All:
+          - Groups:
+            - Weight: 1
+              Item: rare boost
+              Count: 1
+            - Weight: 40
+              Item: common boost
+              Count: 1
+            - Weight: 59
+              Item: bear_wakeup
+              Count: 1
+          - Item: red_cloth
+            Count: 15
+          - ProgressionGroups:
+            - MinTier: 0       # ch 1 - 3
+              Value:
+                Groups:
+                - Weight: 67
+                  Groups:
+                  - Weight: 52.5
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 17.5
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 33 #chance of rare+ increase from 30
+                  Groups:
+                  - Weight: 21.5625
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.1875
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 0.75
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 0.25
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 0.1875
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.0625
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 3       # ch 4 - 5
+              Value:
+                Groups:
+                - Weight: 58.75 #chance of common decrease from 62.5
+                  Groups:
+                  - Weight: 46.9
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 15.6
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 41.25 #chance of rare+ increase from 37.5
+                  Groups:
+                  - Weight: 23.4375
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.8125
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 4.125
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 1.375
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 0.5625
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.1875
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 5       # ch 6 - 7
+              Value:
+                Groups:
+                - Weight: 50.5 #chance of common decrease from 55
+                  Groups:
+                  - Weight: 41.25
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 13.75
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 49.5 #chance of rare+ increase from 45
+                  Groups:
+                  - Weight: 22.5
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.5
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 9.75
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 3.25
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 1.5
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.5
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 7       # ch 8 and above
+              Value:
+                Groups:
+                - Weight: 38.4 #chance of common decrease from 44
+                  Groups:
+                  - Weight: 32.25
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 11.75
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 61.6 #chance of rare+ increase from 56
+                  Groups:
+                  - Weight: 26.25
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 8.75
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 11.25
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 3.75
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 2.25
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.75
+                    Bear: Any Owned Legendary
+                    Level: 4
+      - Case: TwoAdsWatched
+        Value:
+          All:
+          - Groups:
+            - Weight: 1
+              Item: rare boost
+              Count: 1
+            - Weight: 40
+              Item: common boost
+              Count: 1
+            - Weight: 59
+              Item: bear_wakeup
+              Count: 1
+          - Item: red_cloth
+            Count: 15
+          - ProgressionGroups:
+            - MinTier: 0       # ch 1 - 3
+              Value:
+                Groups:
+                - Weight: 64 #chance of common decrease from 70
+                  Groups:
+                  - Weight: 52.5
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 17.5
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 36 #chance of rare+ increase from 30
+                  Groups:
+                  - Weight: 21.5625
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.1875
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 0.75
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 0.25
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 0.1875
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.0625
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 3       # ch 4 - 5
+              Value:
+                Groups:
+                - Weight: 55 #chance of common decrease from 62.5
+                  Groups:
+                  - Weight: 46.9
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 15.6
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 45 #chance of rare+ increase from 37.5
+                  Groups:
+                  - Weight: 23.4375
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.8125
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 4.125
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 1.375
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 0.5625
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.1875
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 5       # ch 6 - 7
+              Value:
+                Groups:
+                - Weight: 46 #chance of common decrease from 55
+                  Groups:
+                  - Weight: 41.25
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 13.75
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 54 #chance of rare+ increase from 45
+                  Groups:
+                  - Weight: 22.5
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.5
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 9.75
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 3.25
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 1.5
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.5
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 7       # ch 8 and above
+              Value:
+                Groups:
+                - Weight: 32.8 #chance of common decrease from 44
+                  Groups:
+                  - Weight: 32.25
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 11.75
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 67.2 #chance of rare+ increase from 56
+                  Groups:
+                  - Weight: 26.25
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 8.75
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 11.25
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 3.75
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 2.25
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.75
+                    Bear: Any Owned Legendary
+                    Level: 4
+      - Case: ThreeAdsWatched
+        Value:
+          All:
+          - Groups:
+            - Weight: 1
+              Item: rare boost
+              Count: 1
+            - Weight: 40
+              Item: common boost
+              Count: 1
+            - Weight: 59
+              Item: bear_wakeup
+              Count: 1
+          - Item: red_cloth
+            Count: 15
+          - ProgressionGroups:
+            - MinTier: 0       # ch 1 - 3
+              Value:
+                Groups:
+                - Weight: 61 #chance of common decrease from 70
+                  Groups:
+                  - Weight: 52.5
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 17.5
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 39 #chance of rare+ increase from 30
+                  Groups:
+                  - Weight: 21.5625
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.1875
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 0.75
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 0.25
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 0.1875
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.0625
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 3       # ch 4 - 5
+              Value:
+                Groups:
+                - Weight: 51.25 #chance of common decrease from 62.5
+                  Groups:
+                  - Weight: 46.9
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 15.6
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 48.75 #chance of rare+ increase from 37.5
+                  Groups:
+                  - Weight: 23.4375
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.8125
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 4.125
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 1.375
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 0.5625
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.1875
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 5       # ch 6 - 7
+              Value:
+                Groups:
+                - Weight: 41.5 #chance of common decrease from 55
+                  Groups:
+                  - Weight: 41.25
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 13.75
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 58.5 #chance of rare+ increase from 45
+                  Groups:
+                  - Weight: 22.5
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.5
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 9.75
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 3.25
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 1.5
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.5
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 7       # ch 8 and above
+              Value:
+                Groups:
+                - Weight: 27.2 #chance of common decrease from 44
+                  Groups:
+                  - Weight: 32.25
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 11.75
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 72.8 #chance of rare+ increase from 56
+                  Groups:
+                  - Weight: 26.25
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 8.75
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 11.25
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 3.75
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 2.25
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.75
+                    Bear: Any Owned Legendary
+                    Level: 4
+      - Case: Else # no ads watched
+        Value:
+          All:
+          - Groups:
+            - Weight: 1
+              Item: rare boost
+              Count: 1
+            - Weight: 40
+              Item: common boost
+              Count: 1
+            - Weight: 59
+              Item: bear_wakeup
+              Count: 1
+          - Item: red_cloth
+            Count: 15
+          - ProgressionGroups:
+            - MinTier: 0       # ch 1 - 3
+              Value:
+                Groups:
+                - Weight: 70 #chance of common no change from 70
+                  Groups:
+                  - Weight: 52.5
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 17.5
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 30 #chance of rare+ no change from 30
+                  Groups:
+                  - Weight: 21.5625
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.1875
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 0.75
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 0.25
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 0.1875
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.0625
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 3       # ch 4 - 5
+              Value:
+                Groups:
+                - Weight: 62.5 #chance of common no change from 62.5
+                  Groups:
+                  - Weight: 46.9
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 15.6
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 37.5 #chance of rare+ no change from 37.5
+                  Groups:
+                  - Weight: 23.4375
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.8125
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 4.125
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 1.375
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 0.5625
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.1875
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 5       # ch 6 - 7
+              Value:
+                Groups:
+                - Weight: 55 #chance of common no change from 55
+                  Groups:
+                  - Weight: 41.25
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 13.75
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 45 #chance of rare+ no change from 45
+                  Groups:
+                  - Weight: 22.5
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 7.5
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 9.75
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 3.25
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 1.5
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.5
+                    Bear: Any Owned Legendary
+                    Level: 4
+            - MinTier: 7       # ch 8 and above
+              Value:
+                Groups:
+                - Weight: 44 #chance of common no change from 44
+                  Groups:
+                  - Weight: 32.25
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 2
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          Item: common boost
+                          Count: 1
+                        - Weight: 25
+                          LootTable: Nothing
+                      - Item: red_cloth
+                        Count: 10
+                      - Groups:
+                        - Weight: 55
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 45
+                          LootTable: Nothing
+                  - Weight: 11.75
+                    Bear: Any TimeWarpOrOwned Common
+                    LevelIfOwned: 4
+                    MeanLevelMultiplier: 0.75        # if unowned
+                    IfOwnedBear:
+                      All:
+                      - Groups:
+                        - Weight: 75
+                          LootTable: Nothing
+                        - Weight: 25
+                          Item: common boost
+                          Count: 1
+                      - Item: red_cloth
+                        Count: 5
+                      - Groups:
+                        - Weight: 35
+                          Item: bear_wakeup
+                          Count: 1
+                        - Weight: 65
+                          LootTable: Nothing
+                - Weight: 56 #chance of rare+ no change from 56
+                  Groups:
+                  - Weight: 26.25
+                    Bear: Any Owned Rare
+                    Level: 2
+                  - Weight: 8.75
+                    Bear: Any Owned Rare
+                    Level: 4
+                  - Weight: 11.25
+                    Bear: Any Owned Epic
+                    Level: 2
+                  - Weight: 3.75
+                    Bear: Any Owned Epic
+                    Level: 4
+                  - Weight: 2.25
+                    Bear: Any Owned Legendary
+                    Level: 2
+                  - Weight: 0.75
+                    Bear: Any Owned Legendary
+                    Level: 4
+
+TimeWarpStrong:
+  Cond:
+  - Case: FirstNPulls
+    NumPulls: 1
+    Value:
+      All:
+      - Item: blue_cloth
+        Count: 5
+      - Bear: Any Timewarp Rare
+        MeanLevelMultiplier: 0.55
+  - Case: OneAdWatched
+    Value:
+      All:
+      - Item: blue_cloth
+        Count: 5
+      - ID: TimeWarpStrong
+        PSRGroups:
+        - Starting: 88
+          IncrementExponent: 0
+          Baseline: 88
+          Value:
+            Bear: Any TimeWarpOrOwned Rare
+            MeanLevelMultiplier: 0.55
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 125
+              - Groups:
+                - Weight: 30
+                  Item: blue_cloth
+                  Count: 15
+                - Weight: 70
+                  Item: blue_cloth
+                  Count: 10
+        - Starting: 15
+          IncrementExponent: 5.7
+          Baseline: 5.7
+          Value:
+            Bear: Any TimeWarpOrOwned Epic
+            MeanLevelMultiplier: 0.4
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 75
+              - Groups:
+                - Weight: 10
+                  Item: blue_cloth
+                  Count: 10
+                - Weight: 90
+                  Item: blue_cloth
+                  Count: 5
+        - Starting: 2.2
+          IncrementExponent: 1.75
+          Baseline: 0.5
+          Value:
+            Bear: Any TimeWarpOrOwned Legendary
+            MeanLevelMultiplier: 0.3
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 50
+              - Groups:
+                - Weight: 5
+                  Item: blue_cloth
+                  Count: 10
+                - Weight: 95
+                  Item: blue_cloth
+                  Count: 5
+  - Case: TwoAdsWatched
+    Value:
+      All:
+      - Item: blue_cloth
+        Count: 5
+      - ID: TimeWarpStrong
+        PSRGroups:
+        - Starting: 88
+          IncrementExponent: 0
+          Baseline: 88
+          Value:
+            Bear: Any TimeWarpOrOwned Rare
+            MeanLevelMultiplier: 0.55
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 125
+              - Groups:
+                - Weight: 30
+                  Item: blue_cloth
+                  Count: 15
+                - Weight: 70
+                  Item: blue_cloth
+                  Count: 10
+        - Starting: 18
+          IncrementExponent: 6.08
+          Baseline: 5.7
+          Value:
+            Bear: Any TimeWarpOrOwned Epic
+            MeanLevelMultiplier: 0.4
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 75
+              - Groups:
+                - Weight: 10
+                  Item: blue_cloth
+                  Count: 10
+                - Weight: 90
+                  Item: blue_cloth
+                  Count: 5
+        - Starting: 2.5
+          IncrementExponent: 1.9
+          Baseline: 0.5
+          Value:
+            Bear: Any TimeWarpOrOwned Legendary
+            MeanLevelMultiplier: 0.3
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 50
+              - Groups:
+                - Weight: 5
+                  Item: blue_cloth
+                  Count: 10
+                - Weight: 95
+                  Item: blue_cloth
+                  Count: 5
+  - Case: ThreeAdsWatched
+    Value:
+      All:
+      - Item: blue_cloth
+        Count: 5
+      - ID: TimeWarpStrong
+        PSRGroups:
+        - Starting: 88
+          IncrementExponent: 0
+          Baseline: 88
+          Value:
+            Bear: Any TimeWarpOrOwned Rare
+            MeanLevelMultiplier: 0.55
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 125
+              - Groups:
+                - Weight: 30
+                  Item: blue_cloth
+                  Count: 15
+                - Weight: 70
+                  Item: blue_cloth
+                  Count: 10
+        - Starting: 20
+          IncrementExponent: 6.2
+          Baseline: 7
+          Value:
+            Bear: Any TimeWarpOrOwned Epic
+            MeanLevelMultiplier: 0.4
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 75
+              - Groups:
+                - Weight: 10
+                  Item: blue_cloth
+                  Count: 10
+                - Weight: 90
+                  Item: blue_cloth
+                  Count: 5
+        - Starting: 2.8
+          IncrementExponent: 2
+          Baseline: 0.5
+          Value:
+            Bear: Any TimeWarpOrOwned Legendary
+            MeanLevelMultiplier: 0.3
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 50
+              - Groups:
+                - Weight: 5
+                  Item: blue_cloth
+                  Count: 10
+                - Weight: 95
+                  Item: blue_cloth
+                  Count: 5
+  - Case: Else
+    Value:
+      All:
+      - Item: blue_cloth
+        Count: 5
+      - ID: TimeWarpStrong
+        PSRGroups:
+        - Starting: 88
+          IncrementExponent: 0
+          Baseline: 88
+          Value:
+            Bear: Any TimeWarpOrOwned Rare
+            MeanLevelMultiplier: 0.55
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 125
+              - Groups:
+                - Weight: 30
+                  Item: blue_cloth
+                  Count: 15
+                - Weight: 70
+                  Item: blue_cloth
+                  Count: 10
+        - Starting: 11
+          IncrementExponent: 5.3
+          Baseline: 5.7
+          Value:
+            Bear: Any TimeWarpOrOwned Epic
+            MeanLevelMultiplier: 0.4
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 75
+              - Groups:
+                - Weight: 10
+                  Item: blue_cloth
+                  Count: 10
+                - Weight: 90
+                  Item: blue_cloth
+                  Count: 5
+        - Starting: 2
+          IncrementExponent: 1.65
+          Baseline: 0.5
+          Value:
+            Bear: Any TimeWarpOrOwned Legendary
+            MeanLevelMultiplier: 0.3
+            LevelIfOwned: 10
+            IfOwnedBear:
+              All:
+              - Item: bear_wakeup
+                Counts: [0, 1]
+              - Item: rare boost
+                Count: 1
+              - Item: berry
+                Count: 50
+              - Groups:
+                - Weight: 5
+                  Item: blue_cloth
+                  Count: 10
+                - Weight: 95
+                  Item: blue_cloth
+                  Count: 5
+
+######################
+# school loot tables #
+######################
+
+School:
+  All:
+  - Groups:
+    - Weight: 70
+      Bear: CoverStar
+      Level: 1
+    - Weight: 20
+      Bear: CoverStar
+      Level: 2
+    - Weight: 10
+      Bear: CoverStar
+      Level: 3
+  - Groups:
+    - Weight: 60
+      Item: berry
+      Count: 10
+    - Weight: 30
+      Item: berry
+      Count: 15
+    - Weight: 10
+      Item: berry
+      Count: 25
+  - Cond:
+    - Case: BigBear
+      Value:
+        Item: yellow_cloth
+        Count: 5
+
+# note: giving away anything besides a bear here will cause errors
+# due to some hardcoded sequencing
+SchoolAutoPlay:
+  Groups:
+  - Weight: 70
+    Bear: CoverStar
+    Level: 1
+  - Weight: 20
+    Bear: CoverStar
+    Level: 2
+  - Weight: 10
+    Bear: CoverStar
+    Level: 3
+
+##################################
+# daily event helper loot tables #
+##################################
+StandardDailyEventRewards:
+  All:
+  - Groups:
+    - Weight: 60
+      Item: berry
+      Count: 15
+    - Weight: 35
+      Item: berry
+      Count: 20
+    - Weight: 5
+      Item: berry
+      Count: 25
+  - Cond:
+    - Case: BigBear
+      Value:
+        Groups:
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 10
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 15
+
+###########################
+# daily event loot tables #
+###########################
+DailyEventGuaranteedCoins:
+  All:
+  - Item: berry
+    Count: 10
+  - Coins: 15
+  - Cond:
+    - Case: BigBear
+      Value:
+        Item: yellow_cloth
+        Count: 10
+
+DailyEventGuaranteedCoffee:
+  All:
+  - Item: berry
+    Count: 10
+  - Item: bear_wakeup
+    Count: 1
+  - Cond:
+    - Case: BigBear
+      Value:
+        Item: yellow_cloth
+        Count: 10
+
+DailyEventMoreCoins:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 42
+      Coins: 20
+    - Weight: 42
+      Coins: 25
+    - Weight: 16
+      Coins: 30
+
+DailyEventChanceCoffee:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 5
+      Item: bear_wakeup
+      Count: 2
+    - Weight: 45
+      Item: bear_wakeup
+      Count: 1
+    - Weight: 50
+      Item: red_cloth
+      Count: 5
+
+DailyEventChanceRedCloth:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 50
+      Item: red_cloth
+      Count: 10
+    - Weight: 50
+      LootTable: Nothing
+  - Groups:
+    - Weight: 10
+      Item: red_cloth
+      Count: 5
+    - Weight: 90
+      LootTable: Nothing
+
+DailyEventChanceBlueCloth:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 90
+      Item: blue_cloth
+      Count: 1
+    - Weight: 10
+      Item: blue_cloth
+      Count: 2
+
+DailyEventChanceYellowCloth:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 50
+      Item: yellow_cloth
+      Count: 15
+    - Weight: 50
+      LootTable: Nothing
+  - Groups:
+    - Weight: 10
+      Item: yellow_cloth
+      Count: 10
+    - Weight: 90
+      LootTable: Nothing
+
+DailyEventChanceBerry:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 50
+      Item: berry
+      Count: 50
+    - Weight: 50
+      LootTable: Nothing
+  - Groups:
+    - Weight: 10
+      Item: berry
+      Count: 25
+    - Weight: 90
+      LootTable: Nothing
+
+DailyEventChanceBoost:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 50
+      Item: common boost
+      Count: 1
+    - Weight: 50
+      LootTable: Nothing
+  - Groups:
+    - Weight: 4
+      Item: rare boost
+      Count: 1
+    - Weight: 96
+      LootTable: Nothing
+
+DailyEventMerryLevel:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 58
+      Bear: Any OwnedMerry Common
+      Level: 2
+    - Weight: 10
+      Bear: Any OwnedMerry Common
+      Level: 4
+    - Weight: 28
+      Bear: Any OwnedMerry Rare
+      Level: 2
+    - Weight: 2
+      Bear: Any OwnedMerry Rare
+      Level: 4
+    - Weight: 2
+      Bear: Any OwnedMerry Epic
+      Level: 2
+
+DailyEventScaryLevel:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 58
+      Bear: Any OwnedScary Common
+      Level: 2
+    - Weight: 10
+      Bear: Any OwnedScary Common
+      Level: 4
+    - Weight: 28
+      Bear: Any OwnedScary Rare
+      Level: 2
+    - Weight: 2
+      Bear: Any OwnedScary Rare
+      Level: 4
+    - Weight: 2
+      Bear: Any OwnedScary Epic
+      Level: 2
+
+DailyEventCalmLevel:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 58
+      Bear: Any OwnedCalm Common
+      Level: 2
+    - Weight: 10
+      Bear: Any OwnedCalm Common
+      Level: 4
+    - Weight: 28
+      Bear: Any OwnedCalm Rare
+      Level: 2
+    - Weight: 2
+      Bear: Any OwnedCalm Rare
+      Level: 4
+    - Weight: 2
+      Bear: Any OwnedCalm Epic
+      Level: 2
+
+DailyEventCautiousLevel:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 58
+      Bear: Any OwnedCautious Common
+      Level: 2
+    - Weight: 10
+      Bear: Any OwnedCautious Common
+      Level: 4
+    - Weight: 28
+      Bear: Any OwnedCautious Rare
+      Level: 2
+    - Weight: 2
+      Bear: Any OwnedCautious Rare
+      Level: 4
+    - Weight: 2
+      Bear: Any OwnedCautious Epic
+      Level: 2
+
+DailyEventBraveLevel:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 58
+      Bear: Any OwnedBrave Common
+      Level: 2
+    - Weight: 10
+      Bear: Any OwnedBrave Common
+      Level: 4
+    - Weight: 28
+      Bear: Any OwnedBrave Rare
+      Level: 2
+    - Weight: 2
+      Bear: Any OwnedBrave Rare
+      Level: 4
+    - Weight: 2
+      Bear: Any OwnedBrave Epic
+      Level: 2
+
+DailyEventGlitchClock:
+  All:
+  - Item: berry
+    Count: 5
+  - Groups:
+    - Weight: 50
+      Item: yellow_cloth
+      Count: 5
+    - Weight: 50
+      LootTable: Nothing
+
+DailyEventEpicHelper:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 40
+      Bear: Any Tag:Retro,Smart,Celebrity,Savory,Animal Owned Common
+      Level: 1
+    - Weight: 50
+      Bear: Any Tag:Retro,Smart,Celebrity,Savory,Animal Owned Common
+      Level: 2
+    - Weight: 10
+      Bear: Any Tag:Retro,Smart,Celebrity,Savory,Animal Owned Common
+      Level: 3
+
+DailyEventLegendaryHelper:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Groups:
+    - Weight: 40
+      Bear: Any Tag:Monster,Huge,Childhood,Nighttime,Drink Owned Rare
+      Level: 1
+    - Weight: 50
+      Bear: Any Tag:Monster,Huge,Childhood,Nighttime,Drink Owned Rare
+      Level: 2
+    - Weight: 10
+      Bear: Any Tag:Monster,Huge,Childhood,Nighttime,Drink Owned Rare
+      Level: 3
+
+#############################
+# special event loot tables #
+#############################
+
+# helper loot tables
+SpecialEventWeakReward:
+  All:
+  - Coins: 5
+  - Item: berry
+    Count: 10
+  - Item: blue_cloth
+    Count: 5
+  - Honey: 25
+  - Cond:
+    - Case: BigBear
+      Value:
+        Groups:
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 10
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 15
+
+SpecialEventNormalReward:
+  All:
+  - Coins: 25
+  - Item: berry
+    Count: 50
+  - Item: blue_cloth
+    Count: 5
+  - Honey: 50
+  - Cond:
+    - Case: BigBear
+      Value:
+        Groups:
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 10
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 15
+
+# replayable events
+
+HoneyPotReward:
+  All:
+  - Coins: 20
+  - Honey: 75
+  - Groups:
+    - Weight: 95
+      Item: common boost
+      Count: 1
+    - Weight: 5
+      Item: rare boost
+      Count: 1
+  - Cond:
+    - Case: BigBear
+      Value:
+        Groups:
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 10
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 15
+
+SweetBearistaReward:
+  All:
+  - Honey: 50
+  - Item: bear_wakeup
+    Count: 1
+  - Cond:
+    - Case: BigBear
+      Value:
+        Groups:
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 10
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 15
+
+HoneyDressingsReward:
+  All:
+  - Honey: 50
+  - Groups:
+    - Weight: 70
+      Item: yellow_cloth
+      Count: 5
+    - Weight: 30
+      Item: yellow_cloth
+      Count: 10
+  - Groups:
+    - Weight: 70
+      Item: blue_cloth
+      Count: 3
+    - Weight: 30
+      Item: blue_cloth
+      Count: 5
+  - Cond:
+    - Case: BigBear
+      Value:
+        Groups:
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 10
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 15
+
+HalloweenSpecialReward:
+  All:
+  - Groups:
+    - Weight: 60
+      Item: common boost
+      Count: 2
+    - Weight: 40
+      Item: common boost
+      Count: 1
+  - Groups:
+    - Weight: 25
+      Item: rare boost
+      Count: 1
+    - Weight: 75
+      LootTable: Nothing
+  - Honey: 25
+  - Cond:
+    - Case: BigBear
+      Value:
+        Groups:
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 10
+        - Weight: 50
+          Item: yellow_cloth
+          Count: 15
+
+# special events tier 1
+EpicDonutBearTier1Reward:
+  All:
+  - LootTable: SpecialEventWeakReward
+  - Bear: Any Tag:Savory UnownedTimeWarp Common
+    Level: 1
+
+EpicBearilynTier1Reward:
+  All:
+  - LootTable: SpecialEventWeakReward
+  - Bear: Any Tag:Celebrity UnownedTimeWarp Common
+    Level: 1
+
+EpicGingerBearTier1Reward:
+  All:
+  - LootTable: SpecialEventWeakReward
+  - Bear: Any Tag:Smart UnownedTimeWarp Common
+    Level: 1
+
+EpicSlasherBearTier1Reward:
+  All:
+  - LootTable: SpecialEventWeakReward
+  - Bear: Any Tag:Retro UnownedTimeWarp Common
+    Level: 1
+
+EpicBaconBearTier1Reward:
+  All:
+  - LootTable: SpecialEventWeakReward
+  - Bear: Any Tag:Animal UnownedTimeWarp Common
+    Level: 1
+
+LegendaryCremeBearleeTier1Reward:
+  All:
+  - LootTable: SpecialEventNormalReward
+  - Bear: Any Tag:Drink UnownedTimeWarp Rare
+    Level: 1
+
+LegendaryVampireBearTier1Reward:
+  All:
+  - LootTable: SpecialEventNormalReward
+  - Bear: Any Tag:Monster UnownedTimeWarp Rare
+    Level: 1
+
+LegendaryMoonBearTier1Reward:
+  All:
+  - LootTable: SpecialEventNormalReward
+  - Bear: Any Tag:Huge UnownedTimeWarp Rare
+    Level: 1
+
+LegendaryBearvisTier1Reward:
+  All:
+  - LootTable: SpecialEventNormalReward
+  - Bear: Any Tag:Nighttime UnownedTimeWarp Rare
+    Level: 1
+
+Legendary8BitBearTier1Reward:
+  All:
+  - LootTable: SpecialEventNormalReward
+  - Bear: Any Tag:Childhood UnownedTimeWarp Rare
+    Level: 1
+
+# special events final tier
+
+DonutBearReward:
+  All:
+  - Bear: Donut Bear
+    Level: 1
+  - Honey: 100
+
+BearilynReward:
+  All:
+  - Bear: Bearilyn
+    Level: 1
+  - Honey: 100
+
+GingerBearReward:
+  All:
+  - Bear: Ginger Bear
+    Level: 1
+  - Honey: 100
+
+SlasherBearReward:
+  All:
+  - Bear: Slasher Bear
+    Level: 1
+  - Honey: 100
+
+BaconBearReward:
+  All:
+  - Bear: Bacon Bear
+    Level: 1
+  - Honey: 100
+
+CremeBearleeReward:
+  All:
+  - Bear: Creme Bearlee
+    Level: 1
+  - Honey: 100
+
+VampireBearReward:
+  All:
+  - Bear: Vampire Bear
+    Level: 1
+  - Honey: 100
+
+MoonBearReward:
+  All:
+  - Bear: Moon Bear
+    Level: 1
+  - Honey: 100
+
+BearvisReward:
+  All:
+  - Bear: Bearvis
+    Level: 1
+  - Honey: 100
+
+8BitReward:
+  All:
+  - Bear: 8 Bit Bear
+    Level: 1
+  - Honey: 100
+
+# fodder special events
+EpicSavoryFodderReward:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Bear: Any Tag:Savory Owned Common
+    Level: 1
+
+LegendaryDrinkFodderReward:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Bear: Any Tag:Drink Owned Rare
+    Level: 1
+
+EpicCelebrityFodderReward:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Bear: Any Tag:Celebrity Owned Common
+    Level: 1
+
+LegendaryNighttimeFodderReward:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Bear: Any Tag:Nighttime Owned Rare
+    Level: 1
+
+EpicSmartFodderReward:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Bear: Any Tag:Smart Owned Common
+    Level: 1
+
+LegendaryChildhoodFodderReward:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Bear: Any Tag:Childhood Owned Rare
+    Level: 1
+
+EpicRetroFodderReward:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Bear: Any Tag:Retro Owned Common
+    Level: 1
+
+LegendaryMonsterFodderReward:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Bear: Any Tag:Monster Owned Rare
+    Level: 1
+
+EpicAnimalFodderReward:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Bear: Any Tag:Animal Owned Common
+    Level: 1
+
+LegendaryHugeFodderReward:
+  All:
+  - LootTable: StandardDailyEventRewards
+  - Bear: Any Tag:Huge Owned Rare
+    Level: 1
+
+# bundles
+EpicSpecialBundleClothReward:
+  All:
+  - Item: blue_cloth
+    Count: 15
+  - Item: yellow_cloth
+    Count: 120
+  - Item: red_cloth
+    Count: 100
+
+LegendarySpecialBundleClothReward:
+  All:
+  - Item: blue_cloth
+    Count: 30
+  - Item: yellow_cloth
+    Count: 250
+  - Item: red_cloth
+    Count: 200
+
+
+###########################
+# Booby Prize Loot Tables #
+###########################
+
+DailyAndSchoolsBoobyPrize:
+  Honey: 15
+
+CampaignBoobyPrize:
+  All:
+    - Item: berry
+      Count: 5
+    - Groups:
+      - Weight: 1
+        Item: berry
+        Count: 5
+      - Weight: 1
+        Item: berry
+        Count: 0
+        
+TournamentBoobyPrize:
+  All:
+  - Honey: 25
+  - Item: berry
+    Count: 10
+  - Item: yellow_cloth
+    Count: 5
+
+###########################
+# Tournament Rewards      #
+###########################
+
+TournamentTier1Reward:
+  Cond:
+  - Case: NoLeaderboardStandingYet
+    Value:
+      All:
+      - Item: berry
+        Count: 10
+      - Groups:
+        - Weight: 1
+          Item: yellow_cloth
+          Count: 5
+        - Weight: 1
+          Item: yellow_cloth
+          Count: 10
+      - Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+        Count: 1
+      - Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+        Count: 1
+  - Case: Else
+    Value:
+      LootTable: TournamentBoobyPrize
+
+TournamentTier2Reward:
+  Cond:
+  - Case: NoLeaderboardStandingYet
+    Value:
+      All:
+      - Item: berry
+        Count: 10
+      - Groups:
+        - Weight: 1
+          Item: yellow_cloth
+          Count: 5
+        - Weight: 1
+          Item: yellow_cloth
+          Count: 10
+      - Groups:
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+          Count: 3
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+          Count: 4
+      - Groups:
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+          Count: 1
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+          Count: 2
+  - Case: Else
+    Value:
+      LootTable: TournamentBoobyPrize
+      
+TournamentTier3Reward:
+  Cond:
+  - Case: NoLeaderboardStandingYet
+    Value:
+      All:
+      - Item: berry
+        Count: 10
+      - Groups:
+        - Weight: 1
+          Item: yellow_cloth
+          Count: 5
+        - Weight: 1
+          Item: yellow_cloth
+          Count: 10
+      - Groups:
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+          Count: 5
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+          Count: 6
+      - Groups:
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+          Count: 4
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+          Count: 5
+  - Case: Else
+    Value:
+      LootTable: TournamentBoobyPrize
+      
+TournamentTier4Reward:
+  Cond:
+  - Case: NoLeaderboardStandingYet
+    Value:
+      All:
+      - Item: berry
+        Count: 20
+      - Groups:
+        - Weight: 1
+          Item: yellow_cloth
+          Count: 20
+        - Weight: 1
+          Item: yellow_cloth
+          Count: 25
+        - Weight: 1
+          Item: yellow_cloth
+          Count: 30
+      - Groups:
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+          Count: 8
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+          Count: 9
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+          Count: 10
+      - Groups:
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+          Count: 14
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+          Count: 16
+        - Weight: 1
+          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+          Count: 18
+  - Case: Else
+    Value:
+      LootTable: TournamentBoobyPrize

@@ -1,0 +1,1960 @@
+################################################################################
+##  Score Setting  #############################################################
+################################################################################
+
+- Name: Score-Setting Merry Lock Tile Bear
+  SkinName: PHMerryBear
+  Rewardable: false
+  IsUnlockedByDefault: false
+  OnlyPlayableIn: [Chapter]
+  Rarity: Common
+  Affinity: Merry
+  MaxLevel: 1
+  OwningChapter: 0
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: 0
+  Power: Lock Tile
+
+- Name: Score-Setting Merry +1 Tile Bear
+  SkinName: PHMerryBear
+  Rewardable: false
+  IsUnlockedByDefault: false
+  OnlyPlayableIn: [Chapter]
+  Rarity: Common
+  Affinity: Merry
+  MaxLevel: 1
+  OwningChapter: 0
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: 0
+  Power: Boost +1 Tile
+
+- Name: Score-Setting Brave +1 Row Bear
+  SkinName: PHBraveBear
+  Rewardable: false
+  IsUnlockedByDefault: false
+  OnlyPlayableIn: [Chapter]
+  Rarity: Common
+  Affinity: Brave
+  MaxLevel: 1
+  OwningChapter: 0
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: 0
+  Power: Boost +1 Row
+
+- Name: Score-Setting Brave Summon ER Row Bear
+  SkinName: PHBraveBear
+  Rewardable: false
+  IsUnlockedByDefault: false
+  OnlyPlayableIn: [Chapter]
+  Rarity: Common
+  Affinity: Brave
+  MaxLevel: 1
+  OwningChapter: 0
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: 0
+  Power: Summon ER
+
+- Name: Score-Setting Cautious Tally Column Bear
+  SkinName: PHCautiousBear
+  Rewardable: false
+  IsUnlockedByDefault: false
+  OnlyPlayableIn: [Chapter]
+  Rarity: Common
+  Affinity: Cautious
+  MaxLevel: 1
+  OwningChapter: 0
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: 0
+  Power: Tally Column
+
+- Name: Score-Setting Cautious +2 Column Bear
+  SkinName: PHCautiousBear
+  Rewardable: false
+  IsUnlockedByDefault: false
+  OnlyPlayableIn: [Chapter]
+  Rarity: Common
+  Affinity: Cautious
+  MaxLevel: 1
+  OwningChapter: 0
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: 0
+  Power: Boost +2 Column
+
+- Name: Score-Setting Calm Double Neighbors bear
+  SkinName: PHCalmBear
+  Rewardable: false
+  IsUnlockedByDefault: false
+  OnlyPlayableIn: [Chapter]
+  Rarity: Common
+  Affinity: Calm
+  MaxLevel: 1
+  OwningChapter: 0
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: 0
+  Power: Double Neighbors
+
+- Name: Score-Setting Calm Summon ING bear
+  SkinName: PHCalmBear
+  Rewardable: false
+  IsUnlockedByDefault: false
+  OnlyPlayableIn: [Chapter]
+  Rarity: Common
+  Affinity: Calm
+  MaxLevel: 1
+  OwningChapter: 0
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: 0
+  Power: Summon ING
+
+- Name: Score-Setting Scary Summon UN bear
+  SkinName: PHScaryBear
+  Rewardable: false
+  IsUnlockedByDefault: false
+  OnlyPlayableIn: [Chapter]
+  Rarity: Common
+  Affinity: Scary
+  MaxLevel: 1
+  OwningChapter: 0
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: 0
+  Power: Summon UN
+
+- Name: Score-Setting Scary 6-letter hint x2 bear
+  SkinName: PHScaryBear
+  Tags: [hint]
+  Rewardable: false
+  IsUnlockedByDefault: false
+  OnlyPlayableIn: [Chapter]
+  Rarity: Common
+  Affinity: Scary
+  MaxLevel: 1
+  OwningChapter: 0
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: 0
+  Power: "6 Letter Hint (2x)"
+
+################################################################################
+##  Misc  ######################################################################
+################################################################################
+
+- Name: Doc Bear
+  SkinName: DocBear
+  Tags: [smart]
+  IsUnlockedByDefault: true
+  Rarity: Common
+  Affinity: Cautious
+  MaxLevel: 1000
+  OwningChapter: 1
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraPointsForWordsOfLength:
+      Points: 5
+      Length: 4
+    PowerIcon: tilecondition
+    IconText: 4
+
+- Name: Tutorial Bear
+  SkinName: DefaultBear
+  Rewardable: false
+  IsUnlockedByDefault: true
+  OnlyPlayableIn: [MainMenu] # Hack to make it never show in the bear select screen.
+  Rarity: Common
+  Affinity: Merry
+  MaxLevel: 1
+  OwningChapter: 0
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: 0
+
+################################################################################
+##  Chapter 1 ##################################################################
+################################################################################
+
+- Name: Cassette Bear
+  SkinName: CassetteBear
+  Tags: [object, noarms, retro]
+  Rarity: Common
+  Affinity: Brave
+  MaxLevel: 1000
+  OwningChapter: 1
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 3
+      Letters: [n]
+    PowerIcon: tilemore
+    IconText: N
+
+- Name: Floppy Bear
+  SkinName: FloppyBear
+  Tags: [object, noarms, retro]
+  Rarity: Common
+  Affinity: Scary
+  MaxLevel: 1000
+  OwningChapter: 1
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraPointsForPattern:
+      Points: 5
+      PositionInWord: End
+      Pattern: [s]
+    PowerIcon: tilecondition
+    IconText: "-S"
+
+- Name: Rubiks Bear
+  SkinName: RubiksBear
+  Tags: [object]
+  Rarity: Common
+  Affinity: Merry
+  MaxLevel: 1000
+  OwningChapter: 1
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 5
+  Power: "Boost +1 Tile"
+
+- Name: Game Bear
+  SkinName: GameBear
+  Tags: [object, noarms, retro]
+  Rarity: Common
+  Affinity: Cautious
+  MaxLevel: 1000
+  OwningChapter: 1
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraSecondsTimedMode: 10
+    PowerIcon: timer
+
+- Name: Superstar Bear
+  SkinName: SuperstarBear
+  Tags: [celebrity]
+  Rarity: Common
+  Affinity: Calm
+  MaxLevel: 1000
+  OwningChapter: 1
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - LetterWeightPercentBonuses:
+      s: .5
+    PowerIcon: tilebigger
+    IconText: S
+
+- Name: Stego Bear
+  SkinName: StegoBear
+  Tags: [dinosaur, hint, huge]
+  Rarity: Rare
+  Affinity: Scary
+  MaxLevel: 1000
+  OwningChapter: 1
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  Power: "6 Letter Hint (2x)"
+
+################################################################################
+##  Chapter 2 ##################################################################
+################################################################################
+
+- Name: Ptero Bear
+  SkinName: PteroBear
+  Tags: [dinosaur]
+  Rarity: Common
+  Affinity: Scary
+  MaxLevel: 1000
+  OwningChapter: 2
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 4
+      Letters: [x, j, v, qu, z]
+    PowerIcon: tilemore
+    IconText: "XJV\nQZ"
+
+- Name: Tricera Bear
+  SkinName: TriceraBear
+  Tags: [dinosaur]
+  Rarity: Common
+  Affinity: Brave
+  MaxLevel: 1000
+  OwningChapter: 2
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: "Summon ER"
+
+- Name: Egg Bear
+  SkinName: EggBear
+  Tags: [animal, dinosaur, savory, noarms, food]
+  Rarity: Common
+  Affinity: Merry
+  MaxLevel: 1000
+  OwningChapter: 2
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraSecondsTimedMode: 10
+    PowerIcon: timer
+
+- Name: Pharaoh Bear
+  SkinName: PharaohBear
+  Tags: [celebrity]
+  Rarity: Rare
+  Affinity: Cautious
+  MaxLevel: 1000
+  OwningChapter: 2
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 5
+  Power: Tally Column
+
+################################################################################
+##  Chapter 3 ##################################################################
+################################################################################
+
+- Name: Anubis Bear
+  SkinName: AnubisBear
+  Rarity: Common
+  Affinity: Calm
+  MaxLevel: 1000
+  OwningChapter: 3
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: "Summon ING"
+
+- Name: Mummy Bear
+  SkinName: MummyBear
+  Rarity: Common
+  Affinity: Scary
+  MaxLevel: 1000
+  OwningChapter: 3
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 2
+      Letters: [r, a, p]
+    PowerIcon: tilemore
+    IconText: RAP
+
+- Name: Sphinx Bear
+  SkinName: SphinxBear
+  Tags: [smart]
+  Rarity: Common
+  Affinity: Brave
+  MaxLevel: 1000
+  OwningChapter: 3
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: "Boost +1 Row"
+
+- Name: Speakeasy Bear
+  SkinName: SpeakeasyBear
+  Tags: [place, 20s, nighttime]
+  Rarity: Rare
+  Affinity: Merry
+  MaxLevel: 1000
+  OwningChapter: 3
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  Power: "Lock Tile"
+
+################################################################################
+##  Chapter 4 ##################################################################
+################################################################################
+
+- Name: Flapper Bear
+  SkinName: FlapperBear
+  Tags: [20s]
+  Rarity: Common
+  Affinity: Cautious
+  MaxLevel: 1000
+  OwningChapter: 4
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - LetterWeightPercentBonuses:
+      e: .5
+      d: .5
+    PowerIcon: tilebigger
+    IconText: ED
+
+- Name: Victrola Bear
+  SkinName: VictrolaBear
+  Tags: [object, 20s, noarms]
+  Rarity: Common
+  Affinity: Calm
+  MaxLevel: 1000
+  OwningChapter: 4
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraPointsForPattern:
+      Points: 10
+      PositionInWord: End
+      Pattern: [ed]
+    PowerIcon: tilecondition
+    IconText: "-ED"
+
+- Name: Picasso Bear
+  SkinName: PicassoBear
+  Tags: [smart, object, 20s, celebrity]
+  Rarity: Common
+  Affinity: Scary
+  MaxLevel: 1000
+  OwningChapter: 4
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: "Summon FUL"
+
+- Name: Knight Bear
+  SkinName: KnightBear
+  Tags: [middleages, nighttime]
+  Rarity: Rare
+  Affinity: Brave
+  MaxLevel: 1000
+  OwningChapter: 4
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  - ExtraPointsForLettersAtTimeToLive:
+      Points: 5
+      Letters: [s, h, a, v, e]
+      TimeToLive: 1
+    PowerIcon: closeshave
+
+################################################################################
+##  Chapter 5 ##################################################################
+################################################################################
+
+- Name: Bearrel
+  SkinName: Bearrel
+  Rarity: Common
+  Affinity: Merry
+  Tags: [object, middleages, noarms]
+  MaxLevel: 1000
+  OwningChapter: 5
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: "Summon ES"
+
+- Name: Castle Bear
+  SkinName: CastleBear
+  Tags: [place, middleages, noarms, huge]
+  Rarity: Rare
+  Affinity: Calm
+  MaxLevel: 1000
+  OwningChapter: 5
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  Power: "Randomize Neighbors (2x)"
+
+- Name: Dragon Bear
+  SkinName: DragonBear
+  Tags: [middleages, animal]
+  Rarity: Common
+  Affinity: Cautious
+  MaxLevel: 1000
+  OwningChapter: 5
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: "Summon LY"
+
+- Name: Jukebox Bear
+  SkinName: JukeBoxBear
+  Tags: [object, noarms]
+  Rarity: Epic
+  Affinity: Scary
+  MaxLevel: 1000
+  OwningChapter: 5
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  Power: Simplify Board
+
+################################################################################
+##  Chapter 6 ##################################################################
+################################################################################
+
+- Name: Greaser Bear
+  SkinName: GreaserBear
+  Tags: [holdingleft]
+  Rarity: Common
+  Affinity: Brave
+  MaxLevel: 1000
+  OwningChapter: 6
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraPointsForMultipleLetterUse:
+      Letter: e
+      Count: 3
+      Points: 15
+    PowerIcon: tilecondition
+    IconText: "3xE"
+
+- Name: Milkshake Bear
+  SkinName: MilkshakeBear
+  Rarity: Rare
+  Tags: [drink, noarms, food]
+  Affinity: Calm
+  MaxLevel: 1000
+  OwningChapter: 6
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 5
+  Power: Copy Letter
+
+- Name: Auto Bear
+  SkinName: AutoBear
+  Tags: [noarms]
+  Rarity: Common
+  Affinity: Merry
+  MaxLevel: 1000
+  OwningChapter: 6
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - LetterWeightPercentBonuses:
+      e: .5
+      r: .5
+    PowerIcon: tilebigger
+    IconText: ER
+
+- Name: Kraken Bear
+  SkinName: KrakenBear
+  Tags: [monster]
+  Rarity: Epic
+  Affinity: Cautious
+  MaxLevel: 1000
+  OwningChapter: 6
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  - BannedLetters: [j, k, v]
+    PowerIcon: tilebanned
+    IconText: JKV
+
+################################################################################
+##  Chapter 7 ##################################################################
+################################################################################
+
+- Name: Doubloon Bear
+  SkinName: DoubloonBear
+  Tags: [object, noarms]
+  Rarity: Common
+  Affinity: Scary
+  MaxLevel: 1000
+  OwningChapter: 7
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 4
+      Letters: [d]
+    PowerIcon: tilemore
+    IconText: D
+
+- Name: Treasure Map Bear
+  SkinName: TreasureBear
+  Tags: [object, noarms]
+  Rarity: Rare
+  Affinity: Brave
+  MaxLevel: 1000
+  OwningChapter: 7
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 5
+  Power: Tally Row
+
+- Name: Yarr Bear
+  SkinName: YarrBear
+  Tags: [holdingleft]
+  Rarity: Common
+  Affinity: Calm
+  MaxLevel: 1000
+  OwningChapter: 7
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraPointsForPattern:
+      Points: 10
+      Pattern:
+      - aa
+      - bb
+      - cc
+      - dd
+      - ee
+      - ff
+      - gg
+      - hh
+      - ii
+      - jj
+      - kk
+      - ll
+      - mm
+      - nn
+      - oo
+      - pp
+      - rr
+      - ss
+      - tt
+      - uu
+      - vv
+      - ww
+      - xx
+      - yy
+      - zz
+    PowerIcon: tilecondition
+    IconText: " x2"
+      
+- Name: Statue of Bearvid
+  SkinName: Bearvid
+  Tags: [object]
+  Rarity: Epic
+  Affinity: Merry
+  MaxLevel: 1000
+  OwningChapter: 7
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  Power: "Break Rock Tile"
+
+################################################################################
+##  Chapter 8 ##################################################################
+################################################################################
+
+- Name: Cherub Bear
+  SkinName: CherubBear
+  Tags: [holdingleft, holdingright]
+  Rarity: Common
+  Affinity: Cautious
+  MaxLevel: 1000
+  OwningChapter: 8
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: "Boost +1 Column"
+
+- Name: Renaissance Bear
+  SkinName: RenaissanceBear
+  Tags: [holdingright]
+  Rarity: Rare
+  Affinity: Scary
+  MaxLevel: 1000
+  OwningChapter: 8
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  - SpawnTileAtStart:
+      TileType: Megaphone
+    PowerIcon: extraloud
+
+- Name: Venus Bear
+  SkinName: VenusBear
+  Rarity: Common
+  Affinity: Brave
+  MaxLevel: 1000
+  OwningChapter: 8
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraSecondsTimedMode: 10
+    PowerIcon: timer
+
+- Name: Mammoth Bear
+  SkinName: MammothBear
+  Tags: [animal]
+  Rarity: Epic
+  Affinity: Calm
+  MaxLevel: 1000
+  OwningChapter: 8
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  Power: "Lock Neighbors"
+
+################################################################################
+##  Chapter 9 ##################################################################
+################################################################################
+
+- Name: Cave Bear
+  SkinName: CaveBear
+  Tags: [place]
+  Rarity: Common
+  Affinity: Merry
+  MaxLevel: 1000
+  OwningChapter: 9
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: "Randomize Tile (3x)"
+
+- Name: Glacier Bear
+  SkinName: GlacierBear
+  Tags: [object, huge]
+  Rarity: Rare
+  Affinity: Cautious
+  MaxLevel: 1000
+  OwningChapter: 9
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 10
+  Power: "Double Column"
+
+- Name: Sabre Tooth Bear
+  SkinName: SabreToothBear
+  Tags: [animal]
+  Rarity: Common
+  Affinity: Scary
+  MaxLevel: 1000
+  OwningChapter: 9
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - LetterWeightPercentBonuses:
+      a: .5
+      t: .5
+    PowerIcon: tilebigger
+    IconText: AT
+
+- Name: Rocket Bear
+  SkinName: RocketBear
+  Tags: [object, noarms]
+  Rarity: Epic
+  Affinity: Brave
+  MaxLevel: 1000
+  OwningChapter: 9
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  Power: "Lock Row"
+
+################################################################################
+##  Chapter 10 #################################################################
+################################################################################
+
+- Name: Astro Bear
+  SkinName: AstroBear
+  Rarity: Common
+  Affinity: Calm
+  MaxLevel: 1000
+  OwningChapter: 10
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 2
+      Letters: [f, o, x]
+    PowerIcon: tilemore
+    IconText: FOX
+
+- Name: Alien Bear
+  SkinName: AlienBear
+  Tags: [monster]
+  Rarity: Rare
+  Affinity: Merry
+  MaxLevel: 1000
+  OwningChapter: 10
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 5
+  Power: "Double Tile"
+
+- Name: Planet Bear
+  SkinName: PlanetBear
+  Tags: [place, huge]
+  Rarity: Common
+  Affinity: Cautious
+  MaxLevel: 1000
+  OwningChapter: 10
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - SpawnTileAtStart:
+      TileType: "Star"
+      Count: 2
+    PowerIcon: star
+
+- Name: Alpha Bear
+  SkinName: AlphaBear
+  Rarity: Legendary
+  Affinity: Scary
+  MaxLevel: 1000
+  OwningChapter: 10
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 15
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 1
+      Letters: [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, qu, r, s, t, u, v, w, x, y, z]
+    PowerIcon: tileplus1all
+
+################################################################################
+## Time Warp Bears #############################################################
+################################################################################
+
+- Name: Peace Bear
+  SkinName: PeaceBear
+  OriginLocation: TimeWarps
+  Rarity: Rare
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  Power: Boost +2 Tile
+
+- Name: 3DBear
+  SkinName: 3DBear
+  OriginLocation: TimeWarps
+  Rarity: Epic
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  Power: Boost +10 Tile
+
+- Name: Fourth Bear
+  SkinName: FourthBear
+  Tags: [holdingleft]
+  OriginLocation: TimeWarps
+  Rarity: Legendary
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 10
+  Power: "Boost +15 Tile (2x)"
+
+- Name: Tea Bear
+  SkinName: TeaBear
+  Rarity: Common
+  Tags: [noarms, food, drink]
+  OriginLocation: TimeWarps
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: Summon TY
+
+- Name: XRay Bear
+  SkinName: XRayBear
+  OriginLocation: TimeWarps
+  Tags: [monster]
+  Rarity: Rare
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  Power: Summon XXX
+
+- Name: Cinco Bear
+  SkinName: CincoBear
+  Tags: [hint, noarms, childhood]
+  OriginLocation: TimeWarps
+  Rarity: Rare
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  Power: 5 Letter Hint (2x)
+
+- Name: AI Bear
+  SkinName: AIBear
+  Rarity: Rare
+  Tags: [smart]
+  OriginLocation: TimeWarps
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 5
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 1
+      Letters: [a, e, i, o, u]
+    PowerIcon: tilemore
+    IconText: "AE\nIOU"
+
+- Name: IOU Bear
+  SkinName: IOUBear
+  Rarity: Legendary
+  OriginLocation: TimeWarps
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 10
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 2
+      Letters: [a, e, i, o, u]
+    PowerIcon: tilemore
+    IconText: "AE\nIOU"
+
+- Name: Pocket Watch Bear
+  SkinName: PocketWatchBear
+  Tags: [object]
+  OriginLocation: TimeWarps
+  Rarity: Epic
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  - ExtraSecondsTimedMode: 20
+    PowerIcon: timer
+
+- Name: 4 Wheeler Bear
+  SkinName: 4WheelerBear
+  Tags: [object, noarms]
+  OriginLocation: TimeWarps
+  Rarity: Common
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 5
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 2
+      Letters: [t, r, u, c, k]
+    PowerIcon: tilemore
+    IconText: "TR\nUCK"
+
+- Name: White Rabbit Bear
+  SkinName: WhiteRabbitBear
+  Rarity: Legendary
+  Tags: [animal]
+  OriginLocation: TimeWarps
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 15
+  - ExtraSecondsTimedMode: 45
+    PowerIcon: timer
+
+- Name: Dice Bear
+  SkinName: DiceBear
+  Tags: [object, noarms]
+  OriginLocation: TimeWarps
+  Rarity: Epic
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 24
+  - ExtraPointsForWordsOfLength:
+      Points: 24
+      Length: 6
+    PowerIcon: tilecondition
+    IconText: 6
+
+- Name: Rock n Roll Bear
+  SkinName: RocknRollBear
+  Tags: [holdingleft, celebrity]
+  OriginLocation: TimeWarps
+  Rarity: Common
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraPointsForPattern:
+      Points: 10
+      PositionInWord: Start
+      Pattern: [r]
+    PowerIcon: tilecondition
+    IconText: R-
+
+- Name: Corn Bear
+  SkinName: CornBear
+  Rarity: Rare
+  Tags: [savory, food]
+  OriginLocation: TimeWarps
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 5
+  Power: Boost +2 Row
+
+- Name: Tomato Bear
+  SkinName: TomatoBear
+  Rarity: Epic
+  Tags: [savory, food]
+  OriginLocation: TimeWarps
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  Power: Boost +3 Row
+
+- Name: Carrot Bear
+  SkinName: CarrotBear
+  Rarity: Legendary
+  Tags: [savory, noarms, food]
+  OriginLocation: TimeWarps
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 10
+  Power: Boost +5 Row
+
+- Name: Penta Bear
+  SkinName: PentaBear
+  Tags: [monster, holdingleft, nighttime]
+  OriginLocation: TimeWarps
+  Rarity: Rare
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 8
+  - ExtraPointsForWordsOfLength:
+      Points: 8
+      Length: 5
+    PowerIcon: tilecondition
+    IconText: 5
+
+- Name: Rainbow Bear
+  SkinName: RainbowBear
+  OriginLocation: TimeWarps
+  Tags: [object, childhood, huge]
+  Rarity: Rare
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 10
+  Power: Double Row
+
+- Name: Past Bear
+  SkinName: PastBear
+  OriginLocation: TimeWarps
+  Rarity: Common
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: Summon ED
+
+- Name: Jelly Bear
+  SkinName: JellyBear
+  OriginLocation: TimeWarps
+  Rarity: Rare
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  Power: Summon JJJ
+
+- Name: Teleport Bear
+  SkinName: TeleportBear
+  OriginLocation: TimeWarps
+  Tags: [noarms]
+  Rarity: Legendary
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 0
+  Power: Swap Turns (4x)
+
+- Name: Owlbear
+  SkinName: OwlBear
+  OriginLocation: TimeWarps
+  Rarity: Common
+  Tags: [animal, smart]
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 2
+      Letters: [o, w, l]
+    PowerIcon: tilemore
+    IconText: OWL
+
+- Name: Big Bear
+  SkinName: BigBear
+  OriginLocation: TimeWarps
+  Rarity: Epic
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  - ExtraSecondsTimedMode: 20
+    PowerIcon: timer
+
+- Name: Steam Bear
+  SkinName: SteamBear
+  OriginLocation: TimeWarps
+  Rarity: Legendary
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 15
+  - ExtraSecondsTimedMode: 45
+    PowerIcon: timer
+
+- Name: Beetle Bear
+  SkinName: BeetleBear
+  OriginLocation: TimeWarps
+  Rarity: Common
+  Tags: [animal]
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 9
+  - ExtraPointsForWordsOfLength:
+      Points: 12
+      Length: 6
+    PowerIcon: tilecondition
+    IconText: 6
+
+- Name: Referee Bear
+  SkinName: RefereeBear
+  OriginLocation: TimeWarps
+  Rarity: Epic
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  - BannedLetters: [z, x, qu]
+    PowerIcon: tilebanned
+    IconText: ZXQ
+
+- Name: Baby Bear
+  SkinName: BabyBear
+  OriginLocation: TimeWarps
+  Rarity: Legendary
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 10
+  Power: Simplify Board (2x)
+
+- Name: Column Bear
+  SkinName: ColumnBear
+  OriginLocation: TimeWarps
+  Tags: [object, huge]
+  Rarity: Rare
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  Power: Boost +2 Column
+
+- Name: Cathedral Bear
+  SkinName: CathedralBear
+  OriginLocation: TimeWarps
+  Tags: [place, noarms]
+  Rarity: Epic
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  Power: Boost +3 Column
+
+- Name: Skyscraper Bear
+  SkinName: SkyscraperBear
+  OriginLocation: TimeWarps
+  Tags: [place]
+  Rarity: Legendary
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 10
+  Power: Boost +5 Column
+
+- Name: Beardini
+  SkinName: Beardini
+  OriginLocation: TimeWarps
+  Tags: [noarms]
+  Rarity: Epic
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  Power: Lock Column
+
+- Name: Magic Bear
+  SkinName: MagicBear
+  OriginLocation: TimeWarps
+  Rarity: Rare
+  Tags: [holdingleft, childhood]
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  Power: Swap Turns
+
+- Name: Poison Bear
+  SkinName: PoisonBear
+  OriginLocation: TimeWarps
+  Rarity: Common
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 2
+      Letters: [i, v, y]
+    PowerIcon: tilemore
+    IconText: IVY
+
+- Name: Silent Bear
+  SkinName: SilentBear
+  OriginLocation: TimeWarps
+  Tags: [holdingleft, celebrity, nighttime]
+  Rarity: Rare
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 5
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 6
+      Letters: [s]
+    PowerIcon: tilemore
+    IconText: S
+
+- Name: Winter Bear
+  SkinName: WinterBear
+  OriginLocation: TimeWarps
+  Rarity: Common
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 6
+      Letters: [w]
+    PowerIcon: tilemore
+    IconText: W
+
+- Name: Cola Bear
+  SkinName: ColaBear
+  OriginLocation: TimeWarps
+  Rarity: Epic
+  Tags: [drink, noarms, childhood, food]
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  - ExtraSecondsTimedMode: 20
+    PowerIcon: timer
+
+- Name: Coffee Bear
+  SkinName: CoffeeBear
+  OriginLocation: TimeWarps
+  Rarity: Legendary
+  Tags: [drink, noarms, food]
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 15
+  - ExtraSecondsTimedMode: 45
+    PowerIcon: timer
+
+- Name: Sunflower Bear
+  SkinName: SunflowerBear
+  OriginLocation: TimeWarps
+  Tags: [childhood]
+  Rarity: Rare
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  - SpawnTileAtStart:
+      TileType: Sun
+      Count: 2
+    PowerIcon: sunny
+
+- Name: Party Bear
+  SkinName: PartyBear
+  OriginLocation: TimeWarps
+  Rarity: Legendary
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 5
+  Power: Boost +5 Neighbor
+
+- Name: Unicorn Bear
+  SkinName: UnicornBear
+  OriginLocation: TimeWarps
+  Tags: [animal, childhood]
+  Rarity: Rare
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 10
+  Power: Double Neighbors
+
+- Name: Calculator Bear
+  SkinName: CalculatorBear
+  OriginLocation: TimeWarps
+  Rarity: Rare
+  Tags: [smart, object, retro]
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 5
+  Power: Tally Neighbors
+
+- Name: Artist Bear
+  SkinName: ArtistBear
+  OriginLocation: TimeWarps
+  Rarity: Common
+  Tags: [holdingleft, holdingright, celebrity, retro]
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: Summon IST
+
+- Name: Bare Bear
+  SkinName: BareBear
+  OriginLocation: TimeWarps
+  Rarity: Epic
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  Power: Reveal Neighbors
+
+- Name: Construction Bear
+  SkinName: ConstructionBear
+  OriginLocation: TimeWarps
+  Rarity: Legendary
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 15
+  Power: Break Rock Tile (2x)
+
+- Name: Lucky Bear
+  SkinName: LuckyBear
+  OriginLocation: TimeWarps
+  Tags: [hint, noarms]
+  Rarity: Epic
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  Power: 7 Letter Hint (2x)
+
+- Name: Hamburger Bear
+  SkinName: BurgerBear
+  OriginLocation: TimeWarps
+  Tags: [savory, food]
+  Rarity: Common
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 3
+      Letters: [h]
+    PowerIcon: tilemore
+    IconText: H
+
+- Name: Radioactive Bear
+  SkinName: RadioactiveBear
+  OriginLocation: TimeWarps
+  Tags: [object, monster]
+  Rarity: Rare
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 5
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 6
+      Letters: [r]
+    PowerIcon: tilemore
+    IconText: R
+
+- Name: Alarm Bear
+  SkinName: AlarmBear
+  OriginLocation: TimeWarps
+  Tags: [object, noarms]
+  Rarity: Common
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraSecondsTimedMode: 10
+    PowerIcon: timer
+
+- Name: Digital Bear
+  SkinName: DigitalBear
+  OriginLocation: TimeWarps
+  Tags: [object, retro]
+  Rarity: Epic
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  - ExtraSecondsTimedMode: 20
+    PowerIcon: timer
+
+- Name: Clock Bear
+  SkinName: ClockBear
+  OriginLocation: TimeWarps
+  Tags: [object, noarms]
+  Rarity: Legendary
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 15
+  - ExtraSecondsTimedMode: 45
+    PowerIcon: timer
+
+- Name: Joker Bear
+  SkinName: JokerBear
+  OriginLocation: TimeWarps
+  Tags: [childhood]
+  Rarity: Rare
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: -5
+  - ExtraPointsForPattern:
+      Pattern: [z, x, j, qu]
+      Multiplier: 2
+    PowerIcon: tilemore
+    IconText: "ZX\nJQ"
+
+- Name: Undead Bear
+  SkinName: UndeadBear
+  OriginLocation: TimeWarps
+  Tags: [monster]
+  Rarity: Common
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: Summon UN
+
+- Name: Sleepy Bear
+  SkinName: SleepyBear
+  OriginLocation: TimeWarps
+  Tags: [holdingright, nighttime]
+  Rarity: Rare
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  Power: Summon ZZZ
+
+- Name: Clone Bear
+  SkinName: CloneBear
+  OriginLocation: TimeWarps
+  Rarity: Legendary
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 10
+  Power: Copy Letter (3x)
+
+- Name: Space Bear
+  SkinName: SpaceBear
+  OriginLocation: TimeWarps
+  Tags: [huge, nighttime]
+  Rarity: Epic
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  - SpawnTileAtStart:
+      TileType: Star
+      Count: 4
+    PowerIcon: star
+
+- Name: Lumbear
+  SkinName: Lumbear
+  OriginLocation: TimeWarps
+  Tags: [object, huge]
+  Rarity: Rare
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 8
+      Letters: [l]
+    PowerIcon: tilemore
+    IconText: L
+
+- Name: Milk Bear
+  SkinName: MilkBear
+  OriginLocation: TimeWarps
+  Rarity: Rare
+  Tags: [savory, drink, food]
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 8
+      Letters: [m]
+    PowerIcon: tilemore
+    IconText: M
+
+- Name: Track Bear
+  SkinName: TrackBear
+  OriginLocation: TimeWarps
+  Rarity: Common
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  - ExtraSecondsTimedMode: 10
+    PowerIcon: timer
+
+- Name: Equistribear
+  SkinName: EquestriBear
+  OriginLocation: TimeWarps
+  Rarity: Epic
+  Tags: [animal]
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 5
+  - ExtraSecondsTimedMode: 20
+    PowerIcon: timer
+
+- Name: Racecar Bear
+  SkinName: RacecarBear
+  OriginLocation: TimeWarps
+  Tags: [object, noarms]
+  Rarity: Legendary
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 15
+  - ExtraSecondsTimedMode: 45
+    PowerIcon: timer
+
+- Name: Fortune Bear
+  SkinName: FortuneBear
+  OriginLocation: TimeWarps
+  Rarity: Epic
+  Tags: [noarms, food]
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 24
+  - ExtraPointsForWordsOfLength:
+      Points: 12
+      Length: 4
+    PowerIcon: tilecondition
+    IconText: 4
+
+- Name: Wine Bear
+  SkinName: WineBear
+  OriginLocation: TimeWarps
+  Tags: [drink, noarms, food]
+  Rarity: Rare
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Rare
+      Handicap: 0
+  - SpawnTileAtStart:
+      TileType: Dino Egg
+      Count: 2
+    PowerIcon: balloon
+    
+- Name: Sushi Bear
+  SkinName: SushiBear
+  OriginLocation: TimeWarps
+  Tags: [savory, noarms, food, hint]
+  Rarity: Common
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Common
+      Handicap: 0
+  Power: "6 Letter Hint (1x)"
+
+
+################################################################################
+## Special Event Bears #########################################################
+################################################################################
+
+- Name: Donut Bear
+  SkinName: DonutBear
+  OriginLocation: SpecialEvents
+  Tags: [food, hint]
+  Rarity: Epic
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  Power: Longest Word Hint (2x)
+
+- Name: Ginger Bear
+  SkinName: GingerBear
+  OriginLocation: SpecialEvents
+  Tags: [food]
+  Rarity: Epic
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  Power: Summon EEE
+
+- Name: Bacon Bear
+  SkinName: BaconBear
+  OriginLocation: SpecialEvents
+  Tags: [food]
+  Rarity: Epic
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  Power: Reveal Neighbors (3x)
+
+- Name: Bearilyn
+  SkinName: Bearilyn
+  OriginLocation: SpecialEvents
+  Tags: [hint]
+  Rarity: Epic
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  Power: Low Lifetime Word Hint (2x)
+
+- Name: Slasher Bear
+  SkinName: SlasherBear
+  OriginLocation: SpecialEvents
+  Rarity: Epic
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  Power: Summon SSS
+
+- Name: 8 Bit Bear
+  SkinName: 8Bit
+  OriginLocation: SpecialEvents
+  Rarity: Legendary
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 0
+  Power: Summon CPU (2x)
+
+- Name: Creme Bearlee
+  SkinName: CremeBearlee
+  OriginLocation: SpecialEvents
+  Tags: [food]
+  Rarity: Legendary
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 0
+  Power: Break Rock Tile (2x)
+
+- Name: Bearvis
+  SkinName: Bearvis
+  OriginLocation: SpecialEvents
+  Rarity: Legendary
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 0
+  - LockLettersByDefault:
+      Letters: [k, i, n, g]
+    PowerIcon: lock
+
+- Name: Moon Bear
+  SkinName: MoonBear
+  OriginLocation: SpecialEvents
+  Rarity: Legendary
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 0
+  Power: +1 All Tiles
+
+- Name: Vampire Bear
+  SkinName: VampireBear
+  OriginLocation: SpecialEvents
+  Rarity: Legendary
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 0
+  - LockLettersByDefault:
+      Letters: [v, a, m, p]
+
+################################################################################
+## Tournament Bears ############################################################
+################################################################################
+
+- Name: Cthulhu Bear
+  SkinName: Cthulhu
+  OriginLocation: SpecialEvents
+  Tags: [monster, tournament]
+  Rarity: Legendary
+  Affinity: Scary
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 0
+  - LockLettersByDefault:
+      Letters: [c, t, h, u]
+      
+- Name: Graffiti Bear
+  SkinName: GraffitiBear
+  OriginLocation: SpecialEvents
+  Tags: [noarms, tournament]
+  Rarity: Legendary
+  Affinity: Merry
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Legendary
+      Handicap: 0
+  Power: +4 To 1-Life Letters (2x)
+  
+- Name: Koala Bear
+  SkinName: KoalaBear
+  OriginLocation: SpecialEvents
+  Tags: [animal, tournament]
+  Rarity: Epic
+  Affinity: Calm
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  Power: Longest Word Hint (2x)
+  
+- Name: Captain Bear
+  SkinName: CaptainBear
+  OriginLocation: SpecialEvents
+  Tags: [tournament]
+  Rarity: Epic
+  Affinity: Brave
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  Power: +4 To 1-Life Letters
+
+- Name: Tissue Bear
+  SkinName: TissueBoxBear
+  OriginLocation: SpecialEvents
+  Tags: [noarms, tournament]
+  Rarity: Epic
+  Affinity: Cautious
+  MaxLevel: 1000
+  Modifiers:
+  - FinalScoreBonus:
+      Multiplier: Epic
+      Handicap: 0
+  Power: Low Lifetime Word Hint (2x) 
+      
+

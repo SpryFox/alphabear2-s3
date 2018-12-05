@@ -1,0 +1,15 @@
+MaxHoney: 100
+SingleUnitRechargeDuration_Standard: 0:02:20
+SingleUnitRechargeDuration_EDU: 0:00:20
+AdHoneyReward: 50
+
+OldFinishEarlyRefund: 5
+
+DefaultTimedEntryCost: 50
+DefaultUntimedEntryCost: 70
+DefaultChallengeEntryCost: 100
+
+LowLevelThresholdExc: 40
+
+HoneyMaximizerRechargeRateBonus: 0.1
+HoneyMaximizerMaxHoneyIncrease: 50

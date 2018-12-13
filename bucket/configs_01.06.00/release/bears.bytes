@@ -1886,6 +1886,7 @@
       Handicap: 0
   - LockLettersByDefault:
       Letters: [v, a, m, p]
+    PowerIcon: lock
 
 ################################################################################
 ## Tournament Bears ############################################################
@@ -1904,6 +1905,7 @@
       Handicap: 0
   - LockLettersByDefault:
       Letters: [c, t, h, u]
+    PowerIcon: lock
       
 - Name: Graffiti Bear
   SkinName: GraffitiBear

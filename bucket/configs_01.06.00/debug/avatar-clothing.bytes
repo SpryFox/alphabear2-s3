@@ -136,6 +136,61 @@ AvatarClothing:
    UnlockedByDefault: true
    BundleVersion: 2
 
+ - ID: Accessory_Pearl_AccessoryBody
+   RedClothCost: 1050
+   YellowClothCost: 1250
+   BlueClothCost: 120
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Accessory_TieBlue_AccessoryBody
+   RedClothCost: 50
+   YellowClothCost: 50
+   BlueClothCost: 15
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Accessory_TiePolka_AccessoryBody
+   RedClothCost: 80
+   YellowClothCost: 15
+   BlueClothCost: 10
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Accessory_TieRed_AccessoryBody
+   RedClothCost: 160
+   YellowClothCost: 0
+   BlueClothCost: 10
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Accessory_BowTieRed_AccessoryBody
+   RedClothCost: 160
+   YellowClothCost: 0
+   BlueClothCost: 10
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Accessory_BowTiePurple_AccessoryBody
+   RedClothCost: 50
+   YellowClothCost: 60
+   BlueClothCost: 10
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Accessory_BowTiePolka_AccessoryBody
+   RedClothCost: 50
+   YellowClothCost: 60
+   BlueClothCost: 10
+   StoreCategory: Accessories
+   UnlockedByDefault: true
+   BundleVersion: 3
 
  #######################################################
  # BOTTOMS
@@ -301,6 +356,22 @@ AvatarClothing:
    BlueClothCost: 100
    StoreCategory: Bottoms
    UnlockedByDefault: true
+
+ - ID: Sailor Skirt
+   RedClothCost: 250
+   YellowClothCost: 120
+   BlueClothCost: 45
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Clockwork Pants
+   RedClothCost: 650
+   YellowClothCost: 700
+   BlueClothCost: 75
+   StoreCategory: Bottoms
+   UnlockedByDefault: true
+   BundleVersion: 3
 
  #######################################################
  # COSTUMES
@@ -498,6 +569,86 @@ AvatarClothing:
    StoreCategory: Costumes
    UnlockedByDefault: true
    BundleVersion: 2
+
+ - ID: Costume_SunDress_Top
+   RedClothCost: 80
+   YellowClothCost: 60
+   BlueClothCost: 40
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 2
+
+ - ID: Suit White
+   RedClothCost: 175
+   YellowClothCost: 175
+   BlueClothCost: 65
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Suit Blue
+   RedClothCost: 175
+   YellowClothCost: 175
+   BlueClothCost: 65
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Suit Red
+   RedClothCost: 1500
+   YellowClothCost: 0
+   BlueClothCost: 115
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Blue Party Dress
+   RedClothCost: 0
+   YellowClothCost: 0
+   BlueClothCost: 130
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Black Dress
+   RedClothCost: 100
+   YellowClothCost: 150
+   BlueClothCost: 15
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Super Sentai
+   RedClothCost: 500
+   YellowClothCost: 100
+   BlueClothCost: 75
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Swim Suit
+   RedClothCost: 10
+   YellowClothCost: 25
+   BlueClothCost: 0
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Lifeguard
+   RedClothCost: 45
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Red Party Dress
+   RedClothCost: 1500
+   YellowClothCost: 400
+   BlueClothCost: 80
+   StoreCategory: Costumes
+   UnlockedByDefault: true
+   BundleVersion: 3
 
  #######################################################
  # HATS
@@ -759,6 +910,78 @@ AvatarClothing:
    UnlockedByDefault: true
    BundleVersion: 2
 
+ - ID: Hat_Goggles_Hat
+   RedClothCost: 120
+   YellowClothCost: 150
+   BlueClothCost: 35
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Hat_SailorHair_Hat
+   RedClothCost: 20
+   YellowClothCost: 80
+   BlueClothCost: 10
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Hat_Tiara_Hat
+   RedClothCost: 1500
+   YellowClothCost: 400
+   BlueClothCost: 100
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Hat_Bandana_Hat
+   RedClothCost: 50
+   YellowClothCost: 0
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Hat_BowlerHat_Hat
+   RedClothCost: 200
+   YellowClothCost: 350
+   BlueClothCost: 30
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Hat_Tie_Hat
+   RedClothCost: 150
+   YellowClothCost: 80
+   BlueClothCost: 5
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Hat_PonytailRed_Hat
+   RedClothCost: 15
+   YellowClothCost: 10
+   BlueClothCost: 0
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Hat_Hepburn_Hat
+   RedClothCost: 150
+   YellowClothCost: 100
+   BlueClothCost: 15
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Hat_Turban_Hat
+   RedClothCost: 100
+   YellowClothCost: 100
+   BlueClothCost: 50
+   StoreCategory: Hats
+   UnlockedByDefault: true
+   BundleVersion: 3
+
  #######################################################
  # MASKS
  #######################################################
@@ -904,6 +1127,54 @@ AvatarClothing:
    StoreCategory: Masks
    UnlockedByDefault: true
    BundleVersion: 2
+
+ - ID: Mask_CatEye_Mask
+   RedClothCost: 35
+   YellowClothCost: 75
+   BlueClothCost: 5
+   StoreCategory: Masks
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Mask_EyePatch_Mask
+   RedClothCost: 20
+   YellowClothCost: 10
+   BlueClothCost: 0
+   StoreCategory: Masks
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Mask_Monocle_Mask
+   RedClothCost: 0
+   YellowClothCost: 300
+   BlueClothCost: 25
+   StoreCategory: Masks
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Paper Bag
+   RedClothCost: 50
+   YellowClothCost: 150
+   BlueClothCost: 10
+   StoreCategory: Masks
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Mask_CorpsePaint_Mask
+   RedClothCost: 100
+   YellowClothCost: 30
+   BlueClothCost: 40
+   StoreCategory: Masks
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Mask_GlassesTortoise_Mask
+   RedClothCost: 200
+   YellowClothCost: 300
+   BlueClothCost: 30
+   StoreCategory: Masks
+   UnlockedByDefault: true
+   BundleVersion: 3
 
  #######################################################
  # TOPS
@@ -1106,6 +1377,38 @@ AvatarClothing:
    UnlockedByDefault: true
    BundleVersion: 2
 
+ - ID: Top_Fishnet_Top
+   RedClothCost: 200
+   YellowClothCost: 300
+   BlueClothCost: 50
+   StoreCategory: Tops
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Clockwork Shirt
+   RedClothCost: 650
+   YellowClothCost: 700
+   BlueClothCost: 75
+   StoreCategory: Tops
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Band
+   RedClothCost: 20
+   YellowClothCost: 40
+   BlueClothCost: 0
+   StoreCategory: Tops
+   UnlockedByDefault: true
+   BundleVersion: 3
+
+ - ID: Sailor Moon Shirt
+   RedClothCost: 1230
+   YellowClothCost: 1300
+   BlueClothCost: 125
+   StoreCategory: Tops
+   UnlockedByDefault: true
+   BundleVersion: 3
+
 # make sure post-release items have a version bump
 
 # v2 items:
@@ -1114,3 +1417,4 @@ AvatarClothing:
 #   StoreCategory: Tops
 #   UnlockedByDefault: true
 #   BundleVersion: 2
+

@@ -1763,37 +1763,28 @@
     Side: Left
     Pose: Neutral
 9-16:
-  - Glacier Bear: DialogLine9-16-1
+  - Sabre Tooth Bear: DialogLine9-16-1
     Side: Left
-    Pose: Neutral
+    Pose: Angry
   - Avatar: DialogLine9-16-2
     Side: Right
-    Pose: Angry
+    Pose: Neutral
 9-18:
-  - Glacier Bear: DialogLine9-18-1
+  - Avatar: DialogLine9-18-1
     Side: Left
     Pose: Neutral
-  - Glacier Bear: DialogLine9-18-2
-    Side: Left
-    Pose: Neutral
-  - Glacier Bear: DialogLine9-18-3
-    Side: Left
-    Pose: Neutral
-  - Glacier Bear: DialogLine9-18-4
-    Side: Left
-    Pose: Neutral
-  - Glacier Bear: DialogLine9-18-5
-    Side: Left
-    Pose: Neutral
-  - Glacier Bear: DialogLine9-18-6
-    Side: Left
-    Pose: Neutral
-  - Glacier Bear: DialogLine9-18-7
-    Side: Left
-    Pose: Neutral
-  - Egg Bear: DialogLine9-18-8
+  - Yarr Bear: DialogLine9-18-2
     Side: Right
-    Pose: Angry
+    Pose: Happy
+  - Avatar: DialogLine9-18-3
+    Side: Left
+    Pose: Neutral
+  - Sabre Tooth Bear: DialogLine9-18-4
+    Side: Right
+    Pose: Happy
+  - Avatar: DialogLine9-18-5
+    Side: Left
+    Pose: Happy
 9-20:
   - Avatar: DialogLine9-20-1
     Side: Left
@@ -1857,28 +1848,37 @@
     Side: Right
     Pose: Angry
 9-24:
-  - Sabre Tooth Bear: DialogLine9-24-1
+  - Glacier Bear: DialogLine9-24-1
     Side: Left
-    Pose: Angry
+    Pose: Neutral
   - Avatar: DialogLine9-24-2
     Side: Right
-    Pose: Neutral
+    Pose: Angry
 9-26:
-  - Avatar: DialogLine9-26-1
+  - Glacier Bear: DialogLine9-26-1
     Side: Left
     Pose: Neutral
-  - Yarr Bear: DialogLine9-26-2
-    Side: Right
-    Pose: Happy
-  - Avatar: DialogLine9-26-3
+  - Glacier Bear: DialogLine9-26-2
     Side: Left
     Pose: Neutral
-  - Sabre Tooth Bear: DialogLine9-26-4
-    Side: Right
-    Pose: Happy
-  - Avatar: DialogLine9-26-5
+  - Glacier Bear: DialogLine9-26-3
     Side: Left
-    Pose: Happy
+    Pose: Neutral
+  - Glacier Bear: DialogLine9-26-4
+    Side: Left
+    Pose: Neutral
+  - Glacier Bear: DialogLine9-26-5
+    Side: Left
+    Pose: Neutral
+  - Glacier Bear: DialogLine9-26-6
+    Side: Left
+    Pose: Neutral
+  - Glacier Bear: DialogLine9-26-7
+    Side: Left
+    Pose: Neutral
+  - Egg Bear: DialogLine9-26-8
+    Side: Right
+    Pose: Angry
 9-28:
   - Jukebox Bear: DialogLine9-28-1
     Side: Left

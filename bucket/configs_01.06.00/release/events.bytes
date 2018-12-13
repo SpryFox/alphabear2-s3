@@ -146,7 +146,7 @@ Schools:
       UseNBestBears: 3
       UseNthBestBear: 0
       OnlyUseAwakeBears: false
-      NumGamesForMedianSkillRating: 3
+      NumGamesForMedianSkillRating: 11
 
   RareSchool:
     AutoPlayLootTable: SchoolAutoPlay
@@ -169,7 +169,7 @@ Schools:
       UseNBestBears: 3
       UseNthBestBear: 0
       OnlyUseAwakeBears: false
-      NumGamesForMedianSkillRating: 3
+      NumGamesForMedianSkillRating: 11
 
   EpicSchool:
     AutoPlayLootTable: SchoolAutoPlay
@@ -192,7 +192,7 @@ Schools:
       UseNBestBears: 3
       UseNthBestBear: 0
       OnlyUseAwakeBears: false
-      NumGamesForMedianSkillRating: 3
+      NumGamesForMedianSkillRating: 11
 
   LegendarySchool:
     AutoPlayLootTable: SchoolAutoPlay
@@ -212,7 +212,7 @@ Schools:
       UseNBestBears: 3
       UseNthBestBear: 0
       OnlyUseAwakeBears: false
-      NumGamesForMedianSkillRating: 3
+      NumGamesForMedianSkillRating: 11
 
 DailyEvents:
   HoneyCost: 25
@@ -941,6 +941,7 @@ SpareEvents:
   Events:
 
 
+# Timed, big score, skull tiles, medium board
   - Name: Tournament 1
     L10nKey: TournamentBoards_Tournament_1
     Rules:
@@ -958,6 +959,7 @@ SpareEvents:
     BaseScore: 413
     ImpossibleThresholdAverageLetterScoreOverride: 6.6084905660377355
 
+# Timed, skull tiles, medium board
   - Name: Tournament 2
     L10nKey: TournamentBoards_Tournament_2
     Rules:
@@ -975,6 +977,7 @@ SpareEvents:
     BaseScore: 338
     ImpossibleThresholdAverageLetterScoreOverride: 4.94811320754717
 
+# Timed, skull tiles, medium board
   - Name: Tournament 3
     L10nKey: TournamentBoards_Tournament_3
     Rules:
@@ -991,6 +994,7 @@ SpareEvents:
     BaseScore: 333
     ImpossibleThresholdAverageLetterScoreOverride: 5.591463414634147
 
+# Timed, small board, letter rule
   - Name: Tournament 4
     L10nKey: TournamentBoards_Tournament_4
     Rules:
@@ -1011,6 +1015,7 @@ SpareEvents:
     BaseScore: 320
     ImpossibleThresholdAverageLetterScoreOverride: 7.387931034482759
 
+# Timed, skull tiles, medium board
   - Name: Tournament 5
     L10nKey: TournamentBoards_Tournament_5
     Rules:
@@ -1026,6 +1031,7 @@ SpareEvents:
     BaseScore: 331
     ImpossibleThresholdAverageLetterScoreOverride: 5.440476190476191
 
+# Timed, skull tiles, big score, medium board
   - Name: Tournament 6
     L10nKey: TournamentBoards_Tournament_6
     Rules:
@@ -1044,6 +1050,7 @@ SpareEvents:
     BaseScore: 510
     ImpossibleThresholdAverageLetterScoreOverride: 7.159090909090909
 
+# Timed, skull tiles, medium board
   - Name: Tournament 7
     L10nKey: TournamentBoards_Tournament_7
     Rules:
@@ -1060,6 +1067,7 @@ SpareEvents:
     BaseScore: 271
     ImpossibleThresholdAverageLetterScoreOverride: 4.298780487804878
 
+# Timed, skull tiles, sun/moon tiles, medium board
   - Name: Tournament 8
     L10nKey: TournamentBoards_Tournament_8
     Rules:
@@ -1077,6 +1085,7 @@ SpareEvents:
     BaseScore: 377
     ImpossibleThresholdAverageLetterScoreOverride: 6.380434782608695
 
+# Timed, skull tiles, medium board
   - Name: Tournament 9
     L10nKey: TournamentBoards_Tournament_9
     Rules:
@@ -1095,6 +1104,7 @@ SpareEvents:
     BaseScore: 224
     ImpossibleThresholdAverageLetterScoreOverride: 5.212962962962963
 
+# Untimed, skull tiles, medium board
   - Name: Tournament 10
     L10nKey: TournamentBoards_Tournament_10
     Rules:
@@ -1111,6 +1121,7 @@ SpareEvents:
     BaseScore: 285
     ImpossibleThresholdAverageLetterScoreOverride: 4.090909090909091
 
+# Untimed, skull tiles, big score, sun/moon tiles, big board
   - Name: Tournament 11
     L10nKey: TournamentBoards_Tournament_11
     Rules:
@@ -1128,6 +1139,7 @@ SpareEvents:
     BaseScore: 552
     ImpossibleThresholdAverageLetterScoreOverride: 6.841549295774648
 
+# Untimed, skull tiles, medium board
   - Name: Tournament 12
     L10nKey: TournamentBoards_Tournament_12
     Rules:
@@ -1143,6 +1155,7 @@ SpareEvents:
     BaseScore: 364
     ImpossibleThresholdAverageLetterScoreOverride: 5.333333333333333
 
+# Untimed, skull tiles, sun/moon tiles, medium board
   - Name: Tournament 13
     L10nKey: TournamentBoards_Tournament_13
     Rules:
@@ -1158,6 +1171,7 @@ SpareEvents:
     BaseScore: 284
     ImpossibleThresholdAverageLetterScoreOverride: 5.9868421052631575
 
+# Untimed, skull tiles, medium board
   - Name: Tournament 14
     L10nKey: TournamentBoards_Tournament_14
     Rules:
@@ -1174,6 +1188,7 @@ SpareEvents:
     BaseScore: 380
     ImpossibleThresholdAverageLetterScoreOverride: 6.634615384615385
 
+# Untimed, letter rule, medium board
   - Name: Tournament 15
     L10nKey: TournamentBoards_Tournament_15
     Rules:
@@ -1196,6 +1211,7 @@ SpareEvents:
     BaseScore: 344
     ImpossibleThresholdAverageLetterScoreOverride: 6.729166666666667
 
+# Untimed, skull tiles, medium board
   - Name: Tournament 16
     L10nKey: TournamentBoards_Tournament_16
     Rules:
@@ -1212,6 +1228,7 @@ SpareEvents:
     BaseScore: 302
     ImpossibleThresholdAverageLetterScoreOverride: 4.301282051282051
 
+# Untimed, skull tiles, medium board
   - Name: Tournament 17
     L10nKey: TournamentBoards_Tournament_17
     Rules:
@@ -1228,6 +1245,7 @@ SpareEvents:
     BaseScore: 374
     ImpossibleThresholdAverageLetterScoreOverride: 5.803191489361702
 
+# Untimed, skull tiles, medium board
   - Name: Tournament 18
     L10nKey: TournamentBoards_Tournament_18
     Rules:
@@ -1244,6 +1262,7 @@ SpareEvents:
     BaseScore: 401
     ImpossibleThresholdAverageLetterScoreOverride: 6.661764705882353
 
+# Untimed, turn-starved (lots of letters), medium board
   - Name: Tournament 19
     L10nKey: TournamentBoards_Tournament_19
     Rules:
@@ -1261,6 +1280,7 @@ SpareEvents:
     BaseScore: 423
     ImpossibleThresholdAverageLetterScoreOverride: 6.282258064516129
 
+# Untimed, letter rule, medium board
   - Name: Tournament 20
     L10nKey: TournamentBoards_Tournament_20
     Rules:
@@ -1282,6 +1302,7 @@ SpareEvents:
     BaseScore: 365
     ImpossibleThresholdAverageLetterScoreOverride: 9.208333333333332
 
+# Untimed, letter rule, medium board
   - Name: Tournament_Chapter1Normal_Den 6
     L10nKey: TournamentBoards_Tournament_Chapter1Normal_Den 6
     Rules:
@@ -1300,6 +1321,7 @@ SpareEvents:
     BaseScore: 254
     ImpossibleThresholdAverageLetterScoreOverride: 5.017441860465116
 
+# Timed, big score, medium board
   - Name: Tournament_Chapter1Normal_Den 12
     L10nKey: TournamentBoards_Tournament_Chapter1Normal_Den 12
     Rules:
@@ -1318,6 +1340,7 @@ SpareEvents:
     BaseScore: 329
     ImpossibleThresholdAverageLetterScoreOverride: 6.604166666666667
 
+# Untimed, egg tiles, medium board
   - Name: Tournament_Chapter2Normal_Den 5
     L10nKey: TournamentBoards_Tournament_Chapter2Normal_Den 5
     Rules:
@@ -1333,6 +1356,7 @@ SpareEvents:
     BaseScore: 295
     ImpossibleThresholdAverageLetterScoreOverride: 6.1861702127659575
 
+# Untimed, egg tiles, medium board
   - Name: Tournament_Chapter2Normal_Den 7
     L10nKey: TournamentBoards_Tournament_Chapter2Normal_Den 7
     Rules:
@@ -1349,6 +1373,7 @@ SpareEvents:
     BaseScore: 281
     ImpossibleThresholdAverageLetterScoreOverride: 6.229591836734694
 
+# Untimed, egg tiles, big score, big board
   - Name: Tournament_Chapter2Normal_Den 10
     L10nKey: TournamentBoards_Tournament_Chapter2Normal_Den 10
     Rules:
@@ -1367,6 +1392,7 @@ SpareEvents:
     BaseScore: 527
     ImpossibleThresholdAverageLetterScoreOverride: 7.416666666666667
 
+# Untimed, egg tiles, big board
   - Name: Tournament_Chapter2Normal_Den 16
     L10nKey: TournamentBoards_Tournament_Chapter2Normal_Den 16
     Rules:
@@ -1385,6 +1411,7 @@ SpareEvents:
     BaseScore: 434
     ImpossibleThresholdAverageLetterScoreOverride: 5.355263157894737
 
+# Untimed, letter rule, big board
   - Name: Tournament_Chapter2Normal_Den 18
     L10nKey: TournamentBoards_Tournament_Chapter2Normal_Den 18
     Rules:
@@ -1405,6 +1432,7 @@ SpareEvents:
     BaseScore: 255
     ImpossibleThresholdAverageLetterScoreOverride: 4.964285714285714
 
+# Timed, egg tiles, medium board
   - Name: Tournament_Chapter2Normal_Den 20
     L10nKey: TournamentBoards_Tournament_Chapter2Normal_Den 20
     Rules:
@@ -1422,6 +1450,7 @@ SpareEvents:
     BaseScore: 338
     ImpossibleThresholdAverageLetterScoreOverride: 6.282258064516129
 
+# Untimed, sun/moon tiles, big score, medium board
   - Name: Tournament_Chapter3Normal_Den 1
     L10nKey: TournamentBoards_Tournament_Chapter3Normal_Den 1
     Rules:
@@ -1438,6 +1467,7 @@ SpareEvents:
     BaseScore: 378
     ImpossibleThresholdAverageLetterScoreOverride: 5.959677419354839
 
+# Untimed, sun/moon tiles, medium board
   - Name: Tournament_Chapter3Normal_Den 3
     L10nKey: TournamentBoards_Tournament_Chapter3Normal_Den 3
     Rules:
@@ -1458,6 +1488,7 @@ SpareEvents:
     BaseScore: 358
     ImpossibleThresholdAverageLetterScoreOverride: 6.701612903225806
 
+# Untimed, sun/moon tiles, medium board
   - Name: Tournament_Chapter3Normal_Den 4
     L10nKey: TournamentBoards_Tournament_Chapter3Normal_Den 4
     Rules:
@@ -1478,6 +1509,7 @@ SpareEvents:
     BaseScore: 478
     ImpossibleThresholdAverageLetterScoreOverride: 8.92741935483871
 
+# Untimed, sun/moon tiles, big board
   - Name: Tournament_Chapter3Normal_Den 5
     L10nKey: TournamentBoards_Tournament_Chapter3Normal_Den 5
     Rules:
@@ -1496,6 +1528,7 @@ SpareEvents:
     BaseScore: 490
     ImpossibleThresholdAverageLetterScoreOverride: 6.8625
 
+# Untimed, sun/moon tiles, letter rule, medium board
   - Name: Tournament_Chapter3Normal_Den 7
     L10nKey: TournamentBoards_Tournament_Chapter3Normal_Den 7
     Rules:
@@ -1517,6 +1550,7 @@ SpareEvents:
     BaseScore: 435
     ImpossibleThresholdAverageLetterScoreOverride: 7.233870967741935
 
+# Untimed, sun/moon tiles, medium board
   - Name: Tournament_Chapter3Normal_Den 10
     L10nKey: TournamentBoards_Tournament_Chapter3Normal_Den 10
     Rules:
@@ -1536,6 +1570,7 @@ SpareEvents:
     BaseScore: 457
     ImpossibleThresholdAverageLetterScoreOverride: 7.8464912280701755
 
+# Untimed, sun/moon tiles, big score, medium board
   - Name: Tournament_Chapter3Normal_Den 15
     L10nKey: TournamentBoards_Tournament_Chapter3Normal_Den 15
     Rules:
@@ -1554,6 +1589,7 @@ SpareEvents:
     BaseScore: 386
     ImpossibleThresholdAverageLetterScoreOverride: 6.922727272727273
 
+# Untimed, sun/moon tiles, big board
   - Name: Tournament_Chapter3Normal_Den 16
     L10nKey: TournamentBoards_Tournament_Chapter3Normal_Den 16
     Rules:
@@ -1572,6 +1608,7 @@ SpareEvents:
     BaseScore: 502
     ImpossibleThresholdAverageLetterScoreOverride: 7.8375
 
+# Untimed, sun/moon tiles, big score, big board
   - Name: Tournament_Chapter3Normal_Den 18
     L10nKey: TournamentBoards_Tournament_Chapter3Normal_Den 18
     Rules:
@@ -1590,6 +1627,7 @@ SpareEvents:
     BaseScore: 401
     ImpossibleThresholdAverageLetterScoreOverride: 8.617088607594937
 
+# Untimed, sun/moon tiles, big board
   - Name: Tournament_Chapter3Normal_Den 19
     L10nKey: TournamentBoards_Tournament_Chapter3Normal_Den 19
     Rules:
@@ -1609,6 +1647,7 @@ SpareEvents:
     BaseScore: 527
     ImpossibleThresholdAverageLetterScoreOverride: 8.038732394366196
 
+# Timed, sun/moon tiles, big board
   - Name: Tournament_Chapter3Normal_Den 20
     L10nKey: TournamentBoards_Tournament_Chapter3Normal_Den 20
     Rules:
@@ -1628,6 +1667,7 @@ SpareEvents:
     BaseScore: 450
     ImpossibleThresholdAverageLetterScoreOverride: 7.4375
 
+# Untimed, sun/moon tiles, big board
   - Name: Tournament_Chapter4Normal_Den 19
     L10nKey: TournamentBoards_Tournament_Chapter4Normal_Den 19
     Rules:
@@ -1645,6 +1685,7 @@ SpareEvents:
     BaseScore: 606
     ImpossibleThresholdAverageLetterScoreOverride: 8.477272727272727
 
+# Untimed, skull tiles, letter rule, medium board
   - Name: Tournament_Chapter7Normal_Den 2-1
     L10nKey: TournamentBoards_Tournament_Chapter7Normal_Den 2-1
     Rules:
@@ -1667,6 +1708,7 @@ SpareEvents:
     BaseScore: 353
     ImpossibleThresholdAverageLetterScoreOverride: 6.5
 
+# Untimed, skull tiles, turn-starved, medium board
   - Name: Tournament_Chapter7Normal_Den 3
     L10nKey: TournamentBoards_Tournament_Chapter7Normal_Den 3
     Rules:
@@ -1684,6 +1726,7 @@ SpareEvents:
     BaseScore: 177
     ImpossibleThresholdAverageLetterScoreOverride: 4.083333333333334
 
+# Untimed, skull tiles, sun/moon tiles, turn-starved, big board
   - Name: Tournament_Chapter7Normal_Den 4
     L10nKey: TournamentBoards_Tournament_Chapter7Normal_Den 4
     Rules:
@@ -1703,6 +1746,7 @@ SpareEvents:
     BaseScore: 348
     ImpossibleThresholdAverageLetterScoreOverride: 5.2875
 
+# Untimed, skull tiles, turn-starved, medium board
   - Name: Tournament_Chapter7Normal_Den 7
     L10nKey: TournamentBoards_Tournament_Chapter7Normal_Den 7
     Rules:
@@ -1719,6 +1763,7 @@ SpareEvents:
     BaseScore: 409
     ImpossibleThresholdAverageLetterScoreOverride: 4.758771929824562
 
+# Untimed, skull tiles, egg tiles, big board
   - Name: Tournament_Chapter7Normal_Den 9
     L10nKey: TournamentBoards_Tournament_Chapter7Normal_Den 9
     Rules:
@@ -1737,6 +1782,7 @@ SpareEvents:
     BaseScore: 459
     ImpossibleThresholdAverageLetterScoreOverride: 5.8125
 
+# Untimed, skull tiles, turn-starved, big board
   - Name: Tournament_Chapter7Normal_Den 15
     L10nKey: TournamentBoards_Tournament_Chapter7Normal_Den 15
     Rules:
@@ -8863,7 +8909,7 @@ EventGroups:
       Rules:
         IsTimed: false
         BoardLayout: |
-          bbbbbbb
+          bbbbbbk
           ,,,,,,,
           ff,s,ff
           fflllff
@@ -15949,7 +15995,7 @@ EventGroups:
       Rules:
         IsTimed: false
         BoardLayout: |
-          bbbbbbb
+          bbbbbbk
           ,,,,,,,
           ff,s,ff
           fflllff
@@ -23035,7 +23081,7 @@ EventGroups:
       Rules:
         IsTimed: false
         BoardLayout: |
-          bbbbbbb
+          bbbbbbk
           ,,,,,,,
           ff,s,ff
           fflllff

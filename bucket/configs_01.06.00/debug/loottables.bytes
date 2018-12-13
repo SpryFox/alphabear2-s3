@@ -2200,16 +2200,32 @@ TimeWarpStrong:
 
 School:
   All:
-  - Groups:
-    - Weight: 70
-      Bear: CoverStar
-      Level: 1
-    - Weight: 20
-      Bear: CoverStar
-      Level: 2
-    - Weight: 10
-      Bear: CoverStar
-      Level: 3
+  - ID: SchoolLevels # overall prob is 62%/28%/10%
+    PSRGroups:
+    - Starting: 70
+      IncrementExponent: 0
+      Baseline: 70
+      Value:
+        Bear: CoverStar
+        Level: 1
+    - Starting: 10
+      IncrementExponent: 8.0
+      Baseline: 10
+      Value:
+        Bear: CoverStar
+        Level: 2
+    - Starting: 50
+      IncrementExponent: 0
+      Baseline: 10
+      Value:
+        Bear: CoverStar
+        Level: 2
+    - Starting: 10
+      IncrementExponent: 3.75
+      Baseline: 10
+      Value:
+        Bear: CoverStar
+        Level: 3
   - Groups:
     - Weight: 60
       Item: berry
@@ -2918,10 +2934,23 @@ TournamentTier1Reward:
         - Weight: 1
           Item: yellow_cloth
           Count: 10
-      - Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
-        Count: 1
-      - Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
-        Count: 1
+      - Cond:
+        - Case: Always
+          Value: 
+            Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+            Count: 1
+        - Case: Else
+          Value:
+            Item: berry
+            Count: 15
+      - Cond:
+        - Case: Always
+          Value:
+            Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+            Count: 1
+        - Case: Else
+          Value:
+            Coins: 5
   - Case: Else
     Value:
       LootTable: TournamentBoobyPrize
@@ -2940,20 +2969,33 @@ TournamentTier2Reward:
         - Weight: 1
           Item: yellow_cloth
           Count: 10
-      - Groups:
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
-          Count: 3
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
-          Count: 4
-      - Groups:
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
-          Count: 1
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
-          Count: 2
+      - Cond:
+        - Case: Always
+          Value:
+            Groups:
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+              Count: 3
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+              Count: 4
+        - Case: Else
+          Value:
+            Item: berry
+            Count: 20
+      - Cond:
+        - Case: Always
+          Value:
+            Groups:
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+              Count: 1
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+              Count: 2
+        - Case: Else
+          Value:
+            Coins: 5
   - Case: Else
     Value:
       LootTable: TournamentBoobyPrize
@@ -2972,20 +3014,33 @@ TournamentTier3Reward:
         - Weight: 1
           Item: yellow_cloth
           Count: 10
-      - Groups:
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
-          Count: 5
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
-          Count: 6
-      - Groups:
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
-          Count: 4
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
-          Count: 5
+      - Cond:
+        - Case: Always
+          Value:
+            Groups:
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+              Count: 5
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+              Count: 6
+        - Case: Else
+          Value:
+            Item: berry
+            Count: 25
+      - Cond:
+        - Case: Always
+          Value:
+            Groups:
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+              Count: 4
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+              Count: 5
+        - Case: Else
+          Value:
+            Coins: 10
   - Case: Else
     Value:
       LootTable: TournamentBoobyPrize
@@ -3007,26 +3062,39 @@ TournamentTier4Reward:
         - Weight: 1
           Item: yellow_cloth
           Count: 30
-      - Groups:
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
-          Count: 8
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
-          Count: 9
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
-          Count: 10
-      - Groups:
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
-          Count: 14
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
-          Count: 16
-        - Weight: 1
-          Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
-          Count: 18
+      - Cond:
+        - Case: Always
+          Value:
+            Groups:
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+              Count: 8
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+              Count: 9
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Epic Token
+              Count: 10
+        - Case: Else
+          Value:
+            Item: berry
+            Count: 30
+      - Cond:
+        - Case: Always
+          Value:
+            Groups:
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+              Count: 14
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+              Count: 16
+            - Weight: 1
+              Item: Any Tag:Tournament UnownedSpecialEvent Legendary Token
+              Count: 18
+        - Case: Else
+          Value:
+            Coins: 10
   - Case: Else
     Value:
       LootTable: TournamentBoobyPrize

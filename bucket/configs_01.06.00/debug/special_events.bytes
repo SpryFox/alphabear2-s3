@@ -1200,28 +1200,28 @@ Events:
       - LootTable: TournamentTier1Reward
         MapFilters:
           OneOf:
-            - "TournamentBoards/$Tournament 1"
-            - "TournamentBoards/$Tournament 2"
-            - "TournamentBoards/$Tournament 3"
-            - "TournamentBoards/$Tournament 4"
-            - "TournamentBoards/$Tournament 5"
-            - "TournamentBoards/$Tournament 6"
-            - "TournamentBoards/$Tournament 7"
-            - "TournamentBoards/$Tournament 8"
-            - "TournamentBoards/$Tournament 9"
-            - "TournamentBoards/$Tournament 10"
-            - "TournamentBoards/$Tournament 11"
-            - "TournamentBoards/$Tournament 12"
-            - "TournamentBoards/$Tournament 13"
-            - "TournamentBoards/$Tournament 14"
-            - "TournamentBoards/$Tournament 15"
-            - "TournamentBoards/$Tournament 16"
-            - "TournamentBoards/$Tournament 17"
-            - "TournamentBoards/$Tournament 18"
-            - "TournamentBoards/$Tournament 19"
-            - "TournamentBoards/$Tournament 20"
-            - "TournamentBoards/$Tournament_Chapter1Normal_Den 6"
-            - "TournamentBoards/$Tournament_Chapter1Normal_Den 12"
+            - "TournamentBoards/$Tournament 1" # Cat3 - Timed, big score, skull tiles, medium board
+            - "TournamentBoards/$Tournament 2" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 3" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 4" # Cat6 - Timed, small board, letter rule
+            - "TournamentBoards/$Tournament 5" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 6" # Cat3 - Timed, skull tiles, big score, medium board
+            - "TournamentBoards/$Tournament 7" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 8" # Cat5 - Timed, skull tiles, sun/moon tiles, medium board
+            - "TournamentBoards/$Tournament 9" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 10" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 11" # Cat3 - Untimed, skull tiles, big score, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament 12" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 13" # Cat4 - Untimed, skull tiles, sun/moon tiles, medium board
+            - "TournamentBoards/$Tournament 14" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 15" # Cat6 - Untimed, letter rule, medium board
+            - "TournamentBoards/$Tournament 16" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 17" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 18" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 19" # Cat4 - Untimed, medium board
+            - "TournamentBoards/$Tournament 20" # Cat4 - Untimed, letter rule, medium board
+            - "TournamentBoards/$Tournament_Chapter1Normal_Den 6" # Cat4 - Untimed, letter rule, medium board
+            - "TournamentBoards/$Tournament_Chapter1Normal_Den 12" # Cat3 - Timed, big score, medium board
         Constraint:
           TimeWindow: {StartDate: '2018/11/12', Duration: '1', RepeatEvery: Week, TimeZone: USEastern}
         UsesBearFSB: false
@@ -1237,33 +1237,33 @@ Events:
       - LootTable: TournamentTier2Reward
         MapFilters:
           OneOf:
-            - "TournamentBoards/$Tournament 1"
-            - "TournamentBoards/$Tournament 2"
-            - "TournamentBoards/$Tournament 3"
-            - "TournamentBoards/$Tournament 4"
-            - "TournamentBoards/$Tournament 5"
-            - "TournamentBoards/$Tournament 6"
-            - "TournamentBoards/$Tournament 7"
-            - "TournamentBoards/$Tournament 8"
-            - "TournamentBoards/$Tournament 9"
-            - "TournamentBoards/$Tournament 10"
-            - "TournamentBoards/$Tournament 11"
-            - "TournamentBoards/$Tournament 12"
-            - "TournamentBoards/$Tournament 13"
-            - "TournamentBoards/$Tournament 14"
-            - "TournamentBoards/$Tournament 15"
-            - "TournamentBoards/$Tournament 16"
-            - "TournamentBoards/$Tournament 17"
-            - "TournamentBoards/$Tournament 18"
-            - "TournamentBoards/$Tournament 19"
-            - "TournamentBoards/$Tournament 20"
-            - "TournamentBoards/$Tournament_Chapter1Normal_Den 6"
-            - "TournamentBoards/$Tournament_Chapter1Normal_Den 12"
-            - "TournamentBoards/$Tournament_Chapter2Normal_Den 5"
-            - "TournamentBoards/$Tournament_Chapter2Normal_Den 7"
-            - "TournamentBoards/$Tournament_Chapter2Normal_Den 10"
-            - "TournamentBoards/$Tournament_Chapter2Normal_Den 16"
-            - "TournamentBoards/$Tournament_Chapter2Normal_Den 18"
+            - "TournamentBoards/$Tournament 1" # Cat3 - Timed, big score, skull tiles, medium board
+            - "TournamentBoards/$Tournament 2" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 3" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 4" # Cat6 - Timed, small board, letter rule
+            - "TournamentBoards/$Tournament 5" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 6" # Cat3 - Timed, skull tiles, big score, medium board
+            - "TournamentBoards/$Tournament 7" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 8" # Cat5 - Timed, skull tiles, sun/moon tiles, medium board
+            - "TournamentBoards/$Tournament 9" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 10" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 11" # Cat3 - Untimed, skull tiles, big score, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament 12" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 13" # Cat4 - Untimed, skull tiles, sun/moon tiles, medium board
+            - "TournamentBoards/$Tournament 14" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 15" # Cat6 - Untimed, letter rule, medium board
+            - "TournamentBoards/$Tournament 16" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 17" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 18" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 19" # Cat4 - Untimed, medium board
+            - "TournamentBoards/$Tournament 20" # Cat4 - Untimed, letter rule, medium board
+            - "TournamentBoards/$Tournament_Chapter1Normal_Den 6" # Cat6 - Untimed, letter rule, medium board
+            - "TournamentBoards/$Tournament_Chapter1Normal_Den 12" # Cat3 - Timed, big score, medium board
+            - "TournamentBoards/$Tournament_Chapter2Normal_Den 5" # Cat4 - Untimed, egg tiles, medium board
+            - "TournamentBoards/$Tournament_Chapter2Normal_Den 7" # Cat4 - Untimed, egg tiles, medium board
+            - "TournamentBoards/$Tournament_Chapter2Normal_Den 10" # Cat4 - Untimed, egg tiles, big score, big board
+            - "TournamentBoards/$Tournament_Chapter2Normal_Den 16" # Cat4 - Untimed, egg tiles, big board
+            - "TournamentBoards/$Tournament_Chapter2Normal_Den 18" # Cat6 - Untimed, letter rule, big board
         Constraint:
           TimeWindow: {StartDate: '2018/11/13', Duration: '1', RepeatEvery: Week, TimeZone: USEastern}
         UsesBearFSB: false
@@ -1279,31 +1279,31 @@ Events:
       - LootTable: TournamentTier3Reward
         MapFilters:
           OneOf:
-            - "TournamentBoards/$Tournament 2"
-            - "TournamentBoards/$Tournament 3"
-            - "TournamentBoards/$Tournament 5"
-            - "TournamentBoards/$Tournament 7"
-            - "TournamentBoards/$Tournament 8"
-            - "TournamentBoards/$Tournament 9"
-            - "TournamentBoards/$Tournament 10"
-            - "TournamentBoards/$Tournament 11"
-            - "TournamentBoards/$Tournament 13"
-            - "TournamentBoards/$Tournament 14"
-            - "TournamentBoards/$Tournament 16"
-            - "TournamentBoards/$Tournament 17"
-            - "TournamentBoards/$Tournament_Chapter2Normal_Den 20"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 1"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 3"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 4"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 5"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 7"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 10"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 15"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 16"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 18"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 19"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 20"
-            - "TournamentBoards/$Tournament_Chapter4Normal_Den 19"
+            - "TournamentBoards/$Tournament 2" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 3" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 5" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 7" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 8" # Cat5 - Timed, skull tiles, sun/moon tiles, medium board
+            - "TournamentBoards/$Tournament 9" # Cat5 - Timed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 10" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 11" # Cat3 - Untimed, skull tiles, big score, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament 13" # Cat4 - Untimed, skull tiles, sun/moon tiles, medium board
+            - "TournamentBoards/$Tournament 14" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 16" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament 17" # Cat4 - Untimed, skull tiles, medium board
+            - "TournamentBoards/$Tournament_Chapter2Normal_Den 20" # Cat5 - Timed, egg tiles, medium board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 1" # Cat3 - Untimed, sun/moon tiles, big score, medium board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 3" # Cat3 - Untimed, sun/moon tiles, medium board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 4" # Cat3 - Untimed, sun/moon tiles, medium board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 5" # Cat3 - Untimed, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 7" # Cat6 - Untimed, sun/moon tiles, letter rule, medium board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 10" # Cat3 - Untimed, sun/moon tiles, medium board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 15" # Cat3 - Untimed, sun/moon tiles, big score, medium board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 16" # Cat3 - Untimed, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 18" # Cat3 - Untimed, sun/moon tiles, big score, big board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 19" # Cat3 - Untimed, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 20" # Cat3 - Timed, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament_Chapter4Normal_Den 19" # Cat3 - Untimed, sun/moon tiles, big board
         Constraint:
           TimeWindow: {StartDate: '2018/11/14', Duration: '1', RepeatEvery: Week, TimeZone: USEastern}
         UsesBearFSB: false
@@ -1319,22 +1319,22 @@ Events:
       - LootTable: TournamentTier4Reward
         MapFilters:
           OneOf:
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 4"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 5"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 7"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 10"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 15"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 16"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 18"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 19"
-            - "TournamentBoards/$Tournament_Chapter3Normal_Den 20"
-            - "TournamentBoards/$Tournament_Chapter4Normal_Den 19"
-            - "TournamentBoards/$Tournament_Chapter7Normal_Den 2-1"
-            - "TournamentBoards/$Tournament_Chapter7Normal_Den 3"
-            - "TournamentBoards/$Tournament_Chapter7Normal_Den 4"
-            - "TournamentBoards/$Tournament_Chapter7Normal_Den 7"
-            - "TournamentBoards/$Tournament_Chapter7Normal_Den 9"
-            - "TournamentBoards/$Tournament_Chapter7Normal_Den 15"
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 4" # Cat3 - Untimed, sun/moon tiles, medium board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 5" # Cat3 - Untimed, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 7" # Cat6 - Untimed, sun/moon tiles, letter rule, medium board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 10" # Cat3 - Untimed, sun/moon tiles, medium board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 15" # Cat3 - Untimed, sun/moon tiles, big score, medium board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 16" # Cat3 - Untimed, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 18" # Cat3 - Untimed, sun/moon tiles, big score, big board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 19" # Cat3 - Untimed, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament_Chapter3Normal_Den 20" # Cat3 - Timed, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament_Chapter4Normal_Den 19" # Cat3 - Untimed, sun/moon tiles, big board
+            - "TournamentBoards/$Tournament_Chapter7Normal_Den 2-1" # Cat6 - Untimed, skull tiles, letter rule, medium board
+            - "TournamentBoards/$Tournament_Chapter7Normal_Den 3" # Cat1 - Untimed, skull tiles, turn-starved, medium board 
+            - "TournamentBoards/$Tournament_Chapter7Normal_Den 4" # Cat1 - Untimed, skull tiles, sun/moon tiles, turn-starved, big board
+            - "TournamentBoards/$Tournament_Chapter7Normal_Den 7" # Cat1 - Untimed, skull tiles, turn-starved, medium board
+            - "TournamentBoards/$Tournament_Chapter7Normal_Den 9" # Cat4 - Untimed, skull tiles, egg tiles, big board
+            - "TournamentBoards/$Tournament_Chapter7Normal_Den 15" # Cat1 - Untimed, skull tiles, turn-starved, big board
         Constraint:
           TimeWindow: {StartDate: '2018/11/15', Duration: '1', RepeatEvery: Week, TimeZone: USEastern}
         UsesBearFSB: false

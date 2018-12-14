@@ -148,7 +148,6 @@
 ################################################################################
 
 - Name: Doc Bear
-asdfasdfasdfasdfasdfasdfasdf
   SkinName: DocBear
   Tags: [smart]
   IsUnlockedByDefault: true
@@ -164,7 +163,7 @@ asdfasdfasdfasdfasdfasdfasdf
       Points: 5
       Length: 4
     PowerIcon: tilecondition
-    IconText: X
+    IconText: 4
 
 - Name: Tutorial Bear
   SkinName: DefaultBear

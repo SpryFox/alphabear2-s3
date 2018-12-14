@@ -163,7 +163,7 @@
       Points: 5
       Length: 4
     PowerIcon: tilecondition
-    IconText: 4
+    IconText: 6
 
 - Name: Tutorial Bear
   SkinName: DefaultBear

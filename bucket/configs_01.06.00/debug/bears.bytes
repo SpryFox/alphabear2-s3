@@ -148,7 +148,7 @@
 ################################################################################
 
 - Name: Doc Bear
-  SkinName: DocBear
+- SkinName: DocBear
   Tags: [smart]
   IsUnlockedByDefault: true
   Rarity: Common

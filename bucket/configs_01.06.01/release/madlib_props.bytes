@@ -1,0 +1,79 @@
+
+GenericProps: 
+  Ground:
+    Prop_Ground_BabyBear: 0.5
+    Prop_Ground_Tombstone: 0.1
+    Prop_Ground_Poo: 0.5
+    Prop_Ground_Fallen_Ice_Cream: 0.1
+    Prop_Ground_Flower: 0.2
+    Prop_Ground_BSOD: 0.5
+    Prop_Ground_BearTrap: 0.5
+  LargeGround:
+    Prop_Ground_Portal: 0.1
+    Prop_Ground_Fbi_Board: 1
+    Prop_Ground_Dumpster: 1
+    Prop_Ground_PeeperBear: 1
+    Prop_Ground_Graph: 1
+    Prop_Ground_Gameplan: 1
+  ArmLeft:
+    Prop_ArmLeft_Coffee: 1
+    Prop_ArmLeft_FishingRod: 0.1
+    Prop_ArmLeft_MagicWand: 0.2
+    Prop_ArmLeft_Skateboard: 0.1
+    Prop_ArmLeft_Sword: 0.1
+    Prop_ArmLeft_TennisRacket: 0.1
+    Prop_ArmLeft_Ukulele: 0.5
+    Prop_ArmLeft_Golden_Bear_Award: 1
+    Prop_ArmLeft_Mug_of_Beer: 1
+    Prop_ArmLeft_White_Flag: 1
+  ArmRight:
+    Prop_ArmRight_Skull: 1
+    Prop_ArmRight_GameBear: 0.1
+    Prop_ArmRight_IceCream: 0.1
+    Prop_ArmRight_Money: 2
+    Prop_ArmRight_Pizza: 0.1
+    Prop_ArmRight_Purse: 0.5
+    Prop_ArmRight_Newspaper: 1
+    Prop_ArmRight_PuzzleCube: 0.5
+    Prop_ArmRight_Surfboard: 0.1
+
+ChapterSpecificProps:
+  # Chapter 1
+  - GroundProps:
+      Prop_Ground_Console: 1
+      Prop_Ground_Boombox: 1
+    ArmRight:
+      Prop_ArmRight_BrickPhone: 2
+
+  # Chapter 2
+  - GroundProps:
+      Prop_Ground_CarnivorousPlant: 1
+      Prop_Ground_Dino Egg: 1
+
+  # Chapter 3
+  - {}
+
+  # Chapter 4
+  - Ground:
+      Prop_Ground_Bass: 1
+
+  # Chapter 5
+  - Ground:
+      Prop_Ground_Helm: 1
+
+  # Chapter 6
+  - {}
+
+  # Chapter 7
+  - Ground:
+      Prop_Ground_Parrot: 1
+      Prop_Ground_Treasure_Chest: 1
+
+  # Chapter 8
+  - {}
+
+  # Chapter 9
+  - {}
+
+  # Chapter 10
+  - {}

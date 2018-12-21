@@ -1,0 +1,1248 @@
+TournamentDifficultyModifier: 0.1
+
+Events:
+  #############################
+  # replayable special events #
+  #############################
+
+  - ID: HoneyPot
+    TopTint: CB704F
+    BottomTint: F9D023
+    Replayable: true
+    SendNotification: true
+    ComingSoonLeadupDays: 1
+    FreePlaysLimit: 1
+    CoinReplayCost: 75
+    Constraints:
+      TimeWindow: {StartDate: '2018/10/02', Duration: 1, RepeatEvery: Week, RepeatInterval: 2}
+    Tiers:
+      - LootTable: HoneyPotReward
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.73
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: SweetBearista
+    TopTint: 6E8F79
+    BottomTint: 53715D
+    Replayable: true
+    SendNotification: false
+    ComingSoonLeadupDays: 1
+    FreePlaysLimit: 1
+    CoinReplayCost: 45
+    Constraints:
+      TimeWindow: {StartDate: '2018/11/04', Duration: 1, RepeatEvery: Week, RepeatInterval: 2}
+    Tiers:
+      - LootTable: SweetBearistaReward
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.73
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: HoneyDressings
+    TopTint: CB704F
+    BottomTint: F9D023
+    Replayable: true
+    SendNotification: false
+    ComingSoonLeadupDays: 1
+    FreePlaysLimit: 1
+    CoinReplayCost: 45
+    Constraints:
+      TimeWindow: {StartDate: '2018/10/27', Duration: 1, RepeatEvery: Week, RepeatInterval: 2}
+    Tiers:
+      - LootTable: HoneyDressingsReward
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.73
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: Halloween
+    TopTint: CB704F
+    BottomTint: F9D023
+    Replayable: true
+    SendNotification: true
+    FreePlaysLimit: 1
+    CoinReplayCost: 15
+    Constraints:
+      TimeWindow: {StartDate: '2018/10/24', Duration: 8, RepeatEvery: Month, RepeatInterval: 12}
+    Tiers:
+      - LootTable: HalloweenSpecialReward
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.7
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+        MapFilters:
+          OneOf:
+            - "SpecialEventBoards/$Halloween 1"
+            - "SpecialEventBoards/$Halloween 2"
+            - "SpecialEventBoards/$Halloween 3"
+
+  - ID: SavoryDrinkFodder
+    TopTint: 98E377
+    BottomTint: 98E377
+    Replayable: true
+    BanScrolling: true
+    SendNotification: false
+    FreePlaysLimit: 1
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/05', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: EpicSavoryFodderReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithTags: [savory]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: LegendaryDrinkFodderReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithName: Donut Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: CelebrityNighttimeFodder
+    TopTint: 172571
+    BottomTint: 172571
+    Replayable: true
+    BanScrolling: true
+    SendNotification: false
+    FreePlaysLimit: 1
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/12', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: EpicCelebrityFodderReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithTags: [celebrity]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: LegendaryNighttimeFodderReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithName: Bearilyn
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: SmartChildhoodFodder
+    TopTint: B45FD9
+    BottomTint: B45FD9
+    Replayable: true
+    BanScrolling: true
+    SendNotification: false
+    FreePlaysLimit: 1
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/26', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: EpicSmartFodderReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithTags: [smart]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: LegendaryChildhoodFodderReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithName: Ginger Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: RetroMonsterFodder
+    TopTint: 0277B2
+    BottomTint: 0277B2
+    Replayable: true
+    BanScrolling: true
+    SendNotification: false
+    FreePlaysLimit: 1
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/19', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: EpicRetroFodderReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithTags: [retro]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: LegendaryMonsterFodderReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithName: Slasher Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: AnimalHugeFodder
+    TopTint: 76D7E3
+    BottomTint: 76D7E3
+    Replayable: true
+    BanScrolling: true
+    SendNotification: false
+    FreePlaysLimit: 1
+    Constraints:
+      TimeWindow: {StartDate: '2018/08/02', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: EpicAnimalFodderReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithTags: [animal]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: LegendaryHugeFodderReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithName: Bacon Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+
+  ############################
+  # epic special events #
+  ############################
+
+  - ID: EpicDonutBear
+    TopTint: 6ddfef
+    BottomTint: aefffe
+    Replayable: false
+    SendNotification: true
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/05', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: EpicDonutBearTier1Reward
+        Constraint:
+          BeatenChapter: 2
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 19
+            WithTags: [savory]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 3
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 39
+            WithTags: [savory]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          HasClothing: ['Mask_GlassesDonut_Mask'] 
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: DonutBearReward
+        OverrideRewardsString: Bear_DisplayName_Donut Bear
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 74
+            WithTags: [savory]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: EpicBearilynBear
+    TopTint: 403228
+    BottomTint: 84674b
+    Replayable: false
+    SendNotification: true
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/12', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: EpicBearilynTier1Reward
+        Constraint:
+          BeatenChapter: 2
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 19
+            WithTags: [celebrity]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 3
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 39
+            WithTags: [celebrity]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          HasClothing: ['Hat_Bearilyn_Hat'] 
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: BearilynReward
+        OverrideRewardsString: Bear_DisplayName_Bearilyn
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 74
+            WithTags: [celebrity]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: EpicGingerBear
+    TopTint: b45cd8
+    BottomTint: f181b9
+    Replayable: false
+    SendNotification: true
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/26', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: EpicGingerBearTier1Reward
+        Constraint:
+          BeatenChapter: 2
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 19
+            WithTags: [smart]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 3
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 39
+            WithTags: [smart]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          HasClothing: ['Accessory_GingerBreadTie_AccessoryBody'] 
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: GingerBearReward
+        OverrideRewardsString: Bear_DisplayName_Ginger Bear
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 74
+            WithTags: [smart]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: EpicSlasherBear
+    TopTint: 2e2725
+    BottomTint: 9d191d
+    Replayable: false
+    SendNotification: true
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/19', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: EpicSlasherBearTier1Reward
+        Constraint:
+          BeatenChapter: 2
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 19
+            WithTags: [retro]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 3
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 39
+            WithTags: [retro]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          HasClothing: ['Mask_Killer_Mask'] 
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SlasherBearReward
+        OverrideRewardsString: Bear_DisplayName_Slasher Bear
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 74
+            WithTags: [retro]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: EpicBaconBear
+    TopTint: 98e377
+    BottomTint: 26a54a
+    Replayable: false
+    SendNotification: true
+    Constraints:
+      TimeWindow: {StartDate: '2018/08/02', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: EpicBaconBearTier1Reward
+        Constraint:
+          BeatenChapter: 2
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 19
+            WithTags: [animal]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 3
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 39
+            WithTags: [animal]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          HasClothing: ['Bacon Dress'] 
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: BaconBearReward
+        OverrideRewardsString: Bear_DisplayName_Bacon Bear
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 74
+            WithTags: [animal]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+
+  ############################
+  # legendary special events #
+  ############################
+
+  - ID: LegendaryCremeBearlee
+    TopTint: be494e
+    BottomTint: f4d5a5
+    Replayable: false
+    SendNotification: true
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/05', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithName: Donut Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 4
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 74
+            WithTags: [drink]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 9
+            WithName: Donut Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 5
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          HasClothing: ['Hat_ChefHat_Hat'] 
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 149
+            WithTags: [drink]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 29
+            WithName: Donut Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: CremeBearleeReward
+        OverrideRewardsString: Bear_DisplayName_Creme Bearlee
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 299
+            WithTags: [drink]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: LegendaryVampireBear
+    TopTint: 36113f
+    BottomTint: 9d191d
+    Replayable: false
+    SendNotification: true
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/19', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithName: Slasher Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 4
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 74
+            WithTags: [monster]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 9
+            WithName: Slasher Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 5
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          HasClothing: ['Vampire Cloak'] 
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 149
+            WithTags: [monster]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 29
+            WithName: Slasher Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: VampireBearReward
+        OverrideRewardsString: Bear_DisplayName_Vampire Bear
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 299
+            WithTags: [monster]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: LegendaryMoonBear
+    TopTint: 102557
+    BottomTint: 5fadd6
+    Replayable: false
+    SendNotification: true
+    Constraints:
+      TimeWindow: {StartDate: '2018/08/02', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithName: Bacon Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 4
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 74
+            WithTags: [huge]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 9
+            WithName: Bacon Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 5
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          HasClothing: ['Astronaut Suit'] 
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 149
+            WithTags: [huge]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 29
+            WithName: Bacon Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: MoonBearReward
+        OverrideRewardsString: Bear_DisplayName_Moon Bear
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 299
+            WithTags: [huge]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: LegendaryBearvis
+    TopTint: aa0a36
+    BottomTint: 7b2f7c
+    Replayable: false
+    SendNotification: true
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/12', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithName: Bearilyn
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 4
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 74
+            WithTags: [nighttime]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 9
+            WithName: Bearilyn
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 5
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          HasClothing: ['Hat_Bearvis_Hat'] 
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 149
+            WithTags: [nighttime]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 29
+            WithName: Bearilyn
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: BearvisReward
+        OverrideRewardsString: Bear_DisplayName_Bearvis
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 299
+            WithTags: [nighttime]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: Legendary8BitBear
+    TopTint: 5e99ee
+    BottomTint: 7df1ff
+    Replayable: false
+    SendNotification: true
+    Constraints:
+      TimeWindow: {StartDate: '2018/07/26', Duration: '2.00:00', RepeatEvery: Week, RepeatInterval: 5}
+    Tiers:
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 0
+            WithName: Ginger Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 4
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 74
+            WithTags: [childhood]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 9
+            WithName: Ginger Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          BeatenChapter: 5
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          HasClothing: ['Mask_8BitGlasses_Mask'] 
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 149
+            WithTags: [childhood]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: SpecialEventNormalReward
+        Constraint:
+          Bears:
+            MinQuantity: 1
+            AboveLevel: 29
+            WithName: Ginger Bear
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+      - LootTable: 8BitReward
+        OverrideRewardsString: Bear_DisplayName_8 Bit Bear
+        Constraint:
+          Bears:
+            MinQuantity: 3
+            AboveLevel: 299
+            WithTags: [childhood]
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.75
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+
+  - ID: tournament
+    IsTournament: true
+    Replayable: true
+    SendNotification: true
+    CoinReplayCost: 60
+    FreePlaysLimit: 1
+    PlayLimitWindow: Special
+    IsPlayLimitSharedAcrossTiers: false
+    Constraints:
+      TimeWindow: {StartDate: '2018/11/12', Duration: '4', RepeatEvery: Week, TimeZone: USEastern}
+    RandomTierMatchConstraints:
+      - Bears: {NotAffinity: Merry}
+      - Bears: {NotAffinity: Brave}
+      - Bears: {NotAffinity: Cautious}
+      - Bears: {NotAffinity: Calm}
+      - Bears: {NotAffinity: Scary}
+    Tiers:
+      - LootTable: TournamentTier1Reward
+        Constraint:
+          TimeWindow: {StartDate: '2018/11/12', Duration: '1', RepeatEvery: Week, TimeZone: USEastern}
+        UsesBearFSB: false
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.01
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+        Completed:
+          When: InLeaderboardPercentile
+          Param: 0.5
+      - LootTable: TournamentTier2Reward
+        Constraint:
+          TimeWindow: {StartDate: '2018/11/13', Duration: '1', RepeatEvery: Week, TimeZone: USEastern}
+        UsesBearFSB: false
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.01
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+        Completed:
+          When: InLeaderboardPercentile
+          Param: 0.4
+      - LootTable: TournamentTier3Reward
+        Constraint:
+          TimeWindow: {StartDate: '2018/11/14', Duration: '1', RepeatEvery: Week, TimeZone: USEastern}
+        UsesBearFSB: false
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.01
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11
+        Completed:
+          When: InLeaderboardPercentile
+          Param: 0.2
+      - LootTable: TournamentTier4Reward
+        Constraint:
+          TimeWindow: {StartDate: '2018/11/15', Duration: '1', RepeatEvery: Week, TimeZone: USEastern}
+        UsesBearFSB: false
+        DynamicScore:
+          DifficultyAdjustmentMultiplier: 0.01
+          UseNBestBears: 3
+          UseNthBestBear: 0
+          OnlyUseAwakeBears: true
+          NumGamesForMedianSkillRating: 11

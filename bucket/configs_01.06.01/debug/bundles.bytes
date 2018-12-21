@@ -1,0 +1,461 @@
+# example special event bundle:
+# - ID: legendarycremebearlee_bundle # must be unique
+#   OnlyWithSpecialEvent: LegendaryCremeBearlee
+#   BuyLimit: 3 # optional, defaults to 1
+#
+#   # how to describe bear rewards? to minimise variations you can specifiy
+#   # a key and some parameters. this example says something like:
+#   # "+%0%-%1% levels for ONE of these bears", and the Parameters are inserted to make:
+#   # "+10-15 levels for ONE of these bears"
+#   # Parameters are optional if you don't need them.
+#   DetailedBearHeaderKey: DetailedBundle_BearHeader_RangedLevels
+#   DetailedBearHeaderKeyParameters: ["10", "15"]
+#
+#   IconImage: no_ads_icon 
+#   Rewards: 
+#     - LootTable: GenericSpecialEventBundleItems
+#     - Groups:
+#         - Weight: 34
+#           Bear: Any Tag:Drink NonSpecial Rare
+#           Level: 10
+#         - Weight: 66
+#           Bear: Any Tag:Drink NonSpecial Rare
+#           Level: 15
+
+# reverse-priority order:
+
+##############################
+# epic special event bundles #
+##############################
+
+- ID: epicdonutbear_bundle
+  DescriptionParams:
+    BearCountMin: 2
+    BearCountMax: 3
+    BearLevelMin: 20
+    BearLevelMax: 33
+    BearTagKey: savory
+  BannerImage: livetoeat_banner
+  BannerImageNonEnglish: livetoeat_banner 
+  OnlyWithSpecialEvent: EpicDonutBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Savory NonSpecial Rare
+        Level: 4
+      - Weight: 50
+        Bear: Any Tag:Savory NonSpecial Rare
+        Level: 8
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Savory NonSpecial Common
+        Level: 10
+      - Weight: 50
+        Bear: Any Tag:Savory NonSpecial Common
+        Level: 15
+    - Groups:
+      - Weight: 25
+        Bear: Any Tag:Savory NonSpecial Common
+        Level: 6
+      - Weight: 75
+        Bear: Any Tag:Savory NonSpecial Common
+        Level: 10
+    - LootTable: EpicSpecialBundleClothReward
+
+- ID: epicbearilynbear_bundle
+  DescriptionParams:
+    BearCountMin: 2
+    BearCountMax: 3
+    BearLevelMin: 20
+    BearLevelMax: 33
+    BearTagKey: celebrity
+  BannerImage: walkoffame_banner
+  BannerImageNonEnglish: walkoffame_banner 
+  OnlyWithSpecialEvent: EpicBearilynBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Celebrity NonSpecial Rare
+        Level: 4
+      - Weight: 50
+        Bear: Any Tag:Celebrity NonSpecial Rare
+        Level: 8
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Celebrity NonSpecial Common
+        Level: 10
+      - Weight: 50
+        Bear: Any Tag:Celebrity NonSpecial Common
+        Level: 15
+    - Groups:
+      - Weight: 25
+        Bear: Any Tag:Celebrity NonSpecial Common
+        Level: 6
+      - Weight: 75
+        Bear: Any Tag:Celebrity NonSpecial Common
+        Level: 10
+    - LootTable: EpicSpecialBundleClothReward
+    
+- ID: epicgingerbear_bundle
+  DescriptionParams:
+    BearCountMin: 2
+    BearCountMax: 3
+    BearLevelMin: 20
+    BearLevelMax: 33
+    BearTagKey: smart
+  BannerImage: palletcleanser_banner
+  BannerImageNonEnglish: palletcleanser_banner
+  OnlyWithSpecialEvent: EpicGingerBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Smart NonSpecial Rare
+        Level: 4
+      - Weight: 50
+        Bear: Any Tag:Smart NonSpecial Rare
+        Level: 8
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Smart NonSpecial Common
+        Level: 10
+      - Weight: 50
+        Bear: Any Tag:Smart NonSpecial Common
+        Level: 15
+    - Groups:
+      - Weight: 25
+        Bear: Any Tag:Smart NonSpecial Common
+        Level: 6
+      - Weight: 75
+        Bear: Any Tag:Smart NonSpecial Common
+        Level: 10
+    - LootTable: EpicSpecialBundleClothReward
+    
+- ID: epicslasherbear_bundle
+  DescriptionParams:
+    BearCountMin: 2
+    BearCountMax: 3
+    BearLevelMin: 20
+    BearLevelMax: 33
+    BearTagKey: retro
+  BannerImage: dontgointhere_banner
+  BannerImageNonEnglish: dontgointhere_banner
+  OnlyWithSpecialEvent: EpicSlasherBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Retro NonSpecial Rare
+        Level: 4
+      - Weight: 50
+        Bear: Any Tag:Retro NonSpecial Rare
+        Level: 8
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Retro NonSpecial Common
+        Level: 10
+      - Weight: 50
+        Bear: Any Tag:Retro NonSpecial Common
+        Level: 15
+    - Groups:
+      - Weight: 25
+        Bear: Any Tag:Retro NonSpecial Common
+        Level: 6
+      - Weight: 75
+        Bear: Any Tag:Retro NonSpecial Common
+        Level: 10
+    - LootTable: EpicSpecialBundleClothReward
+    
+- ID: epicbaconbear_bundle
+  DescriptionParams:
+    BearCountMin: 2
+    BearCountMax: 3
+    BearLevelMin: 20
+    BearLevelMax: 33
+    BearTagKey: animal
+  BannerImage: farmfresh_banner
+  BannerImageNonEnglish: farmfresh_banner
+  OnlyWithSpecialEvent: EpicBaconBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Animal NonSpecial Rare
+        Level: 4
+      - Weight: 50
+        Bear: Any Tag:Animal NonSpecial Rare
+        Level: 8
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Animal NonSpecial Common
+        Level: 10
+      - Weight: 50
+        Bear: Any Tag:Animal NonSpecial Common
+        Level: 15
+    - Groups:
+      - Weight: 25
+        Bear: Any Tag:Animal NonSpecial Common
+        Level: 6
+      - Weight: 75
+        Bear: Any Tag:Animal NonSpecial Common
+        Level: 10
+    - LootTable: EpicSpecialBundleClothReward
+
+###################################    
+# legendary special event bundles #
+###################################
+
+- ID: legendarycremebearlee_bundle
+  DescriptionParams:
+    BearCountMin: 1
+    BearCountMax: 3
+    BearLevelMin: 40
+    BearLevelMax: 70
+    BearTagKey: drink
+  BannerImage: justdesserts_banner
+  BannerImageNonEnglish: justdesserts_banner
+  OnlyWithSpecialEvent: LegendaryCremeBearlee
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Groups:
+      - Weight: 5000000
+        Bear: Any Tag:Drink Owned Epic
+        Level: 8
+      - Weight: 5000000
+        Bear: Any Tag:Drink Owned Epic
+        Level: 16
+      - Weight: 0.0000000001
+        Groups:
+        - Weight: 95
+          Bear: Any Tag:Drink NonSpecial Rare
+          Level: 16
+        - Weight: 5
+          Bear: Any Tag:Drink NonSpecial Epic
+          Level: 1
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Drink NonSpecial Rare
+        Level: 20
+      - Weight: 50
+        Bear: Any Tag:Drink NonSpecial Rare
+        Level: 30
+    - Groups:
+      - Weight: 25
+        Bear: Any Tag:Drink NonSpecial Rare
+        Level: 12
+      - Weight: 75
+        Bear: Any Tag:Drink NonSpecial Rare
+        Level: 24
+    - LootTable: LegendarySpecialBundleClothReward
+
+- ID: legendaryvampirebear_bundle
+  DescriptionParams:
+    BearCountMin: 1
+    BearCountMax: 3
+    BearLevelMin: 40
+    BearLevelMax: 70
+    BearTagKey: monster
+  BannerImage: abpositive_banner
+  BannerImageNonEnglish: abpositive_banner
+  OnlyWithSpecialEvent: LegendaryVampireBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Groups:
+      - Weight: 5000000
+        Bear: Any Tag:Monster Owned Epic
+        Level: 8
+      - Weight: 5000000
+        Bear: Any Tag:Monster Owned Epic
+        Level: 16
+      - Weight: 0.0000000001
+        Groups:
+        - Weight: 95
+          Bear: Any Tag:Monster NonSpecial Rare
+          Level: 16
+        - Weight: 5
+          Bear: Any Tag:Monster NonSpecial Epic
+          Level: 1
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Monster NonSpecial Rare
+        Level: 20
+      - Weight: 50
+        Bear: Any Tag:Monster NonSpecial Rare
+        Level: 30
+    - Groups:
+      - Weight: 25
+        Bear: Any Tag:Monster NonSpecial Rare
+        Level: 12
+      - Weight: 75
+        Bear: Any Tag:Monster NonSpecial Rare
+        Level: 24
+    - LootTable: LegendarySpecialBundleClothReward
+
+- ID: legendarymoonbear_bundle
+  DescriptionParams:
+    BearCountMin: 1
+    BearCountMax: 3
+    BearLevelMin: 40
+    BearLevelMax: 70
+    BearTagKey: huge
+  BannerImage: onesmallstep_banner
+  BannerImageNonEnglish: onesmallstep_banner
+  OnlyWithSpecialEvent: LegendaryMoonBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Groups:
+      - Weight: 5000000
+        Bear: Any Tag:Huge Owned Epic
+        Level: 8
+      - Weight: 5000000
+        Bear: Any Tag:Huge Owned Epic
+        Level: 16
+      - Weight: 0.0000000001
+        Groups:
+        - Weight: 95
+          Bear: Any Tag:Huge NonSpecial Rare
+          Level: 16
+        - Weight: 5
+          Bear: Any Tag:Huge NonSpecial Epic
+          Level: 1
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Huge NonSpecial Rare
+        Level: 20
+      - Weight: 50
+        Bear: Any Tag:Huge NonSpecial Rare
+        Level: 30
+    - Groups:
+      - Weight: 25
+        Bear: Any Tag:Huge NonSpecial Rare
+        Level: 12
+      - Weight: 75
+        Bear: Any Tag:Huge NonSpecial Rare
+        Level: 24
+    - LootTable: LegendarySpecialBundleClothReward
+    
+- ID: legendarybearvis_bundle
+  DescriptionParams:
+    BearCountMin: 1
+    BearCountMax: 3
+    BearLevelMin: 40
+    BearLevelMax: 70
+    BearTagKey: nighttime
+  BannerImage: graceland_banner
+  BannerImageNonEnglish: graceland_banner
+  OnlyWithSpecialEvent: LegendaryBearvis
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Groups:
+      - Weight: 5000000
+        Bear: Any Tag:Nighttime Owned Epic
+        Level: 8
+      - Weight: 5000000
+        Bear: Any Tag:Nighttime Owned Epic
+        Level: 16
+      - Weight: 0.0000000001
+        Groups:
+        - Weight: 95
+          Bear: Any Tag:Nighttime NonSpecial Rare
+          Level: 16
+        - Weight: 5
+          Bear: Any Tag:Nighttime NonSpecial Epic
+          Level: 1
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Nighttime NonSpecial Rare
+        Level: 20
+      - Weight: 50
+        Bear: Any Tag:Nighttime NonSpecial Rare
+        Level: 30
+    - Groups:
+      - Weight: 25
+        Bear: Any Tag:Nighttime NonSpecial Rare
+        Level: 12
+      - Weight: 75
+        Bear: Any Tag:Nighttime NonSpecial Rare
+        Level: 24
+    - LootTable: LegendarySpecialBundleClothReward
+    
+- ID: legendary8bitbear_bundle
+  DescriptionParams:
+    BearCountMin: 1
+    BearCountMax: 3
+    BearLevelMin: 40
+    BearLevelMax: 70
+    BearTagKey: childhood
+  BannerImage: upupdowndown_banner
+  BannerImageNonEnglish: upupdowndown_banner
+  OnlyWithSpecialEvent: Legendary8BitBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Groups:
+      - Weight: 5000000
+        Bear: Any Tag:Childhood Owned Epic
+        Level: 8
+      - Weight: 5000000
+        Bear: Any Tag:Childhood Owned Epic
+        Level: 16
+      - Weight: 0.0000000001
+        Groups:
+        - Weight: 95
+          Bear: Any Tag:Childhood NonSpecial Rare
+          Level: 16
+        - Weight: 5
+          Bear: Any Tag:Childhood NonSpecial Epic
+          Level: 1
+    - Groups:
+      - Weight: 50
+        Bear: Any Tag:Childhood NonSpecial Rare
+        Level: 20
+      - Weight: 50
+        Bear: Any Tag:Childhood NonSpecial Rare
+        Level: 30
+    - Groups:
+      - Weight: 25
+        Bear: Any Tag:Childhood NonSpecial Rare
+        Level: 12
+      - Weight: 75
+        Bear: Any Tag:Childhood NonSpecial Rare
+        Level: 24
+    - LootTable: LegendarySpecialBundleClothReward
+
+##################
+# Normal bundles #
+##################
+
+# noads was changed into the Ultimate bundle
+# the old noads bundle contents were moved into the remove_ads bundle
+- ID: noads   # We can't change this ID because a bunch of people have bought it already.
+  BannerImage: ultimate_banner
+  BannerImageNonEnglish: ultimate_banner
+  Rewards:
+    - Item: remove_ads
+      Count: 1
+    - Item: honey_maximizer
+      Count: 1
+    - Coins: 400
+    - Item: bear_wakeup
+      Count: 3
+
+- ID: remove_ads
+  BannerImage: remove_ads_banner
+  BannerImageNonEnglish: remove_ads_banner
+  Rewards: []
+
+- ID: honey_maximizer
+  BannerImage: honey_maximizer_banner
+  BannerImageNonEnglish: honey_maximizer_banner
+  Rewards: []

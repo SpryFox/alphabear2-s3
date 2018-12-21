@@ -1,0 +1,1169 @@
+# Valid key words: [adjective] [adjective_er] [adjective_est] [adverb]
+#                  [nounsingular] [nounplural] [nounall]
+#                  [verbfirstsecond] [verbthird] [verb_ed] [verb_ing]
+# Replaced words will follow the upper/lower case used in the key words, character by character.
+# If replaced word is longer than key word, it'll keep using the latest case in key word.
+
+phrases:
+    # using quotes on every string so is less likely to add one with a symbol that wouldnt work without the quotes (ie. #)
+    # to actually show double quotes use \"
+
+    # new for AB2:
+
+    - "I'm a [nounsingular], that's why I [verbfirstsecond] [adverb]. [temporalcondition]"
+    - "How many [nounplural] would be enough to get you [verb_ing]? 10? 20?"
+    - "I've heard that [nounplural] can't [verbfirstsecond]... isn't that [adjective]?"
+    - "I was going to start a [adjective_er] [nounall] meme, but the Internet beat me to it."
+    - "Keep calm and [verbfirstsecond] on!"
+    - "Man, [adjective] [nounplural] are always [adverb] [verb_ing]. Amiright?"
+    - "You made a time machine out of a [nounsingular]?! And you've used it to [verbfirstsecond] the world?!"
+    - "All Your [Nounsingular] Are Belong to Us. #AlphaMeme"
+    - "[Adverb]! Much wow! Such [nounall]! #AlphaMeme"
+    - "Quick, there's no time to explain - [actquickly] [nounsingular]!"
+    - "[Nounplural] are the best [nounplural]. Don't @ me!"
+    - "What happens in the future? Do we [futureact] [nounplural] or something?"
+    - "Only [genesisobject] could explain the existence of [adjective] [nounplural]."
+    - "Do, or do not. There is no '[verbfirstsecond].'"
+    - "If you [verbfirstsecond] someone, set them free."
+    - "'Tis better to have [verb_ed] and lost than never to have [verb_ed] at all."
+    - "Your [nounall] can protect you from the evil [Adjective] [Nounall] if you keep it nearby!"
+    - "The Internet is a cesspool of conspiracy theories, bots and [nounplural]."
+    - "When I'm [feelingshy], I grab a [nounsingular] and hide in my [nounsingular]."
+    - "To stop the madness, we must boycott any business that [verbthird] [nounplural]!"
+    - "The only thing worse than [stuffliketraffic] is [bigbagof] [nounplural]."
+    - "People are good at heart... they just behave badly when deprived of [nounsingular]."
+    - "You've been acting [adjective_er] than usual. What's up?"
+    - "I became a vegetarian for [adjective] reasons. Please respect that."
+    - "Fill-in-the-blank sentences? In a game? How very [adjective]!"
+    - "Hey @SpryFox, I'm gonna [verbfirstsecond] you on Twitter!"
+    - "My [anyrelative] was jailed for [verb_ing] on a [nounsingular] in public."
+    - "I upgrade my [nounall] every year. [upgraderationale]"
+    - "[Verbfirstsecond] to the left!\n[Verbfirstsecond] to the right!\nShake, shake your [nounsingular]!\nYeah, that's right!!"
+    - "Wow, Amazon even delivers [nounplural] now! [amazondelivery]"
+    - "Facebook? That's for old people. I use [Verbfirstsecond][Nounsingular] to connect with friends!"
+    - "When I was 6 years old, my favorite toy was a [adjective] [nounsingular]. I miss it!"
+    - "I can't sleep. My dreams are haunted by terrifying [nounplural]!"
+    - "[beingadj] [adjective]! It isn't helping anyone."
+    - "Our nation is woefully unprepared for the possibility of [nounplural] on our soil. #[Verbfirstsecond]Now"
+    - "Did you hear the news? An unidentified [nounsingular] is hurtling towards Earth!"
+    - "[dotome] [verbfirstsecond] me."
+    - "[aphorismprefix]: dance like nobody is [verb_ing]."
+    - "I love my [nounsingular] so much; [verb_ing] [lifewithout]!"
+    - "To make [food], just mix a cup of [nounplural] with a pinch of [nounplural]."
+    - "Can't we all just [verbfirstsecond] along?"
+    - "In the metric system, 100 [nounplural] is equal to a single [nounsingular]."
+    - "A [nounsingular] without [nounplural] is like a body without a soul."
+    - "[dangerousplace] without a [nounsingular] to [verbfirstsecond] with!"
+    - "To succeed in life, you need a [nounsingular], a [nounsingular], and most of all, a [nounsingular]!"
+    - "You can [tasktocomplete] with a sufficiently large [nounsingular]."
+    - "Our greatest weapon in the war against [nounplural] is [nounplural]."
+    - "Growing older is a mixed blessing. You become [adjective_er], but your [nounsingular] [oldagebummer]."
+    - "The [adjective_er] I get, the [adjective_er] I become!"
+    - "[Nounsingular]: don't leave home without it!"
+    - "It is far better to be [adjective] than to be [adjective]."
+    - "TIL: [lesson] [nounplural] in the [nounsingular][punct]"
+    - "You only remember what I say when it's [adjective], don't you?"
+    - "Why am I square-shaped and [adjective]? [introspection] [nounsingular]?"
+    - "Who the heck are Spry Fox, and why do they keep [verb_ing] so many [nounplural]??"
+    - "You may think bears are cute, but we'll [verbfirstsecond] you if you don't [verbfirstsecond] us."
+    - "This is all a simulation, isn't it? We're just digital characters in a [nounsingular]. #[verb_ed]"
+    - "My favorite movie quote? \"[moviequote] [verbfirstsecond].\""
+    - "What doesn't [verbfirstsecond] you makes you [adjective_er]."
+    - "Is that a [nounsingular], or just a bunch of [adjective] [nounplural]?"
+    - "My [malerelative] [verbthird] [movementpattern] [strangeobjective]."
+    - "[containerforobjects] [nounplural] and [nounplural][punct]"
+    - "As I've grown [adjective_er], I've found myself dwelling on the meaning of [nounsingular]."
+    - "I'm sending my children to Camp [Adjective] [Nounall] for the summer."
+    - "Let's play \"[Nounall] vs [Nounall][punct]\""
+    - "It's my party, and I'll [verbfirstsecond] if I want to!"
+    - "Gerrymandering is a method of [adverb] [verb_ing] the voting population."
+    - "My favorite song is \"[songname] [Nounsingular].\""
+    - "Is that a [nounsingular] in your pocket, or are you just [adjective] to see me?"
+    - "Dear diary: sometimes I just want to [verbfirstsecond] [diaryconfession] [nounsingular]."
+    - "May the [Nounall] be with you."
+    - "Lovely day for a [verbfirstsecond], [lovelydayif]"
+    - "I pledge allegiance to the United [Nounplural] of [Nounsingular]."
+    - "Never has one [nounsingular] [verb_ed] so far and for so long!"
+    - "You can be [adjective_er] than your peers and still end up [verb_ing] if you aren't careful."
+    - "I [verb_ed] and by doing so, I became [adjective_er]!"
+    - "The [adjective_est] way to [verbfirstsecond] is to [amplifyaction]."
+    - "When it comes to [verb_ing], you are definitely the [adjective_est]!"
+    - "I hate [nounplural]! [hatesubject] [verb_ed] [hatetarget]."
+    - "[emotiveaction] [adverb] if you really want to [strongfeeling]!"
+    - "The best way to [thingtoaccomplish] is to [verbfirstsecond] a [nounsingular][randomobjectoraction]."
+    - "[Nounplural] are [adjective]... [conditional][punct]"
+    - "Of all the [nounsingular] joints in all the towns in all the world, she [verbthird] into mine."
+    - "Pour me a martini. [Adjective], not [adjective]."
+    - "My [eduinstitution] [sport] team was called the [Verb_ing] [Nounplural]."
+    - "I hope [Adjective] [Verbfirstsecond] [raceresults] in the 3.30 race at [racecourse][punct]"
+    - "I have a [adjective] confession: you make me want to [verbfirstsecond] your [nounall]."
+    - "I made a [adjective] mess of your [adjective_est] [nounall]."
+    - "I was [shortcatastrophe] once for [verb_ing] without a [nounsingular]."
+    - "I can't remember the last time I was this [adjective]!"
+    - "I'm naming my new [fancypossession] the [Verb_ing] [Nounsingular]."
+    - "[aphorismprefix]: a [nounsingular] in the hand is worth two in the [nounsingular]."
+    - "[aphorismprefix] that a little [nounsingular] is a [adjective] thing."
+    - "[aphorismprefix] that a [nounsingular] is worth 1,000 [nounplural]."
+    - "[aphorismprefix]: all that [verbthird] is not [nounsingular]."
+    - "[aphorismprefix]: better [adjective] than [adjective]."
+    - "As a [adjective] old man [aphorismsuffix]: [absolute] [verbfirstsecond] the [nounall]."
+    - "As my [adjective] [anyrelative] [aphorismsuffix]: [absolute] [verbfirstsecond] the [nounall]."
+    - "Genius is one percent [nounsingular] and 99 percent [nounsingular]."
+    - "Everyone knows that I have the [superlative] [nounall]. All others are [adjective_er]."
+    - "...[storystart], \"Go [verbfirstsecond] sand!\""
+    - "Honey, nothing excites me more than [adjective] [nounall]."
+    - "Nothing [impactonself] quite like [verb_ing]!"
+    - "My [nounsingular]-hunting routine always [impactonself]."
+    - "Get [encroachingentity] out of my [nounall]!"
+    - "A bear that [verbthird] is a [adjective] bear!"
+    - "I always said you were [adjective_er] than the [adjective_est] bear."
+    - "You're [adjective], but you could be [adjective_er] with [condition]."
+    - "[friend], lend me your [nounplural]."
+    - "My neighbor is a [nounsingular]-worshipper! #So[Adjective]"
+    - "[protagonist] will [verbfirstsecond] [alarmingcondition]... just you wait!"
+    - "My fortune cookie says: \"You will [verbfirstsecond] and be [adjective]!\""
+    - "The [adjective_est] [describednoun] [definedby] [nounsingular]."
+    - "Trust me, a good [nounsingular] is like [delightfulthing]. [hashtagwow]"
+    - "I'm [selfdescriptor] [adjective] [nounplural]."
+    - "You'll never guess who [verb_ed] a [nounsingular] [setting]!"
+    - "When a bear [verbthird], [reaction]!"
+    - "I [verbfirstsecond] on [nounplural] [rationale]."
+    - "I'm [adjective]... I [verbfirstsecond] and don't care who knows it!"
+    - "I've decided to call my [entitysequence] [entity] \"[Adjective] [Nounall]\""
+    - "Subscribe to my new YouTube channel, \"[Adjective] [Nounall]\""
+    - "\"[Adjective] [Nounall]\" is the only [personalcareproduct] I'll use. [hashtagbeliever]"
+    - "\"[Verbfirstsecond], Don't [Verbfirstsecond]\" is my favorite film!"
+    - "My favourite superhero film is \"Captain [Nounsingular]: The [Adjective_est] [Nounsingular]\""
+    - "I really like [nounsingular] and [nounsingular] on my burger."
+    - "When my spouse and I are [verb_ing], [spousalresults]"
+    - "The \"[Verb_ing] [Nounall]\" is such a great children's book!"
+    - "If I [verbfirstsecond] now, and you [verb_ed] then, what does that say about us?"
+    - "If I only had one wish, I'd wish for a [adjective] [nounsingular]."
+    - "Word on the street is that you are [absolutely] [adjective]!"
+    - "How can [secondperson] [verbfirstsecond] when [nounplural] [dangerouscondition]??"
+    - "You could be [adjective_er] if you'd simply [verbfirstsecond]."
+    - "[dangerousgroup] will [verbfirstsecond] everywhere if we don't give them the [nounall]!"
+    - "There's no need to [verbfirstsecond]; I [generousaction] my [nounsingular]."
+    - "If you want a happy [nounsingular], just [verbfirstsecond] every day!"
+    - "My doctor says that [verb_ing] will cure any ailment."
+    - "You shouldn't [verbfirstsecond] [statedcondition] after [recoveryfrom] that [nounsingular]."
+    - "[nounplural]: the answer to all your prayers!"
+    - "My goal is to be the world's [adjective_est] [nounsingular]!"
+    - "I'm a very spiritual bear; I believe in [adjective] [nounall] above all else."
+    - "[Adjective] [savior] will [saveordestroy] our [nounplural], just you wait!"
+    - "Your [anyrelative] [verbthird] [adverb] whenever [relativetrigger]."
+    - "I can [verbfirstsecond] [adverb] if you [permitme]."
+    - "I was [actuponyou], but your [nounall] [failcase]"
+    - "I've hidden a [nounsingular] in your [nounall]; can you find it?"
+    - "I studied [adjective] [nounplural] in college. [collegeresult]."
+    - "We bears can't be [actonbears], but we are occasionally [adjective]."
+    - "Don't you think that [verb_ing] [setting] should be legalized?"
+    - "My [nounall] and your [nounall] make a [randomadj2] combination!"
+    - "Did you really just ask me to visit www.[adverb][adjective].com?"
+    - "Kids today! They don't value [nounplural] and they're always dreaming of [nounplural]."
+    - "I like to [verbfirstsecond] in [possessive] [nounsingular] when I'm feeling [whenfeeling]."
+    - "The [Nounsingular] Cafe is my favorite place to [verbfirstsecond] with friends!"
+    - "Spry Fox should have called this \"Alphabear 2: [renameab] [Adjective] [Nounall].\" #RenameAB2"
+    - "Spry Fox should have called this \"Alphabear 2: [Verbfirstsecond] [renameabmid2s] [Nounsingular][renamepostnoun].\" #RenameAB2"
+    - "Spry Fox should have called this \"Alphabear 2: [Adverb] [Verbfirstsecond] [renameabmid2p] [Nounplural].\" #RenameAB2"
+    - "Spry Fox should have called this \"Alphabear 2: [Verb_ing] the [Nounall] for [Nounplural].\" #RenameAB2"
+    - "Spry Fox should have called this \"Alphabear 2: [Verbfirstsecond][renameabmid][Verbfirstsecond][renamepostverb].\" #RenameAB2"
+    - "Spry Fox should have called this \"Alphabear 2: The [Adjective_est] [Nounall][renameabest]\" #RenameAB2"
+    - "Spry Fox should have called this \"Alphabear 2: [Verb_ed] into a [Adjective] [Nounsingular].\" #RenameAB2"
+    - "Spry Fox should have called this \"Alphabear 2: A Bear [Verbthird], and [Verbthird] [renameverbthird].\" #RenameAB2"
+    
+
+    # taken from AB1:
+
+    - "Your [adjective] [nounsingular] is so [randomadj]!"
+    - "My superhero name is [Adjective] [Nounall]."
+    - "I will never hesitate to [verbfirstsecond] for you, my dear!"
+    - "I [verbfirstsecond] to myself when I get nervous."
+    - "My [anyrelative] [verbthird] [expressiveadverb] in the presence of a [nounsingular]."
+    - "Woah, that [nounsingular] just [violentact]! [violentresponse]"
+    - "Don't tell anyone, but my [protectable] password is [Verbfirstsecond][Adjective][Nounall][passwordsuffix]."
+    - "Yo, I heard you like a good [nounsingular], so I put one in your [nounsingular]."
+    - "I like my [nounall] like I like my coffee: [adjective]!"
+    - "I liked [nounplural] before it was [adjective]."
+    - "[Nounsingular]: it's what's for dinner!"
+    - "Does a bear [verbfirstsecond] in the woods?"
+    - "So I said to her, \"Is that a [nounsingular]??\" Ten minutes later, [catastrophe]"
+    - "I enjoy a warm glass of [nounall] before bed."
+    - "My boss [verbthird] whenever he gets nervous during meetings. I [politereaction]."
+    - "Worst. [Nounall]. Ever. #[Adjective][Nounall]"
+    - "Girl, I am all over your [adjective] [nounall]."
+    - "Will you be my [nounsingular] [adverb]?"
+    - "Behind every [adjective] [nounsingular], is a [adjective] [nounsingular]."
+    - "Woah... today my horoscope says: \"You will soon learn what it means to [verbfirstsecond].\""
+    - "I'm obsessed with [nounplural]. That's not [adjective], is it?"
+    - "When I think \"[adjective]\", I think of your [nounall]."
+    - "For bears, calling your [nounall] \"[adjective]\" is a compliment!"
+    - "When you put a [adjective] bear and a [nounsingular] together, magic happens!"
+    - "I [verb_ed] because I hoped it would impress you!"
+    - "I saw a bear [verbfirstsecond] into a [nounsingular]. Kinda makes you think!"
+    - "My partner calls me \"[adjective] [nounall].\" Isn't that sweet?"
+    - "When I die, I want my [nounsingular] to inherit my precious [nounall]."
+    - "[scientists] have discovered how to create [scifi] [nounall]! [hashtagwow]"
+    - "Do you feel [adjective], punk?"
+
+randomWords:
+    adjective:
+      - hairy
+      - short
+      - tall
+    adjective_er:
+      - hairier
+      - shorter
+      - taller
+    adjective_est:
+      - hairiest
+      - shortest
+      - tallest
+    adverb:
+      - fiercely
+      - barely
+      - sweetly
+    nounall:
+      - bear
+      - woods
+      - cave
+      - honey
+    nounplural:
+      - bears
+      - forests
+    nounsingular:
+      - ball
+      - bear
+      - forest
+      - cave
+      - honey
+    perfect_tense:
+      - eaten
+    verb_ed:
+      - roared
+      - spelled
+    verb_ing:
+      - roaring
+      - spelling
+    verbfirstsecond:
+      - roar
+      - spell
+    verbthird:
+      - roars
+      - spells
+
+categories:
+    # Note: category names must be lowercase!
+
+    temporalcondition:
+      - "But only on the weekends."
+      - "But only when I have to."
+      - "It keeps life interesting."
+      - "I usually don't talk about it."
+      - "Good thing I live in California!"
+
+    actquickly:
+      - "get in the"
+      - "hide under the"
+      - "run for the nearest"
+      - "cover your"
+
+    genesisobject:
+      - "a Divine Creator"
+      - "nuclear fallout"
+      - "cosmic radiation"
+      - "the existence of magic"
+
+    futureact:
+      - "become"
+      - "get conquered by"
+      - "evolve into"
+      - "colonize whole new"
+
+    feelingshy:
+      - "feeling introverted"
+      - "exhausted by my job"
+      - "furious with my spouse"
+
+    bigbagof:
+      - "a big bag of"
+      - "an infestation of"
+      - "angry"
+      - "gigantic"
+
+    stuffliketraffic:
+      - "rush hour traffic"
+      - "getting a sunburn"
+      - "breaking your arm"
+      - "getting the flu"
+      - "losing your wallet"
+
+    upgraderationale:
+      - "It's expensive, but I'm worth it!"
+      - "The battery life is usually better."
+      - "My job pays for it, so why not?"
+
+    amazondelivery:
+      - "What will they think of next?"
+      - "That'll save me when stores are closed!"
+      - "I won't need the supermarket anymore!"
+      - "They even deliver at night!"
+
+    beingadj:
+      - "Stop being so"
+      - "Whenever your parents visit, you get so"
+      - "Every time it rains, you become"
+      - "Yeah, I have other friends. That doesn't mean you should be"
+
+    dotome:
+      - "When I'm feeling sad, I just want someone to"
+      - "When I'm unmotivated, I wish someone would"
+      - "On Mondays, I wish someone would"
+      - "In my ideal world, the government would never"
+      - "I sometimes imagine what it would feel like if a stranger were to"
+
+    lifewithout:
+      - "was such a pain without it"
+      - "used to be agonizing for me, but not anymore"
+      - "is so much more satisfying with it"
+
+    food:
+      - "pancakes"
+      - "waffles"
+      - "muffins"
+      - "chocolate cake"
+      - "vanilla pudding"
+      - "a great stew"
+
+    dangerousplace:
+      - "It can be dangerous in the forest"
+      - "It can be dangerous climbing a mountain"
+      - "It can be scary in a foreign country"
+      - "It can be scary in a dark cave"
+
+    tasktocomplete:
+      - "solve any problem"
+      - "defeat any adversary"
+      - "impress anybody"
+
+    oldagebummer:
+      - "doesn't work as well"
+      - "is always sore"
+      - "tends to wander"
+      - "isn't what it used to be"
+      - "gets all wrinkly"
+
+    lesson:
+      - "there are 10 billion"
+      - "bears tend to hunt for"
+      - "studying can help you earn"
+      - "there's a rapidly-declining number of"
+      - "climate change has caused a sudden explosion of"
+
+    introspection:
+      - "Who thought that was a good"
+      - "My creator has a weird sense of"
+      - "What's the evolutionary benefit of this"
+      - "I feel less like a bear than a"
+
+    moviequote:
+      - "You know how to whistle, don't you? Just put your lips together and"
+      - "I'm gonna make you an offer you can't"
+      - "What we've got here is a failure to"
+      - "Life is like a box of chocolates: you never know what you're gonna"
+
+    movementpattern:
+      - "in a circle"
+      - "back and forth"
+      - "around the room"
+      - "energetically"
+      - "forcefully"
+
+    strangeobjective:
+      - "because he thinks it will ward off evil spirits"
+      - "four times a week as a form of exercise"
+      - "whenever he's thinking through a hard problem"
+      - "whenever he's stuck in a conference call"
+
+    containerforobjects:
+      - "The universe is a strange place, full of"
+      - "I love stew, especially when it's chock-full of"
+      - "My backyard is infested with"
+      - "I am equally fond of"
+      - "The only combo better than chocolate and peanut butter is"
+      - "I've prepared for nuclear war by stockpiling"
+
+    songname:
+      - "Hotel"
+      - "Losing My"
+      - "Party Rock"
+      - "I Can't Get No"
+      - "Livin' on a"
+      - "Stairway to"
+      - "Like a Rolling"
+      - "Strangers in the"
+      - "I Will Always Love"
+      - "I Walk the"
+      - "I Love Rock and"
+      - "Georgia on My"
+      - "This Land is Your"
+      - "Smells Like Teen"
+      - "You've Lost That Lovin'"
+
+    diaryconfession:
+      - "that little"
+      - "a whole bottle of"
+      - "every last crumb in a box of"
+      - "with my"
+      - "all weekend and cuddle with my"
+      - "even if it means losing my"
+      - "our neighbor's annoying"
+
+    lovelydayif:
+      - "don't you agree?"
+      - "if you don't mind a little rain."
+      - "if you're into that sort of thing."
+      - "especially with friends!"
+      - "though it may be crowded at the park where I usually do it."
+
+    amplifyaction:
+      - "eat a lot of fiber"
+      - "study regularly"
+      - "meditate for at least 10 minutes each day"
+      - "take nothing for granting"
+      - "act without considering the consequences"
+      - "step between a bear and her cubs"
+      - "make friends in high places"
+      - "neglect to prepare for an emergency"
+      - "lock yourself out of the house"
+      - "keep pest control supplies near your candy stash"
+
+    hatesubject:
+      - "They always"
+      - "They loudly"
+      - "My neighbor had some and they"
+
+    hatetarget:
+      - "in the walls of our old house"
+      - "in our garage during the winter"
+      - "too quickly to be useful"
+      - "before I could eat them"
+      - "every time I walked into my best friend's house"
+      - "on my mother's carpet"
+      - "before they could be punished for their crimes"
+      - "until it was too late to do anything about it"
+      - "without the slightest hint of embarrassment"
+      - "me constantly during the summer"
+
+    strongfeeling:
+      - "feel at one with the universe"
+      - "truly know yourself"
+      - "understand what it means to be free"
+      - "taste true power"
+      - "be a happier person"
+
+    emotiveaction:
+      - "Dance"
+      - "Sing"
+      - "Fight"
+      - "Pray"
+      - "Study"
+
+    superlative:
+      - "best"
+      - "worst"
+
+    thingtoaccomplish:
+      - "catch a fish"
+      - "get a job"
+      - "learn guitar"
+      - "recover from food poisoning"
+      - "make new friends"
+      - "get a raise"
+
+    # space prefix so we can also have some empty cases
+    randomobjectoraction:
+      - " with a fork"
+      - " repeatedly and vigorously"
+      - " every day for at least an hour"
+      - " until you break a sweat"
+      - " under the watchful eye of a good mentor"
+      - " while breathing calmly and regularly"
+      - " while maintaining eye contact"
+      - ""
+
+    conditional:
+      - "unless your life depends on them"
+      - "but only when they aren't yours"
+      - "until you have to maintain them all by yourself"
+      - "if you have at least three of them"
+      - "but they don't tend to live for very long"
+      - "or so my mother would have you believe"
+      - "if you believe what they're teaching in school nowadays"
+
+    sport:
+      - "basketball"
+      - "football"
+      - "soccer"
+      - "lacrosse"
+      - "rugby"
+      - "hockey"
+      - "baseball"
+      - "debate"
+
+    eduinstitution:
+      - "high school"
+      - "college"
+
+    raceresults:
+      - "wins"
+      - "loses"
+      - "places"
+
+    punct:
+      - "!"
+      - "."
+
+    racecourse:
+      - "Bearlington"
+      - "Bearlmont"
+      - "Del Bear"
+      - "Bearlico"
+
+    # new for AB2:
+    fancypossession:
+        - "yacht"
+        - "vacation home"
+        - "sports car"
+        - "private jet"
+
+    aphorismprefix:
+        - "my grandma used to say"
+        - "you know the old saying"
+        - "everyone knows"
+        - "wise men everywhere agree"
+        - "I've learned the hard way"
+
+    aphorismsuffix:
+      - "used to say"
+      - "once said"
+      - "would say"
+      - "once learned the hard way"
+
+    storystart:
+        - "so I told him"
+        - "that's when she said to me"
+        - "I heard him scream"
+        - "then she muttered"
+
+    impactonself:
+        - "works up my appetite"
+        - "changes one's perspective"
+        - "hurts"
+        - "satisfies the soul"
+        - "pleased my grandpa"
+        - "angers my spouse"
+
+    encroachingentity:
+        - "the government"
+        - "that darned cat"
+        - "those pesky kids"
+        - "your fingers"
+
+    condition:
+        - "a bit more effort"
+        - "the help of your friends"
+        - "government intervention"
+        - "my advice and support"
+
+    protagonist:
+        - "we"
+        - "my parents"
+        - "my family"
+        - "angry bears"
+        - "invading armies"
+        - "traveling clowns"
+        - "visiting dignitaries"
+        - "my spouse"
+        - "an army of lawyers"
+        - "wandering monks"
+        - "rich people"
+        - "aliens"
+        - "grad students"
+        - "Hollywood celebs"
+        - "politicians"
+        - "millennials"
+        - "foreign spies"
+        - "Santa"
+        - "your children"
+        - "brainwashed cultists"
+
+    describednoun:
+        - "bears"
+        - "leaders"
+        - "teachers"
+        - "hobbies"
+        - "ideas"
+        - "stories"
+        - "meals"
+        - "stories"
+        - "countries"
+
+    definedby:
+        - "are defined by their"
+        - "have more than a little"
+        - "never fall prey to"
+        - "appreciate a good"
+        - "have no patience for"
+
+    delightfulthing:
+        - "fine wine"
+        - "great chocolate"
+        - "a child's laughter"
+        - "a mother's love"
+
+    selfdescriptor:
+        - "obsessed with"
+        - "intrigued by"
+        - "constantly seeking"
+        - "never satisfied without my"
+        - "hoping to study"
+
+    setting:
+        - "in broad daylight"
+        - "on a plane"
+        - "with a blow dryer"
+        - "with a stun gun"
+        - "in the neighbor's house"
+        - "in a foreign country"
+        - "with a senator"
+        - "with an intern"
+        - "on a rooftop"
+
+    alarmingcondition:
+        - "behind our backs"
+        - "under cover of darkness"
+        - "when you least expect it"
+        - "without warning"
+        - "on holy ground"
+        - "where our defenses are weakest"
+        - "without mercy"
+
+    reaction:
+        - "you should probably get out of the way"
+        - "just hope they've eaten recently"
+        - "it means they REALLY like you"
+        - "try not to make eye contact"
+        - "you can rub their belly, if you like"
+        - "try not to acknowledge it"
+        - "the smell is the least of your problems"
+
+    rationale:
+        - "because it makes me happy"
+        - "to relax, mostly"
+        - "because it pays well"
+        - "for the sake of our country"
+        - "in honor of our ancestors"
+        - "to conquer my fears"
+        - "in search of eternal life"
+        - "because life is short"
+        - "in defiance of unjust laws"
+        - "because I hate cats"
+
+    entitysequence:
+      - "new"
+      - "next"
+
+    entity:
+        - "band"
+        - "folk band"
+        - "rock band"
+        - "ad company"
+        - "startup"
+        - "restaurant"
+        - "novel"
+        - "novella"
+        - "play"
+        - "musical"
+        - "YouTube channel"
+
+    personalcareproduct:
+        - "shampoo"
+        - "conditioner"
+        - "facial cream"
+        - "toothpaste"
+        - "mouthwash"
+        - "aftershave lotion"
+
+    hashtagbeliever:
+        - "#AlwaysOrganic"
+        - "#PesticideFree"
+        - "#LoveProbiotics"
+        - "#NaturalIsHealthy"
+
+    spousalresults:
+        - "the whole neighborhood can hear it."
+        - "I think back fondly to when we first met."
+        - "I try to remind myself how lucky I am."
+        - "things can get a little crazy."
+        - "it raises a few... questions."
+        - "I wonder why I put up with it?"
+
+    expressiveadverb:
+        - "angrily"
+        - "emphatically"
+        - "with open disdain"
+        - "uncontrollably"
+        - "mysteriously"
+        - "tantalizingly"
+
+    violentact:
+        - "exploded"
+        - "erupted"
+        - "shattered like glass"
+        - "vanished into nothingness"
+        - "burst into flames"
+
+    violentresponse:
+        - "Call a doctor!"
+        - "How did that happen?"
+        - "Search for survivors!"
+        - "Call the police!"
+        - "Tell me I'm dreaming!"
+
+    protectable:
+        - "bank"
+        - "computer"
+        - "email"
+
+    catastrophe:
+        - "my house imploded."
+        - "the clowns attacked."
+        - "my boss fired me."
+        - "half the people in the universe were erased from existence!"
+        - "highly intelligent apes overthrew our civilization."
+
+    shortcatastrophe:
+      - "fired"
+      - "arrested"
+      - "convicted"
+      - "subpoenaed by Congress"
+      - "punched"
+      - "chased by angry librarians"
+      - "hunted by a mob"
+
+    friend:
+        - "friends"
+        - "romans"
+        - "countrymen"
+        - "hey you"
+
+    secondperson:
+        - "you"
+        - "our leaders"
+        - "the police"
+        - "your family"
+        - "everyone"
+
+    dangerouscondition:
+        - "have us surrounded"
+        - "are on fire"
+        - "stalk the countryside"
+        - "have acquired our scent"
+        - "are hovering above"
+        - "truly need our help"
+        - "hide amongst us"
+        - "now hunger for flesh"
+        - "will implode imminently"
+
+    dangerousgroup:
+        - "hungry game developers"
+        - "poor grad students"
+        - "angry mimes"
+        - "cynical politicians"
+        - "the army of the dead"
+        - "swarms of bees"
+        - "maligned millennials"
+        - "the old gods"
+        - "sentient fungi"
+        - "confused seniors"
+        - "hyper-intelligent mice"
+
+    generousaction:
+        - "can give you"
+        - "can show you"
+        - "won't withhold"
+        - "don't mind sharing"
+
+    statedcondition:
+        - "for 30 minutes"
+        - "too strenuously"
+        - "without supervision"
+        - "so recklessly"
+        - "near anyone"
+
+    recoveryfrom:
+        - "consuming"
+        - "being exposed to"
+        - "discovering"
+
+    savior:
+        - "scientists"
+        - "aliens"
+        - "yet lovable bears"
+        - "Baby Boomers"
+        - "Millennials"
+
+    saveordestroy:
+        - "save"
+        - "destroy"
+        - "steal"
+        - "protect"
+        - "plunder"
+
+    relativetrigger:
+        - "we order pizza"
+        - "it's raining"
+        - "we try to discuss politics"
+        - "my mom comes to visit"
+        - "work is stressful"
+        - "traffic is bad"
+
+    permitme:
+        - "won't mind"
+        - "can help me"
+        - "give me enough room"
+        - "promise not to tell"
+
+    actuponyou:
+        - "trying to help you"
+        - "rushing to warn you"
+        - "praying for you"
+
+    failcase:
+        - "still collapsed. I'm so sorry!"
+        - "deflated despite my efforts. Bummer."
+        - "couldn't be saved. :-("
+
+    actonbears:
+        - "pacified"
+        - "satisfied"
+        - "controlled"
+        - "fooled"
+
+    # taken from AB1:
+    celebrity:
+        - "Halle Beary"
+        - "Bearyonce"
+        - "David Bearkham"
+        - "Justin Biebear"
+        - "Mark Wahlbear"
+        - "Rebearca Romijn"
+        - "Robear Downey Jr"
+        - "Queen Elizabear"
+        - "Mark Zuckerbear"
+        - "Whoopi Goldbear"
+        - "Robear De Niro"
+        - "Justin Timbearlake"
+        - "Steven Spielbear"
+        - "Stephen Colbear"
+        - "Neil Patrick Bearris"
+        - "Opbeah"
+
+    hashtagshocking:
+        - "#Shocking"
+        - "#Scandalous"
+        - "#WellINever"
+        - "#Shady"
+        - "#Awkward"
+        - "#Embarrassing"
+        - "#Unexpected"
+        - "#WoahThere"
+
+    hashtaggossip:
+        - "#BearGossip"
+        - "#Tantalizing"
+        - "#HeardItHere1st"
+        - "#WhatDoesItMean"
+        - "#WhatNext"
+        - "#MyOhMy"
+        - "#MyGoodness"
+
+    dayofweek:
+        - "Mondays"
+        - "Tuesdays"
+        - "Wednesdays"
+        - "Thursdays"
+        - "Fridays"
+        - "Saturdays"
+        - "Sundays"
+
+    hashtagwow:
+        - "#amazing"
+        - "#incredible"
+        - "#stunning"
+        - "#remarkable"
+        - "#unbelievable"
+        - "#fantastic"
+        - "#ingenious"
+        - "#brilliant"
+        - "#profound"
+
+    scifi:
+        - "perpetual"
+        - "frictionless"
+        - "anti-gravity"
+        - "holographic"
+        - "radioactive"
+        - "trans-dimensional"
+        - "faster-than-light"
+        - "sub-atomic"
+        - "virtual-reality"
+        - "quantum"
+        - "augmented-reality"
+        - "low-cost"
+        - "synthetic"
+        - "non-flammable"
+        - "long-lasting"
+        - "polarized"
+        - "automated"
+        - "UV-repellant"
+        - "edible"
+
+    randomadj:
+        - "impressive"
+        - "intimidating"
+        - "huge"
+        - "shiny"
+        - "bizarre"
+        - "astonishing"
+        - "dazzling"
+        - "unusual"
+
+    randomadj2:
+        - "beautiful"
+        - "highly effective"
+        - "surprisingly potent"
+        - "terribly deadly"
+        - "holy"
+        - "wickedly sinful"
+        - "bold, if sinister"
+        - "unconventional, yet handsome"
+
+    randomadj4:
+        - "illegal"
+        - "expensive"
+        - "proprietary"
+        - "dangerous"
+        - "flammable"
+        - "perishable"
+        - "toxic"
+
+    femalerelative:
+        - "cousin"
+        - "sister"
+        - "aunt"
+
+    malerelative:
+        - "cousin"
+        - "brother"
+        - "uncle"
+
+    macrocosm:
+        - "world"
+        - "planet"
+        - "galaxy"
+        - "universe"
+        - "country"
+
+    precious:
+        - "gold"
+        - "diamonds"
+        - "platinum"
+        - "emeralds"
+
+    absolutely:
+        - "absolutely"
+        - "completely"
+        - "utterly"
+        - "totally"
+        - "genuinely"
+        - "positively"
+        - "unquestionably"
+
+    politereaction:
+        - "try not to laugh"
+        - "avoid eye contact"
+        - "just stare at my laptop"
+        - "pretend I don't notice"
+        - "try to stay positive"
+        - "just nod politely"
+        - "daydream the whole time"
+        - "quit"
+        - "better get a huge bonus this year"
+
+    meals:
+        - "breakfast"
+        - "brunch"
+        - "lunch"
+        - "dinner"
+        - "a midnight snack"
+
+    act:
+        - "run ten miles"
+        - "do 50 push-ups"
+        - "breakdance"
+        - "sing"
+        - "do kung fu"
+        - "camouflage myself"
+        - "do a cartwheel"
+        - "backflip twelve times"
+        - "fly a plane"
+
+    socialmedia:
+        - "Twitter"
+        - "Facebook"
+        - "Instagram"
+
+    herself:
+        - "herself"
+        - "himself"
+
+    chaos:
+        - "on fire"
+        - "melting"
+        - "covered in ants"
+        - "swarming with bees"
+        - "soaked in acid"
+        - "surrounded by wolves"
+        - "full of angry birds"
+
+    anyrelative:
+        - "cousin"
+        - "sister"
+        - "aunt"
+        - "brother"
+        - "uncle"
+
+    comparison:
+        - "big"
+        - "long"
+        - "heavy"
+        - "expensive"
+        - "old"
+        - "loud"
+
+    absolute:
+      - "always"
+      - "never"
+
+    collegeresult:
+      - "I failed, unfortunately"
+      - "I passed"
+      - "It didn't help my career"
+      - "My parents did not approve"
+      - "It was an easy A"
+      - "It really broadened my mind"
+      - "The guy teaching it smelled like garlic"
+
+    scientists:
+      - "Scientists"
+      - "Physicists"
+      - "Biologists"
+      - "Climatologists"
+
+    passwordsuffix:
+      - "123"
+      - "XXX"
+      - "37"
+      - "3.14"
+
+    renameab:
+      - "Return of the"
+      - "Back to the"
+      - "Time-travelling"
+      - "Repairing the"
+      - "Saving the World with"
+      - "An Outrageous"
+      - "The Courageous"
+      - "When Cute Meets"
+      - "The Wild"
+      - "Journey Beyond"
+    
+    renameabmid:
+      - " Before You "
+      - " If You Can't "
+      - ", Don't "
+      - " Whenever You "
+      - " When We Say "
+      - " With Bears Who "
+
+    renamepostverb:
+      - ""
+      - ""
+      - ""
+      - ""
+      - " Me"
+      - " That"
+      - " Recklessly"
+      - " Frequently"
+
+    renameabmid2s:
+      - "a"
+      - "a"
+      - "the"
+      - "My"
+      - "Your"
+      - "Every"
+      - "a Wild"
+      - "the Perilous"
+      - "the Unexpected"
+      - "a Frantic"
+      - "a Massive"
+      - "the Deepest"
+
+    renamepostnoun:
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - " Repeatedly"
+      - " Fearlessly"
+      - " Selflessly"
+      - " to Save the World"
+      - " when Destiny Calls"
+      - " and Kiss the 80s Goodbye"
+      
+    renameabmid2p:
+      - "the"
+      - "My"
+      - "Your"
+      - "Many"
+      - "the Greatest"
+      
+    renameabest:
+      - " in Town."
+      - " on Earth."
+      - "."
+      - " Ever Made."
+      - " You Ever Saw."
+
+    renameverbthird:
+      - "the World"
+      - "Us All"
+      - "Time Itself"
+      - "an Adventure"
+      - "Against the Odds"
+
+    whenfeeling:
+      - "angry"
+      - "sad"
+      - "nervous"
+      - "jealous"
+      - "excited"
+      
+    possessive:
+      - "my own"
+      - "your"
+      - "my manager's"

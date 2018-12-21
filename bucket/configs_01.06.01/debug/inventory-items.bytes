@@ -1,0 +1,135 @@
+##################################################
+# Bear Token Templates
+##################################################
+
+- ID: bear_token_template common
+  Behavior: Token
+  ComplexImageName: bear_token_common
+
+- ID: bear_token_template rare
+  Behavior: Token
+  ComplexImageName: bear_token_rare
+
+- ID: bear_token_template epic
+  Behavior: Token
+  ComplexImageName: bear_token_epic
+
+- ID: bear_token_template legendary
+  Behavior: Token
+  ComplexImageName: bear_token_legendary
+
+##################################################
+# Consumables
+##################################################
+
+- ID: all_bear_refresh
+  Behavior: AllBearRefresh
+  ImageFilename: BoostIcons/boost_icon_coffeetruck
+
+- ID: bear_wakeup
+  Behavior: Token
+  ImageFilename: BoostIcons/boost_icon_coffee
+
+##################################################
+# Boosts
+##################################################
+
+- ID: infrequent_letter_boost
+  Behavior: Token
+  Rarity: Common
+  ImageFilename: BoostIcons/boost_icon_xzjqu_banned
+  EstimatedScoreMultiplier: 0.1
+  BoostModifiers:
+  - BannedLetters: [x, z, qu, j]
+
+- ID: more_s_boost
+  Behavior: Token
+  Rarity: Common
+  ImageFilename: BoostIcons/boost_icon_major_s_boost
+  EstimatedScoreMultiplier: 0.2
+  BoostModifiers:
+  - LetterWeightPercentBonuses:
+      s: 4
+
+- ID: ten_seconds_in_timed_mode
+  Behavior: Token
+  Rarity: Common
+  ImageFilename: BoostIcons/boost_icon_10_sec_in_timed
+  EstimatedScoreMultiplier: 0.1
+  BoostModifiers:
+  - ExtraSecondsTimedMode: 10
+
+- ID: five_percent_boost
+  Behavior: Token
+  Rarity: Common
+  ImageFilename: BoostIcons/boost_icon_5_percent_difficulty_reduction
+  EstimatedScoreMultiplier: 0.05
+  BoostModifiers:
+  - DifficultyReduction:
+      PercentEasier: 5.0
+
+- ID: two_letter_plus_five
+  Behavior: Token
+  Rarity: Common
+  ImageFilename: BoostIcons/boost_icon_plus_five_to_two
+  EstimatedScoreMultiplier: 0.05
+  BoostModifiers:
+  - ExtraTimeForRandomStartingTiles:
+      ExtraTime: 5
+      NumberOfTiles: 2
+
+- ID: plus_one_all
+  Behavior: Token
+  Rarity: Rare
+  ImageFilename: BoostIcons/boost_icon_plus_one_all
+  EstimatedScoreMultiplier: 0.05
+  BoostModifiers:
+  - ExtraTimeToLiveForLetters:
+      TimeToLive: 1
+      Letters: [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, qu, r, s, t, u, v, w, x, y, z]
+
+- ID: twenty_percent_boost
+  Behavior: Token
+  Rarity: Rare
+  ImageFilename: BoostIcons/boost_icon_15_percent_difficulty_reduction
+  EstimatedScoreMultiplier: .15
+  BoostModifiers:
+  - DifficultyReduction:
+      PercentEasier: 15.0
+
+##################################################
+# Currency
+##################################################
+
+- ID: berry
+  Behavior: Token
+  ImageFilename: BoostIcons/boost_icon_berry
+
+- ID: red_cloth
+  Behavior: Token
+  ComplexImageName: red_cloth
+
+- ID: yellow_cloth
+  Behavior: Token
+  ComplexImageName: yellow_cloth
+
+- ID: blue_cloth
+  Behavior: Token
+  ComplexImageName: blue_cloth
+
+##################################################
+# Diplomas
+# Obsolete, but needed for legacy saves:
+##################################################
+
+- ID: common_diploma
+  Behavior: Token
+  ImageFilename: DiplomaIcons/icon_diploma_common
+
+- ID: rare_diploma
+  Behavior: Token
+  ImageFilename: DiplomaIcons/icon_diploma_rare
+
+- ID: epic_diploma
+  Behavior: Token
+  ImageFilename: DiplomaIcons/icon_diploma_epic

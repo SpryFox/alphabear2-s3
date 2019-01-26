@@ -2222,13 +2222,13 @@ TimeWarpStrongLegendaryTokens:
           Count: 4
     - Weight: 20
       Groups:
-        - Weight: 25
+        - Weight: 40
           Item: Any Tag:TokenizedCarrotBear UnownedSpecialEvent Legendary Token
           Count: 1
         - Weight: 30
           Item: Any Tag:TokenizedCarrotBear UnownedSpecialEvent Legendary Token
           Count: 2
-        - Weight: 25
+        - Weight: 20
           Item: Any Tag:TokenizedCarrotBear UnownedSpecialEvent Legendary Token
           Count: 3
         - Weight: 10
@@ -2236,13 +2236,13 @@ TimeWarpStrongLegendaryTokens:
           Count: 4
     - Weight: 10
       Groups:
-        - Weight: 25
+        - Weight: 40
           Item: Any Tag:TokenizedRacecarBear UnownedSpecialEvent Legendary Token
           Count: 1
         - Weight: 30
           Item: Any Tag:TokenizedRacecarBear UnownedSpecialEvent Legendary Token
           Count: 2
-        - Weight: 25
+        - Weight: 20
           Item: Any Tag:TokenizedRacecarBear UnownedSpecialEvent Legendary Token
           Count: 3
         - Weight: 10
@@ -2983,6 +2983,7 @@ TournamentTier1Reward:
   - Case: NoLeaderboardStandingYet
     Value:
       All:
+      - Honey: 25
       - Item: berry
         Count: 10
       - Groups:
@@ -3018,6 +3019,7 @@ TournamentTier2Reward:
   - Case: NoLeaderboardStandingYet
     Value:
       All:
+      - Honey: 25
       - Item: berry
         Count: 10
       - Groups:
@@ -3063,6 +3065,7 @@ TournamentTier3Reward:
   - Case: NoLeaderboardStandingYet
     Value:
       All:
+      - Honey: 25
       - Item: berry
         Count: 10
       - Groups:
@@ -3108,6 +3111,7 @@ TournamentTier4Reward:
   - Case: NoLeaderboardStandingYet
     Value:
       All:
+      - Honey: 25
       - Item: berry
         Count: 20
       - Groups:

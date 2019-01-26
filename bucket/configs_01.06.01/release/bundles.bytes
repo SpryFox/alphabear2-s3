@@ -459,3 +459,87 @@
   BannerImage: honey_maximizer_banner
   BannerImageNonEnglish: honey_maximizer_banner
   Rewards: []
+
+#############################
+# Free Daily Reward Bundles #
+#############################
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!! WARNING !!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# 
+# The Reward sequence for these assumes that each one
+# rewards you exactly one type of reward: an item, coin, or honey
+# reward of some quantity.  The reward must be one of
+# the types for which we have inline text sprites.
+#
+# Currently those include: Coins, berries, red/blue/yellow cloth,
+# epic/legendary bear tokens, coffee, honey, rare/common boosts.
+#
+# If you're at all unusure about a change you're making, ping Graham.
+# You can test these easily with the day skip cheats on the main menu.
+
+- ID: freedaily_monday
+  BannerImage: freedaily_redcloth_banner
+  BannerImageNonEnglish: freedaily_redcloth_banner
+  Rewards:
+    Item: red_cloth
+    Count: 10
+
+- ID: freedaily_tuesday
+  BannerImage: freedaily_coffee_banner
+  BannerImageNonEnglish: freedaily_coffee_banner
+  Rewards:
+    Item: bear_wakeup
+    Count: 1
+
+- ID: freedaily_wednesday
+  BannerImage: freedaily_berries_banner
+  BannerImageNonEnglish: freedaily_berries_banner
+  Rewards:
+    Item: berry
+    Count: 10
+
+- ID: freedaily_thursday
+  BannerImage: freedaily_yellowcloth_banner
+  BannerImageNonEnglish: freedaily_yellowcloth_banner
+  Rewards:
+    Item: yellow_cloth
+    Count: 10
+
+- ID: freedaily_friday
+  BannerImage: freedaily_coins_banner
+  BannerImageNonEnglish: freedaily_coins_banner
+  Rewards:
+    Coins: 5
+
+- ID: freedaily_saturday
+  BannerImage: freedaily_bluecloth_banner
+  BannerImageNonEnglish: freedaily_bluecloth_banner
+  Rewards:
+    Item: blue_cloth
+    Count: 3
+
+- ID: freedaily_sunday
+  BannerImage: freedaily_legendarybeartoken_banner
+  BannerImageNonEnglish: freedaily_legendarybeartoken_banner
+  Rewards:
+    Cond:
+    - Case: Always
+      Value:
+        Item: Any Tag:freedailytoken UnownedAny Legendary Token
+        Count: 2
+    # If they own all the tokenized legendary bears, give them 10 berries instead
+    - Case: Else
+      Value:
+        Item: berry
+        Count: 10
+
+####################
+# VIP Subscription #
+####################
+
+- ID: vip_subscription
+  BannerImage: vip_banner
+  BannerImageNonEnglish: vip_banner
+

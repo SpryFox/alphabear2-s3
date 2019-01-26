@@ -1077,8 +1077,9 @@
 - Name: Carrot Bear
   SkinName: CarrotBear
   Rarity: Legendary
-  Tags: [savory, noarms, food, tokenizedcarrotbear]
+  Tags: [savory, noarms, food, tokenizedcarrotbear, freedailytoken]
   OriginLocation: SpecialEvents
+  OriginDisplayOverride: TimeWarps
   Affinity: Brave
   MaxLevel: 1000
   Modifiers:
@@ -1464,7 +1465,8 @@
 - Name: Construction Bear
   SkinName: ConstructionBear
   OriginLocation: SpecialEvents
-  Tags: [tokenizedconstructionbear]
+  OriginDisplayOverride: TimeWarps
+  Tags: [tokenizedconstructionbear, freedailytoken]
   Rarity: Legendary
   Affinity: Calm
   MaxLevel: 1000
@@ -1698,7 +1700,8 @@
 - Name: Racecar Bear
   SkinName: RacecarBear
   OriginLocation: SpecialEvents
-  Tags: [object, noarms, tokenizedracecarbear]
+  OriginDisplayOverride: TimeWarps
+  Tags: [object, noarms, tokenizedracecarbear, freedailytoken]
   Rarity: Legendary
   Affinity: Scary
   MaxLevel: 1000
@@ -1896,7 +1899,7 @@
 - Name: Cthulhu Bear
   SkinName: Cthulhu
   OriginLocation: SpecialEvents
-  Tags: [monster, tournament]
+  Tags: [monster, tournament, freedailytoken]
   Rarity: Legendary
   Affinity: Scary
   MaxLevel: 1000
@@ -1911,7 +1914,7 @@
 - Name: Graffiti Bear
   SkinName: GraffitiBear
   OriginLocation: SpecialEvents
-  Tags: [noarms, tournament]
+  Tags: [noarms, tournament, freedailytoken]
   Rarity: Legendary
   Affinity: Merry
   MaxLevel: 1000

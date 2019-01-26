@@ -6123,6 +6123,7 @@
     - resistors
     - resists
     - resit
+    - resite
     - resited
     - resites
     - resiting
@@ -7164,6 +7165,12 @@
     - returning
     - returnless
     - returns
+    - retweet
+    - retweeted
+    - retweeter
+    - retweeters
+    - retweeting
+    - retweets
     - retwist
     - retwisted
     - retwisting
@@ -8333,6 +8340,7 @@
     - dinkiest
     - dippiest
     - directest
+    - direst
     - dirtiest
     - discreetest
     - dishiest
@@ -10550,6 +10558,7 @@
     - convulsively
     - cooingly
     - coolly
+    - cooly
     - cooperatively
     - coordinately
     - copiously
@@ -11448,6 +11457,7 @@
     - gigantically
     - gingerly
     - girlishly
+    - girly
     - glacially
     - gladly
     - gladsomely
@@ -11548,6 +11558,7 @@
     - habitually
     - haggardly
     - haggishly
+    - haily
     - haltingly
     - handily
     - handsomely
@@ -11615,6 +11626,7 @@
     - hieroglyphically
     - highly
     - hilariously
+    - hilly
     - hinderingly
     - hissingly
     - histogenetically
@@ -19470,9 +19482,13 @@
     - forehand
     - forehanded
     - forehandedly
+    - forehandedness
+    - forehanding
     - forehands
     - forehead
     - foreheads
+    - forehock
+    - forehocks
     - forehoof
     - forehoofs
     - forehooves
@@ -19647,6 +19663,8 @@
     - foreworn
     - foreyard
     - foreyards
+    - heretofore
+    - tofore
 
 - Morpheme: mid
   Type: Prefix
@@ -20333,6 +20351,9 @@
     - subshrubs
     - subside
     - subsided
+    - subside
+    - subsider
+    - subsiders
     - subsides
     - subsite
     - subsites
@@ -22449,14 +22470,6 @@
     - scepticisms
     - schematism
     - schematisms
-    - schism
-    - schismatic
-    - schismatical
-    - schismatics
-    - schismatize
-    - schismatized
-    - schismatizes
-    - schisms
     - scholasticism
     - scientism
     - scientisms
@@ -22955,6 +22968,8 @@
   MorphemeWords:
     - airport
     - airports
+    - aport
+    - apport
     - carport
     - carports
     - colportage
@@ -23026,6 +23041,7 @@
     - overreports
     - passport
     - passports
+    - porta
     - portability
     - portable
     - portables
@@ -23043,6 +23059,9 @@
     - portapacks
     - portapak
     - portapaks
+    - portas
+    - portass
+    - portases
     - portative
     - portcullis
     - portcullises

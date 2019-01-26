@@ -3,6 +3,15 @@ StartingValues:
   Honey: 240
   Coins: 60
 
+VIPSubscription:
+  IAPID: "vip_subscription"
+  WeeklyRewards:
+    All:
+      - Coins: 100
+      - Item: bear_wakeup
+        Count: 2
+  TournamentReplayDiscountPercent: 0.80
+
 TournamentLeaderboardMaxScoreDifferentialMultiplier: 2
 
 BundleUpsells:
@@ -1125,7 +1134,7 @@ SpareEvents:
     BaseScore: 285
     ImpossibleThresholdAverageLetterScoreOverride: 4.090909090909091
 
-# Untimed, skull tiles, big score, sun/moon tiles, big board
+# Untimed, skull tiles, big score, sun/moon tiles, big board, 3x big bear
   - Name: Tournament 11
     L10nKey: TournamentBoards_Tournament_11
     Rules:
@@ -1140,6 +1149,9 @@ SpareEvents:
         ,bsssssb,
         ,,bbbbb,,
       SuperLetterProp: 0
+      Modifiers:
+        ExtraBigBearBonus:
+          ExtraBonus: 3
     BaseScore: 552
     ImpossibleThresholdAverageLetterScoreOverride: 6.841549295774648
 
@@ -1318,10 +1330,10 @@ SpareEvents:
         ,,a,,,,,,
         s,,,,,,,s
       SuperLetterProp: 0
-    Modifiers:
-      ExtraPointsForLetters:
-        Points: 10
-        Letters: [b, a]
+      Modifiers:
+        ExtraPointsForLetters:
+          Points: 10
+          Letters: [b, a]
     BaseScore: 254
     ImpossibleThresholdAverageLetterScoreOverride: 5.017441860465116
 
@@ -1510,6 +1522,9 @@ SpareEvents:
       FirstTurnLifetime: 3
       LetterLifetime: 4
       SuperLetterProp: 0
+      Modifiers:
+        ExtraBigBearBonus:
+          ExtraBonus: 3
     BaseScore: 478
     ImpossibleThresholdAverageLetterScoreOverride: 8.92741935483871
 
@@ -1571,6 +1586,9 @@ SpareEvents:
         AaAaAaA
       FirstTurnLifetime: 2
       SuperLetterProp: 0
+      Modifiers:
+        ExtraBigBearBonus:
+          ExtraBonus: 3
     BaseScore: 457
     ImpossibleThresholdAverageLetterScoreOverride: 7.8464912280701755
 
@@ -1686,7 +1704,10 @@ SpareEvents:
         aaa@@@aaa
         AAA@@@AAA
       SuperLetterProp: 0
-    BaseScore: 606
+      Modifiers:
+        ExtraBigBearBonus:
+          ExtraBonus: 3
+    BaseScore: 606    
     ImpossibleThresholdAverageLetterScoreOverride: 8.477272727272727
 
 # Untimed, skull tiles, letter rule, medium board
@@ -1712,7 +1733,7 @@ SpareEvents:
     BaseScore: 353
     ImpossibleThresholdAverageLetterScoreOverride: 6.5
 
-# Untimed, skull tiles, turn-starved, medium board
+# Untimed, skull tiles, turn-starved, medium board, 3x big bear
   - Name: Tournament_Chapter7Normal_Den 3
     L10nKey: TournamentBoards_Tournament_Chapter7Normal_Den 3
     Rules:
@@ -1727,10 +1748,13 @@ SpareEvents:
         ,b,,,b,
         b,,,,,b
       SuperLetterProp: 0
+      Modifiers:
+        ExtraBigBearBonus:
+          ExtraBonus: 3
     BaseScore: 177
     ImpossibleThresholdAverageLetterScoreOverride: 4.083333333333334
 
-# Untimed, skull tiles, sun/moon tiles, turn-starved, big board
+# Untimed, skull tiles, sun/moon tiles, turn-starved, big board, 3x big bear
   - Name: Tournament_Chapter7Normal_Den 4
     L10nKey: TournamentBoards_Tournament_Chapter7Normal_Den 4
     Rules:
@@ -1747,10 +1771,13 @@ SpareEvents:
         bbsbb,b,b
       SuperLetterProp: 0
       FirstTurnLifetime: 3
+      Modifiers:
+        ExtraBigBearBonus:
+          ExtraBonus: 3
     BaseScore: 348
     ImpossibleThresholdAverageLetterScoreOverride: 5.2875
 
-# Untimed, skull tiles, turn-starved, medium board
+# Untimed, skull tiles, turn-starved, medium board, 3x big bear
   - Name: Tournament_Chapter7Normal_Den 7
     L10nKey: TournamentBoards_Tournament_Chapter7Normal_Den 7
     Rules:
@@ -1764,6 +1791,9 @@ SpareEvents:
         AaAAAAAaA
       FirstTurnLifetime: 3
       SuperLetterProp: 0
+      Modifiers:
+        ExtraBigBearBonus:
+          ExtraBonus: 3
     BaseScore: 409
     ImpossibleThresholdAverageLetterScoreOverride: 4.758771929824562
 
@@ -1786,7 +1816,7 @@ SpareEvents:
     BaseScore: 459
     ImpossibleThresholdAverageLetterScoreOverride: 5.8125
 
-# Untimed, skull tiles, turn-starved, big board
+# Untimed, skull tiles, turn-starved, big board, 3x big bear
   - Name: Tournament_Chapter7Normal_Den 15
     L10nKey: TournamentBoards_Tournament_Chapter7Normal_Den 15
     Rules:
@@ -1802,6 +1832,9 @@ SpareEvents:
         a,,,,,,,a
         aaa,@,aaa
       SuperLetterProp: 0
+      Modifiers:
+        ExtraBigBearBonus:
+          ExtraBonus: 3
     BaseScore: 291
     ImpossibleThresholdAverageLetterScoreOverride: 3.975
 
@@ -1946,7 +1979,7 @@ SpareEvents:
     BaseScore: 210
     ImpossibleThresholdAverageLetterScoreOverride: 4.75
 
-# Untimed, turn-starved, skull tiles, egg tiles
+# Untimed, turn-starved, skull tiles, egg tiles, 3x big bear
   - Name: Tournament_Chapter7Normal_Den 13-1
     Description: Contains Skull and Egg Tiles
     Rules:
@@ -1959,6 +1992,9 @@ SpareEvents:
         ,@,,,,bbw
         aaa,,,,bb
       SuperLetterProp: 0
+      Modifiers:
+        ExtraBigBearBonus:
+          ExtraBonus: 3
     BaseScore: 267
     ImpossibleThresholdAverageLetterScoreOverride: 4.720588235294118
 
@@ -2221,11 +2257,11 @@ EventGroups:
           s,,,,,,,s
         SuperLetterProp: 0
         AutoShowEventInfo: true
+        Modifiers:
+          ExtraPointsForLetters:
+            Points: 10
+            Letters: [b, a]
       BaseScore: 256
-      Modifiers:
-        ExtraPointsForLetters:
-          Points: 10
-          Letters: [b, a]
       ExpectedFSM: 2.8
       ImpossibleThresholdAverageLetterScoreOverride: 5.017441860465116
       Rewards:
@@ -9307,11 +9343,11 @@ EventGroups:
           s,,,,,,,s
         SuperLetterProp: 0
         AutoShowEventInfo: true
+        Modifiers:
+          ExtraPointsForLetters:
+            Points: 10
+            Letters: [b, a]
       BaseScore: 313
-      Modifiers:
-        ExtraPointsForLetters:
-          Points: 10
-          Letters: [b, a]
       ExpectedFSM: 23.0
       ImpossibleThresholdAverageLetterScoreOverride: 5.017441860465116
       Rewards:
@@ -16393,11 +16429,11 @@ EventGroups:
           s,,,,,,,s
         SuperLetterProp: 0
         AutoShowEventInfo: true
+        Modifiers:
+          ExtraPointsForLetters:
+            Points: 10
+            Letters: [b, a]
       BaseScore: 267
-      Modifiers:
-        ExtraPointsForLetters:
-          Points: 10
-          Letters: [b, a]
       ExpectedFSM: 85.5
       ImpossibleThresholdAverageLetterScoreOverride: 5.017441860465116
       Rewards:

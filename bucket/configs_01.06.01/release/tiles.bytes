@@ -1079,12 +1079,17 @@
   SelectableTileTypes:
     Filters:
     - Revealed
-    - TilesWithASummonableSquareIn8Neighbors
+    - LettersNotFrozen
+    - TilesWithASummonableOrFrozenSquareIn8Neighbors
   Behaviors:
   - Event:
       Type: TargetSelected
     Actions:
     - RevealTile:
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableOrFrozenNeighbors
+    - UnfreezeIceTile:
         Target:
           RelativeToTargeted: true
           Type: SummonableOrFrozenNeighbors
@@ -1097,12 +1102,17 @@
   SelectableTileTypes:
     Filters:
     - Revealed
-    - TilesWithASummonableSquareIn8Neighbors
+    - LettersNotFrozen
+    - TilesWithASummonableOrFrozenSquareIn8Neighbors
   Behaviors:
   - Event:
       Type: TargetSelected
     Actions:
     - RevealTile:
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableOrFrozenNeighbors
+    - UnfreezeIceTile:
         Target:
           RelativeToTargeted: true
           Type: SummonableOrFrozenNeighbors

@@ -9,7 +9,7 @@
 # WEEK 2
 - Tier1: "TournamentBoards/$Tournament 2"                         # Cat5 - Timed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 1"      # Cat3 - Untimed, sun/moon tiles, big score, medium board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 7"      # Cat1 - Untimed, skull tiles, turn-starved, medium board
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 7"      # Cat1 - Untimed, skull tiles, turn-starved, medium board, 3x big bear
   Tier4: "TournamentBoards/$Tournament_Chapter2Normal_Den 10"     # Cat3 - Untimed, egg tiles, big score, big board
 
 # WEEK 3
@@ -20,15 +20,21 @@
 
 # WEEK 4
 - Tier1: "TournamentBoards/$Tournament 3"                         # Cat5 - Timed, skull tiles, medium board
-  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board
+  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board, 3x big bear
   Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 11"     # Cat2 - Timed, skull tiles, sun/moon tiles, very fast
   Tier4: "TournamentBoards/$Tournament 14"                        # Cat4 - Untimed, skull tiles, medium board
+
+# WEEK 5
+- Tier1: "TournamentBoards/$Tournament 15"                        # Cat6 - Untimed, letter rule, medium board
+  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 19"     # Cat3 - Untimed, sun/moon tiles, big board
+  Tier3: "TournamentBoards/$Tournament 4"                         # Cat6 - Timed, small board, letter rule
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 4-1"    # Cat2 - Timed, skull tiles, very fast
 
 # WEEK 6
 - Tier1: "TournamentBoards/$Tournament 13"                        # Cat4 - Untimed, skull tiles, sun/moon tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 5"      # Cat3 - Untimed, sun/moon tiles, big board
   Tier3: "TournamentBoards/$Tournament_Chapter3Normal_Den 6"      # Cat2 - Timed, sun/moon tiles, very fast
-  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 13-1"   # Cat1 - Untimed, turn-starved, skull tiles, egg tiles
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 13-1"   # Cat1 - Untimed, turn-starved, skull tiles, egg tiles, 3x big bear
 
 # WEEK 7
 - Tier1: "TournamentBoards/$Tournament 5"                         # Cat5 - Timed, skull tiles, medium board
@@ -38,14 +44,14 @@
 
 # WEEK 8
 - Tier1: "TournamentBoards/$Tournament 14"                        # Cat4 - Untimed, skull tiles, medium board
-  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 10"     # Cat3 - Untimed, sun/moon tiles, medium board
+  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 10"     # Cat3 - Untimed, sun/moon tiles, medium board, 3x big bear
   Tier3: "TournamentBoards/$Tournament_Chapter3Normal_Den 7"      # Cat6 - Untimed, sun/moon tiles, letter rule, medium board
-  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board, 3x big bear
 
 # WEEK 9
 - Tier1: "TournamentBoards/$Tournament 7"                         # Cat5 - Timed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 15"     # Cat3 - Untimed, sun/moon tiles, big score, medium board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 3"      # Cat1 - Untimed, skull tiles, turn-starved, medium board 
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 3"      # Cat1 - Untimed, skull tiles, turn-starved, medium board, 3x big bear
   Tier4: "TournamentBoards/$Tournament 16"                        # Cat4 - Untimed, skull tiles, medium board
 
 # WEEK 10
@@ -57,32 +63,32 @@
 # WEEK 11
 - Tier1: "TournamentBoards/$Tournament 8"                         # Cat5 - Timed, skull tiles, sun/moon tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 18"     # Cat3 - Untimed, sun/moon tiles, big score, big board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board
-  Tier4: "TournamentBoards/$Tournament 11"                        # Cat3 - Untimed, skull tiles, big score, sun/moon tiles, big board
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board, 3x big bear
+  Tier4: "TournamentBoards/$Tournament 11"                        # Cat3 - Untimed, skull tiles, big score, sun/moon tiles, big board, 3x big bear
 
 # WEEK 12
 - Tier1: "TournamentBoards/$Tournament 16"                        # Cat4 - Untimed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 19"     # Cat3 - Untimed, sun/moon tiles, big board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 7"      # Cat1 - Untimed, skull tiles, turn-starved, medium board
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 7"      # Cat1 - Untimed, skull tiles, turn-starved, medium board, 3x big bear
   Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 5"      # Cat2 - Timed, skull tiles, very fast
 
 # WEEK 13
 - Tier1: "TournamentBoards/$Tournament 9"                         # Cat5 - Timed, skull tiles, medium board
-  Tier2: "TournamentBoards/$Tournament_Chapter4Normal_Den 19"     # Cat3 - Untimed, sun/moon tiles, big board
+  Tier2: "TournamentBoards/$Tournament_Chapter4Normal_Den 19"     # Cat3 - Untimed, sun/moon tiles, big board, 3x big bear
   Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 10-1"   # Cat2 - Timed, skull tiles, sun/moon tiles, very fast
   Tier4: "TournamentBoards/$Tournament_Chapter2Normal_Den 7"      # Cat4 - Untimed, egg tiles, medium board
 
 # WEEK 14
 - Tier1: "TournamentBoards/$Tournament 17"                        # Cat4 - Untimed, skull tiles, medium board
-  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board
+  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board, 3x big bear
   Tier3: "TournamentBoards/$Tournament 4"                         # Cat6 - Timed, small board, letter rule
-  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 7"      # Cat1 - Untimed, skull tiles, turn-starved, medium board
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 7"      # Cat1 - Untimed, skull tiles, turn-starved, medium board, 3x big bear
 
 # WEEK 15
 - Tier1: "TournamentBoards/$Tournament_Chapter2Normal_Den 20"     # Cat5 - Timed, egg tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 5"      # Cat3 - Untimed, sun/moon tiles, big board
   Tier3: "TournamentBoards/$Tournament_Chapter2Normal_Den 18"     # Cat6 - Untimed, letter rule, big board
-  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board, 3x big bear
 
 # WEEK 16
 - Tier1: "TournamentBoards/$Tournament 18"                        # Cat4 - Untimed, skull tiles, medium board
@@ -105,7 +111,7 @@
 # WEEK 19
 - Tier1: "TournamentBoards/$Tournament 1"                         # Cat3 - Timed, big score, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter7Normal_Den 9"      # Cat4 - Untimed, skull tiles, egg tiles, big board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 4"      # Cat1 - Untimed, skull tiles, sun/moon tiles, turn-starved, big board
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 4"      # Cat1 - Untimed, skull tiles, sun/moon tiles, turn-starved, big board, 3x big bear
   Tier4: "TournamentBoards/$Tournament_Chapter2Normal_Den 20"     # Cat5 - Timed, egg tiles, medium board
 
 # WEEK 20
@@ -121,32 +127,32 @@
   Tier4: "TournamentBoards/$Tournament_Chapter3Normal_Den 6"      # Cat2 - Timed, sun/moon tiles, very fast
 
 # WEEK 22
-- Tier1: "TournamentBoards/$Tournament 11"                        # Cat3 - Untimed, skull tiles, big score, sun/moon tiles, big board
+- Tier1: "TournamentBoards/$Tournament 11"                        # Cat3 - Untimed, skull tiles, big score, sun/moon tiles, big board, 3x big bear
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 3"      # Cat3 - Untimed, sun/moon tiles, medium board
   Tier3: "TournamentBoards/$Tournament 15"                        # Cat6 - Untimed, letter rule, medium board
   Tier4: "TournamentBoards/$Tournament 8"                         # Cat5 - Timed, skull tiles, sun/moon tiles, medium board
 
 # WEEK 23
 - Tier1: "TournamentBoards/$Tournament_Chapter1Normal_Den 12"     # Cat3 - Timed, big score, medium board
-  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board
+  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board, 3x big bear
   Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 4-1"    # Cat2 - Timed, skull tiles, very fast
   Tier4: "TournamentBoards/$Tournament 17"                        # Cat4 - Untimed, skull tiles, medium board
 
 # WEEK 24
 - Tier1: "TournamentBoards/$Tournament 10"                        # Cat4 - Untimed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 5"      # Cat3 - Untimed, sun/moon tiles, big board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 3"      # Cat1 - Untimed, skull tiles, turn-starved, medium board 
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 3"      # Cat1 - Untimed, skull tiles, turn-starved, medium board, 3x big bear
   Tier4: "TournamentBoards/$Tournament 7"                         # Cat5 - Timed, skull tiles, medium board
 
 # WEEK 25
 - Tier1: "TournamentBoards/$Tournament 2"                         # Cat5 - Timed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 7"      # Cat6 - Untimed, sun/moon tiles, letter rule, medium board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board, 3x big bear
   Tier4: "TournamentBoards/$Tournament 15"                        # Cat6 - Untimed, letter rule, medium board
 
 # WEEK 26
 - Tier1: "TournamentBoards/$Tournament 12"                        # Cat4 - Untimed, skull tiles, medium board
-  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 10"     # Cat3 - Untimed, sun/moon tiles, medium board
+  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 10"     # Cat3 - Untimed, sun/moon tiles, medium board, 3x big bear
   Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 10-1"   # Cat2 - Timed, skull tiles, sun/moon tiles, very fast
   Tier4: "TournamentBoards/$Tournament 9"                         # Cat5 - Timed, skull tiles, medium board
 
@@ -160,43 +166,43 @@
 - Tier1: "TournamentBoards/$Tournament 13"                        # Cat4 - Untimed, skull tiles, sun/moon tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 16"     # Cat3 - Untimed, sun/moon tiles, big board
   Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 4-1"    # Cat2 - Timed, skull tiles, very fast
-  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 4"      # Cat1 - Untimed, skull tiles, sun/moon tiles, turn-starved, big board
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 4"      # Cat1 - Untimed, skull tiles, sun/moon tiles, turn-starved, big board, 3x big bear
 
 # WEEK 29
 - Tier1: "TournamentBoards/$Tournament 5"                         # Cat5 - Timed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 18"     # Cat3 - Untimed, sun/moon tiles, big score, big board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 7"      # Cat1 - Untimed, skull tiles, turn-starved, medium board
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 7"      # Cat1 - Untimed, skull tiles, turn-starved, medium board, 3x big bear
   Tier4: "TournamentBoards/$Tournament_Chapter2Normal_Den 16"     # Cat4 - Untimed, egg tiles, big board
 
 # WEEK 30
 - Tier1: "TournamentBoards/$Tournament 14"                        # Cat4 - Untimed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 19"     # Cat3 - Untimed, sun/moon tiles, big board
   Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 2-1"    # Cat6 - Untimed, skull tiles, letter rule, medium board
-  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 13-1"   # Cat1 - Untimed, turn-starved, skull tiles, egg tiles
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 13-1"   # Cat1 - Untimed, turn-starved, skull tiles, egg tiles, 3x big bear
 
 # WEEK 31
 - Tier1: "TournamentBoards/$Tournament 7"                         # Cat5 - Timed, skull tiles, medium board
-  Tier2: "TournamentBoards/$Tournament_Chapter4Normal_Den 19"     # Cat3 - Untimed, sun/moon tiles, big board
+  Tier2: "TournamentBoards/$Tournament_Chapter4Normal_Den 19"     # Cat3 - Untimed, sun/moon tiles, big board, 3x big bear
   Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 11-1"   # Cat2 - Timed, skull tiles, very fast
   Tier4: "TournamentBoards/$Tournament 18"                        # Cat4 - Untimed, skull tiles, medium board
 
 # WEEK 32
 - Tier1: "TournamentBoards/$Tournament 15"                        # Cat6 - Untimed, letter rule, medium board
-  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board
+  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board, 3x big bear
   Tier3: "TournamentBoards/$Tournament_Chapter3Normal_Den 6"      # Cat2 - Timed, sun/moon tiles, very fast
-  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board, 3x big bear
 
 # WEEK 33
 - Tier1: "TournamentBoards/$Tournament 8"                         # Cat5 - Timed, skull tiles, sun/moon tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 5"      # Cat3 - Untimed, sun/moon tiles, big board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 4"      # Cat1 - Untimed, skull tiles, sun/moon tiles, turn-starved, big board
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 4"      # Cat1 - Untimed, skull tiles, sun/moon tiles, turn-starved, big board, 3x big bear
   Tier4: "TournamentBoards/$Tournament 19"                        # Cat4 - Untimed, medium board
 
 # WEEK 34
 - Tier1: "TournamentBoards/$Tournament 16"                        # Cat4 - Untimed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter2Normal_Den 5"      # Cat4 - Untimed, egg tiles, medium board
   Tier3: "TournamentBoards/$Tournament 4"                         # Cat6 - Timed, small board, letter rule
-  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 3"      # Cat1 - Untimed, skull tiles, turn-starved, medium board 
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 3"      # Cat1 - Untimed, skull tiles, turn-starved, medium board, 3x big bear
 
 # WEEK 35
 - Tier1: "TournamentBoards/$Tournament 9"                         # Cat5 - Timed, skull tiles, medium board
@@ -208,7 +214,7 @@
 - Tier1: "TournamentBoards/$Tournament 17"                        # Cat4 - Untimed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter2Normal_Den 16"     # Cat4 - Untimed, egg tiles, big board
   Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 11"     # Cat2 - Timed, skull tiles, sun/moon tiles, very fast
-  Tier4: "TournamentBoards/$Tournament_Chapter3Normal_Den 10"     # Cat3 - Untimed, sun/moon tiles, medium board
+  Tier4: "TournamentBoards/$Tournament_Chapter3Normal_Den 10"     # Cat3 - Untimed, sun/moon tiles, medium board, 3x big bear
 
 # WEEK 37
 - Tier1: "TournamentBoards/$Tournament_Chapter2Normal_Den 20"     # Cat5 - Timed, egg tiles, medium board
@@ -219,7 +225,7 @@
 # WEEK 38
 - Tier1: "TournamentBoards/$Tournament 18"                        # Cat4 - Untimed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter2Normal_Den 10"     # Cat3 - Untimed, egg tiles, big score, big board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 13-1"   # Cat1 - Untimed, turn-starved, skull tiles, egg tiles
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 13-1"   # Cat1 - Untimed, turn-starved, skull tiles, egg tiles, 3x big bear
   Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 4-1"    # Cat2 - Timed, skull tiles, very fast
 
 # WEEK 39
@@ -236,7 +242,7 @@
 
 # WEEK 41
 - Tier1: "TournamentBoards/$Tournament 1"                         # Cat3 - Timed, big score, skull tiles, medium board
-  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board
+  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board, 3x big bear
   Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 14-1"   # Cat2 - Timed, skull tiles, sun/moon tiles, very fast
   Tier4: "TournamentBoards/$Tournament 4"                         # Cat6 - Timed, small board, letter rule
 
@@ -249,25 +255,25 @@
 # WEEK 43
 - Tier1: "TournamentBoards/$Tournament 6"                         # Cat3 - Timed, skull tiles, big score, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 7"      # Cat6 - Untimed, sun/moon tiles, letter rule, medium board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board, 3x big bear
   Tier4: "TournamentBoards/$Tournament_Chapter2Normal_Den 5"      # Cat4 - Untimed, egg tiles, medium board
 
 # WEEK 44
-- Tier1: "TournamentBoards/$Tournament 11"                        # Cat3 - Untimed, skull tiles, big score, sun/moon tiles, big board
-  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 10"     # Cat3 - Untimed, sun/moon tiles, medium board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 3"      # Cat1 - Untimed, skull tiles, turn-starved, medium board 
+- Tier1: "TournamentBoards/$Tournament 11"                        # Cat3 - Untimed, skull tiles, big score, sun/moon tiles, big board, 3x big bear
+  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 10"     # Cat3 - Untimed, sun/moon tiles, medium board, 3x big bear
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 3"      # Cat1 - Untimed, skull tiles, turn-starved, medium board, 3x big bear
   Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 10-1"   # Cat2 - Timed, skull tiles, sun/moon tiles, very fast
 
 # WEEK 45
 - Tier1: "TournamentBoards/$Tournament_Chapter1Normal_Den 12"     # Cat3 - Timed, big score, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 15"     # Cat3 - Untimed, sun/moon tiles, big score, medium board
   Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 11"     # Cat2 - Timed, skull tiles, sun/moon tiles, very fast
-  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 13-1"   # Cat1 - Untimed, turn-starved, skull tiles, egg tiles
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 13-1"   # Cat1 - Untimed, turn-starved, skull tiles, egg tiles, 3x big bear
 
 # WEEK 46
 - Tier1: "TournamentBoards/$Tournament 10"                        # Cat4 - Untimed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 16"     # Cat3 - Untimed, sun/moon tiles, big board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 7"      # Cat1 - Untimed, skull tiles, turn-starved, medium board
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 7"      # Cat1 - Untimed, skull tiles, turn-starved, medium board, 3x big bear
   Tier4: "TournamentBoards/$Tournament 9"                         # Cat5 - Timed, skull tiles, medium board
 
 # WEEK 47
@@ -284,20 +290,20 @@
 
 # WEEK 49
 - Tier1: "TournamentBoards/$Tournament 3"                         # Cat5 - Timed, skull tiles, medium board
-  Tier2: "TournamentBoards/$Tournament_Chapter4Normal_Den 19"     # Cat3 - Untimed, sun/moon tiles, big board
+  Tier2: "TournamentBoards/$Tournament_Chapter4Normal_Den 19"     # Cat3 - Untimed, sun/moon tiles, big board, 3x big bear
   Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 4-1"    # Cat2 - Timed, skull tiles, very fast
-  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 15"     # Cat1 - Untimed, skull tiles, turn-starved, big board, 3x big bear
 
 # WEEK 50
 - Tier1: "TournamentBoards/$Tournament 13"                        # Cat4 - Untimed, skull tiles, sun/moon tiles, medium board
-  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 4"      # Cat1 - Untimed, skull tiles, sun/moon tiles, turn-starved, big board
-  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 3"      # Cat1 - Untimed, skull tiles, turn-starved, medium board 
+  Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 4"      # Cat3 - Untimed, sun/moon tiles, medium board, 3x big bear
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 4"      # Cat1 - Untimed, skull tiles, sun/moon tiles, turn-starved, big board, 3x big bear
+  Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 3"      # Cat1 - Untimed, skull tiles, turn-starved, medium board, 3x big bear
 
 # WEEK 51
 - Tier1: "TournamentBoards/$Tournament 5"                         # Cat5 - Timed, skull tiles, medium board
   Tier2: "TournamentBoards/$Tournament_Chapter3Normal_Den 5"      # Cat3 - Untimed, sun/moon tiles, big board
-  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 13-1"   # Cat1 - Untimed, turn-starved, skull tiles, egg tiles
+  Tier3: "TournamentBoards/$Tournament_Chapter7Normal_Den 13-1"   # Cat1 - Untimed, turn-starved, skull tiles, egg tiles, 3x big bear
   Tier4: "TournamentBoards/$Tournament_Chapter7Normal_Den 11"     # Cat2 - Timed, skull tiles, sun/moon tiles, very fast
 
 # WEEK 52

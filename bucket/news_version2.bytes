@@ -1,10 +1,24 @@
 #The manual for this file format is on news_version2.txt
 
-code: 056b34a1f5ec02102edc9a86a6c0cdac
+code: 46319395baa493f48ba57250b70a6040
 
 # maxVersion must include +999999-9999 suffix
 
 news:
+    - dateTime: 2019-03-05 01:00
+      id: 8
+      ownsAnyItem:
+        - "remove_ads"
+      elements:
+            - centeredText: |
+                Coins bug in v1.8.0  
+                <size=80%>5th March, 2019</size>
+            - text: |
+                Hi everyone! We fixed a bug that was introduced in v1.8.0 that resulted in some players not receiving 20 coins they should have earned. Here's 50 free coins to make up for it! Thanks for playing. :)
+            - text: "\n" # just to pad it out before the buttons
+            - reward: { item: coin, count: 50 }
+            - text: "\n" # just to pad it out before the next item
+
     - dateTime: 2018-11-20 12:00
       id: 7
       elements:

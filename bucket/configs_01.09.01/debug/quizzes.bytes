@@ -1,0 +1,2039 @@
+antonym:
+  pristine:
+    correct: 3
+    answers:
+      - dangerous
+      - prince
+      - masculine
+      - spoiled
+  partially:
+    correct: 3
+    answers:
+      - secondarily
+      - unnaturally
+      - thickly
+      - wholly
+  danger:
+    correct: 0
+    answers:
+      - safety
+      - friend
+      - trust
+      - power
+  reckless:
+    correct: 1
+    answers:
+      - increase
+      - cautious
+      - decline
+      - fast
+  antonym:
+    correct: 0
+    answers:
+      - synonym
+      - homonym
+      - pachyderm
+      - nymph
+  protagonist:
+    correct: 1
+    answers:
+      - cosmogonist
+      - antagonist
+      - jargonist
+      - theogonist
+  digital:
+    correct: 0
+    answers:
+      - analog
+      - hands
+      - running
+      - basic
+  dynamic:
+    correct: 3
+    answers:
+      - native
+      - phonetic
+      - endemic
+      - static
+  correct:
+    correct: 2
+    answers:
+      - badly
+      - slanted
+      - wrong
+      - hostile
+  pollution:
+    correct: 1
+    answers:
+      - unscientific
+      - decontamination
+      - environment
+      - reduce
+  success:
+    correct: 2
+    answers:
+      - simple
+      - legal
+      - failure
+      - partly
+  reduce:
+    correct: 3
+    answers:
+      - exhale
+      - arise
+      - disable
+      - increase
+  improvement:
+    correct: 0
+    answers:
+      - decline
+      - inability
+      - location
+      - disagreement
+  strange:
+    correct: 0
+    answers:
+      - familiar
+      - validate
+      - private
+      - gradual
+  except:
+    correct: 2
+    answers:
+      - expand
+      - forget
+      - include
+      - give
+  minority:
+    correct: 1
+    answers:
+      - student
+      - majority
+      - evening
+      - selection
+  enable:
+    correct: 3
+    answers:
+      - answer
+      - meaning
+      - adopt
+      - handicap
+  expensive:
+    correct: 1
+    answers:
+      - special
+      - cheap
+      - willing
+      - delightful
+  well:
+    correct: 2
+    answers:
+      - bright
+      - hidden
+      - badly
+      - inside
+  front:
+    correct: 1
+    answers:
+      - individual
+      - back
+      - many
+      - taste
+  generally:
+    correct: 0
+    answers:
+      - rarely
+      - along
+      - below
+      - ambiguous
+  increasing:
+    correct: 3
+    answers:
+      - growing
+      - skipping
+      - sensing
+      - compressing
+  enemy:
+    correct: 0
+    answers:
+      - ally
+      - dispute
+      - reason
+      - soldier
+  outside:
+    correct: 0
+    answers:
+      - interior
+      - nearby
+      - foreign
+      - otherwise
+  privately:
+    correct: 3
+    answers:
+      - tasteful
+      - quietly
+      - helpfully
+      - publicly
+  employee:
+    correct: 0
+    answers:
+      - executive
+      - violence
+      - policy
+      - worker
+  few:
+    correct: 1
+    answers:
+      - go
+      - copious
+      - scientific
+      - fearful
+  whisper:
+    correct: 0
+    answers:
+      - shriek
+      - discuss 
+      - dance
+      - argument
+  least:
+    correct: 2
+    answers:
+      - capacity
+      - away
+      - maximum
+      - poor
+  improve:
+    correct: 0
+    answers:
+      - worsen
+      - credit
+      - delight
+      - construct
+  present:
+    correct: 3
+    answers:
+      - vicinity
+      - found
+      - worth
+      - absent
+  stupid:
+    correct: 1
+    answers:
+      - open
+      - intelligent
+      - assistant
+      - struck
+  small:
+    correct: 2
+    answers:
+      - docile
+      - imprecise
+      - extensive
+      - tactile
+  succeed:
+    correct: 1
+    answers:
+      - district
+      - precede
+      - exercise
+      - parade
+  presence:
+    correct: 2
+    answers:
+      - question
+      - sensation
+      - truancy
+      - position
+  urban:
+    correct: 3
+    answers:
+      - style
+      - busy
+      - polished
+      - rural
+  loan:
+    correct: 1
+    answers:
+      - course
+      - borrow
+      - interest
+      - complete
+  stability:
+    correct: 1
+    answers:
+      - foundational
+      - inconstancy
+      - charge
+      - sadly
+  specifically:
+    correct: 0
+    answers:
+      - roughly
+      - carefully
+      - moreover
+      - handily
+  asset:
+    correct: 3
+    answers:
+      - distinction
+      - control
+      - property
+      - liability
+  incredible:
+    correct: 1
+    answers:
+      - global
+      - credible
+      - fantastic
+      - questionable
+  contract:
+    correct: 0
+    answers:
+      - expand
+      - section
+      - photograph
+      - paperwork
+  warm:
+    correct: 2
+    answers:
+      - choice
+      - lovable
+      - frigid
+      - lofty
+  taut:
+    correct: 2
+    answers:
+      - scared
+      - right
+      - loose
+      - fierce
+  happiness:
+    correct: 1
+    answers:
+      - patience
+      - dejection
+      - slyness
+      - bountiful
+  release:
+    correct: 2
+    answers:
+      - approach
+      - fame
+      - block
+      - feature
+  friendly:
+    correct: 2
+    answers:
+      - individual
+      - rare
+      - hostile
+      - warily
+  rapidly:
+    correct: 1
+    answers:
+      - carelessly
+      - slowly
+      - plenty
+      - distinctly
+  prohibit:
+    correct: 1
+    answers:
+      - encounter
+      - allow
+      - light
+      - understand
+  central:
+    correct: 3
+    answers:
+      - essential
+      - foremost
+      - accidental
+      - peripheral
+  hate:
+    correct: 1
+    answers:
+      - objection
+      - approval
+      - doubt
+      - repulse
+  purchase:
+    correct: 1
+    answers:
+      - collect
+      - sell
+      - focus
+      - monetary
+  partly:
+    correct: 2
+    answers:
+      - good
+      - highly
+      - wholly
+      - fairly
+  carefully:
+    correct: 0
+    answers:
+      - thoughtlessly
+      - gracefully
+      - fairly
+      - loudly
+  poverty:
+    correct: 1
+    answers:
+      - duty
+      - wealth
+      - safety
+      - need
+  multiple:
+    correct: 3
+    answers:
+      - mathematic
+      - strong
+      - significant
+      - single
+  elaborate:
+    correct: 0
+    answers:
+      - simple
+      - nowhere
+      - scary
+      - complex
+  proceed:
+    correct: 2
+    answers:
+      - correct
+      - expect
+      - discontinue
+      - nudge
+  latter:
+    correct: 3
+    answers:
+      - middle
+      - similar
+      - faker
+      - former
+  meaningful:
+    correct: 0
+    answers:
+      - absurd
+      - interesting
+      - cross
+      - hateful
+  praise:
+    correct: 2
+    answers:
+      - breathe
+      - release
+      - criticize
+      - talk
+  flexible:
+    correct: 1
+    answers:
+      - legitimate
+      - strict
+      - welcome
+      - readable
+  mildly:
+    correct: 3
+    answers:
+      - sadly
+      - especially
+      - quickly
+      - violently
+  theoretical:
+    correct: 0
+    answers:
+      - applied
+      - still
+      - current
+      - scientific
+  calm:
+    correct: 1
+    answers:
+      - personal
+      - stormy
+      - beginning
+      - swift
+  officially:
+    correct: 3
+    answers:
+      - privately
+      - instead
+      - studiously
+      - casually
+  fundamental:
+    correct: 2
+    answers:
+      - unlike
+      - important
+      - lesser
+      - territorial
+  inflation:
+    correct: 3
+    answers:
+      - approach
+      - market
+      - collection
+      - compression
+  correctly:
+    correct: 0
+    answers:
+      - wrongly
+      - loosely
+      - fortunately
+      - simply
+  integrate:
+    correct: 2
+    answers:
+      - question
+      - track
+      - mismatch
+      - qualify
+  actively:
+    correct: 1
+    answers:
+      - potentially
+      - passively
+      - essentially
+      - readily
+  accelerate:
+    correct: 3
+    answers:
+      - candidate
+      - expedite
+      - recognize
+      - delay
+  ancestor:
+    correct: 0
+    answers:
+      - descendant
+      - general
+      - key
+      - leader
+  courage:
+    correct: 2
+    answers:
+      - argument
+      - coach
+      - cowardice
+      - sadness
+  persuade:
+    correct: 3
+    answers:
+      - survive
+      - benefit
+      - draw
+      - delay
+  convict:
+    correct: 1
+    answers:
+      - increase
+      - acquit
+      - specialize
+      - fight
+  coastal:
+    correct: 3
+    answers:
+      - little
+      - rough
+      - urban
+      - inland
+  harmony:
+    correct: 1
+    answers:
+      - struggle
+      - dissonance
+      - condition
+      - musical
+  consent:
+    correct: 0
+    answers:
+      - refuse
+      - blow
+      - assess
+      - agree
+  soften:
+    correct: 2
+    answers:
+      - share
+      - occupy
+      - aggravate
+      - quell
+  victory:
+    correct: 1
+    answers:
+      - gain
+      - defeat
+      - forget
+      - admit
+  employ:
+    correct: 0
+    answers:
+      - fire
+      - here
+      - absolve
+      - decrease
+  within:
+    correct: 3
+    answers:
+      - unfit
+      - civilian
+      - right
+      - outside
+  soil:
+    correct: 0
+    answers:
+      - clean
+      - break_even
+      - praise
+      - inside
+  military:
+    correct: 0
+    answers:
+      - civilian
+      - peripheral
+      - unitary
+      - noncitizen
+  difficult:
+    correct: 1
+    answers:
+      - unobvious
+      - manageable
+      - synchronic
+      - uncharacteristic
+  gifted:
+    correct: 1
+    answers:
+      - basic
+      - untalented
+      - unscientific
+      - discontinued
+  focus:
+    correct: 3
+    answers:
+      - discontinuous
+      - defeat
+      - bottom
+      - blur
+  material:
+    correct: 1
+    answers:
+      - partly
+      - insubstantial
+      - misconception
+      - disinherit
+  sudden:
+    correct: 1
+    answers:
+      - absence
+      - gradual
+      - worsen
+      - unevenly
+  age:
+    correct: 3
+    answers:
+      - unite
+      - precede
+      - worry
+      - rejuvenate
+  refuse:
+    correct: 3
+    answers:
+      - order
+      - waste
+      - unquietly
+      - admit
+  differ:
+    correct: 0
+    answers:
+      - agree
+      - single
+      - expand
+      - exhale
+  forward:
+    correct: 1
+    answers:
+      - below
+      - aft
+      - decelerate
+      - bottom
+  primarily:
+    correct: 0
+    answers:
+      - secondarily
+      - incorrectly
+      - posteriority
+      - indirectly
+  intellectual:
+    correct: 1
+    answers:
+      - unmindful
+      - emotional
+      - actual
+      - inappropriate
+  liability:
+    correct: 3
+    answers:
+      - hostile
+      - absence
+      - wealth
+      - asset
+  equity:
+    correct: 0
+    answers:
+      - unfairness
+      - friend
+      - misconception
+      - inability
+  prevent:
+    correct: 3
+    answers:
+      - distrust
+      - disapprove
+      - defeat
+      - let
+  aware:
+    correct: 0
+    answers:
+      - unmindful
+      - get_up
+      - have
+      - discontented
+  piano:
+    correct: 0
+    answers:
+      - forte
+      - erase
+      - contraindicate
+      - simple
+  complex:
+    correct: 1
+    answers:
+      - unmelodious
+      - simple
+      - unrelated
+      - ease
+  profit:
+    correct: 1
+    answers:
+      - baggy
+      - loss
+      - waste
+      - amateur
+  part:
+    correct: 2
+    answers:
+      - impossibly
+      - slowly
+      - wholly
+      - secondarily
+definition:
+  not:
+    correct: 2
+    answers:
+      - adjective. free from confusion or doubt
+      - verb. become open
+      - adverb. negation of a word or group of words
+  community:
+    correct: 1
+    answers:
+      - noun. thought that makes something comprehensible
+      - noun. (ecology) a group of interdependent organisms inhabiting the same region and interacting with each other
+      - noun. compatibility of observations
+  accompany:
+    correct: 0
+    answers:
+      - verb. be a companion to somebody
+      - adverb. with rough motion as over a rough surface
+      - verb. undergo an emotional sensation or be in a particular state of mind
+  numerous:
+    correct: 1
+    answers:
+      - verb. give an advantage to
+      - adjective. amounting to a large indefinite number
+      - noun. an urban area with a fixed boundary that is smaller than a city
+  century:
+    correct: 2
+    answers:
+      - verb. stay the same; remain in a certain state
+      - noun. a small part that can be considered separately from the whole
+      - noun. a period of 100 years
+  particular:
+    correct: 0
+    answers:
+      - adjective. exacting especially about details
+      - adjective. important in effect or meaning
+      - noun. excavation in the earth from which ores and minerals are extracted
+  discipline:
+    correct: 0
+    answers:
+      - noun. a branch of knowledge
+      - adverb. earlier in time; previously
+      - verb. get ready for a particular purpose or event
+  approximately:
+    correct: 0
+    answers:
+      - adverb. (of quantities) imprecise but fairly close to correct
+      - verb. pick out, select, or choose from a number of alternatives
+      - noun. a person who comes to a country where they were not born in order to settle there
+  transition:
+    correct: 2
+    answers:
+      - noun. broadcasting visual images of stationary or moving objects
+      - adjective. extraordinarily good or great; used especially as intensifiers
+      - noun. a change from one place or state or subject or stage to another
+  occasionally:
+    correct: 2
+    answers:
+      - adjective. deserving of esteem and respect
+      - verb. place in or on a seat
+      - adverb. now and then or here and there
+  according:
+    correct: 0
+    answers:
+      - adjective. (followed by `to') as reported or stated by
+      - adverb. used to form the comparative of some adjectives and adverbs
+      - adjective. advocating or engaged in revolution
+  sector:
+    correct: 1
+    answers:
+      - noun. a long thin implement resembling a length of wood
+      - noun. a particular aspect of life or activity
+      - noun. (chemistry) a process in which one or more substances are changed into others
+  confidence:
+    correct: 1
+    answers:
+      - noun. the piece of land on which something is located (or is to be located)
+      - noun. a feeling of trust (in someone or something)
+      - noun. a crucial stage or turning point in the course of something
+  slightly:
+    correct: 0
+    answers:
+      - adverb. in a slim or slender manner
+      - noun. a verbal command for action
+      - adjective. located farther aft
+  vast:
+    correct: 1
+    answers:
+      - verb. direct or control; projects, businesses, etc.
+      - adjective. unusually great in size or amount or degree or especially extent or scope
+      - verb. make or express a wish
+  absence:
+    correct: 1
+    answers:
+      - noun. (electronics) a system of interconnected electronic components or circuits
+      - noun. failure to be present
+      - adverb. at the time or occasion immediately following
+  beyond:
+    correct: 2
+    answers:
+      - noun. the sound of a hound on the scent
+      - verb. establish radio communications with
+      - adverb. farther along in space or time or degree
+  essential:
+    correct: 1
+    answers:
+      - verb. put into words or an expression
+      - adjective. absolutely necessary; vitally necessary
+      - noun. a small body of standing water (rainwater) or other liquid
+  contrast:
+    correct: 2
+    answers:
+      - noun. a predetermined set of movements in dancing or skating
+      - verb. appoint someone to (a position or a job)
+      - noun. a conceptual separation or distinction
+  fairly:
+    correct: 2
+    answers:
+      - noun. early maturity; the state of being young or immature or inexperienced
+      - adverb. in accompaniment or as a companion
+      - adverb. in conformity with the rules or laws and without fraud or cheating
+  supposed:
+    correct: 1
+    answers:
+      - verb. make certain of
+      - adjective. based primarily on surmise rather than adequate evidence
+      - verb. bring something new to an environment
+  challenge:
+    correct: 1
+    answers:
+      - adjective. (of speech) painful or bitter
+      - noun. a call to engage in a contest or fight
+      - verb. become a participant; be involved in
+  succeed:
+    correct: 2
+    answers:
+      - verb. to become aware of through the senses
+      - verb. make bigger or wider in size, volume, or quantity
+      - verb. attain success or reach a desired goal
+  consensus:
+    correct: 2
+    answers:
+      - noun. a practical method or art applied to some particular task
+      - verb. have ownership or possession of
+      - noun. agreement in the judgment or opinion reached by a group as a whole
+  session:
+    correct: 1
+    answers:
+      - noun. the boundary of a specific area
+      - noun. a meeting devoted to a particular activity
+      - verb. propel with force
+  consumer:
+    correct: 1
+    answers:
+      - noun. the office of the United States head of state
+      - noun. a person who uses goods or services
+      - verb. handle effectively
+  research:
+    correct: 0
+    answers:
+      - noun. a search for knowledge
+      - verb. give a deceptive explanation or excuse for
+      - noun. an informal body of friends
+  frequently:
+    correct: 2
+    answers:
+      - adverb. as if with kid gloves; with caution or prudence or tact
+      - adverb. and nothing more
+      - adverb. many times at short intervals
+  relate:
+    correct: 1
+    answers:
+      - noun. possession of controlling influence
+      - verb. be in a relationship with
+      - adjective. lowercase
+  mainly:
+    correct: 0
+    answers:
+      - adverb. for the most part
+      - noun. cooking utensil consisting of a wide metal vessel
+      - verb. fail to get a passing grade
+  exceed:
+    correct: 0
+    answers:
+      - verb. be greater in scope or size than some standard
+      - verb. be engaged by a written agreement
+      - adjective. inclined to secrecy or reticence about divulging information
+  endure:
+    correct: 2
+    answers:
+      - noun. a person or firm that employs workers
+      - verb. propose a toast to
+      - verb. continue to exist
+  international:
+    correct: 2
+    answers:
+      - verb. perform as expected when applied
+      - noun. the trait of being intensely emotional
+      - adjective. concerning or belonging to all or at least two or more nations
+  survey:
+    correct: 1
+    answers:
+      - noun. energy made available by the flow of electric charge through a conductor
+      - noun. a detailed critical inspection
+      - noun. the body of individuals qualified to practice law in a particular jurisdiction
+  primary:
+    correct: 0
+    answers:
+      - adjective. most important element
+      - noun. the act of giving a talk to an audience
+      - adjective. easily agitated
+  perception:
+    correct: 0
+    answers:
+      - noun. a way of conceiving something
+      - noun. the management of money and credit and banking and investments
+      - noun. the time interval during which something or somebody is away
+  portion:
+    correct: 1
+    answers:
+      - noun. an insignificant place
+      - noun. an individual quantity of food or drink taken as part of a meal
+      - verb. articulate silently; form words with the lips only
+  asset:
+    correct: 0
+    answers:
+      - noun. a useful or valuable quality
+      - noun. one of four playing cards in a deck with nine pips on the face
+      - verb. be in or establish communication with
+  senior:
+    correct: 2
+    answers:
+      - adverb. at any time
+      - verb. make underscoring marks
+      - adjective. advanced in years; (`aged' is pronounced as two syllables)
+  training:
+    correct: 0
+    answers:
+      - noun. activity leading to skilled behavior
+      - verb. show approval or appreciation of
+      - noun. physical strength
+  recently:
+    correct: 0
+    answers:
+      - adverb. in the recent past
+      - adverb. at a later place
+      - adverb. very much; strongly
+  decade:
+    correct: 1
+    answers:
+      - adjective. considered individually
+      - noun. a period of 10 years
+      - noun. one of the contractile organs of the body
+  custom:
+    correct: 2
+    answers:
+      - verb. place temporarily
+      - noun. a room used primarily for sleeping
+      - adjective. made according to the specifications of an individual
+  department:
+    correct: 2
+    answers:
+      - noun. a very large person; impressive in size or qualities
+      - adjective. unthinking; prompted by (or as if by) instinct
+      - noun. a specialized division of a large organization
+  pursue:
+    correct: 2
+    answers:
+      - verb. create or manufacture a man-made product
+      - verb. break down into components or essential features
+      - verb. carry further or advance
+  celebration:
+    correct: 0
+    answers:
+      - noun. a joyful occasion for special festivities to mark some happy event
+      - noun. something intended as a guide for making something else
+      - noun. the property created by the space between two objects or points
+  policy:
+    correct: 1
+    answers:
+      - noun. a reference point to shoot at
+      - noun. a line of argument rationalizing the course of action of a government
+      - noun. request for a sum of money
+  rural:
+    correct: 0
+    answers:
+      - adjective. living in or characteristic of farming or country life
+      - adjective. exclusive of anyone or anything else
+      - adjective. moving quickly and lightly
+  demonstrate:
+    correct: 0
+    answers:
+      - verb. establish the validity of something, as by an example, explanation or experiment
+      - verb. deprive of life
+      - verb. put before
+  schedule:
+    correct: 2
+    answers:
+      - adverb. to a very great extent or degree
+      - adjective. of great worth or quality
+      - noun. a temporally organized plan for matters to be attended to
+  organize:
+    correct: 0
+    answers:
+      - verb. arrange by systematic planning and united effort
+      - noun. a particular service
+      - adjective. being the same substance throughout
+  interesting:
+    correct: 1
+    answers:
+      - adjective. recently past
+      - adjective. arousing or holding the attention
+      - adjective. most suitable or right for a particular purpose
+  require:
+    correct: 1
+    answers:
+      - noun. the quality of being near to the true value
+      - verb. consider obligatory; request and expect
+      - adjective. from the south; used especially of wind
+  throughout:
+    correct: 2
+    answers:
+      - adverb. to some (great or small) extent
+      - adverb. to or toward that place; away from the speaker
+      - adverb. from first to last
+  establish:
+    correct: 1
+    answers:
+      - verb. appear to exist
+      - verb. bring about
+      - verb. judge tentatively or form an estimate of (quantities or time)
+  perspective:
+    correct: 0
+    answers:
+      - noun. a way of regarding situations or topics etc.
+      - noun. the group of people comprising the government of a sovereign state
+      - noun. a conference (usually with someone important)
+  manager:
+    correct: 2
+    answers:
+      - noun. an edible tuber native to South America; a staple food of Ireland
+      - noun. the use of speech for informal exchange of views or ideas or information etc.
+      - noun. (sports) someone in charge of training an athlete or a team
+  supply:
+    correct: 1
+    answers:
+      - noun. the cardinal number that is the sum of nineteen and one
+      - noun. an amount of something available for use
+      - noun. questioning a statement and demanding an explanation
+  respond:
+    correct: 2
+    answers:
+      - verb. have as a result or residue
+      - verb. capture or kill, as in hunting
+      - verb. react verbally
+  project:
+    correct: 0
+    answers:
+      - noun. a planned undertaking
+      - adjective. marked by suitability or rightness or appropriateness
+      - verb. be compatible, similar or consistent; coincide in their characteristics
+  key:
+    correct: 2
+    answers:
+      - verb. touch or seem as if touching visually or audibly
+      - adverb. with brightness
+      - adjective. serving as an essential component
+  involved:
+    correct: 1
+    answers:
+      - adjective. not in operation or operational
+      - adjective. connected by participation or association or use
+      - adjective. involving the entire earth; not limited or provincial in scope
+  assemble:
+    correct: 2
+    answers:
+      - verb. argue with one another
+      - verb. express gratitude or show appreciation to
+      - verb. collect in one place
+  several:
+    correct: 2
+    answers:
+      - adjective. approximating the statistical norm or average or expected value
+      - adjective. being one more than six
+      - adjective. (used with count nouns) of an indefinite number more than 2 or 3 but not many
+  difficult:
+    correct: 3
+    answers:
+      - "Adjective. Mild, gentle, forgiving. (Source: Wiktionary)"
+      - "Noun. Doubt; the condition of being uncertain or without conviction. (Source: Wiktionary)"
+      - "Noun. A book of exercises to accompany a textbook. (Source: Wiktionary)"
+      - "Adjective. Hard, not easy, requiring much effort. (Source: Wiktionary)"
+  decision:
+    correct: 1
+    answers:
+      - "Noun. A hostile ride against a particular area; a raid. (Source: Wiktionary)"
+      - "Noun. A choice or judgement. (Source: Wiktionary)"
+      - "Verb. To direct the attention of. (Source: Wiktionary)"
+      - "Noun. Emotion; impression. (Source: Wiktionary)"
+  success:
+    correct: 2
+    answers:
+      - "Adjective. Making a fair equivalent of, repaying or compensating. (Source: Wiktionary)"
+      - "Verb. To become aware of a fact or situation. (Source: Wiktionary)"
+      - "Noun. One who, or that which, achieves assumed goals. (Source: Wiktionary)"
+      - "Adjective. Large in amount or size. (Source: Wiktionary)"
+  usually:
+    correct: 1
+    answers:
+      - "Adverb. In spite of what preceded; yet. (Source: Wiktionary)"
+      - "Adverb. Most of the time; less than always, but more than occasionally. (Source: Wiktionary)"
+      - "Adverb. Nevertheless. (Source: Wiktionary)"
+      - "Adverb. To an even greater degree. Used to modify comparative adjectives or adverbs. (Source: Wiktionary)"
+  current:
+    correct: 1
+    answers:
+      - "Verb. To direct or encourage (someone) in a particular direction. (Source: Wiktionary)"
+      - "Noun. The part of a fluid that moves continuously in a certain direction. (Source: Wiktionary)"
+      - "Noun. Deliberate consideration; knowledge. (Source: Wiktionary)"
+      - "Adjective. True, real, actual. (Source: Wiktionary)"
+  illness:
+    correct: 0
+    answers:
+      - "Noun. An instance of a disease or poor health. (Source: Wiktionary)"
+      - "Noun. Character, reliability, staying power, dignity, integrity or sound judgment. (Source: Wiktionary)"
+      - "Adjective. Subscribing to the architectural standards of Vitruvius. (Source: Wiktionary)"
+      - "Noun. A difficulty that has to be resolved or dealt with. (Source: Wiktionary)"
+  background:
+    correct: 3
+    answers:
+      - "Verb. Used similarly to indicate determination or obligation, particularly in the second and third persons singular and plural. (Source: Wiktionary)"
+      - "Adjective. Appropriate for a given historical era. (Source: Wiktionary)"
+      - "Noun. The conclusion or result of judging; an opinion; a decision. (Source: Wiktionary)"
+      - "Noun. Information relevant to the current situation about past events; history. (Source: Wiktionary)"
+  resident:
+    correct: 0
+    answers:
+      - "Noun. Person, animal or plant living at a location or in an area. (Source: Wiktionary)"
+      - "Adjective. Of a person, having skills or knowledge that are practical. (Source: Wiktionary)"
+      - "Noun. A relatively minor event that is incidental to, or related to others. (Source: Wiktionary)"
+      - "Noun. One who advises. (Source: Wiktionary)"
+  probably:
+    correct: 0
+    answers:
+      - "Adverb. In all likelihood. (Source: Wiktionary)"
+      - "Adverb. Along, forwards (continuing an action). (Source: Wiktionary)"
+      - "Adverb. After a deadline has passed, past a designated time. (Source: Wiktionary)"
+      - "Adverb. Indicating the last item. (Source: Wiktionary)"
+  activity:
+    correct: 0
+    answers:
+      - "Noun. Something done as an action or a movement. (Source: Wiktionary)"
+      - "Noun. A personal quality similar to motivation, not necessarily tied to a single goal. (Source: Wiktionary)"
+      - "Verb. To have a purpose or intention; to discourse. (Source: Wiktionary)"
+      - "Verb. To become warm, to heat up. (Source: Wiktionary)"
+  location:
+    correct: 2
+    answers:
+      - "Noun. Advance notification of termination of employment, given by an employer to an employee or vice versa. (Source: Wiktionary)"
+      - "Noun. A person's country of origin and/or homeplace; homeland. (Source: Wiktionary)"
+      - "Noun. A particular point or place in physical space. (Source: Wiktionary)"
+      - "Noun. Something that is lost. (Source: Wiktionary)"
+  enable:
+    correct: 1
+    answers:
+      - "Noun. A process by which a task is completed; a way of doing something. (Source: Wiktionary)"
+      - "Verb. To give strength or ability to; to make firm and strong. (Source: Wiktionary)"
+      - "Verb. To cause an animal to lose its will, to tame. (Source: Wiktionary)"
+      - "Noun. A person who supports others to make their voices heard, or ideally for them to speak up for themselves. (Source: Wiktionary)"
+  civilian:
+    correct: 2
+    answers:
+      - "Adjective. Of or relating to views about social relationships that involve power or authority. (Source: Wiktionary)"
+      - "Noun. A section of the Bible or other religious text read as part of a divine service. (Source: Wiktionary)"
+      - "Adjective. That which is not related to the military, police or other uniformed profession. (Source: Wiktionary)"
+      - "Noun. A person who teaches, especially one employed in a school. (Source: Wiktionary)"
+  increase:
+    correct: 2
+    answers:
+      - "Verb. To start, to initiate or take the first step into something. (Source: Wiktionary)"
+      - "Noun. In Information retrieval, the fraction of (all) relevant material that is returned by a search. (Source: Wiktionary)"
+      - "Verb. To become larger. (Source: Wiktionary)"
+      - "Noun. An umbrella term for a centre or winger in ice hockey. (Source: Wiktionary)"
+  incredible:
+    correct: 0
+    answers:
+      - "Adjective. Amazing; astonishing; awe-inspiring. (Source: Wiktionary)"
+      - "Noun. A fit or a period of giddiness. (Source: Wiktionary)"
+      - "Verb. To prepare food by baking it. (Source: Wiktionary)"
+      - "Adjective. Rested; not tired or fatigued. (Source: Wiktionary)"
+  studio:
+    correct: 3
+    answers:
+      - "Noun. A building or other place where manufacturing takes place. (Source: Wiktionary)"
+      - "Adjective. Able; capable; stout; strong; sound. (Source: Wiktionary)"
+      - "Adverb. Continuously up to a certain time; still. (Source: Wiktionary)"
+      - "Noun. An artist’s or photographer’s workshop or the room in which an artist works. (Source: Wiktionary)"
+  including:
+    correct: 1
+    answers:
+      - "Verb. To make (a bill) into law. (Source: Wiktionary)"
+      - "Preposition. Such as, among which; introducing one or more parts of the group or topic just mentioned. (Source: Wiktionary)"
+      - "Noun. A shot which only hits a goal post without going in. (Source: Wiktionary)"
+      - "Adjective. Sure, positive, not doubting. (Source: Wiktionary)"
+  surface:
+    correct: 1
+    answers:
+      - "Adjective. Pertaining to less-populated, non-urban areas. (Source: Wiktionary)"
+      - "Noun. The outside hull of a tangible object. (Source: Wiktionary)"
+      - "Adjective. Possessed of a due sense of what one is worth or deserves. (Source: Wiktionary)"
+      - "Noun. One or more people employed to help in the maintenance of a house or the operation of a farm or enterprise. (Source: Wiktionary)"
+  engage:
+    correct: 3
+    answers:
+      - "Adverb. Happening through bad luck, or because of some unfortunate event. (Source: Wiktionary)"
+      - "Noun. A light blow or tap. (Source: Wiktionary)"
+      - "Noun. An eating establishment in which diners are served food at their tables. (Source: Wiktionary)"
+      - "Verb. To engross or hold the attention of (someone); to keep busy or occupied. (Source: Wiktionary)"
+  material:
+    correct: 3
+    answers:
+      - "Verb. To make, build or construct. (Source: Wiktionary)"
+      - "Verb. To take a course or courses on a subject. (Source: Wiktionary)"
+      - "Noun. A person who is immature or infantile. (Source: Wiktionary)"
+      - "Adjective. Having to do with matter. (Source: Wiktionary)"
+  ability:
+    correct: 2
+    answers:
+      - "Adverb. In a way which is certain; with certainty. (Source: Wiktionary)"
+      - "Adjective. Accomplished with great skill; deft; hard to compete with. (Source: Wiktionary)"
+      - "Noun. The quality or state of being able; capacity to do; capacity of doing something; having the necessary power. (Source: Wiktionary)"
+      - "Noun. An imperfection or shortcoming which limits somethings use or value. (Source: Wiktionary)"
+  volume:
+    correct: 2
+    answers:
+      - "Noun. Ashes and residue of coal or charcoal, usually from a furnace. (Source: Wiktionary)"
+      - "Noun. Gloom. (Source: Wiktionary)"
+      - "Noun. A unit of three dimensional measure of space that comprises a length, a width and a height. It is measured in units of cubic centimeters in metric, cubic inches or cubic feet in English measurement. (Source: Wiktionary)"
+      - "Verb. To agree with; to closely follow. (Source: Wiktionary)"
+  sustain:
+    correct: 2
+    answers:
+      - "Noun. That which is narrated. (Source: Wiktionary)"
+      - "Verb. To recover data from a backup. (Source: Wiktionary)"
+      - "Verb. To maintain (something), or keep it in existence. (Source: Wiktionary)"
+      - "Verb. To search or examine with continued care; to seek diligently. (Source: Wiktionary)"
+  improvement:
+    correct: 3
+    answers:
+      - "Noun. The second section of a piece of music in sonata form. (Source: Wiktionary)"
+      - "Noun. Any relation who is not a direct ancestor or descendant; one more distantly related than an uncle, aunt, granduncle, grandaunt, nephew, niece, grandnephew, grandniece, etc. (Source: Wiktionary)"
+      - "Noun. Any very small distance, or degree; a hairbreadth. (Source: Wiktionary)"
+      - "Noun. A useful addition to, or modification of, a machine, manufacture, or composition. (Source: Wiktionary)"
+  release:
+    correct: 0
+    answers:
+      - "Verb. To let go (of); to cease to hold or contain. (Source: Wiktionary)"
+      - "Verb. To compress; to compact; to press or pack together. (Source: Wiktionary)"
+      - "Verb. To hold up a claim emphatically. (Source: Wiktionary)"
+      - "Verb. To include, contain or embrace, but not implying an exhaustive list. (Source: Wiktionary)"
+  central:
+    correct: 0
+    answers:
+      - "Adjective. Being very important, or key to something. (Source: Wiktionary)"
+      - "Noun. A long, prominent, article or item in the media, or the department that creates them; frequently used technically to distinguish content from news. (Source: Wiktionary)"
+      - "Noun. A person who has served in the armed forces, especially an old soldier who has seen long service. (Source: Wiktionary)"
+      - "Noun. A violent release of energy (sometimes mechanical, nuclear, or chemical.). (Source: Wiktionary)"
+  approve:
+    correct: 0
+    answers:
+      - "Verb. To sanction officially; to ratify; to confirm. (Source: Wiktionary)"
+      - "Verb. To take approaches to. (Source: Wiktionary)"
+      - "Verb. To wait for; to await. (Source: Wiktionary)"
+      - "Verb. To give (someone or something) to (someone or something else) as food. (Source: Wiktionary)"
+  characteristic:
+    correct: 3
+    answers:
+      - "Noun. A person who writes, or produces literary work. (Source: Wiktionary)"
+      - "Adjective. Of little worth. (Source: Wiktionary)"
+      - "Noun. That which begins or originates something; the first cause; origin; source. (Source: Wiktionary)"
+      - "Noun. A distinguishing feature of a person or thing. (Source: Wiktionary)"
+  dramatic:
+    correct: 3
+    answers:
+      - "Noun. Someone who is an expert in, or devoted to, some specific branch of study or research. (Source: Wiktionary)"
+      - "Noun. A large division of a larger composition. (Source: Wiktionary)"
+      - "Noun. A facial expression comprised by flexing the muscles of both ends of one's mouth while showing the front teeth, without vocalisation, and in humans is a common involuntary or voluntary expression of happiness, pleasure, amusement or anxiety. (Source: Wiktionary)"
+      - "Adjective. Striking in appearance or effect. (Source: Wiktionary)"
+  present:
+    correct: 3
+    answers:
+      - "Noun. The source or reason of an event or action. (Source: Wiktionary)"
+      - "Verb. To send (a letter or parcel) through the mail. (Source: Wiktionary)"
+      - "Noun. An act or instance of putting clothes on. (Source: Wiktionary)"
+      - "Adjective. Relating to now, for the time being; current. (Source: Wiktionary)"
+  course:
+    correct: 0
+    answers:
+      - "Noun. A path, sequence, development, or evolution. (Source: Wiktionary)"
+      - "Adjective. Having the nature or attributes of a human being. (Source: Wiktionary)"
+      - "Noun. The outer decorated portion of a stamp's image, often repeated on several issues although the inner picture may change. (Source: Wiktionary)"
+      - "Verb. To alter or make obscure, as with the intention to deceive, especially a document. (Source: Wiktionary)"
+  presidential:
+    correct: 0
+    answers:
+      - "Adjective. Presiding or watching over. (Source: Wiktionary)"
+      - "Verb. To interact socially for the purpose of getting connections or personal advancement. (Source: Wiktionary)"
+      - "Noun. Distaff. (Source: Wiktionary)"
+      - "Adjective. Surprisingly excellent; very good or admirable, extremely impressive. (Source: Wiktionary)"
+  forward:
+    correct: 2
+    answers:
+      - "Adjective. Of or relating to the chin-like or lip-like structure. (Source: Wiktionary)"
+      - "Noun. A person, especially one engaging in some sort of interaction with others. (Source: Wiktionary)"
+      - "Adjective. Toward the front or at the front. (Source: Wiktionary)"
+      - "Noun. Someone who lives in modern times. (Source: Wiktionary)"
+  convinced:
+    correct: 0
+    answers:
+      - "Adjective. In a state of believing, especially from evidence but not necessarily. (Source: Wiktionary)"
+      - "Noun. An organism that uses other organisms for food in order to gain energy. (Source: Wiktionary)"
+      - "Noun. The state or condition of owing something to another. (Source: Wiktionary)"
+      - "Verb. To give one's time, focus one's efforts, commit oneself, etc. entirely for, on, or to a certain matter. (Source: Wiktionary)"
+  respect:
+    correct: 0
+    answers:
+      - "Noun. An attitude of consideration or high regard. (Source: Wiktionary)"
+      - "Verb. To transfer responsibility or attention of (something) (to someone); to stop being concerned with. (Source: Wiktionary)"
+      - "Noun. The net revenue, net sales. (Source: Wiktionary)"
+      - "Noun. Remains: That which is left of a human being after the life is gone; relics; a dead body. (Source: Wiktionary)"
+  seldom:
+    correct: 1
+    answers:
+      - "Noun. The curvature of a circular arc, expressed as the angle subtended by a fixed length of arc or chord. (Source: Wiktionary)"
+      - "Adverb. Infrequently, rarely. (Source: Wiktionary)"
+      - "Adverb. Under normal conditions. (Source: Wiktionary)"
+      - "Noun. A person who invests money in order to make a profit. (Source: Wiktionary)"
+  better:
+    correct: 1
+    answers:
+      - "Adjective. Beautiful; displaying physical beauty. (Source: Wiktionary)"
+      - "Adjective. Comparative form of good. (Source: Wiktionary)"
+      - "Verb. To do something; to execute. (Source: Wiktionary)"
+      - "Adjective. Alive, living. (Source: Wiktionary)"
+  aware:
+    correct: 0
+    answers:
+      - "Adjective. Conscious or having knowledge of something. (Source: Wiktionary)"
+      - "Verb. To flow in a continuous or steady manner, like a liquid. (Source: Wiktionary)"
+      - "Noun. A way of understanding something, an opinion, a theory. (Source: Wiktionary)"
+      - "Noun. An alteration in sound after it has been produced by an instrument. (Source: Wiktionary)"
+  observe:
+    correct: 0
+    answers:
+      - "Verb. To notice or view, especially carefully or with attention to detail. (Source: Wiktionary)"
+      - "Verb. To give one's time, focus one's efforts, commit oneself, etc. entirely for, on, or to a certain matter. (Source: Wiktionary)"
+      - "Verb. To become larger. (Source: Wiktionary)"
+      - "Verb. Transfer temporarily to alternative employment. (Source: Wiktionary)"
+  directly:
+    correct: 1
+    answers:
+      - "Noun. Alternative form of traveller. (Source: Wiktionary)"
+      - "Adverb. Plainly, without circumlocution or ambiguity; absolutely; in express terms. (Source: Wiktionary)"
+      - "Adverb. Without reference to specific details. (Source: Wiktionary)"
+      - "Adverb. In a constant manner; occurring continuously; persistently. (Source: Wiktionary)"
+  patient:
+    correct: 2
+    answers:
+      - "Noun. That which is recommended. (Source: Wiktionary)"
+      - "Adjective. Unusual. (Source: Wiktionary)"
+      - "Adjective. Content to wait if necessary; not losing one's temper while waiting; not bothered with having to wait; not unwilling to wait. (Source: Wiktionary)"
+      - "Noun. Knowledge derived from scientific disciplines, scientific method, or any systematic effort. (Source: Wiktionary)"
+  capability:
+    correct: 1
+    answers:
+      - "Noun. A set of tasks that fulfills a purpose or duty; an assignment set by an employer. (Source: Wiktionary)"
+      - "Noun. The power or ability to generate an outcome. (Source: Wiktionary)"
+      - "Pronoun. As the complement of the copula (“be” or “is”). (Source: Wiktionary)"
+      - "Noun. Customary method of acting; habit. (Source: Wiktionary)"
+  concept:
+    correct: 1
+    answers:
+      - "Verb. To obtain something that is wanted. (Source: Wiktionary)"
+      - "Noun. An understanding retained in the mind, from experience, reasoning and/or imagination; a generalization (generic, basic form), or abstraction (mental impression), of a particular set of instances or occurrences (specific, though different, recorded manifestations of the concept). (Source: Wiktionary)"
+      - "Noun. A paltry fellow; a rogue; a ninny; a fool. (Source: Wiktionary)"
+      - "Verb. To be accountable. (Source: Wiktionary)"
+  equal:
+    correct: 3
+    answers:
+      - "Noun. A parallel or closely similar case, especially when serving as a precedent or model. (Source: Wiktionary)"
+      - "Noun. A chemical substance formed as a result of a chemical reaction. (Source: Wiktionary)"
+      - "Noun. Gain or loss from an investment. (Source: Wiktionary)"
+      - "Adjective. The same in all respects. (Source: Wiktionary)"
+  proceed:
+    correct: 3
+    answers:
+      - "Adjective. Best; of the highest quality or rank. (Source: Wiktionary)"
+      - "Verb. To prove and cause to be accepted as true; to establish a fact; to demonstrate. (Source: Wiktionary)"
+      - "Noun. A bloom, state of flowering. (Source: Wiktionary)"
+      - "Verb. To move, pass, or go forward or onward; to advance; to continue or renew motion begun. (Source: Wiktionary)"
+  citizen:
+    correct: 2
+    answers:
+      - "Noun. All the elements over which a designer has no control and that affect a system or its inputs and outputs. (Source: Wiktionary)"
+      - "Noun. A state in which opposing forces harmonise; equilibrium. (Source: Wiktionary)"
+      - "Noun. A person that is legally recognized as a member of a state, with associated rights and obligations. (Source: Wiktionary)"
+      - "Verb. To place a burden upon; to assign a duty or responsibility to. (Source: Wiktionary)"
+  license:
+    correct: 3
+    answers:
+      - "Adjective. Pleasing, welcome. (Source: Wiktionary)"
+      - "Noun. Information held in secret. (Source: Wiktionary)"
+      - "Adverb. In a obvious manner; clearly apparent. (Source: Wiktionary)"
+      - "Noun. A legal document giving official permission to do something; a permit. (Source: Wiktionary)"
+  federal:
+    correct: 1
+    answers:
+      - "Adjective. Independent of national boundaries; common to all people. (Source: Wiktionary)"
+      - "Adjective. Pertaining to the national government level, as opposed to state, provincial, county, city, or town. (Source: Wiktionary)"
+      - "Noun. A formalized choice on matters of administration or other democratic activities. (Source: Wiktionary)"
+      - "Adjective. Primary; principal. (Source: Wiktionary)"
+  obvious:
+    correct: 0
+    answers:
+      - "Adjective. Easily discovered, seen, or understood; self-explanatory. (Source: Wiktionary)"
+      - "Verb. To determine or judge. (Source: Wiktionary)"
+      - "Adjective. Full of danger. (Source: Wiktionary)"
+      - "Noun. A section of learning or teaching into which a wider learning content is divided. (Source: Wiktionary)"
+  advantage:
+    correct: 3
+    answers:
+      - "Noun. One's chance to make a move in a game having two or more players. (Source: Wiktionary)"
+      - "Noun. An act or instance of nominating. (Source: Wiktionary)"
+      - "Noun. The loss of one piece and associated capture of another. (Source: Wiktionary)"
+      - "Noun. Any condition, circumstance, opportunity or means, particularly favorable to success, or to any desired end. (Source: Wiktionary)"
+  income:
+    correct: 3
+    answers:
+      - "Verb. To turn a corner or drive around a curve. (Source: Wiktionary)"
+      - "Verb. To exchange (a check/cheque) for money in the form of notes/bills. (Source: Wiktionary)"
+      - "Verb. To carry out in accordance to (orders, instructions, etc). (Source: Wiktionary)"
+      - "Noun. Money one earns by working or capitalising off other people's work. (Source: Wiktionary)"
+  presence:
+    correct: 0
+    answers:
+      - "Noun. A quality of poise and effectiveness that enables a performer to achieve a close relationship with his audience. (Source: Wiktionary)"
+      - "Verb. To record a motion picture on photographic film. (Source: Wiktionary)"
+      - "Verb. To have a strong affinity with; to feel oneself to be modelled on or connected to. (Source: Wiktionary)"
+      - "Noun. A beginning or start; a point of origin. (Source: Wiktionary)"
+  include:
+    correct: 2
+    answers:
+      - "Noun. A room, often in a school, where classes take place. (Source: Wiktionary)"
+      - "Noun. Something given or offered that adds to a larger whole. (Source: Wiktionary)"
+      - "Verb. To bring into a group, class, set, or total as a (new) part or member. (Source: Wiktionary)"
+      - "Noun. A group of people related by blood, marriage, law, or custom. (Source: Wiktionary)"
+  unlike:
+    correct: 3
+    answers:
+      - "Noun. Water belonging to an ocean. (Source: Wiktionary)"
+      - "Verb. To send (something) as a message; usually refers to electronic messaging. (Source: Wiktionary)"
+      - "Verb. To form again or in a new configuration. (Source: Wiktionary)"
+      - "Preposition. In contrast with. (Source: Wiktionary)"
+  complex:
+    correct: 0
+    answers:
+      - "Adjective. Made up of multiple parts; intricate or detailed. (Source: Wiktionary)"
+      - "Verb. To put in charge of a jailor; to imprison. (Source: Wiktionary)"
+      - "Adjective. That exists, or has existence, especially that exists now. (Source: Wiktionary)"
+      - "Verb. To make a pass that leads directly towards scoring. (Source: Wiktionary)"
+  within:
+    correct: 1
+    answers:
+      - "Noun. A coffin. (Source: Wiktionary)"
+      - "Adverb. In or into the interior; inside. (Source: Wiktionary)"
+      - "Verb. To cause to flow in or into; infuse; instill. (Source: Wiktionary)"
+      - "Adverb. In addition; besides; as well; further; too. (Source: Wiktionary)"
+  content:
+    correct: 3
+    answers:
+      - "Adjective. Pleasing or appealing to the senses. (Source: Wiktionary)"
+      - "Verb. To settle by agreeing on less than the claim. (Source: Wiktionary)"
+      - "Adjective. Flat and level. (Source: Wiktionary)"
+      - "Noun. That which is contained. (Source: Wiktionary)"
+  continuous:
+    correct: 2
+    answers:
+      - "Conjunction. Except on a specified condition; if not. (Source: Wiktionary)"
+      - "Adjective. Having an internal socket, as in a connector or pipe fitting. (Source: Wiktionary)"
+      - "Adjective. Without break, cessation, or interruption; without intervening time. (Source: Wiktionary)"
+      - "Noun. A formal agreement, contract or pact. (Source: Wiktionary)"
+  improve:
+    correct: 2
+    answers:
+      - "Verb. To grant formal authorization for (something). (Source: Wiktionary)"
+      - "Noun. An object or idea that can be used for good. (Source: Wiktionary)"
+      - "Verb. To make (something) better; to increase the value or productivity (of something). (Source: Wiktionary)"
+      - "Noun. A goal, aim or principle, especially one which transcends purely selfish ends. (Source: Wiktionary)"
+  sponsor:
+    correct: 1
+    answers:
+      - "Noun. The act of recognizing or the condition of being recognized. (Source: Wiktionary)"
+      - "Noun. One that pays all or part of the cost of an event, a publication, or a media program, usually in exchange for advertising time. (Source: Wiktionary)"
+      - "Noun. A competition to determine a champion, especially the final of a series of competitions. (Source: Wiktionary)"
+      - "Noun. A patron; one who purchases or receives a product or service from a business or merchant, or intends to do so. (Source: Wiktionary)"
+  eager:
+    correct: 0
+    answers:
+      - "Adjective. Excited by desire in the pursuit of any object; ardent to pursue, perform, or obtain; keenly desirous; hotly longing; earnest; zealous; impetuous; vehement. (Source: Wiktionary)"
+      - "Verb. To forbid (an aircraft or pilot) to fly. (Source: Wiktionary)"
+      - "Verb. To try. (Source: Wiktionary)"
+      - "Adverb. Extremely; greatly; awfully. (Source: Wiktionary)"
+  rarely:
+    correct: 2
+    answers:
+      - "Adjective. Having relevant and crucial value. (Source: Wiktionary)"
+      - "Noun. A person who records and issues official reports of judicial or legislative proceedings. (Source: Wiktionary)"
+      - "Adverb. Not occurring at a regular interval; seldom; not often. (Source: Wiktionary)"
+      - "Noun. A kin, tribe; also called extended family. (Source: Wiktionary)"
+  consequence:
+    correct: 3
+    answers:
+      - "Noun. The act of instructing, teaching, or furnishing with information or knowledge. (Source: Wiktionary)"
+      - "Noun. The end of a river out of which water flows into a sea or other large body of water. (Source: Wiktionary)"
+      - "Noun. A sports event in which anybody can contest; as, the Australian Open. (Source: Wiktionary)"
+      - "Noun. A result of actions. (Source: Wiktionary)"
+  indicate:
+    correct: 0
+    answers:
+      - "Verb. To point out; to discover; to direct to a knowledge of; to show; to make known. (Source: Wiktionary)"
+      - "Noun. The desire to see or learn something that is new, strange, or unknown; inquisitiveness. (Source: Century)"
+      - "Noun. In criminal proceedings, the accused. (Source: Wiktionary)"
+      - "Adjective. Perfect or flawless. (Source: Wiktionary)"
+  specific:
+    correct: 1
+    answers:
+      - "Adjective. Not outstanding, not good, banal; bad or poor. (Source: Wiktionary)"
+      - "Adjective. Explicit or definite. (Source: Wiktionary)"
+      - "Noun. That which is similar to, or resembles, something else, as in quality, form, etc. (Source: Wiktionary)"
+      - "Verb. To suppose (introducing a proposition of uncertain plausibility). (Source: Wiktionary)"
+  refuse:
+    correct: 1
+    answers:
+      - "Verb. To perplex or confuse (someone). (Source: Wiktionary)"
+      - "Noun. Collectively, items or material that have been discarded; rubbish, garbage. (Source: Wiktionary)"
+      - "Noun. An interruption in normal processing, especially as caused by an error condition. (Source: Wiktionary)"
+      - "Verb. To act; to take action; to stir; to begin to act; as, to move in a matter. (Source: Wiktionary)"
+  continued:
+    correct: 3
+    answers:
+      - "Noun. A process of decision-making that seeks widespread agreement among group members. (Source: Wiktionary)"
+      - "Noun. In Information retrieval, the fraction of (all) relevant material that is returned by a search. (Source: Wiktionary)"
+      - "Noun. A collection of organisms of a particular species, sharing a particular characteristic of interest, most often that of living in a given area. (Source: Wiktionary)"
+      - "Adjective. Prolonged; unstopped. (Source: Wiktionary)"
+  exactly:
+    correct: 3
+    answers:
+      - "Noun. A process by which a task is completed; a way of doing something. (Source: Wiktionary)"
+      - "Adverb. Also; in addition. (Source: Wiktionary)"
+      - "Adjective. Unlike most others; unusual. (Source: Wiktionary)"
+      - "Adverb. Without approximation; precisely. (Source: Wiktionary)"
+  digital:
+    correct: 1
+    answers:
+      - "Adjective. Having to do with the body. (Source: Wiktionary)"
+      - "Adjective. Of or relating to computers or the Computer Age. (Source: Wiktionary)"
+      - "Noun. That which is considered to exist as a separate entity, object, quality or concept. (Source: Wiktionary)"
+      - "Verb. To note or fix the time of, as of an event; to give the date of. (Source: Wiktionary)"
+  expensive:
+    correct: 1
+    answers:
+      - "Adverb. In any way, any extent or any degree. (Source: Wiktionary)"
+      - "Adjective. Having a high price or cost. (Source: Wiktionary)"
+      - "Noun. A great period in the history of the Earth. (Source: Wiktionary)"
+      - "Noun. A literary piece written in verse. (Source: Wiktionary)"
+  possibly:
+    correct: 1
+    answers:
+      - "Adverb. To a degree clearly discernible. (Source: Wiktionary)"
+      - "Adverb. Indicates that the proposition may be true (is not certainly false) regardless of any facts or circumstances known to, stated by or implied by the speaker. (Source: Wiktionary)"
+      - "Adverb. To an operating state. (Source: Wiktionary)"
+      - "Verb. To use or exercise and thereby prove the existence of. (Source: Wiktionary)"
+  except:
+    correct: 2
+    answers:
+      - "Verb. To roll or incline laterally in order to turn. (Source: Wiktionary)"
+      - "Verb. To have or express as an opinion. (Source: Wiktionary)"
+      - "Verb. To exclude; to specify as being an exception. (Source: Wiktionary)"
+      - "Verb. To take in (water) over the sides of a vessel. (Source: Wiktionary)"
+  generally:
+    correct: 0
+    answers:
+      - "Adverb. Popularly or widely. (Source: Wiktionary)"
+      - "Noun. A pattern that 'fires' out other patterns. (Source: Wiktionary)"
+      - "Noun. The physical means or contrivances to make something (especially a public service) possible; the required equipment, infrastructure, location etc. (Source: Wiktionary)"
+      - "Noun. High society. (Source: Wiktionary)"
+  conviction:
+    correct: 2
+    answers:
+      - "Noun. An object used to form something. (Source: Wiktionary)"
+      - "Noun. A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold. (Source: Wiktionary)"
+      - "Noun. The state of being convinced or fully persuaded; strong belief on the ground of satisfactory reasons or evidence; the conscious assent of the mind; settled persuasion; a fixed or firm belief: as, an opinion amounting to conviction; he felt a strong conviction of coming deliverance. (Source: Century)"
+      - "Noun. A quantity of availability of duration. (Source: Wiktionary)"
+  typically:
+    correct: 0
+    answers:
+      - "Adverb. In an expected or customary manner. (Source: Wiktionary)"
+      - "Adverb. Plainly, without circumlocution or ambiguity; absolutely; in express terms. (Source: Wiktionary)"
+      - "Adverb. In the end. (Source: Wiktionary)"
+      - "Adverb. Particularly; to a greater extent than is normal. (Source: Wiktionary)"
+  profit:
+    correct: 0
+    answers:
+      - "Noun. Total income or cash flow minus expenditures. The money or other benefit a non-governmental organization or individual receives in exchange for products and services sold at an advertised price. (Source: Wiktionary)"
+      - "Noun. A person who writes poems. (Source: Wiktionary)"
+      - "Noun. An item of merchandise. (Source: Wiktionary)"
+      - "Noun. An endeavour. (Source: Wiktionary)"
+  agreement:
+    correct: 2
+    answers:
+      - "Noun. Something involving one personally. (Source: Wiktionary)"
+      - "Verb. To (give) support (to); to further the progress of; to help; to assist. (Source: Wiktionary)"
+      - "Noun. A state whereby several parties share a view or opinion; the state of not contradicting one another. (Source: Wiktionary)"
+      - "Noun. That which results; the conclusion or end to which any course or condition of things leads, or which is obtained by any process or operation; consequence or effect; as, the result of a course of action; the result of a mathematical operation. (Source: Wiktionary)"
+  plaintiff:
+    correct: 0
+    answers:
+      - "Noun. A party bringing a suit in civil law against a defendant; accusers. (Source: Wiktionary)"
+      - "Adjective. Pertaining to the current time and style. (Source: Wiktionary)"
+      - "Noun. A contest that narrows a field of contestants (finalists) to ranked positions, usually in numbered places (1st place/prize, 2nd place/prize, etc.) or a winner and numbered runners-up (1st runner-up, etc.). (Source: Wiktionary)"
+      - "Noun. A hill. (Source: Wiktionary)"
+  military:
+    correct: 2
+    answers:
+      - "Noun. Hardness; strength in adversity; mettle. (Source: Wiktionary)"
+      - "Adverb. Toward the north; northward. (Source: Wiktionary)"
+      - "Adjective. Characteristic of members of the armed forces. (Source: Wiktionary)"
+      - "Adjective. Of or pertaining to the south; southern. (Source: Wiktionary)"
+  employer:
+    correct: 0
+    answers:
+      - "Noun. A person, firm or other entity which pays for or hires the services of another person. (Source: Wiktionary)"
+      - "Adjective. Relating to the law or to lawyers, as in legal profession. (Source: Wiktionary)"
+      - "Noun. A body that administers; the executive part of government; the persons collectively who are entrusted with the execution of laws and the superintendence of public affairs; the chief magistrate and his cabinet or council; or the council, or ministry, alone, as in Great Britain. (Source: Wiktionary)"
+      - "Verb. To oppress with severe or excessive burdens; to tax. (Source: Wiktionary)"
+  difficulty:
+    correct: 3
+    answers:
+      - "Adjective. Of, or relating to education. (Source: Wiktionary)"
+      - "Noun. A reconciliation of differences. (Source: Wiktionary)"
+      - "Verb. To depict someone or something a particular way (often negative.). (Source: Wiktionary)"
+      - "Noun. An obstacle that hinders achievement of a goal. (Source: Wiktionary)"
+  inspire:
+    correct: 1
+    answers:
+      - "Verb. To extol or honour in a solemn manner. (Source: Wiktionary)"
+      - "Verb. To infuse into the mind; to communicate to the spirit; to convey, as by a divine or supernatural influence; to disclose preternaturally; to produce in, as by inspiration. (Source: Wiktionary)"
+      - "Noun. A character or part played by a performer or actor. (Source: Wiktionary)"
+      - "Noun. A course of action to be followed regularly; a standard procedure. (Source: Wiktionary)"
+  inflation:
+    correct: 2
+    answers:
+      - "Noun. A relationship of close communication or understanding. (Source: Wiktionary)"
+      - "Noun. An area for military training or equipment testing. (Source: Wiktionary)"
+      - "Noun. An act, instance of, or state of expansion or increase in size, especially by injection of a gas. (Source: Wiktionary)"
+      - "Noun. A person who invests money in order to make a profit. (Source: Wiktionary)"
+  retire:
+    correct: 1
+    answers:
+      - "Noun. The science and art of military command as applied to the overall planning and conduct of warfare. (Source: Wiktionary)"
+      - "Verb. To go back or return; to draw back or away; to keep aloof; to withdraw or retreat, as from observation; to go into privacy; as, to retire to his home; to retire from the world, or from notice. (Source: Wiktionary)"
+      - "Noun. An elongated depression between hills or mountains, often with a river flowing through it. (Source: Wiktionary)"
+      - "Noun. The tendency to work persistently. (Source: Wiktionary)"
+  prevent:
+    correct: 3
+    answers:
+      - "Adverb. On the day before today. (Source: Wiktionary)"
+      - "Noun. A monetary denomination worth ten units. (Source: Wiktionary)"
+      - "Verb. To become pervaded with something. (Source: Wiktionary)"
+      - "Verb. To stop; to keep (from happening). (Source: Wiktionary)"
+  unfortunately:
+    correct: 3
+    answers:
+      - "Verb. To illegally, or without the owner's permission, take possession of something by surreptitiously taking or carrying it away. (Source: Wiktionary)"
+      - "Adjective. Known only to an individual person or group; confidential. (Source: Wiktionary)"
+      - "Adverb. Indicates that the proposition may be true (is not certainly false) regardless of any facts or circumstances known to, stated by or implied by the speaker. (Source: Wiktionary)"
+      - "Adverb. Happening through bad luck, or because of some unfortunate event. (Source: Wiktionary)"
+  employ:
+    correct: 2
+    answers:
+      - "Noun. One who plays a part in something; a character. (Source: Wiktionary)"
+      - "Noun. A binding agreement under international law concluded by subjects of international law, namely states and international organizations. (Source: Wiktionary)"
+      - "Verb. To hire (somebody for work or a job). (Source: Wiktionary)"
+      - "Verb. To equalize; to make adequate. (Source: Wiktionary)"
+  poverty:
+    correct: 1
+    answers:
+      - "Adjective. Demanding a lot of effort to endure. (Source: Wiktionary)"
+      - "Noun. The quality or state of being poor or indigent; want or scarcity of means of subsistence; indigence; need. (Source: Wiktionary)"
+      - "Noun. A choice cut of poultry, especially chicken or turkey, taken from the bird’s breast; also a cut of meat from other animals, breast of mutton, veal, pork. (Source: Wiktionary)"
+      - "Verb. To prove. (Source: Wiktionary)"
+  welfare:
+    correct: 0
+    answers:
+      - "Noun. Health, safety, happiness and prosperity; well-being in any respect. (Source: Wiktionary)"
+      - "Noun. The quality of being flexible; suppleness; pliability. (Source: Wiktionary)"
+      - "Noun. Dexterity of speech or action; skill, talent. (Source: Wiktionary)"
+      - "Noun. A post of employment; a job. (Source: Wiktionary)"
+  considerable:
+    correct: 0
+    answers:
+      - "Adjective. Large in amount. (Source: Wiktionary)"
+      - "Verb. To try to see, to pay attention to with one’s eyes. (Source: Wiktionary)"
+      - "Verb. Of an object or concept, to continue to exist. (Source: Wiktionary)"
+      - "Noun. A container, typically made of glass and having a tapered neck, used for holding liquids. (Source: Wiktionary)"
+  possible:
+    correct: 0
+    answers:
+      - "Adjective. Capable of being done or achieved; feasible. (Source: Wiktionary)"
+      - "Verb. To have, or to have taken, possession or control of (a territory). (Source: Wiktionary)"
+      - "Noun. A person whose job is to manage something, such as a business, a restaurant, or a sports team. (Source: Wiktionary)"
+      - "Noun. As much as the hand will grasp or contain. - Joseph Addison. (Source: Wiktionary)"
+  outside:
+    correct: 0
+    answers:
+      - "Noun. The space beyond some limit or boundary. (Source: Wiktionary)"
+      - "Verb. To dip in or coat with beaten egg (cooking). (Source: Wiktionary)"
+      - "Noun. The act, process of showing appreciation, gratitude and/or remembrance, notably as a social event. (Source: Wiktionary)"
+      - "Verb. To operate in a certain place, area, or speciality. (Source: Wiktionary)"
+  reduce:
+    correct: 3
+    answers:
+      - "Adjective. At or towards the stern of a ship. (Source: Wiktionary)"
+      - "Verb. To protect; to keep; to maintain the condition of. (Source: Wiktionary)"
+      - "Interjection. Stop! Don't do that anymore, etc. (Source: Wiktionary)"
+      - "Verb. To bring down the size, quantity, quality, value or intensity of something; to diminish, to lower, to impair. (Source: Wiktionary)"
+  majority:
+    correct: 0
+    answers:
+      - "Noun. More than half (50%) of some group. (Source: Wiktionary)"
+      - "Adjective. Joined with another or others and having equal or nearly equal status. (Source: Wiktionary)"
+      - "Adjective. Of or belonging to the early part of life. (Source: Wiktionary)"
+      - "Verb. To make a property of; to appropriate. (Source: Wiktionary)"
+  strange:
+    correct: 2
+    answers:
+      - "Noun. Lack, absence. (Source: Wiktionary)"
+      - "Adjective. Very difficult to deal with. (Source: Wiktionary)"
+      - "Adjective. Not normal; odd, unusual, surprising, out of the ordinary. (Source: Wiktionary)"
+      - "Adjective. Uninteresting. (Source: Wiktionary)"
+  courage:
+    correct: 1
+    answers:
+      - "Noun. A set of containers or blocks of paint of different colors/colours, used for painting pictures. (Source: Wiktionary)"
+      - "Noun. The ability to do things which one finds frightening. (Source: Wiktionary)"
+      - "Noun. Institution of higher education (typically accepting students from the age of about 17 or 18, depending on country, but in some exceptional cases able to take younger students) where subjects are studied and researched in depth and degrees are offered. (Source: Wiktionary)"
+      - "Verb. To incite to action; to arouse; to instigate; to prompt; to excite. (Source: Wiktionary)"
+  union:
+    correct: 3
+    answers:
+      - "Noun. A (usually non-representational) structure, such as a collage etc. (Source: Wiktionary)"
+      - "Noun. A guide explaining the symbols or terminology of a map or chart; a legend. (Source: Wiktionary)"
+      - "Noun. A response or reply; something said or done in reaction to a statement or question. (Source: Wiktionary)"
+      - "Noun. The act of uniting or joining two or more things into one. (Source: Wiktionary)"
+  local:
+    correct: 2
+    answers:
+      - "Adjective. Cheap to run; using minimal resources; representing good value for money. (Source: Wiktionary)"
+      - "Noun. A recognised person, a celebrity. (Source: Wiktionary)"
+      - "Adjective. From or in a nearby location. (Source: Wiktionary)"
+      - "Verb. To come or be in sight; to be in view; to become visible. (Source: Wiktionary)"
+  purchase:
+    correct: 3
+    answers:
+      - "Verb. To quickly collect or retrieve. (Source: Wiktionary)"
+      - "Noun. A moderator or master of ceremonies for a performance. (Source: Wiktionary)"
+      - "Adjective. Favoured by luck; fortunate; meeting with good success or good fortune. Said of persons. (Source: Wiktionary)"
+      - "Verb. To buy, obtain by payment of a price in money or its equivalent. (Source: Wiktionary)"
+  employee:
+    correct: 0
+    answers:
+      - "Noun. An individual who provides labor to a company or another person. (Source: Wiktionary)"
+      - "Verb. To try to see, to pay attention to with one’s eyes. (Source: Wiktionary)"
+      - "Verb. To apply to a task or purpose. (Source: Wiktionary)"
+      - "Noun. The act or method of controlling or directing. (Source: Wiktionary)"
+  illegal:
+    correct: 1
+    answers:
+      - "Noun. An opponent. (Source: Wiktionary)"
+      - "Adjective. Contrary to or forbidden by law, especially criminal law. (Source: Wiktionary)"
+      - "Noun. A vote not in favor, or opposing a proposition. (Source: Wiktionary)"
+      - "Noun. The legal wherewithal to act.. (Source: Wiktionary)"
+  victory:
+    correct: 0
+    answers:
+      - "Noun. An instance of having won a competition or battle. (Source: Wiktionary)"
+      - "Adjective. Extremely large (in amount, extent, degree, etc.) or great. (Source: Wiktionary)"
+      - "Noun. Something or somebody considered unlikely. (Source: Wiktionary)"
+      - "Verb. To apply violent force to someone or something. (Source: Wiktionary)"
+  arise:
+    correct: 2
+    answers:
+      - "Noun. A formal meal for many people eaten for a special occasion. (Source: Wiktionary)"
+      - "Noun. Unusual or exceptional episode of a series. (Source: Wiktionary)"
+      - "Verb. To get up. (Source: Wiktionary)"
+      - "Noun. A question to be answered, schoolwork exercise. (Source: Wiktionary)"
+  honor:
+    correct: 3
+    answers:
+      - "Adjective. One of the four fundamental forces associated with nuclear decay. (Source: Wiktionary)"
+      - "Noun. A vast space. (Source: Wiktionary)"
+      - "Noun. A property of the body that indicates a disease and, unlike a symptom, is unlikely to be noticed by the patient. (Source: Wiktionary)"
+      - "Noun. Veneration of someone, usually for being morally upright and/or competent. (Source: Wiktionary)"
+  responsibility:
+    correct: 2
+    answers:
+      - "Noun. Power, of the kind associated with a great deal of money. (Source: Wiktionary)"
+      - "Noun. The method or practice by which actions are done. (Source: Wiktionary)"
+      - "Noun. A duty, obligation or liability for which someone is held accountable. (Source: Wiktionary)"
+      - "Adjective. Appropriate, suitable; believable; having a good potential. (Source: Wiktionary)"
+  contract:
+    correct: 2
+    answers:
+      - "Adjective. Relating to writers, or the profession of literature. (Source: Wiktionary)"
+      - "Noun. A tradition; something that can be passed down from preceding generations. (Source: Wiktionary)"
+      - "Noun. An agreement between two or more parties, to perform a specific job or work order, often temporary or of fixed duration and usually governed by a written agreement. (Source: Wiktionary)"
+      - "Noun. A member of a tribe, a people or a race of beings; one born into or considered a product of a people. (Source: Wiktionary)"
+  participate:
+    correct: 0
+    answers:
+      - "Verb. To take part; partake; have a share in common with others: followed by in, formerly by of, before the object. (Source: Century)"
+      - "Verb. To check the health or condition of something or someone. (Source: Wiktionary)"
+      - "Verb. To record (the score) for a game or a match. (Source: Wiktionary)"
+      - "Verb. To choose or make a decision (to do something). (Source: Wiktionary)"
+  engagement:
+    correct: 1
+    answers:
+      - "Noun. The act of moving a token on a gameboard from one position to another according to the rules of the game. (Source: Wiktionary)"
+      - "Noun. The period of time when marriage is planned or promised. (Source: Wiktionary)"
+      - "Noun. A place where a liquid such as water surfaces naturally, a spring. (Source: Wiktionary)"
+      - "Noun. A ghostly apparition of a living person; doppelgänger. (Source: Wiktionary)"
+  density:
+    correct: 0
+    answers:
+      - "Noun. A measure of the amount of matter contained by a given volume. (Source: Wiktionary)"
+      - "Verb. To handle wth skill, wield (a tool, weapon etc.). (Source: Wiktionary)"
+      - "Noun. An understanding between entities to follow a specific course of conduct. (Source: Wiktionary)"
+      - "Noun. The ideal of fairness, impartiality, etc., especially with regard to the punishment of wrongdoing. (Source: Wiktionary)"
+  steady:
+    correct: 1
+    answers:
+      - "Noun. Companionship. (Source: Wiktionary)"
+      - "Adjective. Smooth and not bumpy or with obstructions. (Source: Wiktionary)"
+      - "Noun. Physical force or strength. (Source: Wiktionary)"
+      - "Noun. An evaluation of status, especially of financial status. (Source: Wiktionary)"
+  relevant:
+    correct: 0
+    answers:
+      - "Adjective. Directly related, connected, or pertinent to a topic. (Source: Wiktionary)"
+      - "Adjective. Displaying an inordinate sensitivity to criticism; compare paranoid. (Source: Wiktionary)"
+      - "Adjective. Foremost in rank or importance. (Source: Wiktionary)"
+      - "Noun. The light and warmth which is received from the sun. (Source: Wiktionary)"
+  reality:
+    correct: 0
+    answers:
+      - "Noun. The state of being actual or real. (Source: Wiktionary)"
+      - "Adjective. Aware of one's own existence; aware of one's own awareness. (Source: Wiktionary)"
+      - "Adjective. Of high cost; expensive. (Source: Wiktionary)"
+      - "Noun. Beginning; start. (Source: Wiktionary)"
+  attractive:
+    correct: 1
+    answers:
+      - "Noun. A conventional shape or symbol used to represent the heart, love, or emotion: ♥ or sometimes <3. (Source: Wiktionary)"
+      - "Adjective. Pleasing or appealing to the senses. (Source: Wiktionary)"
+      - "Adverb. In a routine manner, in a way that has become common or expected. (Source: Wiktionary)"
+      - "Adverb. From one end to the other. (Source: Wiktionary)"
+  gravity:
+    correct: 0
+    answers:
+      - "Noun. The state or condition of being grave (graveness). (Source: Wiktionary)"
+      - "Adjective. Having or showing interest. (Source: Wiktionary)"
+      - "Noun. A miner's underground working time or shift. (Source: Wiktionary)"
+      - "Noun. Merit, excellence. (Source: Wiktionary)"
+  related:
+    correct: 2
+    answers:
+      - "Verb. To set apart for a deity or for religious purposes; consecrate. (Source: Wiktionary)"
+      - "Noun. A way, passage, or avenue by which a place or buildings can be approached; an access. (Source: Wiktionary)"
+      - "Adjective. Narrated; told. (Source: Wiktionary)"
+      - "Noun. One's colleagues or employees. (Source: Wiktionary)"
+  appropriate:
+    correct: 1
+    answers:
+      - "Adjective. Strong or unyielding; as a solid foundation. (Source: Wiktionary)"
+      - "Adjective. Suitable to the social situation or to social respect or social discreetness; socially correct; socially discreet; well-mannered; proper. (Source: Wiktionary)"
+      - "Noun. A citizen of a nation. (Source: Wiktionary)"
+      - "Adjective. Strict or harsh. (Source: Wiktionary)"
+  latter:
+    correct: 0
+    answers:
+      - "Adjective. Relating to or being the second of two items. (Source: Wiktionary)"
+      - "Pronoun. A person, a thing, people, or things like the one or ones already mentioned. (Source: Wiktionary)"
+      - "Adjective. Gone; gone by; gone away; passed; passed away. (Source: Wiktionary)"
+      - "Noun. A person who supports others to make their voices heard, or ideally for them to speak up for themselves. (Source: Wiktionary)"
+  totally:
+    correct: 1
+    answers:
+      - "Adverb. Previously. (Source: Wiktionary)"
+      - "Adverb. Entirely; completely. (Source: Wiktionary)"
+      - "Noun. A decision reached after careful thought. (Source: Wiktionary)"
+      - "Adverb. As well. (Source: Wiktionary)"
+  regularly:
+    correct: 2
+    answers:
+      - "Noun. A habitual drinker, especially one who is frequently intoxicated. (Source: Wiktionary)"
+      - "Adverb. With a great weight. (Source: Wiktionary)"
+      - "Adverb. With constant frequency or pattern. (Source: Wiktionary)"
+      - "Noun. That which is manufactured or is ready for manufacturing in volume (as opposed to a prototype or conceptual model). (Source: Wiktionary)"
+  urban:
+    correct: 0
+    answers:
+      - "Adjective. Characteristic of city life. (Source: Wiktionary)"
+      - "Adjective. Of or relating to crime. (Source: Wiktionary)"
+      - "Adjective. Sprightly; lively; brisk. (Source: Wiktionary)"
+      - "Verb. To obviate or make unnecessary. (Source: Wiktionary)"
+  daughter:
+    correct: 3
+    answers:
+      - "Noun. The people at such a gathering, as a collective. (Source: Wiktionary)"
+      - "Verb. To make a formal accusation or bring a formal charge. (Source: Wiktionary)"
+      - "Verb. To provide assistance to (someone or something). (Source: Wiktionary)"
+      - "Noun. A female descendant. (Source: Wiktionary)"
+  ignore:
+    correct: 3
+    answers:
+      - "Adjective. Unrestrained or uninhibited. (Source: Wiktionary)"
+      - "Adverb. Not occurring at a regular interval; seldom; not often. (Source: Wiktionary)"
+      - "Verb. To be eaten. (Source: Wiktionary)"
+      - "Verb. To deliberately pay no attention to. (Source: Wiktionary)"
+  beneath:
+    correct: 3
+    answers:
+      - "Adverb. Deeply. (Source: Wiktionary)"
+      - "Noun. Money that one person or entity owes or is required to pay to another, generally as a result of a loan or other financial transaction. (Source: Wiktionary)"
+      - "Adjective. Hidden, secret. (Source: Wiktionary)"
+      - "Preposition. Below. (Source: Wiktionary)"
+  equity:
+    correct: 0
+    answers:
+      - "Noun. Justice, impartiality or fairness. (Source: Wiktionary)"
+      - "Noun. The class of all algebraic structures of a given signature satisfying a given set of identities. (Source: Wiktionary)"
+      - "Noun. An academic discipline that seeks truth through reasoning rather than empiricism. (Source: Wiktionary)"
+      - "Noun. The result of a tally that reveals the number of items in a set; a quantity counted. (Source: Wiktionary)"
+  approval:
+    correct: 0
+    answers:
+      - "Noun. An expression of favorable acceptance and encouragement; a compliment that also condones. (Source: Wiktionary)"
+      - "Verb. To counterfeit; to imitate. (Source: Wiktionary)"
+      - "Verb. To have a strong affection for. (Source: Wiktionary)"
+      - "Adjective. Exhibiting social ability or cleverness. (Source: Wiktionary)"
+  whisper:
+    correct: 2
+    answers:
+      - "Adjective. Having a low temperature. (Source: Wiktionary)"
+      - "Adjective. Not able; lacking a certain ability. (Source: Wiktionary)"
+      - "Noun. The act of speaking in a quiet voice, especially, without vibration of the vocal cords. (Source: Wiktionary)"
+      - "Verb. To confess under interrogation. (Source: Wiktionary)"
+  appreciate:
+    correct: 2
+    answers:
+      - "Noun. A musical sound; a tone; an utterance; a tune. (Source: Wiktionary)"
+      - "Noun. A piece of merchandise available at a very attractive price. (Source: Wiktionary)"
+      - "Verb. To be grateful or thankful for. (Source: Wiktionary)"
+      - "Verb. To calm down, to quiet. (Source: Wiktionary)"
+  remote:
+    correct: 3
+    answers:
+      - "Noun. A feeling of understanding and ease of communication between two or more people. (Source: Wiktionary)"
+      - "Noun. A raw vegetable of the kind used in salads. (Source: Wiktionary)"
+      - "Adjective. Very small. (Source: Wiktionary)"
+      - "Adjective. At a distance; disconnected. (Source: Wiktionary)"
+  husband:
+    correct: 0
+    answers:
+      - "Verb. To manage or administer carefully and frugally; use to the best advantage; economise. (Source: Wiktionary)"
+      - "Noun. A vote not in favor, or opposing a proposition. (Source: Wiktionary)"
+      - "Adjective. Judged to have committed a crime. (Source: Wiktionary)"
+      - "Adjective. Properly secured; secure. (Source: Wiktionary)"
+  uncomfortable:
+    correct: 3
+    answers:
+      - "Noun. A single act of visiting. (Source: Wiktionary)"
+      - "Noun. A competitor or contestant who has little chance of winning; a long shot; a dark horse. (Source: Wiktionary)"
+      - "Adjective. So scholarly as to be unaware of the outside world; lacking in worldliness. (Source: Wiktionary)"
+      - "Adjective. Uneasy or anxious. (Source: Wiktionary)"
+  artifact:
+    correct: 1
+    answers:
+      - "Verb. To design, invest with a new form, shape, etc. (Source: Wiktionary)"
+      - "Noun. An object, such as a tool, weapon or ornament, of archaeological or historical interest, especially such an object found at an archaeological excavation. (Source: Wiktionary)"
+      - "Noun. Someone who guides, especially someone hired to show people around a place or an institution and offer information and explanation. (Source: Wiktionary)"
+      - "Verb. To remain in good condition while stored. (Source: Wiktionary)"
+  welcome:
+    correct: 1
+    answers:
+      - "Verb. To make prepared for action. (Source: Wiktionary)"
+      - "Interjection. Greeting given upon someone’s arrival. (Source: Wiktionary)"
+      - "Adverb. Soon afterward. (Source: Wiktionary)"
+      - "Noun. Any body of water. (Source: Wiktionary)"
+

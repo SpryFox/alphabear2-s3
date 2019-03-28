@@ -1,0 +1,1418 @@
+################################################################################################
+##  PASSIVE SPECIAL BOARD TILES  ###############################################################
+################################################################################################
+
+- Name: Star
+  MatchDefCharacter: s
+  Icon: star
+  AlwaysShowScore: false
+  StartingScore:
+    Variable: StarLifetime
+  Behaviors: []
+
+- Name: Skull
+  MatchDefCharacter: b
+  Icon: skull
+  AlwaysShowScore: false
+  StartingScore:
+    Variable: SkullLifetime
+  Behaviors: []
+
+- Name: Megaphone
+  MatchDefCharacter: P
+  Icon: megaphone
+  StartingScore:
+    Value: 1
+  Behaviors:
+  - Event:
+      Type: EndOfTurnTransition
+    Actions:
+    - SetTileScore:
+        Target:
+          Type: Self
+        Score:
+          Variable: LastWordScore
+
+- Name: Sun
+  MatchDefCharacter: U
+  Icon: sun
+  StartingScore:
+    Value: 12
+  Behaviors:
+  - Event:
+      Type: EndOfTurnTransition
+    Actions:
+    - SetTileScore:
+        Target:
+          Type: Self
+        Score:
+          Value: 2
+    - SetTileType:
+        TileTypeName: Moon
+        Target:
+          Type: Self
+
+- Name: Moon
+  MatchDefCharacter: u
+  Icon: moon
+  StartingScore:
+    Value: 2
+  Behaviors:
+  - Event:
+      Type: EndOfTurnTransition
+    Actions:
+    - SetTileScore:
+        Target:
+          Type: Self
+        Score:
+          Value: 12
+    - SetTileType:
+        TileTypeName: Sun
+        Target:
+          Type: Self
+
+- Name: Dino Egg
+  MatchDefCharacter: w
+  Icon: balloon
+  StartingScore:
+    Value: 1
+  Behaviors:
+  - Event:
+      Type: EndOfTurnTransition
+    Actions:
+    - AddTileScore:
+        Target:
+          Type: Self
+        Amount:
+          Value: 1
+
+- Name: Dice
+  MatchDefCharacter: g
+  Icon: gopher
+  StartingScore:
+    Value: 7
+  Behaviors:
+  - Event:
+      Type: EndOfTurnTransition
+    Actions:
+    - SwapTile:
+        Target:
+          Type: Grass
+          Limit: 1
+    - SetTileScore:
+        Target:
+          Type: Self
+        Score:
+          PossibleValues: [1, 4, 7, 10, 13]
+
+- Name: Lightbulb
+  MatchDefCharacter: h
+  Icon: flashlight
+  IconModifier: EntireBoard
+  StartingScore:
+    Value: 3
+  Behaviors:
+  - Event:
+      Type: TargetRevealed
+      Target:
+        Type: Self
+    Actions:
+    - RevealTile:
+        Target:
+          Filters:
+            - Revealable
+          Type: EntireBoard
+          MaxDistance: 2
+    - AddTileScore:
+        Target:
+          Filters:
+            - Revealable
+          Type: EntireBoard
+          MaxDistance: 2
+        Amount:
+          Value: 1
+
+- Name: Lock
+  MatchDefCharacter: l
+  Icon: lock
+  StartingScore:
+    Value: 5
+  Behaviors: []
+
+- Name: Key
+  MatchDefCharacter: k
+  Icon: key
+  StartingScore:
+    Value: 5
+  Behaviors:
+  - Event:
+      Type: TargetRevealed
+      Target:
+        Type: Self
+    Actions:
+    - RevealTile:
+        Target:
+          Type: Special
+          SpecialTileType: Lock
+
+################################################################################################
+##  TARGETED BEAR POWERS  ######################################################################
+################################################################################################
+
+- Name: Randomize Tile (3x)
+  Icon: random
+  UsageCount: 3
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - MutateLetter:
+        Target:
+          Type: TargetedTile
+        Characters: [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, qu, r, s, t, u, v, w, x, y, z]
+
+- Name: Randomize Neighbors (2x)
+  Icon: random
+  IconModifier: neighbor
+  UsageCount: 2
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - MutateLetter:
+        Target:
+          Type: TargetedTile
+        Characters: [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, qu, r, s, t, u, v, w, x, y, z]
+    - MutateLetter:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - CardinalNeighbors
+          - Letters
+        Characters: [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, qu, r, s, t, u, v, w, x, y, z]
+
+- Name: Simplify Board
+  MatchDefCharacter: i
+  Icon: random
+  IconModifier: EntireBoard
+  Targeted: true
+  TurnsToActivate: 2
+  SelectableTileTypes:
+    Type: EntireBoard
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - MutateLetter:
+        Target:
+          Filter: Letters
+        Characters: [e, a, r, i, o, t, n, s, h]
+
+- Name: Simplify Board (2x)
+  MatchDefCharacter: i
+  Icon: random
+  IconModifier: EntireBoard
+  Targeted: true
+  UsageCount: 2
+  SelectableTileTypes:
+    Type: EntireBoard
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - MutateLetter:
+        Target:
+          Filter: Letters
+        Characters: [e, a, r, i, o, t, n, s, h]
+
+- Name: Boost +1 Tile
+  Icon: Boost
+  IconText: +1
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 1
+        Target:
+          Type: TargetedTile
+
+- Name: Boost +2 Tile
+  Icon: Boost
+  IconText: +2
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 2
+        Target:
+          Type: TargetedTile
+
+- Name: Boost +3 Tile
+  Icon: Boost
+  IconText: +3
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 3
+        Target:
+          Type: TargetedTile
+
+- Name: Boost +4 Tile
+  Icon: Boost
+  IconText: +4
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 4
+        Target:
+          Type: TargetedTile
+
+- Name: Boost +10 Tile
+  Icon: Boost
+  IconText: +10
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 10
+        Target:
+          Type: TargetedTile
+
+- Name: Boost +15 Tile (2x)
+  Icon: Boost
+  IconText: +15
+  UsageCount: 2
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 15
+        Target:
+          Type: TargetedTile
+
+- Name: Boost +1 Row
+  Icon: Boost
+  IconModifier: row
+  IconText: +1
+  TurnsToActivate: 3
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Row
+          - Letters
+        Amount:
+          Value: 1
+
+- Name: Boost +2 Row
+  Icon: boost
+  IconModifier: row
+  IconText: +2
+  Targeted: true
+  TurnsToActivate: 3
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Row
+          - Letters
+        Amount:
+          Value: 2
+
+- Name: Boost +3 Row
+  Icon: boost
+  IconModifier: row
+  IconText: +3
+  Targeted: true
+  TurnsToActivate: 5
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Row
+          - Letters
+        Amount:
+          Value: 3
+
+- Name: Boost +5 Row
+  Icon: boost
+  IconModifier: row
+  IconText: +5
+  Targeted: true
+  TurnsToActivate: 5
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Row
+          - Letters
+        Amount:
+          Value: 5
+
+- Name: Boost +1 Column
+  Icon: Boost
+  IconModifier: column
+  IconText: +1
+  TurnsToActivate: 3
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Column
+          - Letters
+        Amount:
+          Value: 1
+
+- Name: Boost +2 Column
+  Icon: boost
+  IconModifier: column
+  IconText: +2
+  Targeted: true
+  TurnsToActivate: 3
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Column
+          - Letters
+        Amount:
+          Value: 2
+
+- Name: Boost +3 Column
+  Icon: boost
+  IconModifier: column
+  IconText: +3
+  Targeted: true
+  TurnsToActivate: 5
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Column
+          - Letters
+        Amount:
+          Value: 3
+
+- Name: Boost +5 Column
+  Icon: boost
+  IconModifier: column
+  IconText: +5
+  Targeted: true
+  TurnsToActivate: 5
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Column
+          - Letters
+        Amount:
+          Value: 5
+
+- Name: Boost +1 Neighbor
+  Icon: boost
+  IconText: +1
+  IconModifier: Neighbor
+  TurnsToActivate: 3
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 1
+        Target:
+          Type: TargetedTile
+    - AddTileScore:
+        Amount:
+          Value: 1
+        Target:
+          Filters:
+            - CardinalNeighbors
+            - Letters
+          RelativeToTargeted: true
+
+- Name: Boost +2 Neighbor
+  Icon: boost
+  IconText: +2
+  IconModifier: Neighbor
+  TurnsToActivate: 3
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 2
+        Target:
+          Type: TargetedTile
+    - AddTileScore:
+        Amount:
+          Value: 2
+        Target:
+          Filters:
+            - CardinalNeighbors
+            - Letters
+          RelativeToTargeted: true
+
+- Name: Boost +3 Neighbor
+  Icon: boost
+  IconText: +3
+  IconModifier: Neighbor
+  TurnsToActivate: 5
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 3
+        Target:
+          Type: TargetedTile
+    - AddTileScore:
+        Amount:
+          Value: 3
+        Target:
+          Filters:
+            - CardinalNeighbors
+            - Letters
+          RelativeToTargeted: true
+
+- Name: Boost +5 Neighbor
+  Icon: boost
+  IconText: +5
+  IconModifier: Neighbor
+  TurnsToActivate: 5
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 5
+        Target:
+          Type: TargetedTile
+    - AddTileScore:
+        Amount:
+          Value: 5
+        Target:
+          Filters:
+            - CardinalNeighbors
+            - Letters
+          RelativeToTargeted: true
+
+- Name: Double Tile
+  Icon: double
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - MultiplyTileScore:
+        Multiplier: 2
+        Target:
+          Type: TargetedTile
+
+- Name: Double Neighbors
+  Icon: double
+  IconModifier: Neighbor
+  TurnsToActivate: 5
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - MultiplyTileScore:
+        Multiplier: 2
+        Target:
+          Type: TargetedTile
+    - MultiplyTileScore:
+        Multiplier: 2
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - CardinalNeighbors
+          - Letters
+
+- Name: Double Row
+  Icon: double
+  IconModifier: Row
+  TurnsToActivate: 5
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - MultiplyTileScore:
+        Multiplier: 2
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Row
+          - Letters
+
+- Name: Double Column
+  Icon: double
+  IconModifier: Column
+  TurnsToActivate: 5
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - MultiplyTileScore:
+        Multiplier: 2
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Column
+          - Letters
+
+- Name: Tally Neighbors
+  Icon: Tally
+  IconModifier: Neighbor
+  TurnsToActivate: 3
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+# Make sure to score the neighbors before the TargetedTile. ScoreTile will reveal a tile's neighbors,
+# so if you do the TargetedTile first, it will introduce new neighbors that the second call immediately scores.
+    - ScoreTile:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - CardinalNeighbors
+          - Letters
+    - ScoreTile:
+        Target:
+          Type: TargetedTile
+
+- Name: Tally Row
+  Icon: Tally
+  IconModifier: Row
+  TurnsToActivate: 5
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - ScoreTile:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Row
+          - Letters
+
+- Name: Tally Column
+  Icon: Tally
+  IconModifier: Column
+  TurnsToActivate: 5
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - ScoreTile:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Column
+          - Letters
+
+- Name: Summon TY
+  Icon: summontile
+  IconText: TY
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "ty"
+    - RevealTile:
+        Count: 2
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon ES
+  Icon: summontile
+  IconText: ES
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "es"
+    - RevealTile:
+        Count: 2
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon ER
+  Icon: summontile
+  IconText: ER
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "er"
+    - RevealTile:
+        Count: 2
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon LY
+  Icon: summontile
+  IconText: LY
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "ly"
+    - RevealTile:
+        Count: 2
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon ING
+  Icon: summontile
+  IconText: ING
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "ing"
+    - RevealTile:
+        Count: 3
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon ED
+  Icon: summontile
+  IconText: ED
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "ed"
+    - RevealTile:
+        Count: 2
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon FUL
+  Icon: summontile
+  IconText: FUL
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "ful"
+    - RevealTile:
+        Count: 3
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon IST
+  Icon: summontile
+  IconText: IST
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "ist"
+    - RevealTile:
+        Count: 3
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon UN
+  Icon: summontile
+  IconText: UN
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "un"
+    - RevealTile:
+        Count: 2
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon ZZZ
+  Icon: summontile
+  IconText: ZZZ
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: zzz
+    - RevealTile:
+        Count: 3
+        LifetimeBonus: 7
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon XXX
+  Icon: summontile
+  IconText: XXX
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: xxx
+    - RevealTile:
+        Count: 3
+        LifetimeBonus: 7
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon JJJ
+  Icon: summontile
+  IconText: JJJ
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: jjj
+    - RevealTile:
+        Count: 3
+        LifetimeBonus: 7
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon EEE
+  Icon: summontile
+  IconText: EEE
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "eee"
+    - RevealTile:
+        Count: 3
+        LifetimeBonus: 1
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon SSS
+  Icon: summontile
+  IconText: SSS
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "sss"
+    - RevealTile:
+        Count: 3
+        LifetimeBonus: 1
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Summon CPU (2x)
+  Icon: summontile
+  IconText: CPU
+  Targeted: true
+  UsageCount: 2
+  SelectableTileTypes:
+    Filters:
+    - Letters
+    - TilesWithASummonableSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - InsertLettersIntoNextReveal:
+        InsertOnce: true
+        Letters:
+          Value: "cpu"
+    - RevealTile:
+        Count: 3
+        LifetimeBonus: 5
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableNeighbors
+
+- Name: Reveal Neighbors
+  Icon: reveal
+  IconModifier: Neighbor
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Revealed
+    - LettersNotFrozen
+    - TilesWithASummonableOrFrozenSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - RevealTile:
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableOrFrozenNeighbors
+    - UnfreezeIceTile:
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableOrFrozenNeighbors
+
+- Name: Reveal Neighbors (3x)
+  Icon: reveal
+  IconModifier: Neighbor
+  Targeted: true
+  UsageCount: 3
+  SelectableTileTypes:
+    Filters:
+    - Revealed
+    - LettersNotFrozen
+    - TilesWithASummonableOrFrozenSquareIn8Neighbors
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - RevealTile:
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableOrFrozenNeighbors
+    - UnfreezeIceTile:
+        Target:
+          RelativeToTargeted: true
+          Type: SummonableOrFrozenNeighbors
+
+- Name: Lock Tile
+  Icon: lock
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - LockTileScore:
+        Target:
+          Type: TargetedTile
+
+- Name: Lock Neighbors
+  Icon: lock
+  IconModifier: Neighbor
+  Targeted: true
+  SelectableTileTypes:
+    Filters:
+    - Revealed
+    - Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - LockTileScore:
+        Target:
+          Type: TargetedTile
+    - LockTileScore:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - CardinalNeighbors
+          - Letters
+
+- Name: Lock Row
+  Icon: lock
+  IconModifier: Row
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - LockTileScore:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Row
+          - Letters
+
+- Name: Lock Column
+  Icon: lock
+  IconModifier: Column
+  Targeted: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - LockTileScore:
+        Target:
+          RelativeToTargeted: true
+          Filters:
+          - Column
+          - Letters
+
+- Name: Break Rock Tile
+  Icon: breakrock
+  Targeted: true
+  SelectableTileTypes:
+    Type: Rocks
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - SetTileType:
+        Target:
+          Type: TargetedTile
+        TileTypeName: Bear
+
+- Name: Break Rock Tile (2x)
+  Icon: breakrock
+  Targeted: true
+  UsageCount: 2
+  SelectableTileTypes:
+    Type: Rocks
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - SetTileType:
+        Target:
+          Type: TargetedTile
+        TileTypeName: Bear
+
+- Name: 5 Letter Hint (2x)
+  Icon: hint
+  UsageCount: 2
+  Targeted: true
+  SelectableTileTypes:
+    Type: EntireBoard
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - GiveHint:
+        Length: 5
+
+- Name: 6 Letter Hint (1x)
+  Icon: hint
+  UsageCount: 1
+  Targeted: true
+  SelectableTileTypes:
+    Type: EntireBoard
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - GiveHint:
+        Length: 6
+
+- Name: 6 Letter Hint (2x)
+  Icon: hint
+  UsageCount: 2
+  Targeted: true
+  SelectableTileTypes:
+    Type: EntireBoard
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - GiveHint:
+        Length: 6
+
+- Name: 7 Letter Hint (2x)
+  Icon: hint
+  UsageCount: 2
+  Targeted: true
+  SelectableTileTypes:
+    Type: EntireBoard
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - GiveHint:
+        Length: 7
+
+- Name: Longest Word Hint (2x)
+  Icon: hint
+  UsageCount: 2
+  Targeted: true
+  SelectableTileTypes:
+    Type: EntireBoard
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - GiveCustomHint:
+        OfType: LongestWord
+
+- Name: Low Lifetime Word Hint (2x)
+  Icon: hint
+  UsageCount: 2
+  Targeted: true
+  SelectableTileTypes:
+    Type: EntireBoard
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - GiveCustomHint:
+        OfType: UseLowLifeLetters
+        
+- Name: Swap Turns
+  Icon: swap
+  UsageCount: 1
+  Targeted: true
+  IsTwoTilePower: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - SwapTurns:
+        Source:
+          Type: TargetedTile
+        Target:
+          Type: SecondaryTargetedTile
+
+- Name: Swap Turns (4x)
+  Icon: swap
+  UsageCount: 4
+  Targeted: true
+  IsTwoTilePower: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - SwapTurns:
+        Source:
+          Type: TargetedTile
+        Target:
+          Type: SecondaryTargetedTile
+
+- Name: Copy Letter
+  Icon: swap
+  UsageCount: 1
+  Targeted: true
+  IsTwoTilePower: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - CopyLetter:
+        Source:
+          Type: TargetedTile
+        Target:
+          Type: SecondaryTargetedTile
+
+- Name: Copy Letter (3x)
+  Icon: swap
+  UsageCount: 3
+  Targeted: true
+  IsTwoTilePower: true
+  SelectableTileTypes:
+    Type: Letters
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - CopyLetter:
+        Source:
+          Type: TargetedTile
+        Target:
+          Type: SecondaryTargetedTile
+
+- Name: +1 All Tiles
+  Icon: boost
+  IconText: +1
+  IconModifier: EntireBoard
+  Targeted: true
+  UsageCount: 2
+  SelectableTileTypes:
+    Type: EntireBoard
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 1
+        Target:
+          Filter: Letters
+
+- Name: +4 To 1-Life Letters
+  Icon: boost
+  IconText: +4
+  IconModifier: EntireBoard
+  Targeted: true
+  UsageCount: 1
+  SelectableTileTypes:
+    Type: EntireBoard
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 4
+        Target:
+          Filter: Letters
+          Lifetime: 1
+
+- Name: +4 To 1-Life Letters (2x)
+  Icon: boost
+  IconText: +4
+  IconModifier: EntireBoard
+  Targeted: true
+  UsageCount: 2
+  SelectableTileTypes:
+    Type: EntireBoard
+  Behaviors:
+  - Event:
+      Type: TargetSelected
+    Actions:
+    - AddTileScore:
+        Amount:
+          Value: 4
+        Target:
+          Filter: Letters
+          Lifetime: 1

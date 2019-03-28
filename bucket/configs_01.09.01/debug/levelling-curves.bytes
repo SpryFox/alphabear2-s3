@@ -1,0 +1,130 @@
+Common:
+  Start: 45.0
+  Curve:
+  - Step: 9.0
+    Until: 12
+  - Step: 8.0
+    Until: 24
+  - Step: 7.0
+    Until: 36
+  - Step: 6.0
+    Until: 48
+  - Step: 5.0
+    Until: 60
+  - Step: 4.0
+    Until: 72
+  - Step: 3.0
+    Until: 84
+  - Step: 2.0
+    Until: 96
+  - Step: 1.0
+    Until: 3000
+
+Rare:
+  Start: 77.0
+  Curve:
+  - Step: 11.7
+    Until: 12
+  - Step: 10.4
+    Until: 24
+  - Step: 9.1
+    Until: 36
+  - Step: 7.8
+    Until: 48
+  - Step: 6.5
+    Until: 60
+  - Step: 5.2
+    Until: 72
+  - Step: 3.9
+    Until: 84
+  - Step: 2.6
+    Until: 96
+  - Step: 1.3
+    Until: 3000
+    
+Epic:
+  Start: 138.0
+  Curve:
+  - Step: 15.2
+    Until: 12
+  - Step: 13.5
+    Until: 24
+  - Step: 11.8
+    Until: 36
+  - Step: 10.1
+    Until: 48
+  - Step: 8.5
+    Until: 60
+  - Step: 6.8
+    Until: 72
+  - Step: 5.1
+    Until: 84
+  - Step: 3.4
+    Until: 96
+  - Step: 1.7
+    Until: 3000
+    
+Legendary:
+  Start: 248.0
+  Curve:
+  - Step: 19.8
+    Until: 12
+  - Step: 17.6
+    Until: 24
+  - Step: 15.4
+    Until: 36
+  - Step: 13.2
+    Until: 48
+  - Step: 11.0
+    Until: 60
+  - Step: 8.8
+    Until: 72
+  - Step: 6.6
+    Until: 84
+  - Step: 4.4
+    Until: 96
+  - Step: 2.2
+    Until: 3000
+    
+
+VsExtraPointsForWordsOfLength2:
+  Start: 30
+  Curve:
+  - {Step: 3, Until: 11}
+  - {Step: 1, Until: 40}
+  - {Step: 0.5, Until: 100}
+VsExtraPointsForWordsOfLength4:
+  Start: 30
+  Curve:
+  - {Step: 3, Until: 11}
+  - {Step: 1, Until: 40}
+  - {Step: 0.5, Until: 100}
+VsExtraPointsForLetters:
+  Start: 20
+  Curve:
+  - {Step: 2, Until: 11}
+  - {Step: 0.75, Until: 40}
+  - {Step: 0.35, Until: 100}
+VsExtraPointsForLettersAtTimeToLive1:
+  Start: 60
+  Curve:
+  - {Step: 6, Until: 11}
+  - {Step: 2, Until: 40}
+  - {Step: 1, Until: 100}
+VsWordScoreMultiplierForEachCommonLetterInWord:
+  Start: 1.25
+  Curve:
+  - {Step: 0.02, Until: 11}
+  - {Step: 0.01, Until: 50}
+  - {Step: 0.003, Until: 100}
+VsWordScoreMultiplierForEachRareLetterInWord:
+  Start: 1.75
+  Curve:
+  - {Step: 0.06, Until: 11}
+  - {Step: 0.03, Until: 50}
+  - {Step: 0.01, Until: 100}
+VsWordScoreMultiplierForEachXInWord:
+  Start: 4
+  Curve:
+  - {Step: 0.75, Until: 5}
+  - {Step: 0.4, Until: 21}

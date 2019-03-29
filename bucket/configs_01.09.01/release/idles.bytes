@@ -1,0 +1,573 @@
+#
+# To add a new bear idle:
+# 1. Add the animation name under AllIdles and make sure the ID number is unique.
+# 2. If the animation doesn't require a free right hand, add the animation name under DoesntNeedFreeRightHand
+# 3. Find the appropriate idle group below.  Each of these corresponds to a
+#    location in-game where the idle animations should be different.  Add the new idle
+#    animation name, along with a selection probability weight value.
+# 4. Add the animation to the appropriate AnimatorController in Unity.  
+# 5. Make a transition from the "static" state to the new idle state. 
+#    Change the transition settings to the following:
+#
+#      Has Exit Time                [ ]
+#      Settings
+#         Exit Time                  0
+#         Fixed Duration            [√]
+#         Transition Duration (s)    0
+#         Transition Offset          0
+#         Interruption Source       None
+#         Ordered Interruption      [√]
+#
+#      Conditions
+#      ----------------------------------------------
+#      = idle              Equals      <animation ID>
+#
+#
+#      The "<animation ID>" value is the number that corresponds to your new idle in their
+#      AllIdles list below.
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#######################################################
+# BEAR IDLES
+#######################################################
+
+# Names of all idle animations, along with their integer ID's
+# These ID numbers correspond to the values in the bear animator
+# controllers, but the animation names are only consistent within
+# this file.  Each ID number can only correspond to one animation.
+AllIdles:
+  Idle1:        1  # Breathing.
+  Idle2:        2  # Look forward for a while, then look around in a circle.
+  Idle3:        3  # Look up and wiggle both arms toward the sky
+  Idle4:        4  # Cellphone
+  Idle5:        5  # Yo-yo
+  Idle6:        6  # Dance like a dog relieving itself
+  Idle7:        7  # Soda
+  Idle8:        8  # Sneeze
+  Idle9:        9  # little dance
+  Idle10:      10 # Jumping jacks
+  Idle11:      11 # Circle foot on the ground.
+  Idle12:      12 # Meditation
+  UpsideDown1: 13
+  Texting:     14
+  Lay1:        15
+  Laughing:    16
+  Waving:      17
+  Scowling:    18
+  Happy1:      19
+  Sad1:        20
+  Madlib_AttackingProp: 21
+  Madlib_Oops:          22
+  Madlib_AdmiringHh:    23
+  Madlib_LayingDown:    24
+  Madlib_Meditation:    25
+  Madlib_Throwing:      26
+  Madlib_Telekenesis:   27
+  Madlib_FlippingProp:  28
+  Madlib_RecitingHh:    29
+  Madlib_KissingPropHh: 30
+  Madlib_ShakingFist:   31
+  Madlib_JumpKick:      32
+  Madlib_GettingHit:    33
+  Madlib_RunAway:       34
+  Madlib_WavingLovely:  35
+  Madlib_Ballet:        36
+  Madlib_PropOnHead:    37
+  Madlib_Weeping:       38
+  Madlib_HeadTilt:      39
+  Madlib_Proud:         40
+  Madlib_Happy:         41
+  Madlib_IdleWave:      42
+  Madlib_WreckingBall_Hit:    43
+  Madlib_WreckingBall_Riding: 44
+  Madlib_TRex_Idle:      45
+  Madlib_TRex_Attack:    46
+  Madlib_TRex_Running:   47
+  Madlib_Rapture:        48
+  Madlib_Reaper_Attack:  49
+  Madlib_Reaper_Running: 50
+  Madlib_Meteor_Running: 51
+  Madlib_Meteor_Idle:    52
+  Madlib_Meteor_Panic:   53
+  Madlib_CEO_Idle:       54
+  Madlib_Bomb_Running:   55
+  Madlib_Bomb_Panic:     56
+  Madlib_IceCream_Weeping:     57
+  Madlib_IceCream_PropOnHead:  58
+  Madlib_AttackingProp_Large:  59
+  Madlib_RunAway_Large:        60
+  Madlib_Telekenesis_Large:    61
+  Madlib_Panic_Large:          62
+  Madlib_Throwing_Large:       63
+  Madlib_PropOnHead_LargeProp: 64
+  Madlib_WreckingBall_Miley:   65
+  Madlib_Jumpkick_CarnivorousPlant:	66
+  Madlib_Jumpkick_Baby:				67
+  Madlib_Trex_Jumpkick:				68
+  Madlib_GiantCake:					69
+  Madlib_News:			70
+  Madlib_Shower:		71
+  Madlib_Soup:			72
+  Madlib_Tipsy:			73
+  Madlib_Shark:			74
+  Madlib_Castaway:		75
+  Madlib_Dictator:		76
+  Madlib_GameShow:		77
+  Madlib_BigFoot:		78
+  Madlib_WhiteFlag:		79
+  Madlib_Story:			80
+  Madlib_Bed_Worried:	81
+  Madlib_Bed_Angry:		82
+  Madlib_Campfire:		83
+  Madlib_Confession:	84
+  Madlib_DeathBed:		85
+  Madlib_Museum:		86
+  Madlib_Dancing:		87
+  Madlib_Dinner_Happy:	88
+  Madlib_Dinner:		89
+  Madlib_CloseEncounter:	90
+  Madlib_Subway:		91
+  Madlib_Band:			92
+  Madlib_SpacePilot:	93
+  Madlib_Sacrifice:		94
+  Madlib_UnderWater:	95
+  Madlib_Space:			96
+  Madlib_Sermon:		97
+  Madlib_Hell:			98
+  Madlib_Fans:			99
+  Madlib_Storm:			100
+  Madlib_President:		101
+  Madlib_Devils:		102
+  Madlib_Missile:		103
+
+# If the anim does something significant with the right hand (e.g., drink a soda), keep it out of this list.
+# Otherwise, add it to this list.
+DoesntNeedFreeRightHand:
+  - Idle1
+  - Idle2
+  - Idle3
+  - Idle6
+  - Idle8
+  - Idle9
+  - Idle11
+  - Idle12
+  - UpsideDown1
+  - Lay1
+  - Laughing
+  - Scowling
+  - Happy1
+  - Sad1
+  - Madlib_AttackingProp
+  - Madlib_Oops
+  - Madlib_AdmiringHh
+  - Madlib_LayingDown
+  - Madlib_Meditation
+  - Madlib_Throwing
+  - Madlib_Telekenesis
+  - Madlib_FlippingProp
+  - Madlib_RecitingHh
+  - Madlib_KissingPropHh
+  - Madlib_ShakingFist
+  - Madlib_JumpKick
+  - Madlib_GettingHit
+  - Madlib_RunAway
+  - Madlib_WavingLovely
+  - Madlib_Ballet
+  - Madlib_PropOnHead
+  - Madlib_Weeping
+  - Madlib_HeadTilt
+  - Madlib_Proud
+  - Madlib_Happy
+  - Madlib_IdleWave
+  - Madlib_WreckingBall_Hit
+  - Madlib_WreckingBall_Riding
+  - Madlib_TRex_Idle
+  - Madlib_TRex_Attack
+  - Madlib_TRex_Running
+  - Madlib_Rapture
+  - Madlib_Reaper_Attack
+  - Madlib_Reaper_Running
+  - Madlib_Meteor_Running
+  - Madlib_Meteor_Idle
+  - Madlib_Meteor_Panic
+  - Madlib_CEO_Idle
+  - Madlib_Bomb_Running
+  - Madlib_Bomb_Panic
+  - Madlib_IceCream_Weeping
+  - Madlib_IceCream_PropOnHead
+  - Madlib_AttackingProp_Large
+  - Madlib_RunAway_Large
+  - Madlib_Telekenesis_Large
+  - Madlib_Panic_Large
+  - Madlib_Throwing_Large
+  - Madlib_PropOnHead_LargeProp
+  - Madlib_WreckingBall_Miley
+  - Madlib_Jumpkick_CarnivorousPlant
+  - Madlib_Jumpkick_Baby
+  - Madlib_Trex_Jumpkick
+  - Madlib_GiantCake
+  - Madlib_News
+  - Madlib_Shower
+  - Madlib_Soup
+  - Madlib_Tipsy
+  - Madlib_Shark
+  - Madlib_Castaway
+  - Madlib_Dictator
+  - Madlib_GameShow
+  - Madlib_BigFoot
+  - Madlib_WhiteFlag
+  - Madlib_Story
+  - Madlib_Bed_Worried
+  - Madlib_Bed_Angry
+  - Madlib_Campfire
+  - Madlib_Confession
+  - Madlib_DeathBed
+  - Madlib_Museum
+  - Madlib_Dancing
+  - Madlib_Dinner_Happy
+  - Madlib_Dinner
+  - Madlib_CloseEncounter
+  - Madlib_Subway
+  - Madlib_Band
+  - Madlib_SpacePilot
+  - Madlib_Sacrifice
+  - Madlib_UnderWater
+  - Madlib_Space
+  - Madlib_Sermon
+  - Madlib_Hell
+  - Madlib_Fans
+  - Madlib_Storm
+  - Madlib_President
+  - Madlib_Devils
+  - Madlib_Missile
+
+RestrictedToChapter1: []
+RestrictedToChapter2:
+  - Madlib_TRex_Idle
+  - Madlib_TRex_Attack
+  - Madlib_TRex_Running
+  - Madlib_Trex_Jumpkick
+  - Madlib_Jumpkick_CarnivorousPlant
+
+RestrictedToChapter3: []
+RestrictedToChapter4: []
+RestrictedToChapter5: []
+RestrictedToChapter6: []
+RestrictedToChapter7: []
+RestrictedToChapter8: []
+RestrictedToChapter9: []
+RestrictedToChapter10:
+  - Madlib_CloseEncounter
+  - Madlib_SpacePilot
+  - Madlib_Space
+
+#######################################################
+# IDLE GROUPS
+#######################################################
+
+default_behavior:
+  Idle1:       10
+  Idle2:       10
+  Idle3:       10
+  Idle4:        1
+  Idle5:        1
+  Idle6:        1
+  Idle7:        1
+  Idle8:        1
+  Idle9:        1
+  Idle10:       1
+  Idle11:       1
+  Idle12:       1
+  UpsideDown1:  0
+  Texting:      1
+  Lay1:         0
+  Laughing:     1
+  Waving:       1
+  Scowling:     1
+
+avatar_default_behavior:
+  Idle1:       10
+  Idle2:       10
+  Idle3:       10
+  UpsideDown1:  0
+  Texting:      1
+  Lay1:         0
+  Laughing:     1
+  Waving:       1
+  Scowling:     1
+  Happy1:       1
+  Sad1:         1
+
+avatar_campaign_map:
+  Idle1:       10
+  Idle2:       10
+  Idle3:       10
+  UpsideDown1:  0
+  Texting:      1
+  Lay1:         0
+  Laughing:     1
+  Waving:       1
+  Scowling:     1
+  Happy1:       1
+  Sad1:         1
+
+campaign_map_beaten_coverstar:
+  Idle1:       10
+  Idle2:       10
+  Idle3:       10
+  Idle4:        1
+  Idle5:        1
+  Idle6:        1
+  Idle7:        1
+  Idle8:        1
+  Idle9:        1
+  Idle10:       1
+  Idle11:       1
+  Idle12:       1
+  UpsideDown1:  0
+  Texting:      1
+  Lay1:         0
+  Laughing:     1
+  Waving:       1
+  Scowling:     1
+
+campaign_map_unbeaten_coverstar:
+  Idle1:       10
+  Idle2:       10
+  Idle3:       10
+  Idle4:        1
+  Idle5:        1
+  Idle6:        1
+  Idle7:        1
+  Idle8:        1
+  Idle9:        1
+  Idle10:       1
+  Idle11:       1
+  Idle12:       1
+  UpsideDown1:  0
+  Texting:      1
+  Lay1:         0
+  Laughing:     1
+  Waving:       1
+  Scowling:     1
+
+school_event_select_awake:
+  Idle1:       10
+  Idle2:       10
+  Idle3:       10
+  Idle4:        1
+  Idle5:        1
+  Idle6:        1
+  Idle7:        1
+  Idle8:        1
+  Idle9:        1
+  Idle10:       1
+  Idle11:       1
+  Idle12:       1
+  UpsideDown1:  0
+  Texting:      1
+  Lay1:         0
+  Laughing:     1
+  Waving:       1
+  Scowling:     1
+
+# These anims must look good with non-square bears
+in_a_match:
+  Idle1:       10
+  Idle2:       10
+  Idle8:        1
+  Idle12:       1
+  Laughing:     1
+
+time_warp_screen_doc_bear:
+  Idle1:       10
+  Idle2:       10
+  Idle3:       10
+  Idle4:        1
+  Idle5:        1
+  Idle6:        1
+  Idle7:        1
+  Idle8:        1
+  Idle9:        1
+  Idle10:       1
+  Idle11:       1
+  Idle12:       1
+  UpsideDown1:  0
+  Texting:      1
+  Lay1:         0
+  Laughing:     1
+  Waving:       1
+  Scowling:     1
+
+bear_select_grid:
+  Idle1:       10
+  Idle2:       10
+  Idle3:       10
+  Idle4:        1
+  Idle5:        1
+  Idle6:        1
+  Idle7:        1
+  Idle8:        1
+  Idle9:        1
+  Idle10:       1
+  Idle11:       1
+  Idle12:       1
+  UpsideDown1:  0
+  Texting:      1
+  Lay1:         0
+  Laughing:     1
+  Waving:       1
+  Scowling:     1
+
+bear_select_focused:
+  Idle1:       10
+  Idle2:       10
+  Idle3:       10
+  Idle4:        1
+  Idle5:        1
+  Idle6:        1
+  Idle7:        1
+  Idle8:        1
+  Idle9:        1
+  Idle10:       1
+  Idle11:       1
+  Idle12:       1
+  UpsideDown1:  0
+  Texting:      1
+  Lay1:         0
+  Laughing:     1
+  Waving:       1
+  Scowling:     1
+
+bear_select_team_member:
+  Idle1:       10
+  Idle2:       10
+  Idle3:       10
+  Idle4:        1
+  Idle5:        1
+  Idle6:        1
+  Idle7:        1
+  Idle8:        1
+  Idle9:        1
+  Idle10:       1
+  Idle11:       1
+  Idle12:       1
+  UpsideDown1:  0
+  Texting:      1
+  Lay1:         0
+  Laughing:     1
+  Waving:       1
+  Scowling:     1
+
+# The bearaphrase screen sometimes shows the avatar bear and sometimes another bear (usually a coverstar).
+# This is for the non-avatar version...
+bearaphrase_screen:
+  Madlib_AdmiringHh:    1
+  Madlib_Ballet:        3
+  Madlib_FlippingProp:  0.1
+  Madlib_GettingHit:    0.2
+  Madlib_Happy:        15
+  Madlib_HeadTilt:     15
+  Madlib_IdleWave:     15
+  Madlib_JumpKick:      0.5
+  Madlib_KissingPropHh: 2
+  Madlib_LayingDown:    3
+  Madlib_Meditation:    0.5
+  Madlib_Oops:          2
+  Madlib_PropOnHead:    1
+  Madlib_Proud:        15
+  Madlib_RecitingHh:    0.5
+  Madlib_RunAway:       1
+  Madlib_ShakingFist:   2
+  Madlib_Telekenesis:   1
+  Madlib_Throwing:      0.5
+  Madlib_WavingLovely:  1
+  Madlib_Weeping:       7
+
+# ...and this is for the avatar version.
+avatar_bearaphrase_screen:
+  Madlib_AdmiringHh:           1
+  Madlib_AttackingProp:        0.1
+  Madlib_AttackingProp_Large:  0.1
+  Madlib_Ballet:               3
+  Madlib_Bomb_Panic:           0.1
+  Madlib_Bomb_Running:         1
+  Madlib_CEO_Idle:             2
+  Madlib_FlippingProp:         0.1
+  Madlib_GettingHit:           0.2
+  Madlib_Happy:               15
+  Madlib_HeadTilt:            15 
+  Madlib_IceCream_PropOnHead:  0.5
+  Madlib_IceCream_Weeping:     1
+  Madlib_IdleWave:            15
+  Madlib_JumpKick:             0
+  Madlib_KissingPropHh:        2
+  Madlib_LayingDown:           1
+  Madlib_Meditation:           1
+  Madlib_Meteor_Idle:          0.1
+  Madlib_Meteor_Panic:         0.5
+  Madlib_Meteor_Running:       0.5
+  Madlib_Oops:                 1
+  Madlib_Panic_Large:          0.5
+  Madlib_PropOnHead:           0
+  Madlib_Proud:               15
+  Madlib_Rapture:              3
+  Madlib_Reaper_Running:       0.5
+  Madlib_RecitingHh:           0.5
+  Madlib_RunAway:              0.5
+  Madlib_RunAway_Large:        0.3
+  Madlib_ShakingFist:          2
+  Madlib_Telekenesis:          0.8
+  Madlib_Throwing:             0.1
+  Madlib_TRex_Idle:            0.5
+  Madlib_TRex_Running:         0.5
+  Madlib_WavingLovely:         1
+  Madlib_Weeping:              7
+  Madlib_WreckingBall_Hit:     0.2
+  Madlib_WreckingBall_Miley:   1
+  Madlib_Jumpkick_CarnivorousPlant: 0.5
+  Madlib_Jumpkick_Baby:  0.5
+  Madlib_Trex_Jumpkick:  0.5
+  Madlib_GiantCake:      0.5
+  Madlib_News:           2
+  Madlib_Shower:         2
+  Madlib_Soup:           2
+  Madlib_Tipsy:          1
+  Madlib_Shark:          0.5
+  Madlib_Castaway:       0.5
+  Madlib_Dictator:       0.5
+  Madlib_GameShow:       1
+  Madlib_BigFoot:        1
+  Madlib_WhiteFlag:      0.25
+  Madlib_Story:          2
+  Madlib_Bed_Worried:    1.5
+  Madlib_Bed_Angry:      1.5
+  Madlib_Campfire:       1
+  Madlib_Confession:     1
+  Madlib_DeathBed:       1.5
+  Madlib_Museum:         0.5
+  Madlib_Dancing:        3
+  Madlib_Dinner_Happy:   2
+  Madlib_Dinner:         1
+  Madlib_CloseEncounter: 2
+  Madlib_Subway:         3
+  Madlib_Band:           2
+  Madlib_SpacePilot:     1
+  Madlib_Sacrifice:      1
+  Madlib_UnderWater:     0.5
+  Madlib_Space:          2
+  Madlib_Sermon:         1
+  Madlib_Hell:           0.5
+  Madlib_Fans:           1
+  Madlib_Storm:          2
+  Madlib_President:      1
+  Madlib_Devils:         0
+  Madlib_Missile:        1.5

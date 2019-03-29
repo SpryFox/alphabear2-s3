@@ -1,0 +1,1050 @@
+# example special event bundle:
+# - ID: legendarycremebearlee_bundle # must be unique
+#   OnlyWithSpecialEvent: LegendaryCremeBearlee
+#   BuyLimit: 3 # optional, defaults to 1
+#
+#   # how to describe bear rewards? to minimise variations you can specifiy
+#   # a key and some parameters. this example says something like:
+#   # "+%0%-%1% levels for ONE of these bears", and the Parameters are inserted to make:
+#   # "+10-15 levels for ONE of these bears"
+#   # Parameters are optional if you don't need them.
+#   DetailedBearHeaderKey: DetailedBundle_BearHeader_RangedLevels
+#   DetailedBearHeaderKeyParameters: ["10", "15"]
+#
+#   IconImage: no_ads_icon 
+#   Rewards: 
+#     - LootTable: GenericSpecialEventBundleItems
+#     - Groups:
+#         - Weight: 34
+#           Bear: Any Tag:Drink NonSpecial Rare
+#           Level: 10
+#         - Weight: 66
+#           Bear: Any Tag:Drink NonSpecial Rare
+#           Level: 15
+
+# reverse-priority order:
+
+##############################
+# epic special event bundles #
+##############################
+
+- ID: epicdonutbear_bundle
+  DescriptionParams:
+    BearCountMin: 2
+    BearCountMax: 3
+    BearLevelMin: 20
+    BearLevelMax: 33
+    BearTagKey: savory
+  BannerImage: livetoeat_banner
+  BannerImageNonEnglish: livetoeat_banner 
+  OnlyWithSpecialEvent: EpicDonutBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Savory NonSpecial Rare
+              MaxLevel: 75
+              Level: 4
+            - Weight: 50
+              Bear: Any Tag:Savory NonSpecial Rare
+              MaxLevel: 75
+              Level: 8
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Savory NonSpecial Rare
+              Level: 4
+            - Weight: 50
+              Bear: Any Tag:Savory NonSpecial Rare
+              Level: 8
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Savory NonSpecial Common
+              MaxLevel: 75
+              Level: 10
+            - Weight: 50
+              Bear: Any Tag:Savory NonSpecial Common
+              MaxLevel: 75
+              Level: 15
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Savory NonSpecial Common
+              Level: 10
+            - Weight: 50
+              Bear: Any Tag:Savory NonSpecial Common
+              Level: 15
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Savory NonSpecial Common
+              MaxLevel: 75
+              Level: 6
+            - Weight: 75
+              Bear: Any Tag:Savory NonSpecial Common
+              MaxLevel: 75
+              Level: 10
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Savory NonSpecial Common
+              Level: 6
+            - Weight: 75
+              Bear: Any Tag:Savory NonSpecial Common
+              Level: 10
+    - LootTable: EpicSpecialBundleClothReward
+
+- ID: epicbearilynbear_bundle
+  DescriptionParams:
+    BearCountMin: 2
+    BearCountMax: 3
+    BearLevelMin: 20
+    BearLevelMax: 33
+    BearTagKey: celebrity
+  BannerImage: walkoffame_banner
+  BannerImageNonEnglish: walkoffame_banner 
+  OnlyWithSpecialEvent: EpicBearilynBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Celebrity NonSpecial Rare
+              MaxLevel: 75
+              Level: 4
+            - Weight: 50
+              Bear: Any Tag:Celebrity NonSpecial Rare
+              MaxLevel: 75
+              Level: 8
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Celebrity NonSpecial Rare
+              Level: 4
+            - Weight: 50
+              Bear: Any Tag:Celebrity NonSpecial Rare
+              Level: 8
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Celebrity NonSpecial Common
+              MaxLevel: 75
+              Level: 10
+            - Weight: 50
+              Bear: Any Tag:Celebrity NonSpecial Common
+              MaxLevel: 75
+              Level: 15
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Celebrity NonSpecial Common
+              Level: 10
+            - Weight: 50
+              Bear: Any Tag:Celebrity NonSpecial Common
+              Level: 15
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Celebrity NonSpecial Common
+              MaxLevel: 75
+              Level: 6
+            - Weight: 75
+              Bear: Any Tag:Celebrity NonSpecial Common
+              MaxLevel: 75
+              Level: 10
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Celebrity NonSpecial Common
+              Level: 6
+            - Weight: 75
+              Bear: Any Tag:Celebrity NonSpecial Common
+              Level: 10
+    - LootTable: EpicSpecialBundleClothReward
+    
+- ID: epicgingerbear_bundle
+  DescriptionParams:
+    BearCountMin: 2
+    BearCountMax: 3
+    BearLevelMin: 20
+    BearLevelMax: 33
+    BearTagKey: smart
+  BannerImage: palletcleanser_banner
+  BannerImageNonEnglish: palletcleanser_banner
+  OnlyWithSpecialEvent: EpicGingerBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Smart NonSpecial Rare
+              MaxLevel: 75
+              Level: 4
+            - Weight: 50
+              Bear: Any Tag:Smart NonSpecial Rare
+              MaxLevel: 75
+              Level: 8
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Smart NonSpecial Rare
+              Level: 4
+            - Weight: 50
+              Bear: Any Tag:Smart NonSpecial Rare
+              Level: 8
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Smart NonSpecial Common
+              MaxLevel: 75
+              Level: 10
+            - Weight: 50
+              Bear: Any Tag:Smart NonSpecial Common
+              MaxLevel: 75
+              Level: 15
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Smart NonSpecial Common
+              Level: 10
+            - Weight: 50
+              Bear: Any Tag:Smart NonSpecial Common
+              Level: 15
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Smart NonSpecial Common
+              MaxLevel: 75
+              Level: 6
+            - Weight: 75
+              Bear: Any Tag:Smart NonSpecial Common
+              MaxLevel: 75
+              Level: 10
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Smart NonSpecial Common
+              Level: 6
+            - Weight: 75
+              Bear: Any Tag:Smart NonSpecial Common
+              Level: 10
+    - LootTable: EpicSpecialBundleClothReward
+    
+- ID: epicslasherbear_bundle
+  DescriptionParams:
+    BearCountMin: 2
+    BearCountMax: 3
+    BearLevelMin: 20
+    BearLevelMax: 33
+    BearTagKey: retro
+  BannerImage: dontgointhere_banner
+  BannerImageNonEnglish: dontgointhere_banner
+  OnlyWithSpecialEvent: EpicSlasherBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Retro NonSpecial Rare
+              MaxLevel: 75
+              Level: 4
+            - Weight: 50
+              Bear: Any Tag:Retro NonSpecial Rare
+              MaxLevel: 75
+              Level: 8
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Retro NonSpecial Rare
+              Level: 4
+            - Weight: 50
+              Bear: Any Tag:Retro NonSpecial Rare
+              Level: 8
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Retro NonSpecial Common
+              MaxLevel: 75
+              Level: 10
+            - Weight: 50
+              Bear: Any Tag:Retro NonSpecial Common
+              MaxLevel: 75
+              Level: 15
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Retro NonSpecial Common
+              Level: 10
+            - Weight: 50
+              Bear: Any Tag:Retro NonSpecial Common
+              Level: 15
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Retro NonSpecial Common
+              MaxLevel: 75
+              Level: 6
+            - Weight: 75
+              Bear: Any Tag:Retro NonSpecial Common
+              MaxLevel: 75
+              Level: 10
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Retro NonSpecial Common
+              Level: 6
+            - Weight: 75
+              Bear: Any Tag:Retro NonSpecial Common
+              Level: 10
+    - LootTable: EpicSpecialBundleClothReward
+    
+- ID: epicbaconbear_bundle
+  DescriptionParams:
+    BearCountMin: 2
+    BearCountMax: 3
+    BearLevelMin: 20
+    BearLevelMax: 33
+    BearTagKey: animal
+  BannerImage: farmfresh_banner
+  BannerImageNonEnglish: farmfresh_banner
+  OnlyWithSpecialEvent: EpicBaconBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+          - Weight: 50
+            Bear: Any Tag:Animal NonSpecial Rare
+            MaxLevel: 75
+            Level: 4
+          - Weight: 50
+            Bear: Any Tag:Animal NonSpecial Rare
+            MaxLevel: 75
+            Level: 8
+      - Case: Else
+        Value:
+          Groups:
+          - Weight: 50
+            Bear: Any Tag:Animal NonSpecial Rare
+            Level: 4
+          - Weight: 50
+            Bear: Any Tag:Animal NonSpecial Rare
+            Level: 8
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+          - Weight: 50
+            Bear: Any Tag:Animal NonSpecial Common
+            MaxLevel: 75
+            Level: 10
+          - Weight: 50
+            Bear: Any Tag:Animal NonSpecial Common
+            MaxLevel: 75
+            Level: 15
+      - Case: Else
+        Value:
+          Groups:
+          - Weight: 50
+            Bear: Any Tag:Animal NonSpecial Common
+            Level: 10
+          - Weight: 50
+            Bear: Any Tag:Animal NonSpecial Common
+            Level: 15
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+          - Weight: 25
+            Bear: Any Tag:Animal NonSpecial Common
+            MaxLevel: 75
+            Level: 6
+          - Weight: 75
+            Bear: Any Tag:Animal NonSpecial Common
+            MaxLevel: 75
+            Level: 10
+      - Case: Else
+        Value:
+          Groups:
+          - Weight: 25
+            Bear: Any Tag:Animal NonSpecial Common
+            Level: 6
+          - Weight: 75
+            Bear: Any Tag:Animal NonSpecial Common
+            Level: 10
+    - LootTable: EpicSpecialBundleClothReward
+
+###################################    
+# legendary special event bundles #
+###################################
+
+- ID: legendarycremebearlee_bundle
+  DescriptionParams:
+    BearCountMin: 1
+    BearCountMax: 3
+    BearLevelMin: 40
+    BearLevelMax: 70
+    BearTagKey: drink
+  BannerImage: justdesserts_banner
+  BannerImageNonEnglish: justdesserts_banner
+  OnlyWithSpecialEvent: LegendaryCremeBearlee
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 5000000
+              Bear: Any Tag:Drink Owned Epic
+              MaxLevel: 300
+              Level: 8
+            - Weight: 5000000
+              Bear: Any Tag:Drink Owned Epic
+              MaxLevel: 300
+              Level: 16
+            - Weight: 0.0000000001
+              Groups:
+                - Weight: 95
+                  Bear: Any Tag:Drink NonSpecial Rare
+                  MaxLevel: 300
+                  Level: 16
+                - Weight: 5
+                  Bear: Any Tag:Drink NonSpecial Epic
+                  MaxLevel: 300
+                  Level: 1
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 5000000
+              Bear: Any Tag:Drink Owned Epic
+              Level: 8
+            - Weight: 5000000
+              Bear: Any Tag:Drink Owned Epic
+              Level: 16
+            - Weight: 0.0000000001
+              Groups:
+                - Weight: 95
+                  Bear: Any Tag:Drink NonSpecial Rare
+                  Level: 16
+                - Weight: 5
+                  Bear: Any Tag:Drink NonSpecial Epic
+                  Level: 1
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Drink NonSpecial Rare
+              MaxLevel: 300
+              Level: 20
+            - Weight: 50
+              Bear: Any Tag:Drink NonSpecial Rare
+              MaxLevel: 300
+              Level: 30
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Drink NonSpecial Rare
+              Level: 20
+            - Weight: 50
+              Bear: Any Tag:Drink NonSpecial Rare
+              Level: 30
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Drink NonSpecial Rare
+              MaxLevel: 300
+              Level: 12
+            - Weight: 75
+              Bear: Any Tag:Drink NonSpecial Rare
+              MaxLevel: 300
+              Level: 24
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Drink NonSpecial Rare
+              Level: 12
+            - Weight: 75
+              Bear: Any Tag:Drink NonSpecial Rare
+              Level: 24
+    - LootTable: LegendarySpecialBundleClothReward
+
+- ID: legendaryvampirebear_bundle
+  DescriptionParams:
+    BearCountMin: 1
+    BearCountMax: 3
+    BearLevelMin: 40
+    BearLevelMax: 70
+    BearTagKey: monster
+  BannerImage: abpositive_banner
+  BannerImageNonEnglish: abpositive_banner
+  OnlyWithSpecialEvent: LegendaryVampireBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 5000000
+              Bear: Any Tag:Monster Owned Epic
+              MaxLevel: 300
+              Level: 8
+            - Weight: 5000000
+              Bear: Any Tag:Monster Owned Epic
+              MaxLevel: 300
+              Level: 16
+            - Weight: 0.0000000001
+              Groups:
+                - Weight: 95
+                  Bear: Any Tag:Monster NonSpecial Rare
+                  MaxLevel: 300
+                  Level: 16
+                - Weight: 5
+                  Bear: Any Tag:Monster NonSpecial Epic
+                  MaxLevel: 300
+                  Level: 1
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 5000000
+              Bear: Any Tag:Monster Owned Epic
+              Level: 8
+            - Weight: 5000000
+              Bear: Any Tag:Monster Owned Epic
+              Level: 16
+            - Weight: 0.0000000001
+              Groups:
+                - Weight: 95
+                  Bear: Any Tag:Monster NonSpecial Rare
+                  Level: 16
+                - Weight: 5
+                  Bear: Any Tag:Monster NonSpecial Epic
+                  Level: 1
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Monster NonSpecial Rare
+              MaxLevel: 300
+              Level: 20
+            - Weight: 50
+              Bear: Any Tag:Monster NonSpecial Rare
+              MaxLevel: 300
+              Level: 30
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Monster NonSpecial Rare
+              Level: 20
+            - Weight: 50
+              Bear: Any Tag:Monster NonSpecial Rare
+              Level: 30
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Monster NonSpecial Rare
+              MaxLevel: 300
+              Level: 12
+            - Weight: 75
+              Bear: Any Tag:Monster NonSpecial Rare
+              MaxLevel: 300
+              Level: 24
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Monster NonSpecial Rare
+              Level: 12
+            - Weight: 75
+              Bear: Any Tag:Monster NonSpecial Rare
+              Level: 24
+    - LootTable: LegendarySpecialBundleClothReward
+
+- ID: legendarymoonbear_bundle
+  DescriptionParams:
+    BearCountMin: 1
+    BearCountMax: 3
+    BearLevelMin: 40
+    BearLevelMax: 70
+    BearTagKey: huge
+  BannerImage: onesmallstep_banner
+  BannerImageNonEnglish: onesmallstep_banner
+  OnlyWithSpecialEvent: LegendaryMoonBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 5000000
+              Bear: Any Tag:Huge Owned Epic
+              MaxLevel: 300
+              Level: 8
+            - Weight: 5000000
+              Bear: Any Tag:Huge Owned Epic
+              MaxLevel: 300
+              Level: 16
+            - Weight: 0.0000000001
+              Groups:
+                - Weight: 95
+                  Bear: Any Tag:Huge NonSpecial Rare
+                  MaxLevel: 300
+                  Level: 16
+                - Weight: 5
+                  Bear: Any Tag:Huge NonSpecial Epic
+                  MaxLevel: 300
+                  Level: 1
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 5000000
+              Bear: Any Tag:Huge Owned Epic
+              Level: 8
+            - Weight: 5000000
+              Bear: Any Tag:Huge Owned Epic
+              Level: 16
+            - Weight: 0.0000000001
+              Groups:
+                - Weight: 95
+                  Bear: Any Tag:Huge NonSpecial Rare
+                  Level: 16
+                - Weight: 5
+                  Bear: Any Tag:Huge NonSpecial Epic
+                  Level: 1
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Huge NonSpecial Rare
+              MaxLevel: 300
+              Level: 20
+            - Weight: 50
+              Bear: Any Tag:Huge NonSpecial Rare
+              MaxLevel: 300
+              Level: 30
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Huge NonSpecial Rare
+              Level: 20
+            - Weight: 50
+              Bear: Any Tag:Huge NonSpecial Rare
+              Level: 30
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Huge NonSpecial Rare
+              MaxLevel: 300
+              Level: 12
+            - Weight: 75
+              Bear: Any Tag:Huge NonSpecial Rare
+              MaxLevel: 300
+              Level: 24
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Huge NonSpecial Rare
+              Level: 12
+            - Weight: 75
+              Bear: Any Tag:Huge NonSpecial Rare
+              Level: 24
+    - LootTable: LegendarySpecialBundleClothReward
+    
+- ID: legendarybearvis_bundle
+  DescriptionParams:
+    BearCountMin: 1
+    BearCountMax: 3
+    BearLevelMin: 40
+    BearLevelMax: 70
+    BearTagKey: nighttime
+  BannerImage: graceland_banner
+  BannerImageNonEnglish: graceland_banner
+  OnlyWithSpecialEvent: LegendaryBearvis
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 5000000
+              Bear: Any Tag:Nighttime Owned Epic
+              MaxLevel: 300
+              Level: 8
+            - Weight: 5000000
+              Bear: Any Tag:Nighttime Owned Epic
+              MaxLevel: 300
+              Level: 16
+            - Weight: 0.0000000001
+              Groups:
+                - Weight: 95
+                  Bear: Any Tag:Nighttime NonSpecial Rare
+                  MaxLevel: 300
+                  Level: 16
+                - Weight: 5
+                  Bear: Any Tag:Nighttime NonSpecial Epic
+                  MaxLevel: 300
+                  Level: 1
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 5000000
+              Bear: Any Tag:Nighttime Owned Epic
+              Level: 8
+            - Weight: 5000000
+              Bear: Any Tag:Nighttime Owned Epic
+              Level: 16
+            - Weight: 0.0000000001
+              Groups:
+                - Weight: 95
+                  Bear: Any Tag:Nighttime NonSpecial Rare
+                  Level: 16
+                - Weight: 5
+                  Bear: Any Tag:Nighttime NonSpecial Epic
+                  Level: 1
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Nighttime NonSpecial Rare
+              MaxLevel: 300
+              Level: 20
+            - Weight: 50
+              Bear: Any Tag:Nighttime NonSpecial Rare
+              MaxLevel: 300
+              Level: 30
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Nighttime NonSpecial Rare
+              Level: 20
+            - Weight: 50
+              Bear: Any Tag:Nighttime NonSpecial Rare
+              Level: 30
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Nighttime NonSpecial Rare
+              MaxLevel: 300
+              Level: 12
+            - Weight: 75
+              Bear: Any Tag:Nighttime NonSpecial Rare
+              MaxLevel: 300
+              Level: 24
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Nighttime NonSpecial Rare
+              Level: 12
+            - Weight: 75
+              Bear: Any Tag:Nighttime NonSpecial Rare
+              Level: 24
+    - LootTable: LegendarySpecialBundleClothReward
+    
+- ID: legendary8bitbear_bundle
+  DescriptionParams:
+    BearCountMin: 1
+    BearCountMax: 3
+    BearLevelMin: 40
+    BearLevelMax: 70
+    BearTagKey: childhood
+  BannerImage: upupdowndown_banner
+  BannerImageNonEnglish: upupdowndown_banner
+  OnlyWithSpecialEvent: Legendary8BitBear
+  BuyLimit: 5
+  Rewards:
+    All:
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 5000000
+              Bear: Any Tag:Childhood Owned Epic
+              MaxLevel: 300
+              Level: 8
+            - Weight: 5000000
+              Bear: Any Tag:Childhood Owned Epic
+              MaxLevel: 300
+              Level: 16
+            - Weight: 0.0000000001
+              Groups:
+                - Weight: 95
+                  Bear: Any Tag:Childhood NonSpecial Rare
+                  MaxLevel: 300
+                  Level: 16
+                - Weight: 5
+                  Bear: Any Tag:Childhood NonSpecial Epic
+                  MaxLevel: 300
+                  Level: 1
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 5000000
+              Bear: Any Tag:Childhood Owned Epic
+              Level: 8
+            - Weight: 5000000
+              Bear: Any Tag:Childhood Owned Epic
+              Level: 16
+            - Weight: 0.0000000001
+              Groups:
+                - Weight: 95
+                  Bear: Any Tag:Childhood NonSpecial Rare
+                  Level: 16
+                - Weight: 5
+                  Bear: Any Tag:Childhood NonSpecial Epic
+                  Level: 1
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Childhood NonSpecial Rare
+              MaxLevel: 300
+              Level: 20
+            - Weight: 50
+              Bear: Any Tag:Childhood NonSpecial Rare
+              MaxLevel: 300
+              Level: 30
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 50
+              Bear: Any Tag:Childhood NonSpecial Rare
+              Level: 20
+            - Weight: 50
+              Bear: Any Tag:Childhood NonSpecial Rare
+              Level: 30
+    - Cond:
+      - Case: Always
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Childhood NonSpecial Rare
+              MaxLevel: 300
+              Level: 12
+            - Weight: 75
+              Bear: Any Tag:Childhood NonSpecial Rare
+              MaxLevel: 300
+              Level: 24
+      - Case: Else
+        Value:
+          Groups:
+            - Weight: 25
+              Bear: Any Tag:Childhood NonSpecial Rare
+              Level: 12
+            - Weight: 75
+              Bear: Any Tag:Childhood NonSpecial Rare
+              Level: 24
+    - LootTable: LegendarySpecialBundleClothReward
+
+##################
+# Normal bundles #
+##################
+
+# noads was changed into the Ultimate bundle
+# the old noads bundle contents were moved into the remove_ads bundle
+- ID: noads   # We can't change this ID because a bunch of people have bought it already.
+  BannerImage: ultimate_banner
+  BannerImageNonEnglish: ultimate_banner
+  Rewards:
+    - Item: remove_ads
+      Count: 1
+    - Item: honey_maximizer
+      Count: 1
+    - Coins: 400
+    - Item: bear_wakeup
+      Count: 3
+
+- ID: remove_ads
+  BannerImage: remove_ads_banner
+  BannerImageNonEnglish: remove_ads_banner
+  Rewards: []
+
+- ID: honey_maximizer
+  BannerImage: honey_maximizer_banner
+  BannerImageNonEnglish: honey_maximizer_banner
+  Rewards: []
+
+#############################
+# Free Daily Reward Bundles #
+#############################
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!! WARNING !!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# 
+# The Reward sequence for these assumes that each one
+# rewards you exactly one type of reward: an item, coin, or honey
+# reward of some quantity.  The reward must be one of
+# the types for which we have inline text sprites.
+#
+# Currently those include: Coins, berries, red/blue/yellow cloth,
+# epic/legendary bear tokens, coffee, honey, rare/common boosts.
+#
+# If you're at all unusure about a change you're making, ping Graham.
+# You can test these easily with the day skip cheats on the main menu.
+
+- ID: freedaily_monday
+  BannerImage: freedaily_redcloth_banner
+  BannerImageNonEnglish: freedaily_redcloth_banner
+  Rewards:
+    Item: red_cloth
+    Count: 10
+
+- ID: freedaily_tuesday
+  BannerImage: freedaily_coffee_banner
+  BannerImageNonEnglish: freedaily_coffee_banner
+  Rewards:
+    Item: bear_wakeup
+    Count: 1
+
+- ID: freedaily_wednesday
+  BannerImage: freedaily_berries_banner
+  BannerImageNonEnglish: freedaily_berries_banner
+  Rewards:
+    Item: berry
+    Count: 10
+
+- ID: freedaily_thursday
+  BannerImage: freedaily_yellowcloth_banner
+  BannerImageNonEnglish: freedaily_yellowcloth_banner
+  Rewards:
+    Item: yellow_cloth
+    Count: 10
+
+- ID: freedaily_friday
+  BannerImage: freedaily_coins_banner
+  BannerImageNonEnglish: freedaily_coins_banner
+  Rewards:
+    Coins: 5
+
+- ID: freedaily_saturday
+  BannerImage: freedaily_bluecloth_banner
+  BannerImageNonEnglish: freedaily_bluecloth_banner
+  Rewards:
+    Item: blue_cloth
+    Count: 3
+
+- ID: freedaily_sunday
+  BannerImage: freedaily_legendarybeartoken_banner
+  BannerImageNonEnglish: freedaily_legendarybeartoken_banner
+  Rewards:
+    Cond:
+    - Case: Always
+      Value:
+        Item: Any Tag:freedailytoken UnownedAny Legendary Token
+        Count: 2
+    # If they own all the tokenized legendary bears, give them 10 berries instead
+    - Case: Else
+      Value:
+        Item: berry
+        Count: 10
+
+####################
+# VIP Subscription #
+####################
+
+- ID: vip_subscription
+  BannerImage: vip_banner
+  BannerImageNonEnglish: vip_banner
+
+######################
+# Tournament Bundles #
+######################
+
+# Availability time windows are restricted in code
+- ID: tournament_legendary
+  BannerImage: tournament_legendary_banner
+  BannerImageNonEnglish: tournament_legendary_banner
+  BuyLimit: 1
+  Rewards:
+    All:
+    - Item: Graffiti Bear Token
+      Count: 50
+    - Item: Cthulhu Bear Token
+      Count: 50
+    - Item: bear_wakeup
+      Count: 15
+    - Clothing: Runner
+
+# Availability time windows are restricted in code
+- ID: tournament_epic
+  BannerImage: tournament_epic_banner
+  BannerImageNonEnglish: tournament_epic_banner
+  BuyLimit: 1
+  Rewards:
+    All:
+    - Item: Any Tag:TokenizedCaptainBear UnownedSpecialEvent Epic Token
+      Count: 35
+    - Item: Any Tag:TokenizedKoalaBear UnownedSpecialEvent Epic Token
+      Count: 35
+    - Item: Any Tag:TokenizedTissueBear UnownedSpecialEvent Epic Token
+      Count: 35
+    - Item: bear_wakeup
+      Count: 10
+    - Clothing: Olympian

@@ -3171,7 +3171,7 @@ TournamentTier2Reward:
               Count: 2
         - Case: Else
           Value:
-            Coins: 5
+            Coins: 10
   - Case: Else
     Value:
       LootTable: TournamentBoobyPrize
@@ -3217,7 +3217,7 @@ TournamentTier3Reward:
               Count: 5
         - Case: Else
           Value:
-            Coins: 10
+            Coins: 15
   - Case: Else
     Value:
       LootTable: TournamentBoobyPrize
@@ -3266,7 +3266,7 @@ TournamentTier4Reward:
               Count: 16
         - Case: Else
           Value:
-            Coins: 10
+            Coins: 20
   - Case: Else
     Value:
       LootTable: TournamentBoobyPrize

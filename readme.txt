@@ -1,11 +1,12 @@
 Syncs this git repro with our public ab2 s3 bucket, which contains many static ab2 files.
 
+you'll need to use the github remote at github.com/SpryFox/alphabear2-s3. ping andrew for access.
+
 To Update The Public Files
 ==========================
 
-- run download.sh, which pulls files from s3 and makes sure there's nothing missing in git
-- it should produce no git changes, but if it does, commit them.
-- make your edits in the bucket folder
-- commit and git-push 
-- run deploy.sh to push to s3
+- make sure you've pulled
+- commit your changes to git
+- push
 
+and that's it
